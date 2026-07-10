@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TechRadar Review Database</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+</head>
+<body>
+
+    <h1>TechRadar Review Database</h1>
+    
+    <table id="reviewTable" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Rating</th>
+                <th>Dateline</th>
+                <th>URL</th>
+            </tr>
+        </thead>
+    </table>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+
+    <script>
+        // Tell DataTables to fetch your JSON file and build the table
+        $(document).ready(function() {
+            $('#reviewTable').DataTable({
+                "ajax": {
+                    "url": "data.json", // The file your Python script makes
+                    "dataSrc": ""
+                },
+                "columns": [
+                    { "data": "Product" },
+                    { "data": "Rating" },
+                    { "data": "Dateline" },
+                    { 
+                      "data": "URL",
+                      "render": function(data, type, row, meta){
+                         if(type === 'display'){
+                             return '<a href="' + data + '" target="_blank">Link</a>';
+                         }
+                         return data;
+                      }
+                    }
+                ]
+            });
+        });
+    </script>
+</body>
+</html>
