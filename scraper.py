@@ -4,6 +4,22 @@ import json
 import pandas as pd
 import os
 import time
+import html
+import unicodedata
+
+def standardize_text(text):
+    """Converts HTML entities and accented characters into standard English alphabet."""
+    if not text or text in ["N/A", "NAME NOT FOUND"]:
+        return text
+        
+    # 1. Unescape HTML codes (e.g., &eacute; becomes é, &amp; becomes &)
+    text = html.unescape(text)
+    
+    # 2. Normalize accents to standard alphabet (e.g., é becomes e, ñ becomes n)
+    # NFKD separates characters from their accents, then encode('ascii', 'ignore') drops the floating accents.
+    text = unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode('utf-8')
+    
+    return text.strip()
 
 def scrape_review_data(url):
     """Fetches the webpage and extracts the product name, rating, dateline, and categories."""
@@ -24,7 +40,7 @@ def scrape_review_data(url):
     # 1. EXTRACT PRODUCT NAME (Strict Hierarchy)
     # ==========================================
     
-    # ATTEMPT A: Hawk Data Attributes (Future's internal widget data)
+    # ATTEMPT A: Hawk Data Attributes
     for attr in ['data-model-name', 'data-product-name', 'data-hawk-model', 'data-product']:
         element = soup.find(attrs={attr: True})
         if element and element.get(attr):
@@ -83,7 +99,7 @@ def scrape_review_data(url):
         if date_meta and date_meta.get('content'):
             dateline = date_meta.get('content')[:10]
 
-    # Final name cleanup just in case the absolute last resort grabbed a dirty headline
+    # Final name cleanup
     if not product_name: 
         product_name = "NAME NOT FOUND"
     elif " review:" in product_name.lower():
@@ -100,6 +116,12 @@ def scrape_review_data(url):
         keywords_meta = soup.find('meta', attrs={'name': 'keywords'})
         if keywords_meta and keywords_meta.get('content'):
             categories = keywords_meta.get('content')
+
+    # ==========================================
+    # 4. STANDARDIZE TEXT (Clean weird characters)
+    # ==========================================
+    product_name = standardize_text(product_name)
+    categories = standardize_text(categories)
 
     return product_name, rating, dateline, categories
 
