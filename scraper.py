@@ -15,20 +15,17 @@ def scrape_review_data(url):
         print(f"Error loading {url}: {e}")
         return None, None, None, None
 
-    product_name = "PRODUCT NAME NOT FOUND"
+    product_name = None
     rating = "N/A"
     dateline = "N/A"
     categories = "N/A"
 
-    # --- 1. Extract Product Name, Rating, and Date (Hybrid Method) ---
+    # --- 1. Extract Name, Rating, Date (Schema Method) ---
     schema_tags = soup.find_all('script', type='application/ld+json')
-    found_in_schema = False
-    
     for tag in schema_tags:
         try:
             data = json.loads(tag.string)
-            if isinstance(data, dict):
-                data = [data] 
+            if isinstance(data, dict): data = [data] 
             for item in data:
                 if item.get('@type') == 'Review' and 'itemReviewed' in item:
                     product_name = item['itemReviewed'].get('name')
@@ -36,27 +33,50 @@ def scrape_review_data(url):
                         rating = item['reviewRating'].get('ratingValue', 'N/A')
                     if 'datePublished' in item:
                         dateline = item.get('datePublished', 'N/A')[:10]
-                    found_in_schema = True
                     break
+                elif item.get('@type') == 'Product':
+                    product_name = item.get('name')
         except:
             pass 
-        if found_in_schema:
-            break
+        if product_name: break
 
-    if not found_in_schema or product_name is None:
-        title_tag = soup.find('title')
-        if title_tag and title_tag.string:
-            meta_title = title_tag.string
-            if " review" in meta_title.lower():
-                product_name = meta_title.split(" review")[0].split(" Review")[0].strip()
+    # --- 2. Fallbacks for Product Name ---
+    if not product_name:
+        # Fallback A: Hawk Data Attributes
+        for attr in ['data-model-name', 'data-product-name', 'data-hawk-model', 'data-product']:
+            element = soup.find(attrs={attr: True})
+            if element and element.get(attr):
+                product_name = element.get(attr)
+                break
+                
+        # Fallback B: Specs Table
+        if not product_name:
+            th_name = soup.find(lambda tag: tag.name in ['th', 'td'] and tag.text.strip().lower() == 'name')
+            if th_name:
+                sibling = th_name.find_next_sibling(['td', 'th'])
+                if sibling: product_name = sibling.text.strip()
 
-    # --- 2. Extract Categories (Strictly using Meta Tags, no URL guessing) ---
+        # Fallback C: Meta Title Processing
+        if not product_name:
+            title_tag = soup.find('title')
+            if title_tag and title_tag.string:
+                meta_title = title_tag.string
+                if " review" in meta_title.lower():
+                    product_name = meta_title.lower().split(" review")[0].strip().title()
+                elif ":" in meta_title:
+                    product_name = meta_title.split(":")[0].strip()
+                else:
+                    clean_title = meta_title.split("|")[0].strip()
+                    words = clean_title.split()
+                    product_name = " ".join(words[:8]) + "..." if len(words) > 8 else clean_title
+
+    if not product_name: product_name = "NAME NOT FOUND"
+
+    # --- 3. Extract Categories ---
     section_tags = soup.find_all('meta', property=lambda x: x and x in ['article:section', 'article:tag'])
     if section_tags:
-        # Extracts all the tags and joins them with a comma
         categories = ", ".join([tag.get('content') for tag in section_tags if tag.get('content')])
     else:
-        # Fallback to general keywords if OpenGraph tags are missing
         keywords_meta = soup.find('meta', attrs={'name': 'keywords'})
         if keywords_meta and keywords_meta.get('content'):
             categories = keywords_meta.get('content')
