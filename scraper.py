@@ -20,59 +20,79 @@ def scrape_review_data(url):
     dateline = "N/A"
     categories = "N/A"
 
-    # --- 1. Extract Name, Rating, Date (Schema Method) ---
+    # ==========================================
+    # 1. EXTRACT PRODUCT NAME (Strict Hierarchy)
+    # ==========================================
+    
+    # ATTEMPT A: Hawk Data Attributes (Future's internal widget data)
+    for attr in ['data-model-name', 'data-product-name', 'data-hawk-model', 'data-product']:
+        element = soup.find(attrs={attr: True})
+        if element and element.get(attr):
+            product_name = element.get(attr)
+            break
+
+    # ATTEMPT B: Meta Title (Case-preserving split)
+    if not product_name:
+        title_tag = soup.find('title')
+        if title_tag and title_tag.string:
+            meta_title = title_tag.string
+            lower_title = meta_title.lower()
+            
+            if " review" in lower_title:
+                index = lower_title.find(" review")
+                product_name = meta_title[:index].strip()
+            elif ":" in meta_title:
+                product_name = meta_title.split(":")[0].strip()
+
+    # ATTEMPT C: Specs Table Fallback
+    if not product_name:
+        th_name = soup.find(lambda tag: tag.name in ['th', 'td'] and tag.text.strip().lower() == 'name')
+        if th_name:
+            sibling = th_name.find_next_sibling(['td', 'th'])
+            if sibling: product_name = sibling.text.strip()
+
+    # ==========================================
+    # 2. EXTRACT RATING & DATE (SEO Schema)
+    # ==========================================
     schema_tags = soup.find_all('script', type='application/ld+json')
     for tag in schema_tags:
         try:
             data = json.loads(tag.string)
             if isinstance(data, dict): data = [data] 
+            
             for item in data:
-                if item.get('@type') == 'Review' and 'itemReviewed' in item:
-                    product_name = item['itemReviewed'].get('name')
-                    if 'reviewRating' in item:
+                if item.get('@type') == 'Review':
+                    if 'reviewRating' in item and rating == "N/A":
                         rating = item['reviewRating'].get('ratingValue', 'N/A')
+                    if 'datePublished' in item and dateline == "N/A":
+                        dateline = item.get('datePublished', 'N/A')[:10]
+                        
+                    # Absolute last resort for name if Hawk & Meta Title both failed
+                    if not product_name and 'itemReviewed' in item:
+                        product_name = item['itemReviewed'].get('name')
+                        
+                elif item.get('@type') in ['Article', 'NewsArticle', 'WebPage'] and dateline == "N/A":
                     if 'datePublished' in item:
                         dateline = item.get('datePublished', 'N/A')[:10]
-                    break
-                elif item.get('@type') == 'Product':
-                    product_name = item.get('name')
         except:
             pass 
-        if product_name: break
 
-    # --- 2. Fallbacks for Product Name ---
-    if not product_name:
-        # Fallback A: Hawk Data Attributes
-        for attr in ['data-model-name', 'data-product-name', 'data-hawk-model', 'data-product']:
-            element = soup.find(attrs={attr: True})
-            if element and element.get(attr):
-                product_name = element.get(attr)
-                break
-                
-        # Fallback B: Specs Table
-        if not product_name:
-            th_name = soup.find(lambda tag: tag.name in ['th', 'td'] and tag.text.strip().lower() == 'name')
-            if th_name:
-                sibling = th_name.find_next_sibling(['td', 'th'])
-                if sibling: product_name = sibling.text.strip()
+    # Date Fallback (HTML Meta Tags)
+    if dateline == "N/A":
+        date_meta = soup.find('meta', attrs={'property': 'article:published_time'})
+        if date_meta and date_meta.get('content'):
+            dateline = date_meta.get('content')[:10]
 
-        # Fallback C: Meta Title Processing
-        if not product_name:
-            title_tag = soup.find('title')
-            if title_tag and title_tag.string:
-                meta_title = title_tag.string
-                if " review" in meta_title.lower():
-                    product_name = meta_title.lower().split(" review")[0].strip().title()
-                elif ":" in meta_title:
-                    product_name = meta_title.split(":")[0].strip()
-                else:
-                    clean_title = meta_title.split("|")[0].strip()
-                    words = clean_title.split()
-                    product_name = " ".join(words[:8]) + "..." if len(words) > 8 else clean_title
+    # Final name cleanup just in case the absolute last resort grabbed a dirty headline
+    if not product_name: 
+        product_name = "NAME NOT FOUND"
+    elif " review:" in product_name.lower():
+        index = product_name.lower().find(" review:")
+        product_name = product_name[:index].strip()
 
-    if not product_name: product_name = "NAME NOT FOUND"
-
-    # --- 3. Extract Categories ---
+    # ==========================================
+    # 3. EXTRACT CATEGORIES (Meta Tags)
+    # ==========================================
     section_tags = soup.find_all('meta', property=lambda x: x and x in ['article:section', 'article:tag'])
     if section_tags:
         categories = ", ".join([tag.get('content') for tag in section_tags if tag.get('content')])
