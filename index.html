@@ -6,32 +6,108 @@
     <title>TechRadar Review Database</title>
     
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/2.4.1/css/buttons.dataTables.min.css">
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <style>
-        body { font-family: Arial, sans-serif; padding: 20px; background-color: #f9f9f9; }
-        .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+        /* 1. Page Background & Title */
+        body { 
+            font-family: Arial, sans-serif; 
+            padding: 20px; 
+            background-color: #0d1c34; 
+        }
+        .header { 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            margin-bottom: 20px; 
+        }
+        .header h1 { 
+            color: white; 
+            margin: 0;
+        }
         
-        /* Filter Panel Styling */
+        /* 2. Filter Panel Styling */
         .filter-panel { 
-            background: white; padding: 20px; border-radius: 8px; 
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin-bottom: 20px;
-            display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-end;
+            background: #E40784; 
+            padding: 20px; 
+            border-radius: 8px; 
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+            margin-bottom: 20px;
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 15px; 
+            align-items: flex-end;
         }
-        .filter-group { display: flex; flex-direction: column; }
-        .filter-group label { font-weight: bold; margin-bottom: 5px; font-size: 14px; }
-        .filter-group select, .filter-group input { padding: 8px; border: 1px solid #ccc; border-radius: 4px; }
+        .filter-group { 
+            display: flex; 
+            flex-direction: column; 
+        }
+        .filter-group label { 
+            font-weight: bold; 
+            margin-bottom: 5px; 
+            font-size: 14px; 
+            color: white; /* Make labels white to contrast with pink background */
+        }
+        .filter-group select, .filter-group input[type="date"] { 
+            padding: 8px; 
+            border: 1px solid #ccc; 
+            border-radius: 4px; 
+            height: 34px; 
+            box-sizing: border-box;
+        }
         
-        .clear-btn { 
-            background-color: #e74c3c; color: white; border: none; 
-            padding: 10px 15px; border-radius: 4px; cursor: pointer; font-weight: bold;
+        /* Custom Product Search Box */
+        #customSearch {
+            padding: 6px 12px;
+            border: 1px solid #aaa;
+            border-radius: 4px;
+            height: 28px; /* Matches the default height of Select2 */
+            box-sizing: border-box;
+            width: 100%;
         }
-        .clear-btn:hover { background-color: #c0392b; }
 
-        /* Table Styling */
-        .table-container { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        .stars { color: #f1c40f; white-space: nowrap; } /* Makes stars yellow and keeps them on one line */
+        /* Buttons */
+        .action-buttons {
+            display: flex;
+            gap: 10px;
+            margin-left: auto; /* Pushes buttons to the right */
+        }
+        .clear-btn { 
+            background-color: #0d1c34; 
+            color: white; 
+            border: none; 
+            padding: 10px 15px; 
+            border-radius: 4px; 
+            cursor: pointer; 
+            font-weight: bold;
+        }
+        .clear-btn:hover { background-color: #081224; }
+        
+        .export-btn {
+            background-color: #27ae60;
+            color: white; 
+            border: none; 
+            padding: 10px 15px; 
+            border-radius: 4px; 
+            cursor: pointer; 
+            font-weight: bold;
+        }
+        .export-btn:hover { background-color: #219653; }
+
+        /* Hide default DataTables elements we replaced */
+        .dataTables_filter { display: none; } /* Hides original search box */
+        .dt-buttons { display: none; } /* Hides original ugly CSV button */
+
+        /* 3. Table Styling */
+        .table-container { 
+            background: white; 
+            padding: 20px; 
+            border-radius: 8px; 
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2); 
+        }
+        .stars { color: #f1c40f; white-space: nowrap; } 
         .stars-na { color: #bdc3c7; font-size: 12px; }
     </style>
 </head>
@@ -42,47 +118,61 @@
     </div>
     
     <div class="filter-panel">
+        
+        <div class="filter-group" style="flex-grow: 1; min-width: 200px;">
+            <label>Product Search</label>
+            <input type="text" id="customSearch" placeholder="Search by name...">
+        </div>
+
+        <div class="filter-group" style="flex-grow: 1; min-width: 200px;">
+            <label>Include Categories</label>
+            <select id="categoryFilter" multiple="multiple" style="width: 100%;"></select>
+        </div>
+
+        <div class="filter-group" style="flex-grow: 1; min-width: 200px;">
+            <label>Exclude Categories</label>
+            <select id="excludeCategoryFilter" multiple="multiple" style="width: 100%;"></select>
+        </div>
+
         <div class="filter-group">
-            <label>Rating (Minimum)</label>
+            <label>Score (Min)</label>
             <select id="minRating">
-                <option value="">Any Score</option>
-                <option value="5">5 Stars</option>
-                <option value="4.5">4.5+ Stars</option>
-                <option value="4">4+ Stars</option>
-                <option value="3.5">3.5+ Stars</option>
-                <option value="3">3+ Stars</option>
-                <option value="2">2+ Stars</option>
+                <option value="">Any</option>
+                <option value="5">5</option>
+                <option value="4.5">4.5+</option>
+                <option value="4">4+</option>
+                <option value="3.5">3.5+</option>
+                <option value="3">3+</option>
+                <option value="2">2+</option>
             </select>
         </div>
 
         <div class="filter-group">
-            <label>Rating (Exact)</label>
+            <label>Score (Exact)</label>
             <select id="exactRating">
-                <option value="">Any Score</option>
-                <option value="5">Exactly 5</option>
-                <option value="4.5">Exactly 4.5</option>
-                <option value="4">Exactly 4</option>
-                <option value="3.5">Exactly 3.5</option>
-                <option value="3">Exactly 3</option>
+                <option value="">Any</option>
+                <option value="5">5</option>
+                <option value="4.5">4.5</option>
+                <option value="4">4</option>
+                <option value="3.5">3.5</option>
+                <option value="3">3</option>
             </select>
         </div>
 
         <div class="filter-group">
-            <label>Date Range (Start)</label>
+            <label>Date (Start)</label>
             <input type="date" id="startDate">
         </div>
         
         <div class="filter-group">
-            <label>Date Range (End)</label>
+            <label>Date (End)</label>
             <input type="date" id="endDate">
         </div>
 
-        <div class="filter-group" style="flex-grow: 1; min-width: 250px;">
-            <label>Categories</label>
-            <select id="categoryFilter" multiple="multiple" style="width: 100%;"></select>
+        <div class="action-buttons">
+            <button class="clear-btn" id="clearFilters"><i class="fa-solid fa-rotate-left"></i> Clear</button>
+            <button class="export-btn" id="exportCsvBtn"><i class="fa-solid fa-file-csv"></i> Export CSV</button>
         </div>
-
-        <button class="clear-btn" id="clearFilters">Clear All Filters</button>
     </div>
 
     <div class="table-container">
@@ -101,10 +191,14 @@
 
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    
+    <script src="https://cdn.datatables.net/buttons/2.4.1/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.4.1/js/buttons.html5.min.js"></script>
+    
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 
     <script>
-        // --- 1. Star Rendering Logic ---
         function getStarsHTML(ratingString) {
             let num = parseFloat(ratingString);
             if (isNaN(num)) return '<span class="stars-na">N/A</span>';
@@ -112,70 +206,81 @@
             let html = '<span class="stars" title="' + num + '">';
             for (let i = 1; i <= 5; i++) {
                 if (num >= i) {
-                    html += '<i class="fa-solid fa-star"></i>'; // Full star
+                    html += '<i class="fa-solid fa-star"></i>';
                 } else if (num >= i - 0.5) {
-                    html += '<i class="fa-solid fa-star-half-stroke"></i>'; // Half star
+                    html += '<i class="fa-solid fa-star-half-stroke"></i>';
                 } else {
-                    html += '<i class="fa-regular fa-star"></i>'; // Empty star
+                    html += '<i class="fa-regular fa-star"></i>';
                 }
             }
             html += '</span>';
             return html;
         }
 
-        // --- 2. Custom Filtering Logic ---
+        // --- Custom Filtering Logic ---
         $.fn.dataTable.ext.search.push(function(settings, data, dataIndex, rowData) {
-            // Get row data
             let rating = parseFloat(rowData.Rating) || 0;
             let date = rowData.Dateline;
             let cats = rowData.Categories || "";
 
-            // A. Check Rating Filters
             let minRating = parseFloat($('#minRating').val());
             let exactRating = parseFloat($('#exactRating').val());
             if (!isNaN(minRating) && rating < minRating) return false;
             if (!isNaN(exactRating) && rating !== exactRating) return false;
 
-            // B. Check Date Filters
             let startDate = $('#startDate').val();
             let endDate = $('#endDate').val();
             if (startDate && date < startDate) return false;
             if (endDate && date > endDate) return false;
 
-            // C. Check Category Filters (Returns true if row has ANY of the selected categories)
-            let selectedCats = $('#categoryFilter').val() || [];
-            if (selectedCats.length > 0) {
-                let rowCats = cats.split(',').map(c => c.trim());
-                let hasMatch = selectedCats.some(selected => rowCats.includes(selected));
+            let rowCats = cats.split(',').map(c => c.trim());
+
+            // Check Include Categories
+            let includeCats = $('#categoryFilter').val() || [];
+            if (includeCats.length > 0) {
+                let hasMatch = includeCats.some(selected => rowCats.includes(selected));
                 if (!hasMatch) return false;
             }
 
-            return true; // Passed all filters!
+            // Check Exclude Categories
+            let excludeCats = $('#excludeCategoryFilter').val() || [];
+            if (excludeCats.length > 0) {
+                let hasExcluded = excludeCats.some(excluded => rowCats.includes(excluded));
+                if (hasExcluded) return false;
+            }
+
+            return true;
         });
 
         $(document).ready(function() {
-            // --- 3. Initialize DataTables ---
+            // --- Initialize DataTables ---
             var table = $('#reviewTable').DataTable({
-                "ajax": {
-                    "url": "data.json",
-                    "dataSrc": ""
-                },
-                "pageLength": 25, // Show 25 reviews per page by default
-                "order": [[ 2, "desc" ]], // Sort by Dateline (newest first) by default
+                "ajax": { "url": "data.json", "dataSrc": "" },
+                "pageLength": 25,
+                "order": [[ 2, "desc" ]],
+                // "dom" controls the layout. 'B' adds buttons, 'lrtip' removes 'f' (the default search)
+                "dom": 'Brtip', 
+                "buttons": [
+                    {
+                        extend: 'csvHtml5',
+                        className: 'hidden-csv-button',
+                        title: 'TechRadar_Reviews_Export',
+                        // orthogonal 'sort' forces it to export the raw URL string instead of the HTML "View" link
+                        exportOptions: { orthogonal: 'sort' } 
+                    }
+                ],
                 "columnDefs": [
-                    { "width": "40%", "targets": 0 }, // Product is widest
-                    { "width": "10%", "targets": 1 }, // Rating is small
-                    { "width": "10%", "targets": 2 }, // Date is small
-                    { "width": "30%", "targets": 3 }, // Categories
-                    { "width": "10%", "targets": 4, "orderable": false }  // URL
+                    { "width": "40%", "targets": 0 },
+                    { "width": "10%", "targets": 1 },
+                    { "width": "10%", "targets": 2 },
+                    { "width": "30%", "targets": 3 },
+                    { "width": "10%", "targets": 4, "orderable": false }
                 ],
                 "columns": [
                     { "data": "Product" },
                     { 
                         "data": "Rating",
                         "render": function(data, type, row) {
-                            // Only apply the visual stars for 'display'. 
-                            // DataTables still uses the raw number for 'sort' and 'filter'!
                             if (type === 'display') return getStarsHTML(data);
                             return data;
                         }
@@ -185,6 +290,7 @@
                     { 
                         "data": "URL",
                         "render": function(data, type, row){
+                            // Render visual button for 'display', but keeps raw 'data' for sorting/exporting
                             if(type === 'display'){
                                 return '<a href="' + data + '" target="_blank" style="color: #3498db; text-decoration: none; font-weight: bold;">View <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 12px;"></i></a>';
                             }
@@ -192,9 +298,7 @@
                         }
                     }
                 ],
-                // When the table finishes loading the JSON data...
                 "initComplete": function(settings, json) {
-                    // Extract every unique category to populate the dropdown
                     let allCategories = new Set();
                     json.forEach(row => {
                         if (row.Categories && row.Categories !== "N/A") {
@@ -205,33 +309,44 @@
                         }
                     });
 
-                    // Sort categories alphabetically and add to Select2 dropdown
+                    // Add categories to both the Include and Exclude dropdowns
                     Array.from(allCategories).sort().forEach(cat => {
                         $('#categoryFilter').append(new Option(cat, cat));
+                        $('#excludeCategoryFilter').append(new Option(cat, cat));
                     });
 
-                    // Initialize the Select2 searchable multi-select UI
-                    $('#categoryFilter').select2({
-                        placeholder: "Search and select categories...",
-                        allowClear: true
-                    });
+                    $('#categoryFilter').select2({ placeholder: "Search to include...", allowClear: true });
+                    $('#excludeCategoryFilter').select2({ placeholder: "Search to exclude...", allowClear: true });
                 }
             });
 
-            // --- 4. Event Listeners ---
-            // Whenever a user changes a dropdown or date, instantly redraw the table
-            $('#minRating, #exactRating, #startDate, #endDate, #categoryFilter').on('change', function() {
+            // --- Event Listeners ---
+            
+            // Custom Search Box linking to DataTables
+            $('#customSearch').on('keyup', function() {
+                table.search(this.value).draw();
+            });
+
+            // Trigger redraw on filter change
+            $('#minRating, #exactRating, #startDate, #endDate, #categoryFilter, #excludeCategoryFilter').on('change', function() {
                 table.draw();
             });
 
-            // Clear Filters Button logic
+            // Custom Export CSV Button
+            $('#exportCsvBtn').on('click', function() {
+                table.button('.buttons-csv').trigger();
+            });
+
+            // Clear Filters Button
             $('#clearFilters').on('click', function() {
+                $('#customSearch').val('');
                 $('#minRating').val('');
                 $('#exactRating').val('');
                 $('#startDate').val('');
                 $('#endDate').val('');
-                $('#categoryFilter').val(null).trigger('change'); // Reset Select2
-                table.search(''); // Clear DataTables native search box
+                $('#categoryFilter').val(null).trigger('change');
+                $('#excludeCategoryFilter').val(null).trigger('change');
+                table.search(''); // Clear text search
                 table.draw();
             });
         });
