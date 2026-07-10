@@ -35,21 +35,21 @@
         "Categories": "air-quality,home,small-appliances"
     },
     {
-        "Product": "The JBL Xtreme 5 is one of the best Bluetooth speakers I&rsquo;ve ever tested, delivering mesmerizing bass, impressive\u2026",
+        "Product": "JBL Xtreme 5",
         "Rating": 5.0,
         "Dateline": "2026-06-03",
         "URL": "https://www.techradar.com/audio/wireless-bluetooth-speakers/jbl-xtreme-5-review",
         "Categories": "wireless-bluetooth-speakers,audio,hi-fi"
     },
     {
-        "Product": "I spent two weeks with the gorgeous Philips Caf&eacute; Aromis espresso machine, and creating delicious custom coffees\u2026",
+        "Product": "Philips Cafe Aromis",
         "Rating": 5.0,
         "Dateline": "2026-05-30",
         "URL": "https://www.techradar.com/home/coffee-machines/philips-cafe-aromis-series-8000-review",
         "Categories": "coffee-machines,home,small-appliances"
     },
     {
-        "Product": "I wasn&#039;t convinced that the Logitech G Pro X2 Superstrike would be that special, but I was wrong: this is a\u2026",
+        "Product": "Logitech G Pro X2 Superstrike",
         "Rating": 5.0,
         "Dateline": "2026-05-30",
         "URL": "https://www.techradar.com/computing/mice/logitech-pro-x2-superstrike-review",
@@ -35714,13 +35714,6 @@
         "Categories": "smartwatches|health-fitness"
     },
     {
-        "Product": "PAGE NOT FOUND",
-        "Rating": 4.0,
-        "Dateline": "2024-01-11",
-        "URL": "https://www.techradar.com/gaming/consoles-pc/prince-of-persia-the-lost-crown-review-the-refreshed-prince",
-        "Categories": "consoles-pc|gaming"
-    },
-    {
         "Product": "Prince of Persia: The Lost Crown",
         "Rating": 4.0,
         "Dateline": "2024-01-11",
@@ -36454,13 +36447,6 @@
         "Dateline": "2023-10-23",
         "URL": "https://www.techradar.com/pro/teamgroup-pro-1tb-microsd-card-review-a-newcomer-in-a-crowded-market",
         "Categories": "pro"
-    },
-    {
-        "Product": "PAGE NOT FOUND",
-        "Rating": 4.0,
-        "Dateline": "2023-10-23",
-        "URL": "https://www.techradar.com/gaming/consoles-pc/metal-gear-solid-master-collection-vol-1-review-solid-sneak",
-        "Categories": "consoles-pc|gaming"
     },
     {
         "Product": "Metal Gear Solid: Master Collection Vol. 1",
@@ -37702,13 +37688,6 @@
         "Categories": "security|pro"
     },
     {
-        "Product": "PAGE NOT FOUND",
-        "Rating": 4.0,
-        "Dateline": "2023-07-09",
-        "URL": "https://www.techradar.com/pro/benq-designview-pd2706ua-monitor-review",
-        "Categories": "pro"
-    },
-    {
         "Product": "Leica M11 Monochrom",
         "Rating": 4.0,
         "Dateline": "2023-07-07",
@@ -38043,13 +38022,6 @@
         "Dateline": "2023-06-07",
         "URL": "https://www.techradar.com/reviews/iqoo-11",
         "Categories": "mobile-phones|phone-and-communications"
-    },
-    {
-        "Product": "PAGE NOT FOUND",
-        "Rating": 4.0,
-        "Dateline": "2023-06-06",
-        "URL": "https://www.techradar.com/reviews/maribal-aon-s1-review",
-        "Categories": "computing"
     },
     {
         "Product": "Wise Data Recovery",
@@ -47950,13 +47922,6 @@
         "Categories": "phone-accessories,phones"
     },
     {
-        "Product": "PAGE NOT FOUND",
-        "Rating": 3.5,
-        "Dateline": "2025-05-28",
-        "URL": "https://www.techradar.com/computing/gaming-pcs/alienware-area-51-2025",
-        "Categories": "gaming-pcs,computing,gaming-computers"
-    },
-    {
         "Product": "Ring Outdoor Camera Plus",
         "Rating": 3.5,
         "Dateline": "2025-05-28",
@@ -51279,13 +51244,6 @@
         "Rating": 3.5,
         "Dateline": "2023-06-27",
         "URL": "https://www.techradar.com/pro/biolite-basecharge-1500",
-        "Categories": "pro"
-    },
-    {
-        "Product": "PAGE NOT FOUND",
-        "Rating": 3.5,
-        "Dateline": "2023-06-26",
-        "URL": "https://www.techradar.com/pro/surfshark-one-review",
         "Categories": "pro"
     },
     {
@@ -56014,13 +55972,6 @@
         "Categories": "N/A"
     },
     {
-        "Product": "PAGE NOT FOUND",
-        "Rating": 3.0,
-        "Dateline": "2024-06-05",
-        "URL": "https://www.techradar.com/reviews/alert1-review",
-        "Categories": "N/A"
-    },
-    {
         "Product": "Bookipi AI website builder",
         "Rating": 3.0,
         "Dateline": "2024-05-30",
@@ -59290,13 +59241,6 @@
         "Categories": "N/A"
     },
     {
-        "Product": "PAGE NOT FOUND",
-        "Rating": 1.5,
-        "Dateline": "2022-09-30",
-        "URL": "https://www.techradar.com/reviews/war-should-not-be-this-bland-the-greatest-beer-run-ever-review",
-        "Categories": "N/A"
-    },
-    {
         "Product": "AndaSeat Transformers Edition Premium Gaming Chair",
         "Rating": 1.5,
         "Dateline": "2022-09-14",
@@ -59563,25 +59507,11 @@
         "Categories": "Computing"
     },
     {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/computing/internet/wi-fi-broadband",
-        "Categories": "N/A"
-    },
-    {
         "Product": "Kimi AI Kimi AI",
         "Rating": "N/A",
         "Dateline": "2026-07-10",
         "URL": "https://www.techradar.com/pro/kimi-ai-review",
         "Categories": "Pro"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles",
-        "Categories": "N/A"
     },
     {
         "Product": "MSI Raider 16 Max HX",
@@ -59596,27 +59526,6 @@
         "Dateline": "2026-07-02",
         "URL": "https://www.techradar.com/cameras/drones/ruko-u11mini-4k-review",
         "Categories": "Drones, Cameras"
-    },
-    {
-        "Product": "PAGE NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/pro/security/ransomware-attacks-against-education-sector-rise-16-percent-in-one-year-becoming-the-new-favorite-target-and-reckless-genai-use-could-be-to-blame",
-        "Categories": "N/A"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/phones/nothing-phones",
-        "Categories": "N/A"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/vpn/vpn-services",
-        "Categories": "N/A"
     },
     {
         "Product": "TV Subscription Services",
@@ -59661,25 +59570,11 @@
         "Categories": "Netflix, Streaming"
     },
     {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/vpn/vpn-privacy-security",
-        "Categories": "N/A"
-    },
-    {
         "Product": "Alienware AW3426DW QD-OLED",
         "Rating": "N/A",
         "Dateline": "2026-07-09",
         "URL": "https://www.techradar.com/computing/monitors/alienware-aw3426dw",
         "Categories": "Monitors, Computing, Peripherals & Accessories, Dell, OLED"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/phones/google-pixel-phones",
-        "Categories": "N/A"
     },
     {
         "Product": "Blink Outdoor 2K+",
@@ -59689,32 +59584,11 @@
         "Categories": "Home Security, Home, Smart Home"
     },
     {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/phones/oppo-phones",
-        "Categories": "N/A"
-    },
-    {
         "Product": "Apolosign 32-inch Smart Portable TV",
         "Rating": "N/A",
         "Dateline": "2026-07-05",
         "URL": "https://www.techradar.com/pro/apolosign-32-inch-smart-portable-tv-review",
         "Categories": "Pro"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/cameras/action-cameras",
-        "Categories": "N/A"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/phones/motorola-phones",
-        "Categories": "N/A"
     },
     {
         "Product": "Porkbun",
@@ -59724,32 +59598,11 @@
         "Categories": "Software & Services, Pro"
     },
     {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/computing/computing-components/storage-backup",
-        "Categories": "N/A"
-    },
-    {
         "Product": "HIX.AI HIX.AI",
         "Rating": "N/A",
         "Dateline": "2026-07-10",
         "URL": "https://www.techradar.com/pro/hix-ai-review",
         "Categories": "Pro, AI Platforms & Assistants"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/cameras/camera-lenses",
-        "Categories": "N/A"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/streaming/disney-plus",
-        "Categories": "N/A"
     },
     {
         "Product": "Noble Osprey",
@@ -59759,32 +59612,11 @@
         "Categories": "Wireless Headphones, Audio, Headphones"
     },
     {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/health-fitness/fitness-headphones",
-        "Categories": "N/A"
-    },
-    {
         "Product": "Bosgame VTI-490",
         "Rating": "N/A",
         "Dateline": "2026-07-02",
         "URL": "https://www.techradar.com/pro/bosgame-vti-490-mini-pc-review",
         "Categories": "Pro"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/home/smart-home",
-        "Categories": "N/A"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/audio/audio-streaming",
-        "Categories": "N/A"
     },
     {
         "Product": "Toshiba N300 4TB",
@@ -59794,13 +59626,6 @@
         "Categories": "Pro"
     },
     {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/televisions/streaming-devices",
-        "Categories": "N/A"
-    },
-    {
         "Product": "Dreo Smart TurboPoly Fan 765S",
         "Rating": "N/A",
         "Dateline": "2026-07-09",
@@ -59808,24 +59633,10 @@
         "Categories": "Air Quality, Home, Small Appliances"
     },
     {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/computing/computing-components",
-        "Categories": "N/A"
-    },
-    {
         "Product": "Mobile Phones & Accessories",
         "Rating": "N/A",
         "Dateline": "2023-03-10",
         "URL": "https://www.techradar.com/coupons/category/mobile-cell-phones",
-        "Categories": "N/A"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/phones/phone-accessories",
         "Categories": "N/A"
     },
     {
@@ -59836,20 +59647,6 @@
         "Categories": "Pro"
     },
     {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/phones/samsung-galaxy-phones",
-        "Categories": "N/A"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/audio/hi-fi",
-        "Categories": "N/A"
-    },
-    {
         "Product": "LG OLED evo AI C5 4K Smart TV,LG OLED B5 4K Smart TV,LG OLED evo AI G5 4K Smart TV 2025,Panasonic Z95B 4K OLED TV,Samsung S95F",
         "Rating": "N/A",
         "Dateline": "2025-11-27",
@@ -59857,46 +59654,11 @@
         "Categories": "Televisions, Sony"
     },
     {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/streaming/apple-tv-plus",
-        "Categories": "N/A"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/televisions/home-theater/blu-ray",
-        "Categories": "N/A"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/computing/gaming-computers/gaming-pcs",
-        "Categories": "N/A"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/vehicle-tech/dash-cams",
-        "Categories": "N/A"
-    },
-    {
         "Product": "PSB IQ2",
         "Rating": "N/A",
         "Dateline": "2026-07-10",
         "URL": "https://www.techradar.com/audio/wireless-bluetooth-speakers/psb-iq2-review",
         "Categories": "Wireless & Bluetooth Speakers, Hi-Fi, Audio, Hi-res audio"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/computing/windows-10-end-of-life",
-        "Categories": "N/A"
     },
     {
         "Product": "Redodo_battery_and_accessories",
@@ -59911,13 +59673,6 @@
         "Dateline": "2026-07-02",
         "URL": "https://www.techradar.com/pro/uplift-parsons-standing-desk-review",
         "Categories": "Pro"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/computing/computing-security/cyber-security",
-        "Categories": "N/A"
     },
     {
         "Product": "OXS Storm A2",
@@ -59941,27 +59696,6 @@
         "Categories": "Pro, Lenovo"
     },
     {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/cameras/360-cameras",
-        "Categories": "N/A"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/home/smart-home/smart-scales",
-        "Categories": "N/A"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/streaming/amazon-prime-video",
-        "Categories": "N/A"
-    },
-    {
         "Product": "Base44 no-code",
         "Rating": "N/A",
         "Dateline": "2026-07-01",
@@ -59974,13 +59708,6 @@
         "Dateline": "2026-07-05",
         "URL": "https://www.techradar.com/gaming/gaming-accessories/snakebyte-ergo-grip-s2-review",
         "Categories": "Gaming Accessories, Nintendo Switch, Gaming, Consoles & PC, Nintendo"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/home/small-appliances/coffee-machines",
-        "Categories": "N/A"
     },
     {
         "Product": "Home & Garden",
@@ -60032,20 +59759,6 @@
         "Categories": "Wireless & Bluetooth Speakers, Audio, Hi-Fi"
     },
     {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/home/smart-home/smart-lights",
-        "Categories": "N/A"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/phones/honor-phones",
-        "Categories": "N/A"
-    },
-    {
         "Product": "Netflix",
         "Rating": "N/A",
         "Dateline": "2026-07-09",
@@ -60074,39 +59787,11 @@
         "Categories": "Soundbars, Televisions, Dolby Atmos, Sony"
     },
     {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/computing/desktop-pcs",
-        "Categories": "N/A"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/health-fitness/fitness-apps",
-        "Categories": "N/A"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/health-fitness/fitness-trackers",
-        "Categories": "N/A"
-    },
-    {
         "Product": "Plugable 10-in-1 USB-C Hub",
         "Rating": "N/A",
         "Dateline": "2026-07-01",
         "URL": "https://www.techradar.com/pro/plugable-10-in-1-usb-c-hub-review",
         "Categories": "Pro"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/streaming/hbo-max",
-        "Categories": "N/A"
     },
     {
         "Product": "Razer Iskur V2 NewGen",
@@ -60130,20 +59815,6 @@
         "Categories": "Pro, AI Platforms & Assistants"
     },
     {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/computing/internet/social-media",
-        "Categories": "N/A"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/phones/huawei-phones",
-        "Categories": "N/A"
-    },
-    {
         "Product": "Asus ProArt GeForce RTX 5090 32GB OC Edition",
         "Rating": "N/A",
         "Dateline": "2026-07-10",
@@ -60156,13 +59827,6 @@
         "Dateline": "2026-07-06",
         "URL": "https://www.techradar.com/pro/dell-27-plus-s2725hsm-business-monitor-review",
         "Categories": "Pro, Dell"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/home/small-appliances/air-quality",
-        "Categories": "N/A"
     },
     {
         "Product": "Steelcase Series 2,Boulies EP200,Sihoo M57,Herman Miller Embody,Flexispot C7,Steelcase Leap V2,Steelcase Leap,Herman Miller Aeron Chair,Corsair TC100 relaxed,Branch Verve Chair,Sihoo Doro C300 Pro V2",
@@ -60193,41 +59857,6 @@
         "Categories": "Mice, Gaming Accessories, Computing, Peripherals & Accessories, Gaming"
     },
     {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/audio/headphones/earbuds-airpods",
-        "Categories": "N/A"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/computing/peripherals-accessories",
-        "Categories": "N/A"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/cameras/mirrorless-cameras",
-        "Categories": "N/A"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/computing/laptops/windows-laptops",
-        "Categories": "N/A"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/computing/internet/websites-apps",
-        "Categories": "N/A"
-    },
-    {
         "Product": "Razer Seiren V3 Pro",
         "Rating": "N/A",
         "Dateline": "2026-07-09",
@@ -60256,25 +59885,11 @@
         "Categories": "Pro, AI Platforms & Assistants, AI"
     },
     {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/computing/gaming-computers/gaming-laptops",
-        "Categories": "N/A"
-    },
-    {
         "Product": "Emergent no-code",
         "Rating": "N/A",
         "Dateline": "2026-07-01",
         "URL": "https://www.techradar.com/pro/software-services/emergent-no-code-review",
         "Categories": "Software & Services, Pro"
-    },
-    {
-        "Product": "PAGE NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/drones/best-drone",
-        "Categories": "N/A"
     },
     {
         "Product": "Sony A7 V,Canon EOS R10,Sony A1 II,X-T5,OM SYSTEM OM-1 II,Fujifilm X100VI,Olympus OM-D E-M10 Mark IV,Nikon Z9,Hasselblad X2D II 100C,Canon EOS 5D Mark IV",
@@ -60298,20 +59913,6 @@
         "Categories": "Mice, Gaming Accessories, Computing, Peripherals & Accessories, Gaming"
     },
     {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/health-fitness/oral-health",
-        "Categories": "N/A"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/home/smart-home/home-security",
-        "Categories": "N/A"
-    },
-    {
         "Product": "Replit no-code",
         "Rating": "N/A",
         "Dateline": "2026-07-01",
@@ -60333,25 +59934,11 @@
         "Categories": "Turntables, Audio, Hi-Fi"
     },
     {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/health-fitness/exercise-equipment",
-        "Categories": "N/A"
-    },
-    {
         "Product": "D-Link G572",
         "Rating": "N/A",
         "Dateline": "2026-07-05",
         "URL": "https://www.techradar.com/computing/d-link-g572-5g-router-review",
         "Categories": "Computing"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/cameras/video-cameras",
-        "Categories": "N/A"
     },
     {
         "Product": "1. Best overall: Hostinger",
@@ -60366,20 +59953,6 @@
         "Dateline": "2026-07-09",
         "URL": "https://www.techradar.com/health-fitness/fitness-trackers/amazfit-active-3-premium-review-premium-performance-just-without-the-price",
         "Categories": "Fitness Trackers, Health & Fitness"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/ai-platforms-assistants/apple-intelligence",
-        "Categories": "N/A"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/phones/oneplus-phones",
-        "Categories": "N/A"
     },
     {
         "Product": "TCL PlayCube",
@@ -60403,27 +59976,6 @@
         "Categories": "Pro"
     },
     {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/home/small-appliances",
-        "Categories": "N/A"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/home/small-appliances/hair-care",
-        "Categories": "N/A"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/cameras/compact-cameras",
-        "Categories": "N/A"
-    },
-    {
         "Product": "Asus ProArt Display PA32KCX",
         "Rating": "N/A",
         "Dateline": "2026-07-07",
@@ -60445,27 +59997,6 @@
         "Categories": "Gaming Accessories, Gaming"
     },
     {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/cameras/camera-accessories",
-        "Categories": "N/A"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/televisions/home-theater",
-        "Categories": "N/A"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "2026-07-10",
-        "URL": "https://www.techradar.com/streaming/cant-get-enough-of-the-horror-hit-obsession-its-got-a-streaming-release-date-and-its-closer-than-you-think",
-        "Categories": "Streaming"
-    },
-    {
         "Product": "Roborock Qrevo Curv,Roborock Q7 M5 Robot Vacuum and Mop,Dreame X50 Ultra Complete,Dreame L40 Ultra Robot Vacuum,Roborock Saros 10 Robot Vacuum,Eureka J20,Narwal Flow 2,Ecovacs Deebot T30S Combo",
         "Rating": "N/A",
         "Dateline": "2025-11-29",
@@ -60478,20 +60009,6 @@
         "Dateline": "2026-07-01",
         "URL": "https://www.techradar.com/pro/easemate-ai-review",
         "Categories": "Pro"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/computing/software/virtual-reality-augmented-reality",
-        "Categories": "N/A"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/audio/headphones/wireless-headphones",
-        "Categories": "N/A"
     },
     {
         "Product": "OneRep",
@@ -60508,20 +60025,6 @@
         "Categories": "Security, Pro, Bitdefender"
     },
     {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/home/smart-home/robot-vacuums",
-        "Categories": "N/A"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/audio/hi-fi/wireless-bluetooth-speakers",
-        "Categories": "N/A"
-    },
-    {
         "Product": "Unihertz Titan 2 Elite",
         "Rating": "N/A",
         "Dateline": "2026-07-04",
@@ -60536,67 +60039,11 @@
         "Categories": "Gaming, Razer"
     },
     {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/streaming/paramount-plus",
-        "Categories": "N/A"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/home/small-appliances/air-fryers",
-        "Categories": "N/A"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/phones/network-providers",
-        "Categories": "N/A"
-    },
-    {
-        "Product": "PAGE NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/pro/this-1-pound-drone-killer-is-the-size-of-a-subway-sandwich-and-outruns-a-black-hawk",
-        "Categories": "N/A"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/phones/xiaomi-phones",
-        "Categories": "N/A"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/home/smart-home/smart-speakers",
-        "Categories": "N/A"
-    },
-    {
         "Product": "Dell Tower Plus Desktop (EBT2250),Corsair One i500,Dell Tower Plus Desktop (EBT2250),Quoted Tech Shield,Lenovo Legion Tower 5,NZXT Player PC,Asus ROG NUC (2025)",
         "Rating": "N/A",
         "Dateline": "2025-11-25",
         "URL": "https://www.techradar.com/computing/gaming-pcs/best-gaming-pc",
         "Categories": "Gaming PCs, Computing, Gaming Computers"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/computing/software/mac-os",
-        "Categories": "N/A"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/home/smart-home/smart-thermostats",
-        "Categories": "N/A"
     },
     {
         "Product": "Garmin Forerunner 170 GPS Watch",
@@ -60613,24 +60060,10 @@
         "Categories": "Entertainment, Streaming"
     },
     {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/audio/portable-media-players",
-        "Categories": "N/A"
-    },
-    {
         "Product": "Bose QuietComfort Ultra Headphones,Bose QuietComfort Headphones,1More SonoFlow Pro HQ51,Soundpeats Cove Pro",
         "Rating": "N/A",
         "Dateline": "2025-11-26",
         "URL": "https://www.techradar.com/audio/headphones/best-noise-cancelling-headphones",
         "Categories": "Headphones, Audio, Sony, Sonos, Amazon"
-    },
-    {
-        "Product": "NAME NOT FOUND",
-        "Rating": "N/A",
-        "Dateline": "N/A",
-        "URL": "https://www.techradar.com/audio/audio-streaming/apple-music",
-        "Categories": "N/A"
     }
 ]
