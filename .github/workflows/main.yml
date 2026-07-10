@@ -1,0 +1,39 @@
+name: Run TechRadar Scraper
+
+# This tells the script to run every day at midnight, OR you can trigger it manually
+on:
+  schedule:
+    - cron: '0 0 * * *' 
+  workflow_dispatch: 
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    
+    # Allows the script to commit files back to your repository
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run Scraper
+        run: python scraper.py
+
+      - name: Commit and Push new data.json
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action Bot"
+          git add data.json
+          # Only commit if there are actually changes to data.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update database with new reviews" && git push)
