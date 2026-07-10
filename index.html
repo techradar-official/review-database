@@ -33,7 +33,7 @@
             background: #E40784; 
             padding: 20px; 
             border-radius: 8px; 
-            box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+            box-shadow: 0 2px 8px rgba(0,0,0,0.3); 
             margin-bottom: 20px;
             display: flex; 
             flex-wrap: wrap; 
@@ -48,31 +48,21 @@
             font-weight: bold; 
             margin-bottom: 5px; 
             font-size: 14px; 
-            color: white; /* Make labels white to contrast with pink background */
+            color: white; 
         }
-        .filter-group select, .filter-group input[type="date"] { 
+        .filter-group select, .filter-group input[type="date"], .filter-group input[type="text"] { 
             padding: 8px; 
             border: 1px solid #ccc; 
             border-radius: 4px; 
             height: 34px; 
             box-sizing: border-box;
         }
-        
-        /* Custom Product Search Box */
-        #customSearch {
-            padding: 6px 12px;
-            border: 1px solid #aaa;
-            border-radius: 4px;
-            height: 28px; /* Matches the default height of Select2 */
-            box-sizing: border-box;
-            width: 100%;
-        }
 
         /* Buttons */
         .action-buttons {
             display: flex;
             gap: 10px;
-            margin-left: auto; /* Pushes buttons to the right */
+            margin-left: auto;
         }
         .clear-btn { 
             background-color: #0d1c34; 
@@ -82,23 +72,25 @@
             border-radius: 4px; 
             cursor: pointer; 
             font-weight: bold;
+            height: 34px;
         }
         .clear-btn:hover { background-color: #081224; }
         
         .export-btn {
-            background-color: #27ae60;
-            color: white; 
+            background-color: white;
+            color: #E40784; 
             border: none; 
             padding: 10px 15px; 
             border-radius: 4px; 
             cursor: pointer; 
             font-weight: bold;
+            height: 34px;
         }
-        .export-btn:hover { background-color: #219653; }
+        .export-btn:hover { background-color: #f1f1f1; }
 
-        /* Hide default DataTables elements we replaced */
-        .dataTables_filter { display: none; } /* Hides original search box */
-        .dt-buttons { display: none; } /* Hides original ugly CSV button */
+        /* Hide default DataTables elements */
+        .dataTables_filter { display: none; } 
+        .dt-buttons { display: none; } 
 
         /* 3. Table Styling */
         .table-container { 
@@ -108,7 +100,8 @@
             box-shadow: 0 2px 10px rgba(0,0,0,0.2); 
         }
         .stars { color: #f1c40f; white-space: nowrap; } 
-        .stars-na { color: #bdc3c7; font-size: 12px; }
+        .stars-na { color: #bdc3c7; font-size: 12px; font-weight: bold; }
+        .score-number { font-weight: bold; margin-right: 6px; }
     </style>
 </head>
 <body>
@@ -119,19 +112,9 @@
     
     <div class="filter-panel">
         
-        <div class="filter-group" style="flex-grow: 1; min-width: 200px;">
+        <div class="filter-group" style="flex-grow: 1; min-width: 250px;">
             <label>Product Search</label>
             <input type="text" id="customSearch" placeholder="Search by name...">
-        </div>
-
-        <div class="filter-group" style="flex-grow: 1; min-width: 200px;">
-            <label>Include Categories</label>
-            <select id="categoryFilter" multiple="multiple" style="width: 100%;"></select>
-        </div>
-
-        <div class="filter-group" style="flex-grow: 1; min-width: 200px;">
-            <label>Exclude Categories</label>
-            <select id="excludeCategoryFilter" multiple="multiple" style="width: 100%;"></select>
         </div>
 
         <div class="filter-group">
@@ -169,6 +152,16 @@
             <input type="date" id="endDate">
         </div>
 
+        <div class="filter-group" style="flex-grow: 1; min-width: 180px;">
+            <label>Include Categories</label>
+            <select id="categoryFilter" multiple="multiple" style="width: 100%;"></select>
+        </div>
+
+        <div class="filter-group" style="flex-grow: 1; min-width: 180px;">
+            <label>Exclude Categories</label>
+            <select id="excludeCategoryFilter" multiple="multiple" style="width: 100%;"></select>
+        </div>
+
         <div class="action-buttons">
             <button class="clear-btn" id="clearFilters"><i class="fa-solid fa-rotate-left"></i> Clear</button>
             <button class="export-btn" id="exportCsvBtn"><i class="fa-solid fa-file-csv"></i> Export CSV</button>
@@ -180,8 +173,8 @@
             <thead>
                 <tr>
                     <th>Product</th>
-                    <th>Rating</th>
-                    <th>Dateline</th>
+                    <th>Score</th>
+                    <th>Publish Date</th>
                     <th>Categories</th>
                     <th>URL</th>
                 </tr>
@@ -191,19 +184,25 @@
 
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
-    
     <script src="https://cdn.datatables.net/buttons/2.4.1/js/dataTables.buttons.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
     <script src="https://cdn.datatables.net/buttons/2.4.1/js/buttons.html5.min.js"></script>
-    
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 
     <script>
         function getStarsHTML(ratingString) {
-            let num = parseFloat(ratingString);
-            if (isNaN(num)) return '<span class="stars-na">N/A</span>';
+            // Guard clause with hardcoded styling so it renders even if CSS classes break
+            if (ratingString === null || ratingString === undefined || ratingString === "N/A" || ratingString === "NAME NOT FOUND") {
+                return '<span style="color: #bdc3c7; font-size: 12px; font-weight: bold;">N/A</span>';
+            }
             
-            let html = '<span class="stars" title="' + num + '">';
+            let num = parseFloat(ratingString);
+            if (isNaN(num)) return '<span style="color: #bdc3c7; font-size: 12px; font-weight: bold;">N/A</span>';
+            
+            // Hardcode the numerical text so it ALWAYS shows
+            let html = '<span style="font-weight: bold; margin-right: 6px;">' + num + '</span>';
+            html += '<span style="color: #f1c40f; white-space: nowrap;" title="' + num + '">';
+            
             for (let i = 1; i <= 5; i++) {
                 if (num >= i) {
                     html += '<i class="fa-solid fa-star"></i>';
@@ -233,11 +232,11 @@
             if (startDate && date < startDate) return false;
             if (endDate && date > endDate) return false;
 
-            let rowCats = cats.split(',').map(c => c.trim());
-
             // Check Include Categories
             let includeCats = $('#categoryFilter').val() || [];
             if (includeCats.length > 0) {
+                // Only split if we need to filter
+                let rowCats = cats.split(',').map(c => c.trim());
                 let hasMatch = includeCats.some(selected => rowCats.includes(selected));
                 if (!hasMatch) return false;
             }
@@ -245,6 +244,8 @@
             // Check Exclude Categories
             let excludeCats = $('#excludeCategoryFilter').val() || [];
             if (excludeCats.length > 0) {
+                 // Only split if we need to filter
+                let rowCats = cats.split(',').map(c => c.trim());
                 let hasExcluded = excludeCats.some(excluded => rowCats.includes(excluded));
                 if (hasExcluded) return false;
             }
@@ -253,44 +254,40 @@
         });
 
         $(document).ready(function() {
-            // --- Initialize DataTables ---
             var table = $('#reviewTable').DataTable({
-                "ajax": { "url": "data.json", "dataSrc": "" },
+                "ajax": { "url": "data.json?v=" + new Date().getTime(), "dataSrc": "" },
                 "pageLength": 25,
-                "order": [[ 2, "desc" ]],
-                // "dom" controls the layout. 'B' adds buttons, 'lrtip' removes 'f' (the default search)
+                "order": [[ 2, "desc" ]], 
                 "dom": 'Brtip', 
                 "buttons": [
                     {
                         extend: 'csvHtml5',
                         className: 'hidden-csv-button',
                         title: 'TechRadar_Reviews_Export',
-                        // orthogonal 'sort' forces it to export the raw URL string instead of the HTML "View" link
                         exportOptions: { orthogonal: 'sort' } 
                     }
                 ],
                 "columnDefs": [
-                    { "width": "40%", "targets": 0 },
-                    { "width": "10%", "targets": 1 },
-                    { "width": "10%", "targets": 2 },
-                    { "width": "30%", "targets": 3 },
-                    { "width": "10%", "targets": 4, "orderable": false }
+                    { "width": "35%", "targets": 0 }, 
+                    { "width": "12%", "targets": 1 }, 
+                    { "width": "10%", "targets": 2 }, 
+                    { "width": "33%", "targets": 3 }, 
+                    { "width": "10%", "targets": 4, "orderable": false } 
                 ],
                 "columns": [
                     { "data": "Product" },
                     { 
-                        "data": "Rating",
+                        "data": "Rating", 
                         "render": function(data, type, row) {
                             if (type === 'display') return getStarsHTML(data);
                             return data;
                         }
                     },
-                    { "data": "Dateline" },
+                    { "data": "Dateline" }, 
                     { "data": "Categories" },
                     { 
                         "data": "URL",
                         "render": function(data, type, row){
-                            // Render visual button for 'display', but keeps raw 'data' for sorting/exporting
                             if(type === 'display'){
                                 return '<a href="' + data + '" target="_blank" style="color: #3498db; text-decoration: none; font-weight: bold;">View <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 12px;"></i></a>';
                             }
@@ -309,7 +306,6 @@
                         }
                     });
 
-                    // Add categories to both the Include and Exclude dropdowns
                     Array.from(allCategories).sort().forEach(cat => {
                         $('#categoryFilter').append(new Option(cat, cat));
                         $('#excludeCategoryFilter').append(new Option(cat, cat));
@@ -321,23 +317,18 @@
             });
 
             // --- Event Listeners ---
-            
-            // Custom Search Box linking to DataTables
             $('#customSearch').on('keyup', function() {
                 table.search(this.value).draw();
             });
 
-            // Trigger redraw on filter change
             $('#minRating, #exactRating, #startDate, #endDate, #categoryFilter, #excludeCategoryFilter').on('change', function() {
                 table.draw();
             });
 
-            // Custom Export CSV Button
             $('#exportCsvBtn').on('click', function() {
                 table.button('.buttons-csv').trigger();
             });
 
-            // Clear Filters Button
             $('#clearFilters').on('click', function() {
                 $('#customSearch').val('');
                 $('#minRating').val('');
@@ -346,7 +337,7 @@
                 $('#endDate').val('');
                 $('#categoryFilter').val(null).trigger('change');
                 $('#excludeCategoryFilter').val(null).trigger('change');
-                table.search(''); // Clear text search
+                table.search(''); 
                 table.draw();
             });
         });
