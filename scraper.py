@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import json
 import pandas as pd
 import os
+import time
 
 def scrape_review_data(url):
     """Fetches the webpage and extracts the product name, rating, and dateline."""
@@ -30,13 +31,10 @@ def scrape_review_data(url):
             for item in data:
                 if item.get('@type') == 'Review' and 'itemReviewed' in item:
                     product_name = item['itemReviewed'].get('name')
-                    
-                    # Bonus: The Review schema usually contains the rating and date too!
                     if 'reviewRating' in item:
                         rating = item['reviewRating'].get('ratingValue', 'N/A')
                     if 'datePublished' in item:
-                        dateline = item.get('datePublished', 'N/A')[:10] # Just grab the YYYY-MM-DD
-                        
+                        dateline = item.get('datePublished', 'N/A')[:10]
                     found_in_schema = True
                     break
         except:
@@ -50,32 +48,70 @@ def scrape_review_data(url):
         if title_tag and title_tag.string:
             meta_title = title_tag.string
             if " review" in meta_title.lower():
-                # Uses regex/case-insensitive split approach practically
                 product_name = meta_title.split(" review")[0].split(" Review")[0].strip()
 
     return product_name, rating, dateline
 
-def main():
-    print("Starting TechRadar Scraper...")
-    
-    # 1. Fetch the sitemap (For this script, we'll target a specific TR review sitemap)
-    # Note: TechRadar has a massive sitemap index. You might need to plug in the specific 
-    # year/month sitemap URL here depending on how far back you want to scrape daily.
-    sitemap_url = "https://www.techradar.com/sitemap.xml" 
-    
+def get_links_from_feed(page_number):
+    """Scrapes a specific page of the TechRadar reviews feed for article URLs."""
+    # TechRadar's pagination format: /reviews/page/2
+    if page_number == 1:
+        url = "https://www.techradar.com/reviews"
+    else:
+        url = f"https://www.techradar.com/reviews/page/{page_number}"
+        
+    print(f"Scanning feed page {page_number}: {url}")
     headers = {'User-Agent': 'Mozilla/5.0'}
-    response = requests.get(sitemap_url, headers=headers)
-    soup = BeautifulSoup(response.content, 'xml')
-
-    new_reviews_data = []
-
-    # 2. Extract URLs and scrape
-    urls = [loc.text for loc in soup.find_all('loc') if '/reviews/' in loc.text]
     
-    # Limit to the first 20 for testing purposes so it doesn't run for hours
-    print(f"Found {len(urls)} review URLs. Scraping the latest 20 for this test run...")
-    for url in urls[:20]:
-        print(f"Scraping: {url}")
+    try:
+        response = requests.get(url, headers=headers, timeout=10)
+        # If the page doesn't exist (we hit the end of the feed), stop.
+        if response.status_code != 200:
+            return []
+            
+        soup = BeautifulSoup(response.text, 'html.parser')
+        
+        page_links = []
+        # TechRadar wraps their main feed article links in tags with the class "article-link"
+        # We find all of them to extract the href (URL)
+        article_tags = soup.find_all('a', class_='article-link')
+        
+        for tag in article_tags:
+            link = tag.get('href')
+            if link and not link.startswith('http'):
+                # Handle relative URLs just in case
+                link = "https://www.techradar.com" + link
+            
+            # Avoid duplicates on the same page
+            if link not in page_links:
+                page_links.append(link)
+                
+        return page_links
+    except Exception as e:
+        print(f"Error scraping feed page: {e}")
+        return []
+
+def main():
+    print("Starting TechRadar Pagination Scraper...")
+    
+    new_reviews_data = []
+    
+    # --- PAGINATION SETTINGS ---
+    # We only scrape the first 3 pages of the feed (approx 60 articles) per run
+    # so we don't overload their servers. Since this runs daily, 60 is plenty!
+    pages_to_scrape = 3 
+    all_urls_to_scrape = []
+
+    for page in range(1, pages_to_scrape + 1):
+        links = get_links_from_feed(page)
+        all_urls_to_scrape.extend(links)
+        time.sleep(2) # Pause for 2 seconds between pages to be polite to their server
+        
+    print(f"Found {len(all_urls_to_scrape)} total review URLs in the feed.")
+
+    # Scrape each individual review URL
+    for url in all_urls_to_scrape:
+        print(f"Scraping data from: {url}")
         name, rating, date = scrape_review_data(url)
         
         new_reviews_data.append({
@@ -84,24 +120,25 @@ def main():
             'Dateline': date,
             'URL': url
         })
+        time.sleep(1) # Pause for 1 second between articles
 
     new_df = pd.DataFrame(new_reviews_data)
 
-    # 3. Merge with existing data and remove duplicates
+    # Merge with existing data and remove duplicates
     json_filename = 'data.json'
     
     if os.path.exists(json_filename):
         print("Found existing data.json. Merging and deduplicating...")
         existing_df = pd.read_json(json_filename)
-        # Combine old and new
         combined_df = pd.concat([existing_df, new_df], ignore_index=True)
-        # Drop duplicates based on URL, keeping the most recently scraped version
+        # We drop duplicates based on URL. This is crucial: even if we scrape
+        # an article we already scraped yesterday, this line prevents duplicates!
         final_df = combined_df.drop_duplicates(subset=['URL'], keep='last')
     else:
         print("No existing data.json found. Creating new database...")
         final_df = new_df
 
-    # 4. Save the final JSON file
+    # Save the final JSON file
     final_df.to_json(json_filename, orient='records', indent=4)
     print(f"Successfully saved {len(final_df)} total records to {json_filename}!")
 
