@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <style>
-        /* 1. Page Background & Title */
         body { 
             font-family: Arial, sans-serif; 
             padding: 20px; 
@@ -27,8 +26,6 @@
             color: white; 
             margin: 0;
         }
-        
-        /* 2. Filter Panel Styling */
         .filter-panel { 
             background: #E40784; 
             padding: 20px; 
@@ -57,8 +54,6 @@
             height: 34px; 
             box-sizing: border-box;
         }
-
-        /* Buttons */
         .action-buttons {
             display: flex;
             gap: 10px;
@@ -75,7 +70,6 @@
             height: 34px;
         }
         .clear-btn:hover { background-color: #081224; }
-        
         .export-btn {
             background-color: white;
             color: #E40784; 
@@ -87,21 +81,13 @@
             height: 34px;
         }
         .export-btn:hover { background-color: #f1f1f1; }
-
-        /* Hide default DataTables elements */
-        .dataTables_filter { display: none; } 
-        .dt-buttons { display: none; } 
-
-        /* 3. Table Styling */
+        .dataTables_filter, .dt-buttons { display: none; } 
         .table-container { 
             background: white; 
             padding: 20px; 
             border-radius: 8px; 
             box-shadow: 0 2px 10px rgba(0,0,0,0.2); 
         }
-        .stars { color: #f1c40f; white-space: nowrap; } 
-        .stars-na { color: #bdc3c7; font-size: 12px; font-weight: bold; }
-        .score-number { font-weight: bold; margin-right: 6px; }
     </style>
 </head>
 <body>
@@ -111,12 +97,10 @@
     </div>
     
     <div class="filter-panel">
-        
         <div class="filter-group" style="flex-grow: 1; min-width: 250px;">
             <label>Product Search</label>
             <input type="text" id="customSearch" placeholder="Search by name...">
         </div>
-
         <div class="filter-group">
             <label>Score (Min)</label>
             <select id="minRating">
@@ -129,7 +113,6 @@
                 <option value="2">2+</option>
             </select>
         </div>
-
         <div class="filter-group">
             <label>Score (Exact)</label>
             <select id="exactRating">
@@ -141,27 +124,22 @@
                 <option value="3">3</option>
             </select>
         </div>
-
         <div class="filter-group">
             <label>Date (Start)</label>
             <input type="date" id="startDate">
         </div>
-        
         <div class="filter-group">
             <label>Date (End)</label>
             <input type="date" id="endDate">
         </div>
-
         <div class="filter-group" style="flex-grow: 1; min-width: 180px;">
             <label>Include Categories</label>
             <select id="categoryFilter" multiple="multiple" style="width: 100%;"></select>
         </div>
-
         <div class="filter-group" style="flex-grow: 1; min-width: 180px;">
             <label>Exclude Categories</label>
             <select id="excludeCategoryFilter" multiple="multiple" style="width: 100%;"></select>
         </div>
-
         <div class="action-buttons">
             <button class="clear-btn" id="clearFilters"><i class="fa-solid fa-rotate-left"></i> Clear</button>
             <button class="export-btn" id="exportCsvBtn"><i class="fa-solid fa-file-csv"></i> Export CSV</button>
@@ -190,33 +168,29 @@
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 
     <script>
-        function getStarsHTML(ratingString) {
-            // Guard clause with hardcoded styling so it renders even if CSS classes break
-            if (ratingString === null || ratingString === undefined || ratingString === "N/A" || ratingString === "NAME NOT FOUND") {
-                return '<span style="color: #bdc3c7; font-size: 12px; font-weight: bold;">N/A</span>';
+        function getStarsHTML(val) {
+            // THE DIAGNOSTIC PROBE: This will aggressively print exactly what is failing
+            if (val === null) return '<span style="color:red; font-weight:bold;">[DATA IS NULL]</span>';
+            if (val === undefined) return '<span style="color:red; font-weight:bold;">[DATA IS UNDEFINED]</span>';
+            if (val === "") return '<span style="color:red; font-weight:bold;">[DATA IS EMPTY STRING]</span>';
+            
+            let num = parseFloat(val);
+            if (isNaN(num)) {
+                return '<span style="color:red; font-weight:bold;">[INVALID: "' + val + '"]</span>';
             }
             
-            let num = parseFloat(ratingString);
-            if (isNaN(num)) return '<span style="color: #bdc3c7; font-size: 12px; font-weight: bold;">N/A</span>';
-            
-            // Hardcode the numerical text so it ALWAYS shows
-            let html = '<span style="font-weight: bold; margin-right: 6px;">' + num + '</span>';
-            html += '<span style="color: #f1c40f; white-space: nowrap;" title="' + num + '">';
-            
+            // If parsing succeeds, print the raw number explicitly so we know it worked, alongside the stars
+            let html = '<span style="font-weight: bold; margin-right: 6px; color: #000;">' + num + '</span>';
+            html += '<span style="color: #f1c40f; white-space: nowrap;">';
             for (let i = 1; i <= 5; i++) {
-                if (num >= i) {
-                    html += '<i class="fa-solid fa-star"></i>';
-                } else if (num >= i - 0.5) {
-                    html += '<i class="fa-solid fa-star-half-stroke"></i>';
-                } else {
-                    html += '<i class="fa-regular fa-star"></i>';
-                }
+                if (num >= i) html += '<i class="fa-solid fa-star"></i>';
+                else if (num >= i - 0.5) html += '<i class="fa-solid fa-star-half-stroke"></i>';
+                else html += '<i class="fa-regular fa-star"></i>';
             }
             html += '</span>';
             return html;
         }
 
-        // --- Custom Filtering Logic ---
         $.fn.dataTable.ext.search.push(function(settings, data, dataIndex, rowData) {
             let rating = parseFloat(rowData.Rating) || 0;
             let date = rowData.Dateline;
@@ -232,19 +206,15 @@
             if (startDate && date < startDate) return false;
             if (endDate && date > endDate) return false;
 
-            // Check Include Categories
             let includeCats = $('#categoryFilter').val() || [];
             if (includeCats.length > 0) {
-                // Only split if we need to filter
                 let rowCats = cats.split(',').map(c => c.trim());
                 let hasMatch = includeCats.some(selected => rowCats.includes(selected));
                 if (!hasMatch) return false;
             }
 
-            // Check Exclude Categories
             let excludeCats = $('#excludeCategoryFilter').val() || [];
             if (excludeCats.length > 0) {
-                 // Only split if we need to filter
                 let rowCats = cats.split(',').map(c => c.trim());
                 let hasExcluded = excludeCats.some(excluded => rowCats.includes(excluded));
                 if (hasExcluded) return false;
@@ -316,19 +286,9 @@
                 }
             });
 
-            // --- Event Listeners ---
-            $('#customSearch').on('keyup', function() {
-                table.search(this.value).draw();
-            });
-
-            $('#minRating, #exactRating, #startDate, #endDate, #categoryFilter, #excludeCategoryFilter').on('change', function() {
-                table.draw();
-            });
-
-            $('#exportCsvBtn').on('click', function() {
-                table.button('.buttons-csv').trigger();
-            });
-
+            $('#customSearch').on('keyup', function() { table.search(this.value).draw(); });
+            $('#minRating, #exactRating, #startDate, #endDate, #categoryFilter, #excludeCategoryFilter').on('change', function() { table.draw(); });
+            $('#exportCsvBtn').on('click', function() { table.button('.buttons-csv').trigger(); });
             $('#clearFilters').on('click', function() {
                 $('#customSearch').val('');
                 $('#minRating').val('');
