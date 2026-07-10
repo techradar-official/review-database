@@ -1,49 +1,238 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechRadar Review Database</title>
+    
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; background-color: #f9f9f9; }
+        .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+        
+        /* Filter Panel Styling */
+        .filter-panel { 
+            background: white; padding: 20px; border-radius: 8px; 
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin-bottom: 20px;
+            display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-end;
+        }
+        .filter-group { display: flex; flex-direction: column; }
+        .filter-group label { font-weight: bold; margin-bottom: 5px; font-size: 14px; }
+        .filter-group select, .filter-group input { padding: 8px; border: 1px solid #ccc; border-radius: 4px; }
+        
+        .clear-btn { 
+            background-color: #e74c3c; color: white; border: none; 
+            padding: 10px 15px; border-radius: 4px; cursor: pointer; font-weight: bold;
+        }
+        .clear-btn:hover { background-color: #c0392b; }
+
+        /* Table Styling */
+        .table-container { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .stars { color: #f1c40f; white-space: nowrap; } /* Makes stars yellow and keeps them on one line */
+        .stars-na { color: #bdc3c7; font-size: 12px; }
+    </style>
 </head>
 <body>
 
-    <h1>TechRadar Review Database</h1>
+    <div class="header">
+        <h1>TechRadar Review Database</h1>
+    </div>
     
-    <table id="reviewTable" class="display" style="width:100%">
-        <thead>
-            <tr>
-                <th>Product</th>
-                <th>Rating</th>
-                <th>Dateline</th>
-                <th>URL</th>
-            </tr>
-        </thead>
-    </table>
+    <div class="filter-panel">
+        <div class="filter-group">
+            <label>Rating (Minimum)</label>
+            <select id="minRating">
+                <option value="">Any Score</option>
+                <option value="5">5 Stars</option>
+                <option value="4.5">4.5+ Stars</option>
+                <option value="4">4+ Stars</option>
+                <option value="3.5">3.5+ Stars</option>
+                <option value="3">3+ Stars</option>
+                <option value="2">2+ Stars</option>
+            </select>
+        </div>
+
+        <div class="filter-group">
+            <label>Rating (Exact)</label>
+            <select id="exactRating">
+                <option value="">Any Score</option>
+                <option value="5">Exactly 5</option>
+                <option value="4.5">Exactly 4.5</option>
+                <option value="4">Exactly 4</option>
+                <option value="3.5">Exactly 3.5</option>
+                <option value="3">Exactly 3</option>
+            </select>
+        </div>
+
+        <div class="filter-group">
+            <label>Date Range (Start)</label>
+            <input type="date" id="startDate">
+        </div>
+        
+        <div class="filter-group">
+            <label>Date Range (End)</label>
+            <input type="date" id="endDate">
+        </div>
+
+        <div class="filter-group" style="flex-grow: 1; min-width: 250px;">
+            <label>Categories</label>
+            <select id="categoryFilter" multiple="multiple" style="width: 100%;"></select>
+        </div>
+
+        <button class="clear-btn" id="clearFilters">Clear All Filters</button>
+    </div>
+
+    <div class="table-container">
+        <table id="reviewTable" class="display" style="width:100%">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Rating</th>
+                    <th>Dateline</th>
+                    <th>Categories</th>
+                    <th>URL</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 
     <script>
-        // Tell DataTables to fetch your JSON file and build the table
+        // --- 1. Star Rendering Logic ---
+        function getStarsHTML(ratingString) {
+            let num = parseFloat(ratingString);
+            if (isNaN(num)) return '<span class="stars-na">N/A</span>';
+            
+            let html = '<span class="stars" title="' + num + '">';
+            for (let i = 1; i <= 5; i++) {
+                if (num >= i) {
+                    html += '<i class="fa-solid fa-star"></i>'; // Full star
+                } else if (num >= i - 0.5) {
+                    html += '<i class="fa-solid fa-star-half-stroke"></i>'; // Half star
+                } else {
+                    html += '<i class="fa-regular fa-star"></i>'; // Empty star
+                }
+            }
+            html += '</span>';
+            return html;
+        }
+
+        // --- 2. Custom Filtering Logic ---
+        $.fn.dataTable.ext.search.push(function(settings, data, dataIndex, rowData) {
+            // Get row data
+            let rating = parseFloat(rowData.Rating) || 0;
+            let date = rowData.Dateline;
+            let cats = rowData.Categories || "";
+
+            // A. Check Rating Filters
+            let minRating = parseFloat($('#minRating').val());
+            let exactRating = parseFloat($('#exactRating').val());
+            if (!isNaN(minRating) && rating < minRating) return false;
+            if (!isNaN(exactRating) && rating !== exactRating) return false;
+
+            // B. Check Date Filters
+            let startDate = $('#startDate').val();
+            let endDate = $('#endDate').val();
+            if (startDate && date < startDate) return false;
+            if (endDate && date > endDate) return false;
+
+            // C. Check Category Filters (Returns true if row has ANY of the selected categories)
+            let selectedCats = $('#categoryFilter').val() || [];
+            if (selectedCats.length > 0) {
+                let rowCats = cats.split(',').map(c => c.trim());
+                let hasMatch = selectedCats.some(selected => rowCats.includes(selected));
+                if (!hasMatch) return false;
+            }
+
+            return true; // Passed all filters!
+        });
+
         $(document).ready(function() {
-            $('#reviewTable').DataTable({
+            // --- 3. Initialize DataTables ---
+            var table = $('#reviewTable').DataTable({
                 "ajax": {
-                    "url": "data.json", // The file your Python script makes
+                    "url": "data.json",
                     "dataSrc": ""
                 },
+                "pageLength": 25, // Show 25 reviews per page by default
+                "order": [[ 2, "desc" ]], // Sort by Dateline (newest first) by default
+                "columnDefs": [
+                    { "width": "40%", "targets": 0 }, // Product is widest
+                    { "width": "10%", "targets": 1 }, // Rating is small
+                    { "width": "10%", "targets": 2 }, // Date is small
+                    { "width": "30%", "targets": 3 }, // Categories
+                    { "width": "10%", "targets": 4, "orderable": false }  // URL
+                ],
                 "columns": [
                     { "data": "Product" },
-                    { "data": "Rating" },
-                    { "data": "Dateline" },
                     { 
-                      "data": "URL",
-                      "render": function(data, type, row, meta){
-                         if(type === 'display'){
-                             return '<a href="' + data + '" target="_blank">Link</a>';
-                         }
-                         return data;
-                      }
+                        "data": "Rating",
+                        "render": function(data, type, row) {
+                            // Only apply the visual stars for 'display'. 
+                            // DataTables still uses the raw number for 'sort' and 'filter'!
+                            if (type === 'display') return getStarsHTML(data);
+                            return data;
+                        }
+                    },
+                    { "data": "Dateline" },
+                    { "data": "Categories" },
+                    { 
+                        "data": "URL",
+                        "render": function(data, type, row){
+                            if(type === 'display'){
+                                return '<a href="' + data + '" target="_blank" style="color: #3498db; text-decoration: none; font-weight: bold;">View <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 12px;"></i></a>';
+                            }
+                            return data;
+                        }
                     }
-                ]
+                ],
+                // When the table finishes loading the JSON data...
+                "initComplete": function(settings, json) {
+                    // Extract every unique category to populate the dropdown
+                    let allCategories = new Set();
+                    json.forEach(row => {
+                        if (row.Categories && row.Categories !== "N/A") {
+                            row.Categories.split(',').forEach(c => {
+                                let cleanCat = c.trim();
+                                if (cleanCat) allCategories.add(cleanCat);
+                            });
+                        }
+                    });
+
+                    // Sort categories alphabetically and add to Select2 dropdown
+                    Array.from(allCategories).sort().forEach(cat => {
+                        $('#categoryFilter').append(new Option(cat, cat));
+                    });
+
+                    // Initialize the Select2 searchable multi-select UI
+                    $('#categoryFilter').select2({
+                        placeholder: "Search and select categories...",
+                        allowClear: true
+                    });
+                }
+            });
+
+            // --- 4. Event Listeners ---
+            // Whenever a user changes a dropdown or date, instantly redraw the table
+            $('#minRating, #exactRating, #startDate, #endDate, #categoryFilter').on('change', function() {
+                table.draw();
+            });
+
+            // Clear Filters Button logic
+            $('#clearFilters').on('click', function() {
+                $('#minRating').val('');
+                $('#exactRating').val('');
+                $('#startDate').val('');
+                $('#endDate').val('');
+                $('#categoryFilter').val(null).trigger('change'); // Reset Select2
+                table.search(''); // Clear DataTables native search box
+                table.draw();
             });
         });
     </script>
