@@ -6,6 +6,7 @@ import os
 import time
 import html
 import unicodedata
+import re
 
 def standardize_text(text):
     """Converts HTML entities and accented characters into standard English alphabet."""
@@ -19,6 +20,44 @@ def standardize_text(text):
     text = unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode('utf-8')
     
     return text.strip()
+
+def clean_categories(cat_string):
+    """Applies standard formatting rules to a category string."""
+    if not cat_string or cat_string in ["N/A", "NAME NOT FOUND"]:
+        return cat_string
+        
+    # Replace pipes with commas
+    cat_string = cat_string.replace('|', ',')
+    
+    # Split the string by comma to process each category individually
+    raw_cats = [c.strip() for c in cat_string.split(',')]
+    
+    cleaned_cats = []
+    for c in raw_cats:
+        if not c: continue
+        
+        # Swap hyphens for spaces
+        c = c.replace('-', ' ')
+        
+        # Exception: Restore blu-ray and e-scooters using Regex
+        c = re.sub(r'(?i)\bblu ray\b', 'blu-ray', c)
+        c = re.sub(r'(?i)\be scooters\b', 'e-scooters', c)
+        
+        # Replace tv/television with televisions
+        if c.lower() in ['tv', 'television']:
+            c = 'televisions'
+            
+        # Capitalise ONLY the first letter
+        if len(c) > 0:
+            c = c[0].upper() + c[1:]
+            
+        cleaned_cats.append(c)
+        
+    # Remove duplicates by converting to a dictionary, then back to a list
+    unique_cats = list(dict.fromkeys(cleaned_cats))
+    
+    # Stitch them back together with commas
+    return ",".join(unique_cats)
 
 def scrape_review_data(url):
     """Fetches the webpage and extracts the data using our bulletproof logic."""
@@ -156,7 +195,9 @@ def scrape_review_data(url):
         if keywords_meta and keywords_meta.get('content'):
             categories = keywords_meta.get('content')
 
+    # Apply standardization and custom capitalization formatting
     categories = standardize_text(categories)
+    categories = clean_categories(categories)
 
     return product_name, rating, dateline, categories
 
@@ -232,7 +273,6 @@ def main():
         try:
             existing_df = pd.read_json(json_filename)
             combined_df = pd.concat([existing_df, new_df], ignore_index=True)
-            # Remove exact duplicates by URL, keeping the newest scrape
             final_df = combined_df.drop_duplicates(subset=['URL'], keep='last')
         except Exception as e:
             print(f"Error merging with existing JSON: {e}. Defaulting to new data.")
@@ -241,7 +281,7 @@ def main():
         print("No existing data.json found. Creating new database...")
         final_df = new_df
 
-    # FINAL SAFETY CHECK: Eradicate any NaN values before saving so JS doesn't crash
+    # Eradicate any NaN values before saving so JS doesn't crash
     final_df = final_df.fillna("N/A")
 
     # Save cleanly, ensuring valid JSON formatting
