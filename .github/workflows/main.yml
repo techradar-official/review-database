@@ -1,9 +1,9 @@
 name: Run TechRadar Scraper
 
-# This tells the script to run every day at midnight, OR you can trigger it manually
 on:
   schedule:
-    - cron: '0 0 * * *' 
+    # Runs at 04:37 UTC (05:37 BST) to completely bypass the GitHub midnight traffic jam
+    - cron: '37 4 * * *' 
   workflow_dispatch: 
 
 jobs:
