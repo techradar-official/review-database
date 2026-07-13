@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechRadar Review Database (TEST MODE)</title>
+    
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/2.4.1/css/buttons.dataTables.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            padding: 20px; 
+            background-color: #0d1c34; 
+        }
+        .header { 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            margin-bottom: 20px; 
+        }
+        .header h1 { 
+            color: white; 
+            margin: 0;
+        }
+        .test-badge {
+            background-color: #f1c40f;
+            color: #000;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        .filter-panel { 
+            background: #E40784; 
+            padding: 20px; 
+            border-radius: 8px; 
+            box-shadow: 0 2px 8px rgba(0,0,0,0.3); 
+            margin-bottom: 20px;
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 15px; 
+            align-items: flex-end;
+        }
+        .filter-group { 
+            display: flex; 
+            flex-direction: column; 
+        }
+        .filter-group label { 
+            font-weight: bold; 
+            margin-bottom: 5px; 
+            font-size: 14px; 
+            color: white; 
+        }
+        .filter-group select, .filter-group input[type="date"], .filter-group input[type="text"] { 
+            padding: 8px; 
+            border: 1px solid #ccc; 
+            border-radius: 4px; 
+            height: 34px; 
+            box-sizing: border-box;
+        }
+        .action-buttons {
+            display: flex;
+            gap: 10px;
+            margin-left: auto;
+        }
+        .clear-btn { 
+            background-color: #0d1c34; 
+            color: white; 
+            border: none; 
+            padding: 10px 15px; 
+            border-radius: 4px; 
+            cursor: pointer; 
+            font-weight: bold;
+            height: 34px;
+        }
+        .clear-btn:hover { background-color: #081224; }
+        
+        .uncheck-btn { 
+            background-color: #e67e22; 
+            color: white; 
+            border: none; 
+            padding: 10px 15px; 
+            border-radius: 4px; 
+            cursor: pointer; 
+            font-weight: bold;
+            height: 34px;
+        }
+        .uncheck-btn:hover { background-color: #d35400; }
+
+        .export-btn {
+            background-color: white;
+            color: #E40784; 
+            border: none; 
+            padding: 10px 15px; 
+            border-radius: 4px; 
+            cursor: pointer; 
+            font-weight: bold;
+            height: 34px;
+        }
+        .export-btn:hover { background-color: #f1f1f1; }
+
+        .generate-btn {
+            background-color: #3498db;
+            color: white; 
+            border: none; 
+            padding: 10px 15px; 
+            border-radius: 4px; 
+            cursor: pointer; 
+            font-weight: bold;
+            height: 34px;
+        }
+        .generate-btn:hover { background-color: #2980b9; }
+
+        .dataTables_filter, .dt-buttons { display: none; } 
+        .table-container { 
+            background: white; 
+            padding: 20px; 
+            border-radius: 8px; 
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2); 
+        }
+        
+        .row-checkbox, #selectAll {
+            cursor: pointer;
+            width: 16px;
+            height: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>TechRadar Review Database <span class="test-badge">TEST MODE</span></h1>
+    </div>
+    
+    <div class="filter-panel">
+        <div class="filter-group" style="flex-grow: 1; min-width: 250px;">
+            <label>Product Search</label>
+            <input type="text" id="customSearch" placeholder="Search by name...">
+        </div>
+        <div class="filter-group">
+            <label>Score (Min)</label>
+            <select id="minRating">
+                <option value="">Any</option>
+                <option value="5">5</option>
+                <option value="4.5">4.5+</option>
+                <option value="4">4+</option>
+                <option value="3.5">3.5+</option>
+                <option value="3">3+</option>
+                <option value="2">2+</option>
+            </select>
+        </div>
+        <div class="filter-group">
+            <label>Score (Exact)</label>
+            <select id="exactRating">
+                <option value="">Any</option>
+                <option value="5">5</option>
+                <option value="4.5">4.5</option>
+                <option value="4">4</option>
+                <option value="3.5">3.5</option>
+                <option value="3">3</option>
+            </select>
+        </div>
+        <div class="filter-group">
+            <label>Date (Start)</label>
+            <input type="date" id="startDate">
+        </div>
+        <div class="filter-group">
+            <label>Date (End)</label>
+            <input type="date" id="endDate">
+        </div>
+        <div class="filter-group" style="flex-grow: 1; min-width: 150px;">
+            <label>Include Categories</label>
+            <select id="categoryFilter" multiple="multiple" style="width: 100%;"></select>
+        </div>
+        <div class="filter-group" style="flex-grow: 1; min-width: 150px;">
+            <label>Exclude Categories</label>
+            <select id="excludeCategoryFilter" multiple="multiple" style="width: 100%;"></select>
+        </div>
+        <div class="filter-group" style="flex-grow: 1; min-width: 150px;">
+            <label>Author</label>
+            <select id="authorFilter" multiple="multiple" style="width: 100%;"></select>
+        </div>
+        
+        <div class="action-buttons">
+            <button class="clear-btn" id="clearFilters"><i class="fa-solid fa-rotate-left"></i> Clear Filters</button>
+            <button class="uncheck-btn" id="clearSelectionBtn"><i class="fa-solid fa-square-minus"></i> Uncheck All</button>
+            <button class="generate-btn" id="generateBlocksBtn"><i class="fa-solid fa-layer-group"></i> Copy Collections blocks</button>
+            <button class="export-btn" id="exportCsvBtn"><i class="fa-solid fa-file-csv"></i> Export CSV</button>
+        </div>
+    </div>
+
+    <div class="table-container">
+        <table id="reviewTable" class="display" style="width:100%">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Score</th>
+                    <th>Publish Date</th>
+                    <th>Categories</th>
+                    <th>Author</th>
+                    <th>Review</th>
+                    <th>CMS</th>
+                    <th style="text-align: center;"><input type="checkbox" id="selectAll" title="Select All visible"></th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.4.1/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.4.1/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+    <script>
+        const cmsTemplate = {"id":"template-id","blockTypeName":"product","excludeFrom":[],"collapsible":false,"props":{"imageAltOverride":{"value":"","touched":false,"validationMessage":""},"imageCaptionOverride":{"value":"","touched":false,"validationMessage":""},"imageCreditOverride":{"value":[{"type":"paragraph","children":[{"text":""}]}],"touched":false,"validationMessage":""},"imageLabelOverride":{"value":"","touched":false,"validationMessage":""},"endorsementImage":{"touched":false,"validationMessage":""},"endorsementPosition":{"value":"bottom-right","touched":false,"validationMessage":""},"linkLabel":{"value":"","touched":false,"validationMessage":""},"linkUrl":{"value":"","touched":false,"validationMessage":""},"linkLayout":{"value":"text","touched":false,"validationMessage":""},"linkSponsored":{"value":false,"touched":false,"validationMessage":""},"linkNoFollow":{"value":false,"touched":false,"validationMessage":""},"linkNoAffiliateTracking":{"value":false,"touched":false,"validationMessage":""},"productName":{"value":"","touched":false,"validationMessage":""},"currency":{"touched":false,"validationMessage":""},"price":{"value":"","touched":false,"validationMessage":""},"salePrice":{"value":"","touched":false,"validationMessage":""},"lastCheckedPriceDate":{"value":"","touched":false,"validationMessage":""},"priceCheckError":false,"brand":{"value":"","touched":false,"validationMessage":""},"productDescription":{"value":[{"type":"paragraph","children":[{"text":""},{"type":"link","url":"","isNoFollow":false,"isSponsored":false,"isOpenNewTab":false,"isPreventDataRewrite":false,"children":[{"text":"Read our full review"}]},{"text":""}]}],"touched":false,"validationMessage":""},"layout":{"value":"standard","touched":false,"validationMessage":""},"hawkCode":{"value":"","touched":false,"validationMessage":""},"hawkProductNameMatchedCode":{"value":"","touched":false,"validationMessage":""},"reviewRating":{"value":0,"touched":false,"validationMessage":""},"reviewPros":{"value":[{"type":"bulleted-list","children":[{"type":"list-item","children":[{"type":"list-item-text","children":[{"text":""}]}]}]}],"touched":false,"validationMessage":""},"reviewCons":{"value":[{"type":"bulleted-list","children":[{"type":"list-item","children":[{"type":"list-item-text","children":[{"text":""}]}]}]}],"touched":false,"validationMessage":""},"retailer":{"value":"","touched":false,"validationMessage":""},"regionOverridesEnabled":false,"variants":[]},"failedFetchError":""};
+
+        function generateUUID() {
+            return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+                var r = Math.random() * 16 | 0, v = c === 'x' ? r : (r & 0x3 | 0x8);
+                return v.toString(16);
+            });
+        }
+
+        function getStarsHTML(val) {
+            if (val === null || val === undefined || val === "" || val === "N/A" || val === "NAME NOT FOUND") {
+                return '<span style="color: #bdc3c7; font-size: 12px; font-weight: bold;">N/A</span>';
+            }
+            let num = parseFloat(val);
+            if (isNaN(num)) return '<span style="color: #bdc3c7; font-size: 12px; font-weight: bold;">N/A</span>';
+            
+            let html = '<span style="font-weight: bold; margin-right: 6px; color: #000;">' + num + '</span>';
+            html += '<span style="color: #f1c40f; white-space: nowrap;">';
+            for (let i = 1; i <= 5; i++) {
+                if (num >= i) html += '<i class="fa-solid fa-star"></i>';
+                else if (num >= i - 0.5) html += '<i class="fa-solid fa-star-half-stroke"></i>';
+                else html += '<i class="fa-regular fa-star"></i>';
+            }
+            html += '</span>';
+            return html;
+        }
+
+        $.fn.dataTable.ext.search.push(function(settings, data, dataIndex, rowData) {
+            let rating = parseFloat(rowData.Rating) || 0;
+            let date = rowData.Dateline;
+            let cats = rowData.Categories || "";
+            let author = rowData.Author || "";
+
+            let minRating = parseFloat($('#minRating').val());
+            let exactRating = parseFloat($('#exactRating').val());
+            if (!isNaN(minRating) && rating < minRating) return false;
+            if (!isNaN(exactRating) && rating !== exactRating) return false;
+
+            let startDate = $('#startDate').val();
+            let endDate = $('#endDate').val();
+            if (startDate && date < startDate) return false;
+            if (endDate && date > endDate) return false;
+
+            let includeCats = $('#categoryFilter').val() || [];
+            if (includeCats.length > 0) {
+                let rowCats = cats.split(',').map(c => c.trim());
+                let hasMatch = includeCats.some(selected => rowCats.includes(selected));
+                if (!hasMatch) return false;
+            }
+
+            let excludeCats = $('#excludeCategoryFilter').val() || [];
+            if (excludeCats.length > 0) {
+                let rowCats = cats.split(',').map(c => c.trim());
+                let hasExcluded = excludeCats.some(excluded => rowCats.includes(excluded));
+                if (hasExcluded) return false;
+            }
+
+            let includeAuthors = $('#authorFilter').val() || [];
+            if (includeAuthors.length > 0) {
+                if (!includeAuthors.includes(author)) return false;
+            }
+
+            return true;
+        });
+
+        // MEMORY BANK
+        let selectedProductsMap = new Map();
+
+        function updateButtonText() {
+            let count = selectedProductsMap.size;
+            if (count > 0) {
+                $('#generateBlocksBtn').html(`<i class="fa-solid fa-layer-group"></i> Copy Collections blocks (${count})`);
+            } else {
+                $('#generateBlocksBtn').html(`<i class="fa-solid fa-layer-group"></i> Copy Collections blocks`);
+            }
+        }
+
+        $(document).ready(function() {
+            var table = $('#reviewTable').DataTable({
+                // TARGETS THE TEST FILE
+                "ajax": { "url": "data-test.json?v=" + new Date().getTime(), "dataSrc": "" },
+                "pageLength": 25,
+                "order": [[ 2, "desc" ]], 
+                "dom": 'Brtip', 
+                "buttons": [
+                    {
+                        extend: 'csvHtml5',
+                        className: 'hidden-csv-button',
+                        title: 'TechRadar_Reviews_Test_Export',
+                        exportOptions: { 
+                            orthogonal: 'sort',
+                            columns: [0, 1, 2, 3, 4, 5, 6] // Exports everything except the checkbox
+                        } 
+                    }
+                ],
+                "columnDefs": [
+                    { "width": "25%", "targets": 0 }, // Product
+                    { "width": "10%", "targets": 1 }, // Score
+                    { "width": "10%", "targets": 2 }, // Date
+                    { "width": "15%", "targets": 3 }, // Categories
+                    { "width": "12%", "targets": 4 }, // Author
+                    { "width": "8%", "targets": 5, "orderable": false }, // Review URL
+                    { "width": "8%", "targets": 6, "orderable": false }, // CMS URL
+                    { "width": "5%", "targets": 7, "orderable": false, "className": "dt-center" } // Checkbox
+                ],
+                "columns": [
+                    { "data": "Product" },
+                    { 
+                        "data": "Rating", 
+                        "render": function(data, type, row) {
+                            if (type === 'display') return getStarsHTML(data);
+                            return data;
+                        }
+                    },
+                    { "data": "Dateline" }, 
+                    { "data": "Categories" },
+                    { "data": "Author" },
+                    { 
+                        "data": "URL",
+                        "render": function(data, type, row){
+                            if(type === 'display'){
+                                return '<a href="' + data + '" target="_blank" style="color: #3498db; text-decoration: none; font-weight: bold;">View <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 12px;"></i></a>';
+                            }
+                            return data;
+                        }
+                    },
+                    { 
+                        "data": "CMS_URL",
+                        "render": function(data, type, row){
+                            if(type === 'display'){
+                                if (!data || data === "N/A") return '<span style="color:#bdc3c7; font-size:12px;">N/A</span>';
+                                return '<a href="' + data + '" target="_blank" style="color: #e67e22; text-decoration: none; font-weight: bold;">Open <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 12px;"></i></a>';
+                            }
+                            return data;
+                        }
+                    },
+                    { 
+                        "data": null,
+                        "render": function() {
+                            return '<input type="checkbox" class="row-checkbox">';
+                        }
+                    }
+                ],
+                "initComplete": function(settings, json) {
+                    let allCategories = new Set();
+                    let allAuthors = new Set();
+
+                    json.forEach(row => {
+                        if (row.Categories && row.Categories !== "N/A") {
+                            row.Categories.split(',').forEach(c => {
+                                let cleanCat = c.trim();
+                                if (cleanCat) allCategories.add(cleanCat);
+                            });
+                        }
+                        if (row.Author && row.Author !== "N/A") {
+                            allAuthors.add(row.Author.trim());
+                        }
+                    });
+
+                    Array.from(allCategories).sort().forEach(cat => {
+                        $('#categoryFilter').append(new Option(cat, cat));
+                        $('#excludeCategoryFilter').append(new Option(cat, cat));
+                    });
+
+                    Array.from(allAuthors).sort().forEach(auth => {
+                        $('#authorFilter').append(new Option(auth, auth));
+                    });
+
+                    $('#categoryFilter').select2({ placeholder: "Search to include...", allowClear: true });
+                    $('#excludeCategoryFilter').select2({ placeholder: "Search to exclude...", allowClear: true });
+                    $('#authorFilter').select2({ placeholder: "Search authors...", allowClear: true });
+                }
+            });
+
+            // MEMORY BANK LISTENERS
+            $('#reviewTable tbody').on('change', '.row-checkbox', function() {
+                let tr = $(this).closest('tr');
+                let rowData = table.row(tr).data();
+                
+                if (this.checked) {
+                    selectedProductsMap.set(rowData.URL, rowData);
+                } else {
+                    selectedProductsMap.delete(rowData.URL);
+                }
+                updateButtonText();
+            });
+
+            $('#selectAll').on('change', function() {
+                let isChecked = this.checked;
+                
+                $('.row-checkbox').each(function() {
+                    $(this).prop('checked', isChecked);
+                    
+                    let tr = $(this).closest('tr');
+                    let rowData = table.row(tr).data();
+                    
+                    if (isChecked) {
+                        selectedProductsMap.set(rowData.URL, rowData);
+                    } else {
+                        selectedProductsMap.delete(rowData.URL);
+                    }
+                });
+                updateButtonText();
+            });
+
+            table.on('draw', function() {
+                $('#selectAll').prop('checked', false);
+                
+                $('.row-checkbox').each(function() {
+                    let tr = $(this).closest('tr');
+                    let rowData = table.row(tr).data();
+                    
+                    if (rowData && selectedProductsMap.has(rowData.URL)) {
+                        $(this).prop('checked', true);
+                    } else {
+                        $(this).prop('checked', false);
+                    }
+                });
+            });
+
+            $('#clearSelectionBtn').on('click', function() {
+                selectedProductsMap.clear(); 
+                $('.row-checkbox').prop('checked', false); 
+                $('#selectAll').prop('checked', false);
+                updateButtonText();
+            });
+
+            // --- THE JSON GENERATOR LOGIC ---
+            $('#generateBlocksBtn').on('click', function() {
+                let selectedProducts = Array.from(selectedProductsMap.values());
+
+                if (selectedProducts.length === 0) {
+                    alert("Please select at least one product using the checkboxes.");
+                    return;
+                }
+
+                let finalOutput = {
+                    "type": "articleBuilderPages",
+                    "data": []
+                };
+
+                selectedProducts.forEach(item => {
+                    let newBlock = JSON.parse(JSON.stringify(cmsTemplate));
+                    
+                    newBlock.id = generateUUID();
+                    newBlock.props.productName.value = item.Product;
+                    
+                    let hawkCodeObj = {
+                        "data-widget-type": "merchantlink"
+                    };
+                    newBlock.props.hawkCode.value = JSON.stringify(hawkCodeObj);
+                    newBlock.props.hawkProductNameMatchedCode.value = ""; 
+                    
+                    newBlock.props.productDescription.value[0].children[1].url = item.URL;
+                    
+                    let numScore = parseFloat(item.Rating);
+                    if (!isNaN(numScore)) {
+                        newBlock.props.reviewRating.value = numScore * 20; 
+                    } else {
+                        newBlock.props.reviewRating.value = 0; 
+                    }
+                    
+                    finalOutput.data.push(newBlock);
+                });
+
+                let jsonString = JSON.stringify(finalOutput);
+                navigator.clipboard.writeText(jsonString).then(function() {
+                    alert(`Successfully generated and copied ${selectedProducts.length} Collections blocks to your clipboard!`);
+                    
+                    selectedProductsMap.clear();
+                    $('.row-checkbox').prop('checked', false);
+                    $('#selectAll').prop('checked', false);
+                    updateButtonText();
+                }).catch(function(err) {
+                    console.error('Could not copy text: ', err);
+                    alert("Clipboard access failed. Please check browser permissions.");
+                });
+            });
+
+            // Normal Event Listeners
+            $('#customSearch').on('keyup', function() { table.search(this.value).draw(); });
+            $('#minRating, #exactRating, #startDate, #endDate, #categoryFilter, #excludeCategoryFilter, #authorFilter').on('change', function() { table.draw(); });
+            $('#exportCsvBtn').on('click', function() { table.button('.buttons-csv').trigger(); });
+            
+            $('#clearFilters').on('click', function() {
+                $('#customSearch').val('');
+                $('#minRating').val('');
+                $('#exactRating').val('');
+                $('#startDate').val('');
+                $('#endDate').val('');
+                $('#categoryFilter').val(null).trigger('change');
+                $('#excludeCategoryFilter').val(null).trigger('change');
+                $('#authorFilter').val(null).trigger('change');
+                table.search(''); 
+                table.draw();
+            });
+        });
+    </script>
+</body>
+</html>
