@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechRadar Review Database</title>
     
+    <!-- DataTables & Buttons CSS -->
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/2.4.1/css/buttons.dataTables.min.css">
+    <!-- Select2 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <!-- FontAwesome CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <style>
@@ -71,7 +74,6 @@
         }
         .clear-btn:hover { background-color: #081224; }
         
-        /* NEW: Uncheck All Button Styling */
         .uncheck-btn { 
             background-color: #e67e22; 
             color: white; 
@@ -96,7 +98,6 @@
         }
         .export-btn:hover { background-color: #f1f1f1; }
 
-        /* Generate Button Styling */
         .generate-btn {
             background-color: #3498db;
             color: white; 
@@ -192,6 +193,7 @@
                     <th>Publish Date</th>
                     <th>Categories</th>
                     <th>URL</th>
+                    <!-- Checkbox on the far right -->
                     <th style="text-align: center;"><input type="checkbox" id="selectAll" title="Select All visible"></th>
                 </tr>
             </thead>
@@ -206,65 +208,67 @@
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 
     <script>
-        // --- THE JSON GENERATOR LOGIC ---
-            $('#generateBlocksBtn').on('click', function() {
-                // Pull data directly from the Memory Bank, NOT the screen
-                let selectedProducts = Array.from(selectedProductsMap.values());
+        // Clean CMS Template (with strict empty pros/cons skeleton)
+        const cmsTemplate = {"id":"template-id","blockTypeName":"product","excludeFrom":[],"collapsible":false,"props":{"imageAltOverride":{"value":"","touched":false,"validationMessage":""},"imageCaptionOverride":{"value":"","touched":false,"validationMessage":""},"imageCreditOverride":{"value":[{"type":"paragraph","children":[{"text":""}]}],"touched":false,"validationMessage":""},"imageLabelOverride":{"value":"","touched":false,"validationMessage":""},"endorsementImage":{"touched":false,"validationMessage":""},"endorsementPosition":{"value":"bottom-right","touched":false,"validationMessage":""},"linkLabel":{"value":"","touched":false,"validationMessage":""},"linkUrl":{"value":"","touched":false,"validationMessage":""},"linkLayout":{"value":"text","touched":false,"validationMessage":""},"linkSponsored":{"value":false,"touched":false,"validationMessage":""},"linkNoFollow":{"value":false,"touched":false,"validationMessage":""},"linkNoAffiliateTracking":{"value":false,"touched":false,"validationMessage":""},"productName":{"value":"","touched":false,"validationMessage":""},"currency":{"touched":false,"validationMessage":""},"price":{"value":"","touched":false,"validationMessage":""},"salePrice":{"value":"","touched":false,"validationMessage":""},"lastCheckedPriceDate":{"value":"","touched":false,"validationMessage":""},"priceCheckError":false,"brand":{"value":"","touched":false,"validationMessage":""},"productDescription":{"value":[{"type":"paragraph","children":[{"text":""},{"type":"link","url":"","isNoFollow":false,"isSponsored":false,"isOpenNewTab":false,"isPreventDataRewrite":false,"children":[{"text":"Read our full review"}]},{"text":""}]}],"touched":false,"validationMessage":""},"layout":{"value":"standard","touched":false,"validationMessage":""},"hawkCode":{"value":"","touched":false,"validationMessage":""},"hawkProductNameMatchedCode":{"value":"","touched":false,"validationMessage":""},"reviewRating":{"value":0,"touched":false,"validationMessage":""},"reviewPros":{"value":[{"type":"bulleted-list","children":[{"type":"list-item","children":[{"type":"list-item-text","children":[{"text":""}]}]}]}],"touched":false,"validationMessage":""},"reviewCons":{"value":[{"type":"bulleted-list","children":[{"type":"list-item","children":[{"type":"list-item-text","children":[{"text":""}]}]}]}],"touched":false,"validationMessage":""},"retailer":{"value":"","touched":false,"validationMessage":""},"regionOverridesEnabled":false,"variants":[]},"failedFetchError":""};
 
-                if (selectedProducts.length === 0) {
-                    alert("Please select at least one product using the checkboxes.");
-                    return;
-                }
-
-                let finalOutput = {
-                    "type": "articleBuilderPages",
-                    "data": []
-                };
-
-                selectedProducts.forEach(item => {
-                    let newBlock = JSON.parse(JSON.stringify(cmsTemplate));
-                    
-                    newBlock.id = generateUUID();
-                    newBlock.props.productName.value = item.Product;
-                    
-                    // FIXED: Restored baseline widget type string so Vanilla UI hooks function correctly
-                    let hawkCodeObj = {
-                        "data-widget-type": "merchantlink"
-                    };
-                    newBlock.props.hawkCode.value = JSON.stringify(hawkCodeObj);
-                    
-                    // Kept completely blank so you can search for it manually in the UI
-                    newBlock.props.hawkProductNameMatchedCode.value = ""; 
-                    
-                    newBlock.props.productDescription.value[0].children[1].url = item.URL;
-                    
-                    // Inject Rating (scaled to 100)
-                    let numScore = parseFloat(item.Rating);
-                    if (!isNaN(numScore)) {
-                        newBlock.props.reviewRating.value = numScore * 20; 
-                    } else {
-                        newBlock.props.reviewRating.value = 0; 
-                    }
-                    
-                    finalOutput.data.push(newBlock);
-                });
-
-                let jsonString = JSON.stringify(finalOutput);
-                navigator.clipboard.writeText(jsonString).then(function() {
-                    alert(`Successfully generated and copied ${selectedProducts.length} Collections blocks to your clipboard!`);
-                    
-                    // Auto-clear selections after copying
-                    selectedProductsMap.clear();
-                    $('.row-checkbox').prop('checked', false);
-                    $('#selectAll').prop('checked', false);
-                    updateButtonText();
-                }).catch(function(err) {
-                    console.error('Could not copy text: ', err);
-                    alert("Clipboard access failed. Please check browser permissions.");
-                });
+        function generateUUID() {
+            return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+                var r = Math.random() * 16 | 0, v = c === 'x' ? r : (r & 0x3 | 0x8);
+                return v.toString(16);
             });
+        }
 
-        // MEMORY BANK: This stores selected products even if they disappear from the screen
+        function getStarsHTML(val) {
+            if (val === null || val === undefined || val === "" || val === "N/A" || val === "NAME NOT FOUND") {
+                return '<span style="color: #bdc3c7; font-size: 12px; font-weight: bold;">N/A</span>';
+            }
+            let num = parseFloat(val);
+            if (isNaN(num)) return '<span style="color: #bdc3c7; font-size: 12px; font-weight: bold;">N/A</span>';
+            
+            let html = '<span style="font-weight: bold; margin-right: 6px; color: #000;">' + num + '</span>';
+            html += '<span style="color: #f1c40f; white-space: nowrap;">';
+            for (let i = 1; i <= 5; i++) {
+                if (num >= i) html += '<i class="fa-solid fa-star"></i>';
+                else if (num >= i - 0.5) html += '<i class="fa-solid fa-star-half-stroke"></i>';
+                else html += '<i class="fa-regular fa-star"></i>';
+            }
+            html += '</span>';
+            return html;
+        }
+
+        $.fn.dataTable.ext.search.push(function(settings, data, dataIndex, rowData) {
+            let rating = parseFloat(rowData.Rating) || 0;
+            let date = rowData.Dateline;
+            let cats = rowData.Categories || "";
+
+            let minRating = parseFloat($('#minRating').val());
+            let exactRating = parseFloat($('#exactRating').val());
+            if (!isNaN(minRating) && rating < minRating) return false;
+            if (!isNaN(exactRating) && rating !== exactRating) return false;
+
+            let startDate = $('#startDate').val();
+            let endDate = $('#endDate').val();
+            if (startDate && date < startDate) return false;
+            if (endDate && date > endDate) return false;
+
+            let includeCats = $('#categoryFilter').val() || [];
+            if (includeCats.length > 0) {
+                let rowCats = cats.split(',').map(c => c.trim());
+                let hasMatch = includeCats.some(selected => rowCats.includes(selected));
+                if (!hasMatch) return false;
+            }
+
+            let excludeCats = $('#excludeCategoryFilter').val() || [];
+            if (excludeCats.length > 0) {
+                let rowCats = cats.split(',').map(c => c.trim());
+                let hasExcluded = excludeCats.some(excluded => rowCats.includes(excluded));
+                if (hasExcluded) return false;
+            }
+
+            return true;
+        });
+
+        // MEMORY BANK
         let selectedProductsMap = new Map();
 
         function updateButtonText() {
@@ -280,7 +284,7 @@
             var table = $('#reviewTable').DataTable({
                 "ajax": { "url": "data.json?v=" + new Date().getTime(), "dataSrc": "" },
                 "pageLength": 25,
-                "order": [[ 2, "desc" ]], // Sorts by Publish Date (now index 2)
+                "order": [[ 2, "desc" ]], 
                 "dom": 'Brtip', 
                 "buttons": [
                     {
@@ -289,17 +293,17 @@
                         title: 'TechRadar_Reviews_Export',
                         exportOptions: { 
                             orthogonal: 'sort',
-                            columns: [0, 1, 2, 3, 4] // Prevents checkbox from exporting
+                            columns: [0, 1, 2, 3, 4] 
                         } 
                     }
                 ],
                 "columnDefs": [
-                    { "width": "35%", "targets": 0 }, // Product
-                    { "width": "12%", "targets": 1 }, // Score
-                    { "width": "10%", "targets": 2 }, // Publish Date
-                    { "width": "28%", "targets": 3 }, // Categories
-                    { "width": "10%", "targets": 4, "orderable": false }, // URL
-                    { "width": "5%", "targets": 5, "orderable": false, "className": "dt-center" } // Checkbox
+                    { "width": "35%", "targets": 0 }, 
+                    { "width": "12%", "targets": 1 }, 
+                    { "width": "10%", "targets": 2 }, 
+                    { "width": "28%", "targets": 3 }, 
+                    { "width": "10%", "targets": 4, "orderable": false }, 
+                    { "width": "5%", "targets": 5, "orderable": false, "className": "dt-center" } 
                 ],
                 "columns": [
                     { "data": "Product" },
@@ -349,28 +353,22 @@
                 }
             });
 
-            // --- MEMORY BANK EVENT LISTENERS ---
-
-            // 1. When an individual checkbox is clicked
+            // MEMORY BANK LISTENERS
             $('#reviewTable tbody').on('change', '.row-checkbox', function() {
                 let tr = $(this).closest('tr');
                 let rowData = table.row(tr).data();
                 
                 if (this.checked) {
-                    // Add to memory using URL as unique identifier
                     selectedProductsMap.set(rowData.URL, rowData);
                 } else {
-                    // Remove from memory
                     selectedProductsMap.delete(rowData.URL);
                 }
                 updateButtonText();
             });
 
-            // 2. When the Select All header checkbox is clicked
             $('#selectAll').on('change', function() {
                 let isChecked = this.checked;
                 
-                // Only toggle boxes that are currently visible on the screen
                 $('.row-checkbox').each(function() {
                     $(this).prop('checked', isChecked);
                     
@@ -386,12 +384,9 @@
                 updateButtonText();
             });
 
-            // 3. When the table redraws (search, sort, or page change)
             table.on('draw', function() {
-                // Reset the Select All box
                 $('#selectAll').prop('checked', false);
                 
-                // Look at the new visible rows and re-check them if they are in memory
                 $('.row-checkbox').each(function() {
                     let tr = $(this).closest('tr');
                     let rowData = table.row(tr).data();
@@ -404,17 +399,15 @@
                 });
             });
 
-            // 4. Uncheck All Button Logic
             $('#clearSelectionBtn').on('click', function() {
-                selectedProductsMap.clear(); // Wipe the memory bank
-                $('.row-checkbox').prop('checked', false); // Visually uncheck everything
+                selectedProductsMap.clear(); 
+                $('.row-checkbox').prop('checked', false); 
                 $('#selectAll').prop('checked', false);
                 updateButtonText();
             });
 
             // --- THE JSON GENERATOR LOGIC ---
             $('#generateBlocksBtn').on('click', function() {
-                // Pull data directly from the Memory Bank, NOT the screen
                 let selectedProducts = Array.from(selectedProductsMap.values());
 
                 if (selectedProducts.length === 0) {
@@ -432,22 +425,23 @@
                     
                     newBlock.id = generateUUID();
                     newBlock.props.productName.value = item.Product;
-                    newBlock.props.hawkProductNameMatchedCode.value = item.Product;
                     
+                    // Hawk logic: Set the widget type, leave model name blank
                     let hawkCodeObj = {
-                        "data-widget-type": "merchantlink",
-                        "data-model-name": item.Product
+                        "data-widget-type": "merchantlink"
                     };
                     newBlock.props.hawkCode.value = JSON.stringify(hawkCodeObj);
+                    newBlock.props.hawkProductNameMatchedCode.value = ""; 
                     
+                    // Inject review URL
                     newBlock.props.productDescription.value[0].children[1].url = item.URL;
                     
-                    // Inject Rating
+                    // Inject and scale rating
                     let numScore = parseFloat(item.Rating);
                     if (!isNaN(numScore)) {
                         newBlock.props.reviewRating.value = numScore * 20; 
                     } else {
-                        newBlock.props.reviewRating.value = ""; 
+                        newBlock.props.reviewRating.value = 0; 
                     }
                     
                     finalOutput.data.push(newBlock);
@@ -457,7 +451,6 @@
                 navigator.clipboard.writeText(jsonString).then(function() {
                     alert(`Successfully generated and copied ${selectedProducts.length} Collections blocks to your clipboard!`);
                     
-                    // Optionally: Auto-clear selections after copying
                     selectedProductsMap.clear();
                     $('.row-checkbox').prop('checked', false);
                     $('#selectAll').prop('checked', false);
