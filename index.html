@@ -70,6 +70,20 @@
             height: 34px;
         }
         .clear-btn:hover { background-color: #081224; }
+        
+        /* NEW: Uncheck All Button Styling */
+        .uncheck-btn { 
+            background-color: #e67e22; 
+            color: white; 
+            border: none; 
+            padding: 10px 15px; 
+            border-radius: 4px; 
+            cursor: pointer; 
+            font-weight: bold;
+            height: 34px;
+        }
+        .uncheck-btn:hover { background-color: #d35400; }
+
         .export-btn {
             background-color: white;
             color: #E40784; 
@@ -81,12 +95,32 @@
             height: 34px;
         }
         .export-btn:hover { background-color: #f1f1f1; }
+
+        /* Generate Button Styling */
+        .generate-btn {
+            background-color: #3498db;
+            color: white; 
+            border: none; 
+            padding: 10px 15px; 
+            border-radius: 4px; 
+            cursor: pointer; 
+            font-weight: bold;
+            height: 34px;
+        }
+        .generate-btn:hover { background-color: #2980b9; }
+
         .dataTables_filter, .dt-buttons { display: none; } 
         .table-container { 
             background: white; 
             padding: 20px; 
             border-radius: 8px; 
             box-shadow: 0 2px 10px rgba(0,0,0,0.2); 
+        }
+        
+        .row-checkbox, #selectAll {
+            cursor: pointer;
+            width: 16px;
+            height: 16px;
         }
     </style>
 </head>
@@ -140,8 +174,11 @@
             <label>Exclude Categories</label>
             <select id="excludeCategoryFilter" multiple="multiple" style="width: 100%;"></select>
         </div>
+        
         <div class="action-buttons">
-            <button class="clear-btn" id="clearFilters"><i class="fa-solid fa-rotate-left"></i> Clear</button>
+            <button class="clear-btn" id="clearFilters"><i class="fa-solid fa-rotate-left"></i> Clear Filters</button>
+            <button class="uncheck-btn" id="clearSelectionBtn"><i class="fa-solid fa-square-minus"></i> Uncheck All</button>
+            <button class="generate-btn" id="generateBlocksBtn"><i class="fa-solid fa-layer-group"></i> Copy Collections blocks</button>
             <button class="export-btn" id="exportCsvBtn"><i class="fa-solid fa-file-csv"></i> Export CSV</button>
         </div>
     </div>
@@ -155,6 +192,7 @@
                     <th>Publish Date</th>
                     <th>Categories</th>
                     <th>URL</th>
+                    <th style="text-align: center;"><input type="checkbox" id="selectAll" title="Select All visible"></th>
                 </tr>
             </thead>
         </table>
@@ -168,18 +206,23 @@
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 
     <script>
+        // CMS Block Template
+        const cmsTemplate = {"id":"template-id","blockTypeName":"product","excludeFrom":[],"collapsible":false,"props":{"imageAltOverride":{"value":"","touched":false,"validationMessage":""},"imageCaptionOverride":{"value":"","touched":false,"validationMessage":""},"imageCreditOverride":{"value":[{"type":"paragraph","children":[{"text":""}]}],"touched":false,"validationMessage":""},"imageLabelOverride":{"value":"","touched":false,"validationMessage":""},"endorsementImage":{"touched":false,"validationMessage":""},"endorsementPosition":{"value":"bottom-right","touched":false,"validationMessage":""},"linkLabel":{"value":"","touched":false,"validationMessage":""},"linkUrl":{"value":"","touched":false,"validationMessage":""},"linkLayout":{"value":"text","touched":false,"validationMessage":""},"linkSponsored":{"value":false,"touched":false,"validationMessage":""},"linkNoFollow":{"value":false,"touched":false,"validationMessage":""},"linkNoAffiliateTracking":{"value":false,"touched":false,"validationMessage":""},"productName":{"value":"","touched":false,"validationMessage":""},"currency":{"touched":false,"validationMessage":""},"price":{"value":"","touched":false,"validationMessage":""},"salePrice":{"value":"","touched":false,"validationMessage":""},"lastCheckedPriceDate":{"value":"","touched":false,"validationMessage":""},"priceCheckError":false,"brand":{"value":"","touched":false,"validationMessage":""},"productDescription":{"value":[{"type":"paragraph","children":[{"text":""},{"type":"link","url":"","isNoFollow":false,"isSponsored":false,"isOpenNewTab":false,"isPreventDataRewrite":false,"children":[{"text":"Read our full review"}]},{"text":""}]}],"touched":false,"validationMessage":""},"layout":{"value":"standard","touched":false,"validationMessage":""},"hawkCode":{"value":"","touched":false,"validationMessage":""},"hawkProductNameMatchedCode":{"value":"","touched":false,"validationMessage":""},"reviewRating":{"value":"","touched":false,"validationMessage":""},"reviewPros":{"value":[{"type":"bulleted-list","children":[{"type":"list-item","children":[{"type":"list-item-text","children":[{"text":""}]}]}]}],"touched":false,"validationMessage":""},"reviewCons":{"value":[{"type":"bulleted-list","children":[{"type":"list-item","children":[{"type":"list-item-text","children":[{"text":""}]}]}]}],"touched":false,"validationMessage":""},"retailer":{"value":"","touched":false,"validationMessage":""},"regionOverridesEnabled":false,"variants":[]},"failedFetchError":""};
+
+        function generateUUID() {
+            return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+                var r = Math.random() * 16 | 0, v = c === 'x' ? r : (r & 0x3 | 0x8);
+                return v.toString(16);
+            });
+        }
+
         function getStarsHTML(val) {
-            // THE DIAGNOSTIC PROBE: This will aggressively print exactly what is failing
-            if (val === null) return '<span style="color:red; font-weight:bold;">[DATA IS NULL]</span>';
-            if (val === undefined) return '<span style="color:red; font-weight:bold;">[DATA IS UNDEFINED]</span>';
-            if (val === "") return '<span style="color:red; font-weight:bold;">[DATA IS EMPTY STRING]</span>';
-            
-            let num = parseFloat(val);
-            if (isNaN(num)) {
-                return '<span style="color:red; font-weight:bold;">[INVALID: "' + val + '"]</span>';
+            if (val === null || val === undefined || val === "" || val === "N/A" || val === "NAME NOT FOUND") {
+                return '<span style="color: #bdc3c7; font-size: 12px; font-weight: bold;">N/A</span>';
             }
+            let num = parseFloat(val);
+            if (isNaN(num)) return '<span style="color: #bdc3c7; font-size: 12px; font-weight: bold;">N/A</span>';
             
-            // If parsing succeeds, print the raw number explicitly so we know it worked, alongside the stars
             let html = '<span style="font-weight: bold; margin-right: 6px; color: #000;">' + num + '</span>';
             html += '<span style="color: #f1c40f; white-space: nowrap;">';
             for (let i = 1; i <= 5; i++) {
@@ -223,26 +266,42 @@
             return true;
         });
 
+        // MEMORY BANK: This stores selected products even if they disappear from the screen
+        let selectedProductsMap = new Map();
+
+        function updateButtonText() {
+            let count = selectedProductsMap.size;
+            if (count > 0) {
+                $('#generateBlocksBtn').html(`<i class="fa-solid fa-layer-group"></i> Copy Collections blocks (${count})`);
+            } else {
+                $('#generateBlocksBtn').html(`<i class="fa-solid fa-layer-group"></i> Copy Collections blocks`);
+            }
+        }
+
         $(document).ready(function() {
             var table = $('#reviewTable').DataTable({
                 "ajax": { "url": "data.json?v=" + new Date().getTime(), "dataSrc": "" },
                 "pageLength": 25,
-                "order": [[ 2, "desc" ]], 
+                "order": [[ 2, "desc" ]], // Sorts by Publish Date (now index 2)
                 "dom": 'Brtip', 
                 "buttons": [
                     {
                         extend: 'csvHtml5',
                         className: 'hidden-csv-button',
                         title: 'TechRadar_Reviews_Export',
-                        exportOptions: { orthogonal: 'sort' } 
+                        exportOptions: { 
+                            orthogonal: 'sort',
+                            columns: [0, 1, 2, 3, 4] // Prevents checkbox from exporting
+                        } 
                     }
                 ],
                 "columnDefs": [
-                    { "width": "35%", "targets": 0 }, 
-                    { "width": "12%", "targets": 1 }, 
-                    { "width": "10%", "targets": 2 }, 
-                    { "width": "33%", "targets": 3 }, 
-                    { "width": "10%", "targets": 4, "orderable": false } 
+                    { "width": "35%", "targets": 0 }, // Product
+                    { "width": "12%", "targets": 1 }, // Score
+                    { "width": "10%", "targets": 2 }, // Publish Date
+                    { "width": "28%", "targets": 3 }, // Categories
+                    { "width": "10%", "targets": 4, "orderable": false }, // URL
+                    { "width": "5%", "targets": 5, "orderable": false, "className": "dt-center" } // Checkbox
                 ],
                 "columns": [
                     { "data": "Product" },
@@ -262,6 +321,12 @@
                                 return '<a href="' + data + '" target="_blank" style="color: #3498db; text-decoration: none; font-weight: bold;">View <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 12px;"></i></a>';
                             }
                             return data;
+                        }
+                    },
+                    { 
+                        "data": null,
+                        "render": function() {
+                            return '<input type="checkbox" class="row-checkbox">';
                         }
                     }
                 ],
@@ -286,9 +351,130 @@
                 }
             });
 
+            // --- MEMORY BANK EVENT LISTENERS ---
+
+            // 1. When an individual checkbox is clicked
+            $('#reviewTable tbody').on('change', '.row-checkbox', function() {
+                let tr = $(this).closest('tr');
+                let rowData = table.row(tr).data();
+                
+                if (this.checked) {
+                    // Add to memory using URL as unique identifier
+                    selectedProductsMap.set(rowData.URL, rowData);
+                } else {
+                    // Remove from memory
+                    selectedProductsMap.delete(rowData.URL);
+                }
+                updateButtonText();
+            });
+
+            // 2. When the Select All header checkbox is clicked
+            $('#selectAll').on('change', function() {
+                let isChecked = this.checked;
+                
+                // Only toggle boxes that are currently visible on the screen
+                $('.row-checkbox').each(function() {
+                    $(this).prop('checked', isChecked);
+                    
+                    let tr = $(this).closest('tr');
+                    let rowData = table.row(tr).data();
+                    
+                    if (isChecked) {
+                        selectedProductsMap.set(rowData.URL, rowData);
+                    } else {
+                        selectedProductsMap.delete(rowData.URL);
+                    }
+                });
+                updateButtonText();
+            });
+
+            // 3. When the table redraws (search, sort, or page change)
+            table.on('draw', function() {
+                // Reset the Select All box
+                $('#selectAll').prop('checked', false);
+                
+                // Look at the new visible rows and re-check them if they are in memory
+                $('.row-checkbox').each(function() {
+                    let tr = $(this).closest('tr');
+                    let rowData = table.row(tr).data();
+                    
+                    if (rowData && selectedProductsMap.has(rowData.URL)) {
+                        $(this).prop('checked', true);
+                    } else {
+                        $(this).prop('checked', false);
+                    }
+                });
+            });
+
+            // 4. Uncheck All Button Logic
+            $('#clearSelectionBtn').on('click', function() {
+                selectedProductsMap.clear(); // Wipe the memory bank
+                $('.row-checkbox').prop('checked', false); // Visually uncheck everything
+                $('#selectAll').prop('checked', false);
+                updateButtonText();
+            });
+
+            // --- THE JSON GENERATOR LOGIC ---
+            $('#generateBlocksBtn').on('click', function() {
+                // Pull data directly from the Memory Bank, NOT the screen
+                let selectedProducts = Array.from(selectedProductsMap.values());
+
+                if (selectedProducts.length === 0) {
+                    alert("Please select at least one product using the checkboxes.");
+                    return;
+                }
+
+                let finalOutput = {
+                    "type": "articleBuilderPages",
+                    "data": []
+                };
+
+                selectedProducts.forEach(item => {
+                    let newBlock = JSON.parse(JSON.stringify(cmsTemplate));
+                    
+                    newBlock.id = generateUUID();
+                    newBlock.props.productName.value = item.Product;
+                    newBlock.props.hawkProductNameMatchedCode.value = item.Product;
+                    
+                    let hawkCodeObj = {
+                        "data-widget-type": "merchantlink",
+                        "data-model-name": item.Product
+                    };
+                    newBlock.props.hawkCode.value = JSON.stringify(hawkCodeObj);
+                    
+                    newBlock.props.productDescription.value[0].children[1].url = item.URL;
+                    
+                    // Inject Rating
+                    let numScore = parseFloat(item.Rating);
+                    if (!isNaN(numScore)) {
+                        newBlock.props.reviewRating.value = numScore * 20; 
+                    } else {
+                        newBlock.props.reviewRating.value = ""; 
+                    }
+                    
+                    finalOutput.data.push(newBlock);
+                });
+
+                let jsonString = JSON.stringify(finalOutput);
+                navigator.clipboard.writeText(jsonString).then(function() {
+                    alert(`Successfully generated and copied ${selectedProducts.length} Collections blocks to your clipboard!`);
+                    
+                    // Optionally: Auto-clear selections after copying
+                    selectedProductsMap.clear();
+                    $('.row-checkbox').prop('checked', false);
+                    $('#selectAll').prop('checked', false);
+                    updateButtonText();
+                }).catch(function(err) {
+                    console.error('Could not copy text: ', err);
+                    alert("Clipboard access failed. Please check browser permissions.");
+                });
+            });
+
+            // Normal Event Listeners
             $('#customSearch').on('keyup', function() { table.search(this.value).draw(); });
             $('#minRating, #exactRating, #startDate, #endDate, #categoryFilter, #excludeCategoryFilter').on('change', function() { table.draw(); });
             $('#exportCsvBtn').on('click', function() { table.button('.buttons-csv').trigger(); });
+            
             $('#clearFilters').on('click', function() {
                 $('#customSearch').val('');
                 $('#minRating').val('');
