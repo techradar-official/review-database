@@ -206,65 +206,63 @@
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 
     <script>
-        // CMS Block Template
-        const cmsTemplate = {"id":"template-id","blockTypeName":"product","excludeFrom":[],"collapsible":false,"props":{"imageAltOverride":{"value":"","touched":false,"validationMessage":""},"imageCaptionOverride":{"value":"","touched":false,"validationMessage":""},"imageCreditOverride":{"value":[{"type":"paragraph","children":[{"text":""}]}],"touched":false,"validationMessage":""},"imageLabelOverride":{"value":"","touched":false,"validationMessage":""},"endorsementImage":{"touched":false,"validationMessage":""},"endorsementPosition":{"value":"bottom-right","touched":false,"validationMessage":""},"linkLabel":{"value":"","touched":false,"validationMessage":""},"linkUrl":{"value":"","touched":false,"validationMessage":""},"linkLayout":{"value":"text","touched":false,"validationMessage":""},"linkSponsored":{"value":false,"touched":false,"validationMessage":""},"linkNoFollow":{"value":false,"touched":false,"validationMessage":""},"linkNoAffiliateTracking":{"value":false,"touched":false,"validationMessage":""},"productName":{"value":"","touched":false,"validationMessage":""},"currency":{"touched":false,"validationMessage":""},"price":{"value":"","touched":false,"validationMessage":""},"salePrice":{"value":"","touched":false,"validationMessage":""},"lastCheckedPriceDate":{"value":"","touched":false,"validationMessage":""},"priceCheckError":false,"brand":{"value":"","touched":false,"validationMessage":""},"productDescription":{"value":[{"type":"paragraph","children":[{"text":""},{"type":"link","url":"","isNoFollow":false,"isSponsored":false,"isOpenNewTab":false,"isPreventDataRewrite":false,"children":[{"text":"Read our full review"}]},{"text":""}]}],"touched":false,"validationMessage":""},"layout":{"value":"standard","touched":false,"validationMessage":""},"hawkCode":{"value":"","touched":false,"validationMessage":""},"hawkProductNameMatchedCode":{"value":"","touched":false,"validationMessage":""},"reviewRating":{"value":"","touched":false,"validationMessage":""},"reviewPros":{"value":[{"type":"bulleted-list","children":[{"type":"list-item","children":[{"type":"list-item-text","children":[{"text":""}]}]}]}],"touched":false,"validationMessage":""},"reviewCons":{"value":[{"type":"bulleted-list","children":[{"type":"list-item","children":[{"type":"list-item-text","children":[{"text":""}]}]}]}],"touched":false,"validationMessage":""},"retailer":{"value":"","touched":false,"validationMessage":""},"regionOverridesEnabled":false,"variants":[]},"failedFetchError":""};
+        // --- THE JSON GENERATOR LOGIC ---
+            $('#generateBlocksBtn').on('click', function() {
+                // Pull data directly from the Memory Bank, NOT the screen
+                let selectedProducts = Array.from(selectedProductsMap.values());
 
-        function generateUUID() {
-            return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
-                var r = Math.random() * 16 | 0, v = c === 'x' ? r : (r & 0x3 | 0x8);
-                return v.toString(16);
+                if (selectedProducts.length === 0) {
+                    alert("Please select at least one product using the checkboxes.");
+                    return;
+                }
+
+                let finalOutput = {
+                    "type": "articleBuilderPages",
+                    "data": []
+                };
+
+                selectedProducts.forEach(item => {
+                    let newBlock = JSON.parse(JSON.stringify(cmsTemplate));
+                    
+                    newBlock.id = generateUUID();
+                    newBlock.props.productName.value = item.Product;
+                    
+                    // FIXED: Restored baseline widget type string so Vanilla UI hooks function correctly
+                    let hawkCodeObj = {
+                        "data-widget-type": "merchantlink"
+                    };
+                    newBlock.props.hawkCode.value = JSON.stringify(hawkCodeObj);
+                    
+                    // Kept completely blank so you can search for it manually in the UI
+                    newBlock.props.hawkProductNameMatchedCode.value = ""; 
+                    
+                    newBlock.props.productDescription.value[0].children[1].url = item.URL;
+                    
+                    // Inject Rating (scaled to 100)
+                    let numScore = parseFloat(item.Rating);
+                    if (!isNaN(numScore)) {
+                        newBlock.props.reviewRating.value = numScore * 20; 
+                    } else {
+                        newBlock.props.reviewRating.value = 0; 
+                    }
+                    
+                    finalOutput.data.push(newBlock);
+                });
+
+                let jsonString = JSON.stringify(finalOutput);
+                navigator.clipboard.writeText(jsonString).then(function() {
+                    alert(`Successfully generated and copied ${selectedProducts.length} Collections blocks to your clipboard!`);
+                    
+                    // Auto-clear selections after copying
+                    selectedProductsMap.clear();
+                    $('.row-checkbox').prop('checked', false);
+                    $('#selectAll').prop('checked', false);
+                    updateButtonText();
+                }).catch(function(err) {
+                    console.error('Could not copy text: ', err);
+                    alert("Clipboard access failed. Please check browser permissions.");
+                });
             });
-        }
-
-        function getStarsHTML(val) {
-            if (val === null || val === undefined || val === "" || val === "N/A" || val === "NAME NOT FOUND") {
-                return '<span style="color: #bdc3c7; font-size: 12px; font-weight: bold;">N/A</span>';
-            }
-            let num = parseFloat(val);
-            if (isNaN(num)) return '<span style="color: #bdc3c7; font-size: 12px; font-weight: bold;">N/A</span>';
-            
-            let html = '<span style="font-weight: bold; margin-right: 6px; color: #000;">' + num + '</span>';
-            html += '<span style="color: #f1c40f; white-space: nowrap;">';
-            for (let i = 1; i <= 5; i++) {
-                if (num >= i) html += '<i class="fa-solid fa-star"></i>';
-                else if (num >= i - 0.5) html += '<i class="fa-solid fa-star-half-stroke"></i>';
-                else html += '<i class="fa-regular fa-star"></i>';
-            }
-            html += '</span>';
-            return html;
-        }
-
-        $.fn.dataTable.ext.search.push(function(settings, data, dataIndex, rowData) {
-            let rating = parseFloat(rowData.Rating) || 0;
-            let date = rowData.Dateline;
-            let cats = rowData.Categories || "";
-
-            let minRating = parseFloat($('#minRating').val());
-            let exactRating = parseFloat($('#exactRating').val());
-            if (!isNaN(minRating) && rating < minRating) return false;
-            if (!isNaN(exactRating) && rating !== exactRating) return false;
-
-            let startDate = $('#startDate').val();
-            let endDate = $('#endDate').val();
-            if (startDate && date < startDate) return false;
-            if (endDate && date > endDate) return false;
-
-            let includeCats = $('#categoryFilter').val() || [];
-            if (includeCats.length > 0) {
-                let rowCats = cats.split(',').map(c => c.trim());
-                let hasMatch = includeCats.some(selected => rowCats.includes(selected));
-                if (!hasMatch) return false;
-            }
-
-            let excludeCats = $('#excludeCategoryFilter').val() || [];
-            if (excludeCats.length > 0) {
-                let rowCats = cats.split(',').map(c => c.trim());
-                let hasExcluded = excludeCats.some(excluded => rowCats.includes(excluded));
-                if (hasExcluded) return false;
-            }
-
-            return true;
-        });
 
         // MEMORY BANK: This stores selected products even if they disappear from the screen
         let selectedProductsMap = new Map();
