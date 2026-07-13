@@ -1,4 +1,4 @@
-import requests
+import cloudscraper
 from bs4 import BeautifulSoup
 import json
 import pandas as pd
@@ -8,17 +8,18 @@ import html
 import unicodedata
 import re
 
+# Initialize the Cloudflare Bypasser
+scraper = cloudscraper.create_scraper(
+    browser={'browser': 'chrome', 'platform': 'windows', 'desktop': True}
+)
+
 def standardize_text(text):
     """Converts HTML entities and accented characters into standard English alphabet."""
     if not text or text in ["N/A", "NAME NOT FOUND"]:
         return text
         
-    # Unescape HTML codes (e.g., &eacute; becomes é, &amp; becomes &)
     text = html.unescape(text)
-    
-    # Normalize accents to standard alphabet (e.g., é becomes e)
     text = unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode('utf-8')
-    
     return text.strip()
 
 def clean_categories(cat_string):
@@ -26,44 +27,32 @@ def clean_categories(cat_string):
     if not cat_string or cat_string in ["N/A", "NAME NOT FOUND"]:
         return cat_string
         
-    # Replace pipes with commas
     cat_string = cat_string.replace('|', ',')
-    
-    # Split the string by comma to process each category individually
     raw_cats = [c.strip() for c in cat_string.split(',')]
     
     cleaned_cats = []
     for c in raw_cats:
         if not c: continue
-        
-        # Swap hyphens for spaces
         c = c.replace('-', ' ')
-        
-        # Exception: Restore blu-ray and e-scooters using Regex
         c = re.sub(r'(?i)\bblu ray\b', 'blu-ray', c)
         c = re.sub(r'(?i)\be scooters\b', 'e-scooters', c)
         
-        # Replace tv/television with televisions
         if c.lower() in ['tv', 'television']:
             c = 'televisions'
             
-        # Capitalise ONLY the first letter
         if len(c) > 0:
             c = c[0].upper() + c[1:]
             
         cleaned_cats.append(c)
         
-    # Remove duplicates by converting to a dictionary, then back to a list
     unique_cats = list(dict.fromkeys(cleaned_cats))
-    
-    # Stitch them back together with commas
     return ",".join(unique_cats)
 
 def scrape_review_data(url):
     """Fetches the webpage and extracts the data using our bulletproof logic."""
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
     try:
-        response = requests.get(url, headers=headers, timeout=10)
+        # USING CLOUDSCRAPER INSTEAD OF REQUESTS
+        response = scraper.get(url, timeout=15)
         if response.status_code != 200:
             return None, None, None, None
         soup = BeautifulSoup(response.text, 'html.parser')
@@ -76,9 +65,7 @@ def scrape_review_data(url):
     dateline = "N/A"
     categories = "N/A"
 
-    # ==========================================
-    # 1. EXTRACT RATING (Visual HTML Logic)
-    # ==========================================
+    # 1. EXTRACT RATING 
     rating_span = soup.find(attrs={'aria-label': lambda a: a and 'out of 5 stars' in a.lower()})
     if rating_span:
         aria_label = rating_span.get('aria-label').lower()
@@ -87,27 +74,19 @@ def scrape_review_data(url):
             try:
                 out_index = words.index('out')
                 base_num = float(words[out_index - 1])
-                
-                # Check for the half-star span
                 if rating_span.find(class_=lambda c: c and 'half' in c.lower()):
                     base_num += 0.5
-                    
                 rating = str(base_num)
             except:
                 pass
 
-    # ==========================================
-    # 2. EXTRACT PRODUCT NAME (5-Tier Waterfall)
-    # ==========================================
-    
-    # ATTEMPT A: Hawk Data Attributes
+    # 2. EXTRACT PRODUCT NAME
     for attr in ['data-model-name', 'data-product-name', 'data-hawk-model', 'data-product']:
         element = soup.find(attrs={attr: True})
         if element and element.get(attr):
             product_name = element.get(attr)
             break
 
-    # ATTEMPT B: Editorial Headings (H1, H2, H3)
     if not product_name:
         for header in soup.find_all(['h1', 'h2', 'h3']):
             header_text = header.get_text(strip=True)
@@ -121,7 +100,6 @@ def scrape_review_data(url):
                 product_name = header_text[:index].strip()
                 break
 
-    # ATTEMPT C: Meta Title Fallback
     if not product_name:
         title_tag = soup.find('title')
         if title_tag and title_tag.string:
@@ -132,16 +110,13 @@ def scrape_review_data(url):
             elif ":" in meta_title:
                 product_name = meta_title.split(":")[0].strip()
 
-    # ATTEMPT D: Specs Table Fallback
     if not product_name:
         th_name = soup.find(lambda tag: tag.name in ['th', 'td'] and tag.text.strip().lower() == 'name')
         if th_name:
             sibling = th_name.find_next_sibling(['td', 'th'])
             if sibling: product_name = sibling.text.strip()
 
-    # ==========================================
     # 3. EXTRACT DATE & SCHEMA FALLBACKS
-    # ==========================================
     schema_tags = soup.find_all('script', type='application/ld+json')
     for tag in schema_tags:
         try:
@@ -150,43 +125,34 @@ def scrape_review_data(url):
             
             for item in data:
                 if item.get('@type') == 'Review':
-                    # Fallback Rating just in case visual failed
                     if rating == "N/A" and 'reviewRating' in item:
                         rating = str(item['reviewRating'].get('ratingValue', 'N/A'))
                     if 'datePublished' in item and dateline == "N/A":
                         dateline = item.get('datePublished', 'N/A')[:10]
-                        
-                    # ATTEMPT E: Schema Name Fallback
                     if not product_name and 'itemReviewed' in item:
                         product_name = item['itemReviewed'].get('name')
-                        
                 elif item.get('@type') in ['Article', 'NewsArticle', 'WebPage'] and dateline == "N/A":
                     if 'datePublished' in item:
                         dateline = item.get('datePublished', 'N/A')[:10]
         except:
             pass 
 
-    # Date Fallback (HTML Meta Tags)
     if dateline == "N/A":
         date_meta = soup.find('meta', attrs={'property': 'article:published_time'})
         if date_meta and date_meta.get('content'):
             dateline = date_meta.get('content')[:10]
 
-    # Name Safety Cleanup
     if not product_name: 
         product_name = "NAME NOT FOUND"
     elif " review:" in product_name.lower():
         index = product_name.lower().find(" review:")
         product_name = product_name[:index].strip()
 
-    # Apply 50-character Flag rule
     product_name = standardize_text(product_name)
     if len(product_name) > 50 and not product_name.startswith("[FLAG]"):
         product_name = f"[FLAG] {product_name}"
 
-    # ==========================================
-    # 4. EXTRACT CATEGORIES (Meta Tags)
-    # ==========================================
+    # 4. EXTRACT CATEGORIES
     section_tags = soup.find_all('meta', property=lambda x: x and x in ['article:section', 'article:tag'])
     if section_tags:
         categories = ", ".join([tag.get('content') for tag in section_tags if tag.get('content')])
@@ -195,7 +161,6 @@ def scrape_review_data(url):
         if keywords_meta and keywords_meta.get('content'):
             categories = keywords_meta.get('content')
 
-    # Apply standardization and custom capitalization formatting
     categories = standardize_text(categories)
     categories = clean_categories(categories)
 
@@ -209,10 +174,10 @@ def get_links_from_feed(page_number):
         url = f"https://www.techradar.com/reviews/page/{page_number}"
         
     print(f"Scanning feed page {page_number}: {url}")
-    headers = {'User-Agent': 'Mozilla/5.0'}
     
     try:
-        response = requests.get(url, headers=headers, timeout=10)
+        # USING CLOUDSCRAPER
+        response = scraper.get(url, timeout=15)
         if response.status_code != 200:
             return []
             
@@ -265,7 +230,6 @@ def main():
         return
 
     new_df = pd.DataFrame(new_reviews_data)
-
     json_filename = 'data.json'
     
     if os.path.exists(json_filename):
@@ -281,10 +245,7 @@ def main():
         print("No existing data.json found. Creating new database...")
         final_df = new_df
 
-    # Eradicate any NaN values before saving so JS doesn't crash
     final_df = final_df.fillna("N/A")
-
-    # Save cleanly, ensuring valid JSON formatting
     final_df.to_json(json_filename, orient='records', indent=4)
     print(f"Successfully saved {len(final_df)} total records to {json_filename}!")
 
