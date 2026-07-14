@@ -3,14 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechRadar Review Database</title>
+    <title>TechRadar Review Database (TEST MODE)</title>
     
-    <!-- DataTables & Buttons CSS -->
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/2.4.1/css/buttons.dataTables.min.css">
-    <!-- Select2 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
-    <!-- FontAwesome CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <style>
@@ -28,6 +25,14 @@
         .header h1 { 
             color: white; 
             margin: 0;
+        }
+        .test-badge {
+            background-color: #f1c40f;
+            color: #000;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 14px;
         }
         .filter-panel { 
             background: #E40784; 
@@ -128,7 +133,7 @@
 <body>
 
     <div class="header">
-        <h1>TechRadar Review Database</h1>
+        <h1>TechRadar Review Database <span class="test-badge">TEST MODE</span></h1>
     </div>
     
     <div class="filter-panel">
@@ -167,13 +172,17 @@
             <label>Date (End)</label>
             <input type="date" id="endDate">
         </div>
-        <div class="filter-group" style="flex-grow: 1; min-width: 180px;">
+        <div class="filter-group" style="flex-grow: 1; min-width: 150px;">
             <label>Include Categories</label>
             <select id="categoryFilter" multiple="multiple" style="width: 100%;"></select>
         </div>
-        <div class="filter-group" style="flex-grow: 1; min-width: 180px;">
+        <div class="filter-group" style="flex-grow: 1; min-width: 150px;">
             <label>Exclude Categories</label>
             <select id="excludeCategoryFilter" multiple="multiple" style="width: 100%;"></select>
+        </div>
+        <div class="filter-group" style="flex-grow: 1; min-width: 150px;">
+            <label>Author</label>
+            <select id="authorFilter" multiple="multiple" style="width: 100%;"></select>
         </div>
         
         <div class="action-buttons">
@@ -192,8 +201,9 @@
                     <th>Score</th>
                     <th>Publish Date</th>
                     <th>Categories</th>
-                    <th>URL</th>
-                    <!-- Checkbox on the far right -->
+                    <th>Author</th>
+                    <th>Review</th>
+                    <th>CMS</th>
                     <th style="text-align: center;"><input type="checkbox" id="selectAll" title="Select All visible"></th>
                 </tr>
             </thead>
@@ -208,7 +218,6 @@
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 
     <script>
-        // Clean CMS Template (with strict empty pros/cons skeleton)
         const cmsTemplate = {"id":"template-id","blockTypeName":"product","excludeFrom":[],"collapsible":false,"props":{"imageAltOverride":{"value":"","touched":false,"validationMessage":""},"imageCaptionOverride":{"value":"","touched":false,"validationMessage":""},"imageCreditOverride":{"value":[{"type":"paragraph","children":[{"text":""}]}],"touched":false,"validationMessage":""},"imageLabelOverride":{"value":"","touched":false,"validationMessage":""},"endorsementImage":{"touched":false,"validationMessage":""},"endorsementPosition":{"value":"bottom-right","touched":false,"validationMessage":""},"linkLabel":{"value":"","touched":false,"validationMessage":""},"linkUrl":{"value":"","touched":false,"validationMessage":""},"linkLayout":{"value":"text","touched":false,"validationMessage":""},"linkSponsored":{"value":false,"touched":false,"validationMessage":""},"linkNoFollow":{"value":false,"touched":false,"validationMessage":""},"linkNoAffiliateTracking":{"value":false,"touched":false,"validationMessage":""},"productName":{"value":"","touched":false,"validationMessage":""},"currency":{"touched":false,"validationMessage":""},"price":{"value":"","touched":false,"validationMessage":""},"salePrice":{"value":"","touched":false,"validationMessage":""},"lastCheckedPriceDate":{"value":"","touched":false,"validationMessage":""},"priceCheckError":false,"brand":{"value":"","touched":false,"validationMessage":""},"productDescription":{"value":[{"type":"paragraph","children":[{"text":""},{"type":"link","url":"","isNoFollow":false,"isSponsored":false,"isOpenNewTab":false,"isPreventDataRewrite":false,"children":[{"text":"Read our full review"}]},{"text":""}]}],"touched":false,"validationMessage":""},"layout":{"value":"standard","touched":false,"validationMessage":""},"hawkCode":{"value":"","touched":false,"validationMessage":""},"hawkProductNameMatchedCode":{"value":"","touched":false,"validationMessage":""},"reviewRating":{"value":0,"touched":false,"validationMessage":""},"reviewPros":{"value":[{"type":"bulleted-list","children":[{"type":"list-item","children":[{"type":"list-item-text","children":[{"text":""}]}]}]}],"touched":false,"validationMessage":""},"reviewCons":{"value":[{"type":"bulleted-list","children":[{"type":"list-item","children":[{"type":"list-item-text","children":[{"text":""}]}]}]}],"touched":false,"validationMessage":""},"retailer":{"value":"","touched":false,"validationMessage":""},"regionOverridesEnabled":false,"variants":[]},"failedFetchError":""};
 
         function generateUUID() {
@@ -240,6 +249,7 @@
             let rating = parseFloat(rowData.Rating) || 0;
             let date = rowData.Dateline;
             let cats = rowData.Categories || "";
+            let author = rowData.Author || "";
 
             let minRating = parseFloat($('#minRating').val());
             let exactRating = parseFloat($('#exactRating').val());
@@ -265,6 +275,11 @@
                 if (hasExcluded) return false;
             }
 
+            let includeAuthors = $('#authorFilter').val() || [];
+            if (includeAuthors.length > 0) {
+                if (!includeAuthors.includes(author)) return false;
+            }
+
             return true;
         });
 
@@ -282,7 +297,8 @@
 
         $(document).ready(function() {
             var table = $('#reviewTable').DataTable({
-                "ajax": { "url": "data.json?v=" + new Date().getTime(), "dataSrc": "" },
+                // TARGETS THE TEST FILE
+                "ajax": { "url": "data-test.json?v=" + new Date().getTime(), "dataSrc": "" },
                 "pageLength": 25,
                 "order": [[ 2, "desc" ]], 
                 "dom": 'Brtip', 
@@ -290,20 +306,22 @@
                     {
                         extend: 'csvHtml5',
                         className: 'hidden-csv-button',
-                        title: 'TechRadar_Reviews_Export',
+                        title: 'TechRadar_Reviews_Test_Export',
                         exportOptions: { 
                             orthogonal: 'sort',
-                            columns: [0, 1, 2, 3, 4] 
+                            columns: [0, 1, 2, 3, 4, 5, 6] // Exports everything except the checkbox
                         } 
                     }
                 ],
                 "columnDefs": [
-                    { "width": "35%", "targets": 0 }, 
-                    { "width": "12%", "targets": 1 }, 
-                    { "width": "10%", "targets": 2 }, 
-                    { "width": "28%", "targets": 3 }, 
-                    { "width": "10%", "targets": 4, "orderable": false }, 
-                    { "width": "5%", "targets": 5, "orderable": false, "className": "dt-center" } 
+                    { "width": "25%", "targets": 0 }, // Product
+                    { "width": "10%", "targets": 1 }, // Score
+                    { "width": "10%", "targets": 2 }, // Date
+                    { "width": "15%", "targets": 3 }, // Categories
+                    { "width": "12%", "targets": 4 }, // Author
+                    { "width": "8%", "targets": 5, "orderable": false }, // Review URL
+                    { "width": "8%", "targets": 6, "orderable": false }, // CMS URL
+                    { "width": "5%", "targets": 7, "orderable": false, "className": "dt-center" } // Checkbox
                 ],
                 "columns": [
                     { "data": "Product" },
@@ -316,11 +334,22 @@
                     },
                     { "data": "Dateline" }, 
                     { "data": "Categories" },
+                    { "data": "Author" },
                     { 
                         "data": "URL",
                         "render": function(data, type, row){
                             if(type === 'display'){
                                 return '<a href="' + data + '" target="_blank" style="color: #3498db; text-decoration: none; font-weight: bold;">View <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 12px;"></i></a>';
+                            }
+                            return data;
+                        }
+                    },
+                    { 
+                        "data": "CMS_URL",
+                        "render": function(data, type, row){
+                            if(type === 'display'){
+                                if (!data || data === "N/A") return '<span style="color:#bdc3c7; font-size:12px;">N/A</span>';
+                                return '<a href="' + data + '" target="_blank" style="color: #e67e22; text-decoration: none; font-weight: bold;">Open <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 12px;"></i></a>';
                             }
                             return data;
                         }
@@ -334,12 +363,17 @@
                 ],
                 "initComplete": function(settings, json) {
                     let allCategories = new Set();
+                    let allAuthors = new Set();
+
                     json.forEach(row => {
                         if (row.Categories && row.Categories !== "N/A") {
                             row.Categories.split(',').forEach(c => {
                                 let cleanCat = c.trim();
                                 if (cleanCat) allCategories.add(cleanCat);
                             });
+                        }
+                        if (row.Author && row.Author !== "N/A") {
+                            allAuthors.add(row.Author.trim());
                         }
                     });
 
@@ -348,8 +382,13 @@
                         $('#excludeCategoryFilter').append(new Option(cat, cat));
                     });
 
+                    Array.from(allAuthors).sort().forEach(auth => {
+                        $('#authorFilter').append(new Option(auth, auth));
+                    });
+
                     $('#categoryFilter').select2({ placeholder: "Search to include...", allowClear: true });
                     $('#excludeCategoryFilter').select2({ placeholder: "Search to exclude...", allowClear: true });
+                    $('#authorFilter').select2({ placeholder: "Search authors...", allowClear: true });
                 }
             });
 
@@ -426,17 +465,14 @@
                     newBlock.id = generateUUID();
                     newBlock.props.productName.value = item.Product;
                     
-                    // Hawk logic: Set the widget type, leave model name blank
                     let hawkCodeObj = {
                         "data-widget-type": "merchantlink"
                     };
                     newBlock.props.hawkCode.value = JSON.stringify(hawkCodeObj);
                     newBlock.props.hawkProductNameMatchedCode.value = ""; 
                     
-                    // Inject review URL
                     newBlock.props.productDescription.value[0].children[1].url = item.URL;
                     
-                    // Inject and scale rating
                     let numScore = parseFloat(item.Rating);
                     if (!isNaN(numScore)) {
                         newBlock.props.reviewRating.value = numScore * 20; 
@@ -463,7 +499,7 @@
 
             // Normal Event Listeners
             $('#customSearch').on('keyup', function() { table.search(this.value).draw(); });
-            $('#minRating, #exactRating, #startDate, #endDate, #categoryFilter, #excludeCategoryFilter').on('change', function() { table.draw(); });
+            $('#minRating, #exactRating, #startDate, #endDate, #categoryFilter, #excludeCategoryFilter, #authorFilter').on('change', function() { table.draw(); });
             $('#exportCsvBtn').on('click', function() { table.button('.buttons-csv').trigger(); });
             
             $('#clearFilters').on('click', function() {
@@ -474,6 +510,7 @@
                 $('#endDate').val('');
                 $('#categoryFilter').val(null).trigger('change');
                 $('#excludeCategoryFilter').val(null).trigger('change');
+                $('#authorFilter').val(null).trigger('change');
                 table.search(''); 
                 table.draw();
             });
