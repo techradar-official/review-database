@@ -8100,15 +8100,6 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/MSHZ7PW7Ta3mTUEAZu8p9U"
     },
     {
-        "Product":"Cinc CRM",
-        "Rating":4.5,
-        "Dateline":"2025-12-19",
-        "URL":"https:\/\/www.techradar.com\/reviews\/cinc-crm",
-        "Categories":"Software services,Pro",
-        "Author":"Ritoban Mukherjee",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/EM5x6tYcCfjLwNbvmTtmqm"
-    },
-    {
         "Product":"Microsoft Dynamics 365 CRM",
         "Rating":4.5,
         "Dateline":"2025-12-19",
@@ -31948,15 +31939,6 @@
         "Categories":"Software services,Pro",
         "Author":"Ritoban Mukherjee",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Zayao5t5j8iNcs3JnyxZBh"
-    },
-    {
-        "Product":"BoomTown CRM",
-        "Rating":4.0,
-        "Dateline":"2025-12-19",
-        "URL":"https:\/\/www.techradar.com\/reviews\/boomtown-crm-review",
-        "Categories":"Software services,Pro",
-        "Author":"Ritoban Mukherjee",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/4zeSKKbudX3w62NxgKPKtR"
     },
     {
         "Product":"Lofty CRM",
@@ -60129,15 +60111,6 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/UbjLVzi29NHpGqwkE3eTV9"
     },
     {
-        "Product":"RealOffice360 CRM",
-        "Rating":3.5,
-        "Dateline":"2025-12-19",
-        "URL":"https:\/\/www.techradar.com\/reviews\/realoffice360-crm-review",
-        "Categories":"Software services,Pro",
-        "Author":"Ritoban Mukherjee",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/T2cd68gSaKHmhAfUGRFGw7"
-    },
-    {
         "Product":"Salesmate CRM",
         "Rating":3.5,
         "Dateline":"2025-12-18",
@@ -76860,15 +76833,6 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/pnUMDk6n3iBwPhs5f6C9K8"
     },
     {
-        "Product":"Amazfit Active 3 Premium",
-        "Rating":"5.0",
-        "Dateline":"2026-07-09",
-        "URL":"https:\/\/www.techradar.com\/health-fitness\/fitness-trackers\/amazfit-active-3-premium-review-premium-performance-just-without-the-price",
-        "Categories":"Fitness Trackers,Health & Fitness",
-        "Author":"Lloyd Coombes",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Y5FPRzResNhg3PB3VmtaHN"
-    },
-    {
         "Product":"Bitdefender Identity Theft Protection",
         "Rating":"4.0",
         "Dateline":"2026-07-08",
@@ -76930,6 +76894,141 @@
         "Categories":"Security,Pro",
         "Author":"N\/A",
         "CMS_URL":"N\/A"
+    },
+    {
+        "Product":"Dreo Smart TurboPoly Fan 765S",
+        "Rating":"4.5",
+        "Dateline":"2026-07-09",
+        "URL":"https:\/\/www.techradar.com\/home\/air-quality\/dreo-smart-turbopoly-fan-765s-review",
+        "Categories":"Air Quality,Home,Small Appliances",
+        "Author":"Ruth Hamilton",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Cg5uBVGYMuq23N4cmJwQba"
+    },
+    {
+        "Product":"Razer Seiren V3 Pro",
+        "Rating":"4.0",
+        "Dateline":"2026-07-09",
+        "URL":"https:\/\/www.techradar.com\/computing\/peripherals-accessories\/razer-seiren-v3-pro",
+        "Categories":"Peripherals & Accessories,Computer Gaming Accessories,Computing,Gaming Computers",
+        "Author":"Alex Blake",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/okUEWs3HeiWq43EAt4jBVa"
+    },
+    {
+        "Product":"Netflix",
+        "Rating":"3.0",
+        "Dateline":"2026-07-09",
+        "URL":"https:\/\/www.techradar.com\/streaming\/netflix\/little-house-on-the-prairie-review",
+        "Categories":"Netflix,Streaming",
+        "Author":"Jasmine Valentine",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/EBmjKtDMT5bqHEM3EZXXAA"
+    },
+    {
+        "Product":"Sony Bravia Theatre Bar 7",
+        "Rating":"3.0",
+        "Dateline":"2026-07-08",
+        "URL":"https:\/\/www.techradar.com\/televisions\/soundbars\/sony-bravia-theater-bar-7-review",
+        "Categories":"Soundbars,Televisions,Dolby Atmos,Sony",
+        "Author":"Simon Cohen",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/cxs6wKuwFPVSQU7ivuBWvS"
+    },
+    {
+        "Product":"Assassin's Creed Black Flag Resynced",
+        "Rating":"4.0",
+        "Dateline":"2026-07-08",
+        "URL":"https:\/\/www.techradar.com\/gaming\/assassins-creed-black-flag-resynced-review",
+        "Categories":"Gaming",
+        "Author":"Rob Dwiar",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/gLgncEkBEZRKMyXoeuLJGR"
+    },
+    {
+        "Product":"ExpressVPN ExpressKeys",
+        "Rating":"4.0",
+        "Dateline":"2022-11-10",
+        "URL":"https:\/\/www.techradar.com\/reviews\/expressvpn-keys",
+        "Categories":"VPN Services,VPN,Password Managers",
+        "Author":"N\/A",
+        "CMS_URL":"N\/A"
+    },
+    {
+        "Product":"Coveron Identity Theft Protection",
+        "Rating":"4.5",
+        "Dateline":"2025-07-22",
+        "URL":"https:\/\/www.techradar.com\/pro\/security\/nordprotect-made-me-rethink-how-i-protect-my-personal-information-online",
+        "Categories":"Security,Pro",
+        "Author":"Bryan M Wolfe",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Nqg8iAv4phtrTaKccLLeHb"
+    },
+    {
+        "Product":"FICO MyFico",
+        "Rating":"4.0",
+        "Dateline":"2021-11-29",
+        "URL":"https:\/\/www.techradar.com\/reviews\/myfico",
+        "Categories":"Security,Pro",
+        "Author":"N\/A",
+        "CMS_URL":"N\/A"
+    },
+    {
+        "Product":"Samsung 990 2TB SSD",
+        "Rating":"4.0",
+        "Dateline":"2023-02-22",
+        "URL":"https:\/\/www.techradar.com\/reviews\/boomtown-crm-review",
+        "Categories":"Software & Services,Pro",
+        "Author":"Ritoban Mukherjee",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/4zeSKKbudX3w62NxgKPKtR"
+    },
+    {
+        "Product":"Samsung 990 2TB SSD",
+        "Rating":"4.5",
+        "Dateline":"2023-02-22",
+        "URL":"https:\/\/www.techradar.com\/reviews\/cinc-crm",
+        "Categories":"Software & Services,Pro",
+        "Author":"Ritoban Mukherjee",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/EM5x6tYcCfjLwNbvmTtmqm"
+    },
+    {
+        "Product":"Samsung 990 2TB SSD",
+        "Rating":"3.5",
+        "Dateline":"2023-02-22",
+        "URL":"https:\/\/www.techradar.com\/reviews\/realoffice360-crm-review",
+        "Categories":"Software & Services,Pro",
+        "Author":"Ritoban Mukherjee",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/T2cd68gSaKHmhAfUGRFGw7"
+    },
+    {
+        "Product":"TeraBox TeraBox AI",
+        "Rating":"3.5",
+        "Dateline":"2026-07-13",
+        "URL":"https:\/\/www.techradar.com\/pro\/terabox-ai-review",
+        "Categories":"Pro,AI Platforms & Assistants",
+        "Author":"Ritoban Mukherjee",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/ekcycejGLKTRTLLsutQjHd"
+    },
+    {
+        "Product":"Brave Brave Leo AI",
+        "Rating":"4.0",
+        "Dateline":"2026-07-13",
+        "URL":"https:\/\/www.techradar.com\/pro\/brave-leo-ai-review",
+        "Categories":"Pro,AI Platforms & Assistants",
+        "Author":"Ritoban Mukherjee",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/a8TauRZipryyKrtj8U9u8P"
+    },
+    {
+        "Product":"Viltrox AF 90mm f\/2.2 EVO",
+        "Rating":"4.0",
+        "Dateline":"2026-07-13",
+        "URL":"https:\/\/www.techradar.com\/cameras\/camera-lenses\/viltrox-af-90mm-f-2-2-evo-review",
+        "Categories":"Camera Lenses,Cameras,Fujifilm",
+        "Author":"Timothy Coleman",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/mgnXZ7bUMGRzAwMBg7cWwJ"
+    },
+    {
+        "Product":"HuggingFace HuggingChat",
+        "Rating":"3.5",
+        "Dateline":"2026-07-13",
+        "URL":"https:\/\/www.techradar.com\/pro\/huggingchat-review",
+        "Categories":"Pro,AI Platforms & Assistants",
+        "Author":"Ritoban Mukherjee",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/JHrKF9KCQKjxwoY8XBKSU"
     },
     {
         "Product":"Dimplex Rechargeable Cordless Desk Fan",
@@ -77063,8 +77162,8 @@
         "Dateline":"2022-07-08",
         "URL":"https:\/\/www.techradar.com\/reviews\/proton-vpn-free",
         "Categories":"VPN Services,VPN,Microsoft",
-        "Author":"N\/A",
-        "CMS_URL":"N\/A"
+        "Author":"Rob Dunne,Mike Williams",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/7DUs2dK4mwDpYKxh4imu2Y"
     },
     {
         "Product":"Garmin Forerunner 170 GPS Watch",
@@ -77108,8 +77207,17 @@
         "Dateline":"2022-02-05",
         "URL":"https:\/\/www.techradar.com\/reviews\/smartproxy",
         "Categories":"Security,Pro",
-        "Author":"N\/A",
-        "CMS_URL":"N\/A"
+        "Author":"Stefan Ionescu",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/npUoHfaQjDFp29g86hTyE7"
+    },
+    {
+        "Product":"Amazfit Active 3 Premium",
+        "Rating":"5.0",
+        "Dateline":"2026-07-09",
+        "URL":"https:\/\/www.techradar.com\/health-fitness\/fitness-trackers\/amazfit-active-3-premium-review-premium-performance-just-without-the-price",
+        "Categories":"Fitness Trackers,Health & Fitness",
+        "Author":"Lloyd Coombes",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Y5FPRzResNhg3PB3VmtaHN"
     },
     {
         "Product":"Sony RX10 V",
@@ -77128,77 +77236,5 @@
         "Categories":"Monitors,Computing,Peripherals & Accessories,Dell,OLED",
         "Author":"Isaiah Williams",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/qV7WRegQ58SpbQoXi39igP"
-    },
-    {
-        "Product":"Dreo Smart TurboPoly Fan 765S",
-        "Rating":"4.5",
-        "Dateline":"2026-07-09",
-        "URL":"https:\/\/www.techradar.com\/home\/air-quality\/dreo-smart-turbopoly-fan-765s-review",
-        "Categories":"Air Quality,Home,Small Appliances",
-        "Author":"Ruth Hamilton",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Cg5uBVGYMuq23N4cmJwQba"
-    },
-    {
-        "Product":"Razer Seiren V3 Pro",
-        "Rating":"4.0",
-        "Dateline":"2026-07-09",
-        "URL":"https:\/\/www.techradar.com\/computing\/peripherals-accessories\/razer-seiren-v3-pro",
-        "Categories":"Peripherals & Accessories,Computer Gaming Accessories,Computing,Gaming Computers",
-        "Author":"Alex Blake",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/okUEWs3HeiWq43EAt4jBVa"
-    },
-    {
-        "Product":"Netflix",
-        "Rating":"3.0",
-        "Dateline":"2026-07-09",
-        "URL":"https:\/\/www.techradar.com\/streaming\/netflix\/little-house-on-the-prairie-review",
-        "Categories":"Netflix,Streaming",
-        "Author":"Jasmine Valentine",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/EBmjKtDMT5bqHEM3EZXXAA"
-    },
-    {
-        "Product":"Sony Bravia Theatre Bar 7",
-        "Rating":"3.0",
-        "Dateline":"2026-07-08",
-        "URL":"https:\/\/www.techradar.com\/televisions\/soundbars\/sony-bravia-theater-bar-7-review",
-        "Categories":"Soundbars,Televisions,Dolby Atmos,Sony",
-        "Author":"Simon Cohen",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/cxs6wKuwFPVSQU7ivuBWvS"
-    },
-    {
-        "Product":"Assassin's Creed Black Flag Resynced",
-        "Rating":"4.0",
-        "Dateline":"2026-07-08",
-        "URL":"https:\/\/www.techradar.com\/gaming\/assassins-creed-black-flag-resynced-review",
-        "Categories":"Gaming",
-        "Author":"Rob Dwiar",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/gLgncEkBEZRKMyXoeuLJGR"
-    },
-    {
-        "Product":"ExpressVPN ExpressKeys",
-        "Rating":"4.0",
-        "Dateline":"2022-11-10",
-        "URL":"https:\/\/www.techradar.com\/reviews\/expressvpn-keys",
-        "Categories":"VPN Services,VPN,Password Managers",
-        "Author":"N\/A",
-        "CMS_URL":"N\/A"
-    },
-    {
-        "Product":"Coveron Identity Theft Protection",
-        "Rating":"4.5",
-        "Dateline":"2025-07-22",
-        "URL":"https:\/\/www.techradar.com\/pro\/security\/nordprotect-made-me-rethink-how-i-protect-my-personal-information-online",
-        "Categories":"Security,Pro",
-        "Author":"Bryan M Wolfe",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Nqg8iAv4phtrTaKccLLeHb"
-    },
-    {
-        "Product":"FICO MyFico",
-        "Rating":"4.0",
-        "Dateline":"2021-11-29",
-        "URL":"https:\/\/www.techradar.com\/reviews\/myfico",
-        "Categories":"Security,Pro",
-        "Author":"N\/A",
-        "CMS_URL":"N\/A"
     }
 ]
