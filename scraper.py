@@ -60,6 +60,12 @@ def scrape_review_data(url):
         print(f"Error loading {url}: {e}")
         return None, None, None, None, None, None
 
+    # ==========================================
+    # NEW: SPONSORED CONTENT TRAPDOOR
+    # ==========================================
+    if "control:sponsored" in html_text:
+        return "[SPONSORED]", None, None, None, None, None
+
     product_name = None
     rating = "N/A"
     dateline = "N/A"
@@ -105,7 +111,7 @@ def scrape_review_data(url):
     # 2. EXTRACT PRODUCT NAME (5-Tier Waterfall)
     # ==========================================
     
-    # NEW: Ignore list for streaming services that hijack Hawk widgets
+    # Ignore list for streaming services that hijack Hawk widgets
     hawk_ignore_list = [
         "netflix", 
         "amazon prime video", 
@@ -118,7 +124,6 @@ def scrape_review_data(url):
         element = soup.find(attrs={attr: True})
         if element and element.get(attr):
             temp_name = element.get(attr)
-            # Only assign the name if it's NOT in our ignore list
             if temp_name.strip().lower() not in hawk_ignore_list:
                 product_name = temp_name
                 break
@@ -233,17 +238,31 @@ def get_links_from_feed(page_number):
     try:
         response = scraper.get(url, timeout=15)
         if response.status_code != 200:
+            print(f"Failed to load feed (Status {response.status_code})")
             return []
             
         soup = BeautifulSoup(response.text, 'html.parser')
         page_links = []
         
         article_tags = soup.find_all('a', class_='article-link')
+        
+        if not article_tags:
+            for article in soup.find_all('article'):
+                a_tag = article.find('a')
+                if a_tag and a_tag not in article_tags:
+                    article_tags.append(a_tag)
+                    
+        if not article_tags:
+            for a_tag in soup.select('div.listingResult a, div.feature-block-item a'):
+                if a_tag not in article_tags:
+                    article_tags.append(a_tag)
+
         for tag in article_tags:
             link = tag.get('href')
             if link and not link.startswith('http'):
                 link = "https://www.techradar.com" + link
-            if link not in page_links:
+            
+            if link and link not in page_links and '/author/' not in link and '/tag/' not in link:
                 page_links.append(link)
                 
         return page_links
@@ -269,7 +288,10 @@ def main():
         print(f"Scraping data from: {url}")
         name, rating, date, cats, cms_link, author_name = scrape_review_data(url)
         
-        if name and name != "NAME NOT FOUND":
+        if name == "[SPONSORED]":
+            print(f"   -> [!] SKIPPED: Sponsored content detected.")
+        elif name and name != "NAME NOT FOUND":
+            print(f"   -> SUCCESS: Found '{name}'")
             new_reviews_data.append({
                 'Product': name,
                 'Rating': rating,
@@ -279,6 +301,9 @@ def main():
                 'CMS_URL': cms_link,
                 'URL': url
             })
+        else:
+            print(f"   -> [!] SKIPPED: Could not extract Product Name (or page was blocked).")
+            
         time.sleep(1)
 
     if not new_reviews_data:
