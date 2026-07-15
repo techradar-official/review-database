@@ -76968,6 +76968,96 @@
         "CMS_URL":"N\/A"
     },
     {
+        "Product":"Asus ProArt GeForce RTX 5090 32GB OC Edition",
+        "Rating":"4.0",
+        "Dateline":"2026-07-10",
+        "URL":"https:\/\/www.techradar.com\/computing\/gpu\/asus-proart-geforce-rtx-5090-review-a-slimmer-sff-ready-rtx-5090-for-creators-who-need-flagship-performance-and-32gb-of-vram",
+        "Categories":"GPU,Computing,Computing Components",
+        "Author":"Lindsay Handmer",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/T45WDPVJyjSj4P6DYdYRV8"
+    },
+    {
+        "Product":"Smartproxy Proxy Services",
+        "Rating":"4.0",
+        "Dateline":"2022-02-05",
+        "URL":"https:\/\/www.techradar.com\/reviews\/smartproxy",
+        "Categories":"Security,Pro",
+        "Author":"Stefan Ionescu",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/npUoHfaQjDFp29g86hTyE7"
+    },
+    {
+        "Product":"Amazfit Active 3 Premium",
+        "Rating":"5.0",
+        "Dateline":"2026-07-09",
+        "URL":"https:\/\/www.techradar.com\/health-fitness\/fitness-trackers\/amazfit-active-3-premium-review-premium-performance-just-without-the-price",
+        "Categories":"Fitness Trackers,Health & Fitness",
+        "Author":"Lloyd Coombes",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Y5FPRzResNhg3PB3VmtaHN"
+    },
+    {
+        "Product":"Sony RX10 V",
+        "Rating":"4.5",
+        "Dateline":"2026-07-09",
+        "URL":"https:\/\/www.techradar.com\/cameras\/bridge-cameras\/sony-rx10-v-review",
+        "Categories":"Bridge Cameras,Cameras,Sony",
+        "Author":"Timothy Coleman",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/EWksYp6nkqdeaNUCFnhpCk"
+    },
+    {
+        "Product":"Alienware AW3426DW QD-OLED",
+        "Rating":"4.5",
+        "Dateline":"2026-07-09",
+        "URL":"https:\/\/www.techradar.com\/computing\/monitors\/alienware-aw3426dw",
+        "Categories":"Monitors,Computing,Peripherals & Accessories,Dell,OLED",
+        "Author":"Isaiah Williams",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/qV7WRegQ58SpbQoXi39igP"
+    },
+    {
+        "Product":"Gigabyte Aorus Master 16",
+        "Rating":"4.0",
+        "Dateline":"2026-07-15",
+        "URL":"https:\/\/www.techradar.com\/computing\/gigabyte-aorus-master-16-gen-2-review",
+        "Categories":"Computing,Gaming Laptops,Gaming Computers",
+        "Author":"Lindsay Handmer",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/8FERFhUCsmp3C6SveJgJPQ"
+    },
+    {
+        "Product":"RayNeo X3 Pro AI+AR Smart Glasses",
+        "Rating":"3.5",
+        "Dateline":"2026-07-14",
+        "URL":"https:\/\/www.techradar.com\/pro\/rayneo-x3-pro-ai-ar-smart-glasses-review",
+        "Categories":"Pro",
+        "Author":"Mark Pickavance",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/WjrHE7EzVtBuERrczgefcR"
+    },
+    {
+        "Product":"Bambu Lab A2L",
+        "Rating":"4.5",
+        "Dateline":"2026-07-14",
+        "URL":"https:\/\/www.techradar.com\/pro\/bambu-lab-a2l-3d-printer-review",
+        "Categories":"Pro",
+        "Author":"Alastair Jennings",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/s5B4ANjTYypfFSMDqQf6A4"
+    },
+    {
+        "Product":"MelGeek Made68 Ultra V2",
+        "Rating":"3.5",
+        "Dateline":"2026-07-14",
+        "URL":"https:\/\/www.techradar.com\/computing\/keyboards\/melgeek-made68-ultra-v2-review",
+        "Categories":"Keyboards,Computing,Peripherals & Accessories",
+        "Author":"Lewis Maddison",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/uNL5AvVe2gv9RrAmnWgiG3"
+    },
+    {
+        "Product":"Dreame Z30 Pro Aqua",
+        "Rating":"3.5",
+        "Dateline":"2026-07-14",
+        "URL":"https:\/\/www.techradar.com\/home\/vacuums\/dreame-z30-pro-aqua-review",
+        "Categories":"Vacuums,Home,Small Appliances",
+        "Author":"Derek Adams",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/NPgQvKxkCzPoY4gr99YPM"
+    },
+    {
         "Product":"Samsung 990 2TB SSD",
         "Rating":"4.0",
         "Dateline":"2023-02-22",
@@ -77191,50 +77281,5 @@
         "Categories":"Entertainment,Streaming",
         "Author":"Jasmine Valentine",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/6gcRgVeUfg25NRHMnJq5Dc"
-    },
-    {
-        "Product":"Asus ProArt GeForce RTX 5090 32GB OC Edition",
-        "Rating":"4.0",
-        "Dateline":"2026-07-10",
-        "URL":"https:\/\/www.techradar.com\/computing\/gpu\/asus-proart-geforce-rtx-5090-review-a-slimmer-sff-ready-rtx-5090-for-creators-who-need-flagship-performance-and-32gb-of-vram",
-        "Categories":"GPU,Computing,Computing Components",
-        "Author":"Lindsay Handmer",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/T45WDPVJyjSj4P6DYdYRV8"
-    },
-    {
-        "Product":"Smartproxy Proxy Services",
-        "Rating":"4.0",
-        "Dateline":"2022-02-05",
-        "URL":"https:\/\/www.techradar.com\/reviews\/smartproxy",
-        "Categories":"Security,Pro",
-        "Author":"Stefan Ionescu",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/npUoHfaQjDFp29g86hTyE7"
-    },
-    {
-        "Product":"Amazfit Active 3 Premium",
-        "Rating":"5.0",
-        "Dateline":"2026-07-09",
-        "URL":"https:\/\/www.techradar.com\/health-fitness\/fitness-trackers\/amazfit-active-3-premium-review-premium-performance-just-without-the-price",
-        "Categories":"Fitness Trackers,Health & Fitness",
-        "Author":"Lloyd Coombes",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Y5FPRzResNhg3PB3VmtaHN"
-    },
-    {
-        "Product":"Sony RX10 V",
-        "Rating":"4.5",
-        "Dateline":"2026-07-09",
-        "URL":"https:\/\/www.techradar.com\/cameras\/bridge-cameras\/sony-rx10-v-review",
-        "Categories":"Bridge Cameras,Cameras,Sony",
-        "Author":"Timothy Coleman",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/EWksYp6nkqdeaNUCFnhpCk"
-    },
-    {
-        "Product":"Alienware AW3426DW QD-OLED",
-        "Rating":"4.5",
-        "Dateline":"2026-07-09",
-        "URL":"https:\/\/www.techradar.com\/computing\/monitors\/alienware-aw3426dw",
-        "Categories":"Monitors,Computing,Peripherals & Accessories,Dell,OLED",
-        "Author":"Isaiah Williams",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/qV7WRegQ58SpbQoXi39igP"
     }
 ]
