@@ -77013,6 +77013,24 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/qV7WRegQ58SpbQoXi39igP"
     },
     {
+        "Product":"amazon tv",
+        "Rating":"3.0",
+        "Dateline":"2026-07-10",
+        "URL":"https:\/\/www.techradar.com\/streaming\/entertainment\/the-westies-review-mgm-plus",
+        "Categories":"Entertainment,Streaming",
+        "Author":"Jasmine Valentine",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/6gcRgVeUfg25NRHMnJq5Dc"
+    },
+    {
+        "Product":"Boox Go 10.3 Lumi Gen II",
+        "Rating":"3.5",
+        "Dateline":"2026-07-16",
+        "URL":"https:\/\/www.techradar.com\/tablets\/ereaders\/the-onyx-boox-go-10-3-gen-ii-lumi-is-a-good-android-toting-kindle-scribe-alternative-but-it-disappoints-in-a-couple-of-key-areas",
+        "Categories":"EReaders,Tablets",
+        "Author":"Sharmishta Sarkar",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/EbCTJKVxkBjFfaueaZE4NQ"
+    },
+    {
         "Product":"Gigabyte Aorus Master 16",
         "Rating":"4.0",
         "Dateline":"2026-07-15",
@@ -77272,14 +77290,5 @@
         "Categories":"Pro",
         "Author":"Mark Pickavance",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/vrex32n64p3HfKeAdj4obM"
-    },
-    {
-        "Product":"amazon tv",
-        "Rating":"3.0",
-        "Dateline":"2026-07-10",
-        "URL":"https:\/\/www.techradar.com\/streaming\/entertainment\/the-westies-review-mgm-plus",
-        "Categories":"Entertainment,Streaming",
-        "Author":"Jasmine Valentine",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/6gcRgVeUfg25NRHMnJq5Dc"
     }
 ]
