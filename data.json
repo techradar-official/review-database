@@ -50040,15 +50040,6 @@
         "CMS_URL":"N\/A"
     },
     {
-        "Product":"InVideo",
-        "Rating":4.0,
-        "Dateline":"2023-02-24",
-        "URL":"https:\/\/www.techradar.com\/reviews\/invideo-review",
-        "Categories":"Software services,Pro",
-        "Author":"N\/A",
-        "CMS_URL":"N\/A"
-    },
-    {
         "Product":"Tecno Megabook T1",
         "Rating":4.0,
         "Dateline":"2023-02-24",
@@ -66114,15 +66105,6 @@
         "CMS_URL":"N\/A"
     },
     {
-        "Product":"Veed",
-        "Rating":3.5,
-        "Dateline":"2023-03-22",
-        "URL":"https:\/\/www.techradar.com\/reviews\/veed-review",
-        "Categories":"Software services,Pro",
-        "Author":"N\/A",
-        "CMS_URL":"N\/A"
-    },
-    {
         "Product":"Biteable",
         "Rating":3.5,
         "Dateline":"2023-03-22",
@@ -77085,15 +77067,6 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/7DUs2dK4mwDpYKxh4imu2Y"
     },
     {
-        "Product":"TobenONE UDS060",
-        "Rating":"3.5",
-        "Dateline":"2026-07-16",
-        "URL":"https:\/\/www.techradar.com\/pro\/tobenone-uds060-11-in-1-usb-c-docking-station-review",
-        "Categories":"Pro",
-        "Author":"Mark Pickavance",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/t2mFuEkzjjBKsPFGK5at8o"
-    },
-    {
         "Product":"Marshall Stanmore IV",
         "Rating":"4.5",
         "Dateline":"2026-07-12",
@@ -77119,6 +77092,123 @@
         "Categories":"Phone & Communications,Pro",
         "Author":"Mark Pickavance",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/skohR3swbdvzrHe8tLYnNf"
+    },
+    {
+        "Product":"Bambu Lab A2L",
+        "Rating":"4.5",
+        "Dateline":"2026-07-14",
+        "URL":"https:\/\/www.techradar.com\/pro\/bambu-lab-a2l-3d-printer-review",
+        "Categories":"Pro",
+        "Author":"Alastair Jennings",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/s5B4ANjTYypfFSMDqQf6A4"
+    },
+    {
+        "Product":"MelGeek Made68 Ultra V2",
+        "Rating":"3.5",
+        "Dateline":"2026-07-14",
+        "URL":"https:\/\/www.techradar.com\/computing\/keyboards\/melgeek-made68-ultra-v2-review",
+        "Categories":"Keyboards,Computing,Peripherals & Accessories",
+        "Author":"Lewis Maddison",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/uNL5AvVe2gv9RrAmnWgiG3"
+    },
+    {
+        "Product":"ExpressVPN Express AI",
+        "Rating":"4.0",
+        "Dateline":"2026-07-13",
+        "URL":"https:\/\/www.techradar.com\/pro\/express-ai-review",
+        "Categories":"Pro,AI Platforms & Assistants,ExpressVPN",
+        "Author":"Ritoban Mukherjee",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/2iRaNsAwHFDSQtizufEDK6"
+    },
+    {
+        "Product":"Proton Lumo AI",
+        "Rating":"3.5",
+        "Dateline":"2026-07-13",
+        "URL":"https:\/\/www.techradar.com\/pro\/lumo-ai-review",
+        "Categories":"Pro,AI Platforms & Assistants",
+        "Author":"Ritoban Mukherjee",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/5mxrnj35vSNCL3oeAm2Ynn"
+    },
+    {
+        "Product":"DuckDuckGo Duck.ai",
+        "Rating":"3.5",
+        "Dateline":"2026-07-13",
+        "URL":"https:\/\/www.techradar.com\/pro\/duck-ai-review",
+        "Categories":"Pro,AI Platforms & Assistants",
+        "Author":"Ritoban Mukherjee",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/TyoGkegGPEK2d7zpWiu76n"
+    },
+    {
+        "Product":"DeepSeek DeepSeek",
+        "Rating":"3.5",
+        "Dateline":"2026-07-13",
+        "URL":"https:\/\/www.techradar.com\/pro\/deepseek-ai-review",
+        "Categories":"Pro,AI Platforms & Assistants",
+        "Author":"Ritoban Mukherjee",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/N6a5CA4gvVBd4UxHydSQ2B"
+    },
+    {
+        "Product":"8BitDo 64 Bluetooth Controller",
+        "Rating":"4.0",
+        "Dateline":"2026-07-12",
+        "URL":"https:\/\/www.techradar.com\/gaming\/8bitdo-64-bluetooth-controller-review",
+        "Categories":"Gaming",
+        "Author":"Rhys Wood",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/NqxBAbX2jZiGZ2UXxw88UY"
+    },
+    {
+        "Product":"Kapwing Kapwing",
+        "Rating":"4.5",
+        "Dateline":"2026-07-20",
+        "URL":"https:\/\/www.techradar.com\/computing\/creative-software\/kapwing-ai-video-editor-review",
+        "Categories":"Creative Software,Computing,Software",
+        "Author":"Krishi Chowdhary",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/NxnzjUeqtL85maT7KiDUmV"
+    },
+    {
+        "Product":"Iniu SnapGo Air 10000mAh Power Bank",
+        "Rating":"4.5",
+        "Dateline":"2026-07-20",
+        "URL":"https:\/\/www.techradar.com\/phones\/phone-accessories\/iniu-snapgo-air-1000mah-power-bank-review",
+        "Categories":"Phone Accessories,Phones",
+        "Author":"Josh Russell",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/6LDdo4b5dozvYDQNRvFpbP"
+    },
+    {
+        "Product":"InVideo",
+        "Rating":"4.5",
+        "Dateline":"2023-02-24",
+        "URL":"https:\/\/www.techradar.com\/reviews\/invideo-review",
+        "Categories":"Software & Services,Pro",
+        "Author":"Krishi Chowdhary",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/LodTiNvqSDhaPnCcY4WPdV"
+    },
+    {
+        "Product":"Veed Veed",
+        "Rating":"4.5",
+        "Dateline":"2023-03-22",
+        "URL":"https:\/\/www.techradar.com\/reviews\/veed-review",
+        "Categories":"Software & Services,Pro",
+        "Author":"Krishi Chowdhary",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/HPxtcGTc6Fe7xMyv5VfCdX"
+    },
+    {
+        "Product":"Razer Hammerhead V3 HyperSpeed",
+        "Rating":"2.5",
+        "Dateline":"2026-07-19",
+        "URL":"https:\/\/www.techradar.com\/gaming\/razer-hammerhead-v3-hyperspeed-gaming-earbuds-review",
+        "Categories":"Gaming Accessories,Gaming",
+        "Author":"Dashiell Wood",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/zmvRzAFX8skFJpJutgkMkL"
+    },
+    {
+        "Product":"Eufy Omni S2",
+        "Rating":"4.5",
+        "Dateline":"2026-07-19",
+        "URL":"https:\/\/www.techradar.com\/home\/robot-vacuums\/eufy-omni-s2-review",
+        "Categories":"Robot Vacuums,Home,Smart Home",
+        "Author":"Alistair Charlton",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/WQdeTgNvcatdCTZWLZQ7aB"
     },
     {
         "Product":"TCL NXTPAPER 70 Pro",
@@ -77202,6 +77292,15 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/A6jvDQxD2StH5oT26Z6UTf"
     },
     {
+        "Product":"TobenONE UDS060",
+        "Rating":"3.5",
+        "Dateline":"2026-07-16",
+        "URL":"https:\/\/www.techradar.com\/pro\/tobenone-uds060-11-in-1-usb-c-docking-station-review",
+        "Categories":"Pro",
+        "Author":"Mark Pickavance",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/t2mFuEkzjjBKsPFGK5at8o"
+    },
+    {
         "Product":"Boox Go 10.3 Lumi Gen II",
         "Rating":"3.5",
         "Dateline":"2026-07-16",
@@ -77227,24 +77326,6 @@
         "Categories":"Pro",
         "Author":"Mark Pickavance",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/WjrHE7EzVtBuERrczgefcR"
-    },
-    {
-        "Product":"Bambu Lab A2L",
-        "Rating":"4.5",
-        "Dateline":"2026-07-14",
-        "URL":"https:\/\/www.techradar.com\/pro\/bambu-lab-a2l-3d-printer-review",
-        "Categories":"Pro",
-        "Author":"Alastair Jennings",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/s5B4ANjTYypfFSMDqQf6A4"
-    },
-    {
-        "Product":"MelGeek Made68 Ultra V2",
-        "Rating":"3.5",
-        "Dateline":"2026-07-14",
-        "URL":"https:\/\/www.techradar.com\/computing\/keyboards\/melgeek-made68-ultra-v2-review",
-        "Categories":"Keyboards,Computing,Peripherals & Accessories",
-        "Author":"Lewis Maddison",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/uNL5AvVe2gv9RrAmnWgiG3"
     },
     {
         "Product":"Dreame Z30 Pro Aqua",
@@ -77335,50 +77416,5 @@
         "Categories":"Entertainment,Streaming",
         "Author":"Lucy Buglass",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/cGsHNokYxUwXsbeHZh2w28"
-    },
-    {
-        "Product":"ExpressVPN Express AI",
-        "Rating":"4.0",
-        "Dateline":"2026-07-13",
-        "URL":"https:\/\/www.techradar.com\/pro\/express-ai-review",
-        "Categories":"Pro,AI Platforms & Assistants,ExpressVPN",
-        "Author":"Ritoban Mukherjee",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/2iRaNsAwHFDSQtizufEDK6"
-    },
-    {
-        "Product":"Proton Lumo AI",
-        "Rating":"3.5",
-        "Dateline":"2026-07-13",
-        "URL":"https:\/\/www.techradar.com\/pro\/lumo-ai-review",
-        "Categories":"Pro,AI Platforms & Assistants",
-        "Author":"Ritoban Mukherjee",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/5mxrnj35vSNCL3oeAm2Ynn"
-    },
-    {
-        "Product":"DuckDuckGo Duck.ai",
-        "Rating":"3.5",
-        "Dateline":"2026-07-13",
-        "URL":"https:\/\/www.techradar.com\/pro\/duck-ai-review",
-        "Categories":"Pro,AI Platforms & Assistants",
-        "Author":"Ritoban Mukherjee",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/TyoGkegGPEK2d7zpWiu76n"
-    },
-    {
-        "Product":"DeepSeek DeepSeek",
-        "Rating":"3.5",
-        "Dateline":"2026-07-13",
-        "URL":"https:\/\/www.techradar.com\/pro\/deepseek-ai-review",
-        "Categories":"Pro,AI Platforms & Assistants",
-        "Author":"Ritoban Mukherjee",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/N6a5CA4gvVBd4UxHydSQ2B"
-    },
-    {
-        "Product":"8BitDo 64 Bluetooth Controller",
-        "Rating":"4.0",
-        "Dateline":"2026-07-12",
-        "URL":"https:\/\/www.techradar.com\/gaming\/8bitdo-64-bluetooth-controller-review",
-        "Categories":"Gaming",
-        "Author":"Rhys Wood",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/NqxBAbX2jZiGZ2UXxw88UY"
     }
 ]
