@@ -77094,24 +77094,6 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/skohR3swbdvzrHe8tLYnNf"
     },
     {
-        "Product":"Bambu Lab A2L",
-        "Rating":"4.5",
-        "Dateline":"2026-07-14",
-        "URL":"https:\/\/www.techradar.com\/pro\/bambu-lab-a2l-3d-printer-review",
-        "Categories":"Pro",
-        "Author":"Alastair Jennings",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/s5B4ANjTYypfFSMDqQf6A4"
-    },
-    {
-        "Product":"MelGeek Made68 Ultra V2",
-        "Rating":"3.5",
-        "Dateline":"2026-07-14",
-        "URL":"https:\/\/www.techradar.com\/computing\/keyboards\/melgeek-made68-ultra-v2-review",
-        "Categories":"Keyboards,Computing,Peripherals & Accessories",
-        "Author":"Lewis Maddison",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/uNL5AvVe2gv9RrAmnWgiG3"
-    },
-    {
         "Product":"ExpressVPN Express AI",
         "Rating":"4.0",
         "Dateline":"2026-07-13",
@@ -77155,6 +77137,132 @@
         "Categories":"Gaming",
         "Author":"Rhys Wood",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/NqxBAbX2jZiGZ2UXxw88UY"
+    },
+    {
+        "Product":"Samsung 990 2TB SSD",
+        "Rating":"4.5",
+        "Dateline":"2023-02-22",
+        "URL":"https:\/\/www.techradar.com\/reviews\/cinc-crm",
+        "Categories":"Software & Services,Pro",
+        "Author":"Ritoban Mukherjee",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/EM5x6tYcCfjLwNbvmTtmqm"
+    },
+    {
+        "Product":"Samsung 990 2TB SSD",
+        "Rating":"3.5",
+        "Dateline":"2023-02-22",
+        "URL":"https:\/\/www.techradar.com\/reviews\/realoffice360-crm-review",
+        "Categories":"Software & Services,Pro",
+        "Author":"Ritoban Mukherjee",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/T2cd68gSaKHmhAfUGRFGw7"
+    },
+    {
+        "Product":"TeraBox TeraBox AI",
+        "Rating":"3.5",
+        "Dateline":"2026-07-13",
+        "URL":"https:\/\/www.techradar.com\/pro\/terabox-ai-review",
+        "Categories":"Pro,AI Platforms & Assistants",
+        "Author":"Ritoban Mukherjee",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/ekcycejGLKTRTLLsutQjHd"
+    },
+    {
+        "Product":"Brave Brave Leo AI",
+        "Rating":"4.0",
+        "Dateline":"2026-07-13",
+        "URL":"https:\/\/www.techradar.com\/pro\/brave-leo-ai-review",
+        "Categories":"Pro,AI Platforms & Assistants",
+        "Author":"Ritoban Mukherjee",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/a8TauRZipryyKrtj8U9u8P"
+    },
+    {
+        "Product":"Viltrox AF 90mm f\/2.2 EVO",
+        "Rating":"4.0",
+        "Dateline":"2026-07-13",
+        "URL":"https:\/\/www.techradar.com\/cameras\/camera-lenses\/viltrox-af-90mm-f-2-2-evo-review",
+        "Categories":"Camera Lenses,Cameras,Fujifilm",
+        "Author":"Timothy Coleman",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/mgnXZ7bUMGRzAwMBg7cWwJ"
+    },
+    {
+        "Product":"HuggingFace HuggingChat",
+        "Rating":"3.5",
+        "Dateline":"2026-07-13",
+        "URL":"https:\/\/www.techradar.com\/pro\/huggingchat-review",
+        "Categories":"Pro,AI Platforms & Assistants",
+        "Author":"Ritoban Mukherjee",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/JHrKF9KCQKjxwoY8XBKSU"
+    },
+    {
+        "Product":"Dimplex Rechargeable Cordless Desk Fan",
+        "Rating":"3.5",
+        "Dateline":"2026-07-13",
+        "URL":"https:\/\/www.techradar.com\/home\/air-quality\/the-dimplex-rechargeable-cordless-desk-fan-is-a-good-go-anywhere-fan-but-you-might-want-to-play-some-music-to-drown-out-its-drone",
+        "Categories":"Air Quality,Home,Small Appliances",
+        "Author":"Carrie Marshall",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/iKRAGE57PJSe3r5eP3RoKQ"
+    },
+    {
+        "Product":"Studiocanal Evil Dead Burn",
+        "Rating":"2.0",
+        "Dateline":"2026-07-13",
+        "URL":"https:\/\/www.techradar.com\/streaming\/entertainment\/evil-dead-burn-review",
+        "Categories":"Entertainment,Streaming",
+        "Author":"Lucy Buglass",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/cGsHNokYxUwXsbeHZh2w28"
+    },
+    {
+        "Product":"Lenovo Yoga Slim 7x (Gen 11)",
+        "Rating":"4.0",
+        "Dateline":"2026-07-21",
+        "URL":"https:\/\/www.techradar.com\/computing\/laptops\/lenovo-yoga-slim-7x-gen-11-review",
+        "Categories":"Laptops,Windows Laptops,Computing",
+        "Author":"Lewis Maddison",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/fzHZoBkoFfc4mbuURYMjeG"
+    },
+    {
+        "Product":"Adobe Firefly",
+        "Rating":"3.5",
+        "Dateline":"2026-07-21",
+        "URL":"https:\/\/www.techradar.com\/computing\/creative-software\/adobe-firefly-ai-video-editor-review",
+        "Categories":"Creative Software,Computing,Software,Adobe",
+        "Author":"Krishi Chowdhary",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/2aMjUErXRP7j5CVJipamnH"
+    },
+    {
+        "Product":"Turtle Beach Command Series KB7 TKL",
+        "Rating":"4.0",
+        "Dateline":"2026-07-21",
+        "URL":"https:\/\/www.techradar.com\/computing\/keyboards\/turtle-beach-command-series-kb7-review",
+        "Categories":"Keyboards,Gaming Accessories,Computing,Peripherals & Accessories,Gaming",
+        "Author":"Harry Padoan",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/zBvEyfzxh7xCjGJyxccBNX"
+    },
+    {
+        "Product":"Sony PS-LX3BT",
+        "Rating":"3.0",
+        "Dateline":"2026-07-20",
+        "URL":"https:\/\/www.techradar.com\/audio\/turntables\/sony-ps-lx3bt-review",
+        "Categories":"Turntables,Hi Fi,Audio,Hi res audio",
+        "Author":"James Grimshaw",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Kozr9gRNwE2VerZoawEET7"
+    },
+    {
+        "Product":"Asus ROG Strix Scar 18 (2026)",
+        "Rating":"4.5",
+        "Dateline":"2026-07-20",
+        "URL":"https:\/\/www.techradar.com\/computing\/gaming-laptops\/asus-rog-strix-scar-18-g835",
+        "Categories":"Gaming Laptops,Computing,Gaming Computers",
+        "Author":"Henry Winchester",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/XRhq8C6DoQuxmnaaBJUBfK"
+    },
+    {
+        "Product":"Avatar Aang",
+        "Rating":"3.0",
+        "Dateline":"2026-07-20",
+        "URL":"https:\/\/www.techradar.com\/streaming\/paramount-plus\/avatar-aang-the-last-airbender-review",
+        "Categories":"Paramount Plus,Streaming",
+        "Author":"Jasmine Valentine",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Cx8y5e8TZ7D7ygMyTfqZmg"
     },
     {
         "Product":"Kapwing Kapwing",
@@ -77229,7 +77337,7 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/aSyqWnkLaxVQLjKrkcqxbc"
     },
     {
-        "Product":"FiiO TT13",
+        "Product":"Fluance RT87",
         "Rating":"4.5",
         "Dateline":"2026-07-18",
         "URL":"https:\/\/www.techradar.com\/audio\/turntables\/fluance-rt87-turntable-review",
@@ -77328,6 +77436,24 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/WjrHE7EzVtBuERrczgefcR"
     },
     {
+        "Product":"Bambu Lab A2L",
+        "Rating":"4.5",
+        "Dateline":"2026-07-14",
+        "URL":"https:\/\/www.techradar.com\/pro\/bambu-lab-a2l-3d-printer-review",
+        "Categories":"Pro",
+        "Author":"Alastair Jennings",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/s5B4ANjTYypfFSMDqQf6A4"
+    },
+    {
+        "Product":"MelGeek Made68 Ultra V2",
+        "Rating":"3.5",
+        "Dateline":"2026-07-14",
+        "URL":"https:\/\/www.techradar.com\/computing\/keyboards\/melgeek-made68-ultra-v2-review",
+        "Categories":"Keyboards,Computing,Peripherals & Accessories",
+        "Author":"Lewis Maddison",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/uNL5AvVe2gv9RrAmnWgiG3"
+    },
+    {
         "Product":"Dreame Z30 Pro Aqua",
         "Rating":"3.5",
         "Dateline":"2026-07-14",
@@ -77344,77 +77470,5 @@
         "Categories":"Software & Services,Pro",
         "Author":"Ritoban Mukherjee",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/4zeSKKbudX3w62NxgKPKtR"
-    },
-    {
-        "Product":"Samsung 990 2TB SSD",
-        "Rating":"4.5",
-        "Dateline":"2023-02-22",
-        "URL":"https:\/\/www.techradar.com\/reviews\/cinc-crm",
-        "Categories":"Software & Services,Pro",
-        "Author":"Ritoban Mukherjee",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/EM5x6tYcCfjLwNbvmTtmqm"
-    },
-    {
-        "Product":"Samsung 990 2TB SSD",
-        "Rating":"3.5",
-        "Dateline":"2023-02-22",
-        "URL":"https:\/\/www.techradar.com\/reviews\/realoffice360-crm-review",
-        "Categories":"Software & Services,Pro",
-        "Author":"Ritoban Mukherjee",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/T2cd68gSaKHmhAfUGRFGw7"
-    },
-    {
-        "Product":"TeraBox TeraBox AI",
-        "Rating":"3.5",
-        "Dateline":"2026-07-13",
-        "URL":"https:\/\/www.techradar.com\/pro\/terabox-ai-review",
-        "Categories":"Pro,AI Platforms & Assistants",
-        "Author":"Ritoban Mukherjee",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/ekcycejGLKTRTLLsutQjHd"
-    },
-    {
-        "Product":"Brave Brave Leo AI",
-        "Rating":"4.0",
-        "Dateline":"2026-07-13",
-        "URL":"https:\/\/www.techradar.com\/pro\/brave-leo-ai-review",
-        "Categories":"Pro,AI Platforms & Assistants",
-        "Author":"Ritoban Mukherjee",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/a8TauRZipryyKrtj8U9u8P"
-    },
-    {
-        "Product":"Viltrox AF 90mm f\/2.2 EVO",
-        "Rating":"4.0",
-        "Dateline":"2026-07-13",
-        "URL":"https:\/\/www.techradar.com\/cameras\/camera-lenses\/viltrox-af-90mm-f-2-2-evo-review",
-        "Categories":"Camera Lenses,Cameras,Fujifilm",
-        "Author":"Timothy Coleman",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/mgnXZ7bUMGRzAwMBg7cWwJ"
-    },
-    {
-        "Product":"HuggingFace HuggingChat",
-        "Rating":"3.5",
-        "Dateline":"2026-07-13",
-        "URL":"https:\/\/www.techradar.com\/pro\/huggingchat-review",
-        "Categories":"Pro,AI Platforms & Assistants",
-        "Author":"Ritoban Mukherjee",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/JHrKF9KCQKjxwoY8XBKSU"
-    },
-    {
-        "Product":"Dimplex Rechargeable Cordless Desk Fan",
-        "Rating":"3.5",
-        "Dateline":"2026-07-13",
-        "URL":"https:\/\/www.techradar.com\/home\/air-quality\/the-dimplex-rechargeable-cordless-desk-fan-is-a-good-go-anywhere-fan-but-you-might-want-to-play-some-music-to-drown-out-its-drone",
-        "Categories":"Air Quality,Home,Small Appliances",
-        "Author":"Carrie Marshall",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/iKRAGE57PJSe3r5eP3RoKQ"
-    },
-    {
-        "Product":"Studiocanal Evil Dead Burn",
-        "Rating":"2.0",
-        "Dateline":"2026-07-13",
-        "URL":"https:\/\/www.techradar.com\/streaming\/entertainment\/evil-dead-burn-review",
-        "Categories":"Entertainment,Streaming",
-        "Author":"Lucy Buglass",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/cGsHNokYxUwXsbeHZh2w28"
     }
 ]
