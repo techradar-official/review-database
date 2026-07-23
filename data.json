@@ -60021,15 +60021,6 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/KzqtaVuohhqTFdSSLD64TX"
     },
     {
-        "Product":"Clipchamp (2026)",
-        "Rating":3.5,
-        "Dateline":"2026-01-14",
-        "URL":"https:\/\/www.techradar.com\/reviews\/clipchamp-review",
-        "Categories":"Pro",
-        "Author":"Steve Paris",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/uxtmFPJT8Xqr9Hie5Wtdqd"
-    },
-    {
         "Product":"Ulefone RugKing rugged phone",
         "Rating":3.5,
         "Dateline":"2026-01-11",
@@ -77256,6 +77247,132 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/4zeSKKbudX3w62NxgKPKtR"
     },
     {
+        "Product":"RugOne Xlink 7",
+        "Rating":"3.5",
+        "Dateline":"2026-07-17",
+        "URL":"https:\/\/www.techradar.com\/pro\/phone-communications\/rugone-xlink-7-rugged-walkie-talkie-review",
+        "Categories":"Phone & Communications,Pro",
+        "Author":"Mark Pickavance",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/U9VCi6LVeejshcVHHEbHxk"
+    },
+    {
+        "Product":"GoPro Mission 1 Pro",
+        "Rating":"4.5",
+        "Dateline":"2026-07-17",
+        "URL":"https:\/\/www.techradar.com\/cameras\/gopros\/gopro-mission-1-pro-review",
+        "Categories":"GoPros,Cameras,Action Cameras",
+        "Author":"Hamish Hector",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/TsGMcyuVxkS8HCK6aqJhvf"
+    },
+    {
+        "Product":"Viaim OpenNote",
+        "Rating":"4.5",
+        "Dateline":"2026-07-17",
+        "URL":"https:\/\/www.techradar.com\/pro\/viaim-opennote-ai-voice-recorder-review",
+        "Categories":"Pro,AI",
+        "Author":"Alastair Jennings",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/WTPr7CLtExc4nYfiEmcPeb"
+    },
+    {
+        "Product":"Medion Signium 27 S1 AIO",
+        "Rating":"3.5",
+        "Dateline":"2026-07-17",
+        "URL":"https:\/\/www.techradar.com\/computing\/windows-pcs\/medion-signium-27-s1-review",
+        "Categories":"Windows PCs,Computing,Desktop PCs",
+        "Author":"Christian Guyton",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/A6jvDQxD2StH5oT26Z6UTf"
+    },
+    {
+        "Product":"TobenONE UDS060",
+        "Rating":"3.5",
+        "Dateline":"2026-07-16",
+        "URL":"https:\/\/www.techradar.com\/pro\/tobenone-uds060-11-in-1-usb-c-docking-station-review",
+        "Categories":"Pro",
+        "Author":"Mark Pickavance",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/t2mFuEkzjjBKsPFGK5at8o"
+    },
+    {
+        "Product":"Boox Go 10.3 Lumi Gen II",
+        "Rating":"3.5",
+        "Dateline":"2026-07-16",
+        "URL":"https:\/\/www.techradar.com\/tablets\/ereaders\/the-onyx-boox-go-10-3-gen-ii-lumi-is-a-good-android-toting-kindle-scribe-alternative-but-it-disappoints-in-a-couple-of-key-areas",
+        "Categories":"EReaders,Tablets",
+        "Author":"Sharmishta Sarkar",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/EbCTJKVxkBjFfaueaZE4NQ"
+    },
+    {
+        "Product":"Gigabyte Aorus Master 16",
+        "Rating":"4.0",
+        "Dateline":"2026-07-15",
+        "URL":"https:\/\/www.techradar.com\/computing\/gigabyte-aorus-master-16-gen-2-review",
+        "Categories":"Computing,Gaming Laptops,Gaming Computers",
+        "Author":"Lindsay Handmer",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/8FERFhUCsmp3C6SveJgJPQ"
+    },
+    {
+        "Product":"AngryMiao AngryMiao AM Infinity.97",
+        "Rating":"4.5",
+        "Dateline":"2026-07-23",
+        "URL":"https:\/\/www.techradar.com\/computing\/mice\/angrymiao-am-infinity-97",
+        "Categories":"Mice,Gaming,Computing,Peripherals & Accessories",
+        "Author":"Reece Bithrey",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/KuCZL7dMTaNqZxni4GC8cg"
+    },
+    {
+        "Product":"Fliki Fliki",
+        "Rating":"4.5",
+        "Dateline":"2026-07-23",
+        "URL":"https:\/\/www.techradar.com\/computing\/creative-software\/fliki-ai-video-editor-review",
+        "Categories":"Creative Software,Computing,Software",
+        "Author":"Krishi Chowdhary",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/wVZxbUgGkUk5g9A7YUrkiT"
+    },
+    {
+        "Product":"[FLAG] 8BitDo Ultimate Mobile Gaming Controller - Xbox Edition",
+        "Rating":"3.5",
+        "Dateline":"2026-07-22",
+        "URL":"https:\/\/www.techradar.com\/gaming\/8bitdo-ultimate-mobile-gaming-controller-xbox-edition-review",
+        "Categories":"Xbox,Gaming,Consoles & PC",
+        "Author":"Alex Berry",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/WkUVs8o8LSJuVmdH5tMMFP"
+    },
+    {
+        "Product":"Arozzi Vernazza Supersoft",
+        "Rating":"4.5",
+        "Dateline":"2026-07-22",
+        "URL":"https:\/\/www.techradar.com\/pro\/arozzi-vernazza-supersoft-office-chair-review",
+        "Categories":"Pro",
+        "Author":"Timothy Coleman",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/U9rbAjyDmFVYw6Y6Rfw6oU"
+    },
+    {
+        "Product":"Microsoft Clipchamp",
+        "Rating":"4.0",
+        "Dateline":"2022-12-12",
+        "URL":"https:\/\/www.techradar.com\/reviews\/clipchamp-review",
+        "Categories":"Pro",
+        "Author":"Krishi Chowdhary",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/uxtmFPJT8Xqr9Hie5Wtdqd"
+    },
+    {
+        "Product":"Max",
+        "Rating":"4.0",
+        "Dateline":"2026-07-22",
+        "URL":"https:\/\/www.techradar.com\/streaming\/hbo-max\/stuart-fails-to-save-the-universe-review",
+        "Categories":"HBO Max,Streaming",
+        "Author":"Jasmine Valentine",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/TgaAZfKhB8U9SMAo87XohN"
+    },
+    {
+        "Product":"Samsung Galaxy Watch Ultra 2",
+        "Rating":"4.5",
+        "Dateline":"2026-07-22",
+        "URL":"https:\/\/www.techradar.com\/health-fitness\/smartwatches\/samsung-galaxy-watch-ultra-2-review",
+        "Categories":"Smartwatches,Fitness Trackers,Health & Fitness,Samsung,Samsung Galaxy Watch",
+        "Author":"Matt Evans",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/v3YKcstNXQQrdmZgmPMuCe"
+    },
+    {
         "Product":"Wondershare Filmora",
         "Rating":"4.5",
         "Dateline":"2026-07-22",
@@ -77452,68 +77569,5 @@
         "Categories":"Televisions,OLED,Samsung,4K",
         "Author":"James Davidson",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/5wWhmMGu7pt5KE2oa9kNeQ"
-    },
-    {
-        "Product":"RugOne Xlink 7",
-        "Rating":"3.5",
-        "Dateline":"2026-07-17",
-        "URL":"https:\/\/www.techradar.com\/pro\/phone-communications\/rugone-xlink-7-rugged-walkie-talkie-review",
-        "Categories":"Phone & Communications,Pro",
-        "Author":"Mark Pickavance",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/U9VCi6LVeejshcVHHEbHxk"
-    },
-    {
-        "Product":"GoPro Mission 1 Pro",
-        "Rating":"4.5",
-        "Dateline":"2026-07-17",
-        "URL":"https:\/\/www.techradar.com\/cameras\/gopros\/gopro-mission-1-pro-review",
-        "Categories":"GoPros,Cameras,Action Cameras",
-        "Author":"Hamish Hector",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/TsGMcyuVxkS8HCK6aqJhvf"
-    },
-    {
-        "Product":"Viaim OpenNote",
-        "Rating":"4.5",
-        "Dateline":"2026-07-17",
-        "URL":"https:\/\/www.techradar.com\/pro\/viaim-opennote-ai-voice-recorder-review",
-        "Categories":"Pro,AI",
-        "Author":"Alastair Jennings",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/WTPr7CLtExc4nYfiEmcPeb"
-    },
-    {
-        "Product":"Medion Signium 27 S1 AIO",
-        "Rating":"3.5",
-        "Dateline":"2026-07-17",
-        "URL":"https:\/\/www.techradar.com\/computing\/windows-pcs\/medion-signium-27-s1-review",
-        "Categories":"Windows PCs,Computing,Desktop PCs",
-        "Author":"Christian Guyton",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/A6jvDQxD2StH5oT26Z6UTf"
-    },
-    {
-        "Product":"TobenONE UDS060",
-        "Rating":"3.5",
-        "Dateline":"2026-07-16",
-        "URL":"https:\/\/www.techradar.com\/pro\/tobenone-uds060-11-in-1-usb-c-docking-station-review",
-        "Categories":"Pro",
-        "Author":"Mark Pickavance",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/t2mFuEkzjjBKsPFGK5at8o"
-    },
-    {
-        "Product":"Boox Go 10.3 Lumi Gen II",
-        "Rating":"3.5",
-        "Dateline":"2026-07-16",
-        "URL":"https:\/\/www.techradar.com\/tablets\/ereaders\/the-onyx-boox-go-10-3-gen-ii-lumi-is-a-good-android-toting-kindle-scribe-alternative-but-it-disappoints-in-a-couple-of-key-areas",
-        "Categories":"EReaders,Tablets",
-        "Author":"Sharmishta Sarkar",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/EbCTJKVxkBjFfaueaZE4NQ"
-    },
-    {
-        "Product":"Gigabyte Aorus Master 16",
-        "Rating":"4.0",
-        "Dateline":"2026-07-15",
-        "URL":"https:\/\/www.techradar.com\/computing\/gigabyte-aorus-master-16-gen-2-review",
-        "Categories":"Computing,Gaming Laptops,Gaming Computers",
-        "Author":"Lindsay Handmer",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/8FERFhUCsmp3C6SveJgJPQ"
     }
 ]
