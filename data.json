@@ -77346,6 +77346,60 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/5wWhmMGu7pt5KE2oa9kNeQ"
     },
     {
+        "Product":"Razer Hammerhead V3 HyperSpeed",
+        "Rating":"2.5",
+        "Dateline":"2026-07-19",
+        "URL":"https:\/\/www.techradar.com\/gaming\/razer-hammerhead-v3-hyperspeed-gaming-earbuds-review",
+        "Categories":"Gaming Accessories,Gaming",
+        "Author":"Dashiell Wood",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/zmvRzAFX8skFJpJutgkMkL"
+    },
+    {
+        "Product":"Eufy Omni S2",
+        "Rating":"4.5",
+        "Dateline":"2026-07-19",
+        "URL":"https:\/\/www.techradar.com\/home\/robot-vacuums\/eufy-omni-s2-review",
+        "Categories":"Robot Vacuums,Home,Smart Home",
+        "Author":"Alistair Charlton",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/WQdeTgNvcatdCTZWLZQ7aB"
+    },
+    {
+        "Product":"TCL NXTPAPER 70 Pro",
+        "Rating":"3.5",
+        "Dateline":"2026-07-19",
+        "URL":"https:\/\/www.techradar.com\/phones\/tcl-nxtpaper-70-pro",
+        "Categories":"Phones,TCL",
+        "Author":"Matt Hanson",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Qi3NSmrUj4crSADrp3Nzd9"
+    },
+    {
+        "Product":"Shokz OpenDots Air",
+        "Rating":"4.0",
+        "Dateline":"2026-07-24",
+        "URL":"https:\/\/www.techradar.com\/audio\/wireless-headphones\/shokz-new-opendots-air-arent-flashy-but-after-a-month-of-testing-i-can-confidently-say-theyre-the-best-clip-style-open-earbuds-for-most-people",
+        "Categories":"Wireless Headphones,Audio,Headphones",
+        "Author":"Tom Bedford",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/bALsV7FmSqs98VGK9T3gxT"
+    },
+    {
+        "Product":"Razer Kiyo V2",
+        "Rating":"4.0",
+        "Dateline":"2026-07-24",
+        "URL":"https:\/\/www.techradar.com\/computing\/webcams\/razer-kiyo-v2-review",
+        "Categories":"Webcams,Computing,Peripherals & Accessories,Razer",
+        "Author":"Christian Guyton",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/7qEqgogzuCYETk7buxSaTX"
+    },
+    {
+        "Product":"Elegoo H1 HT",
+        "Rating":"4.5",
+        "Dateline":"2026-07-24",
+        "URL":"https:\/\/www.techradar.com\/pro\/elegoo-h1-ht-filament-dryer-review",
+        "Categories":"Pro",
+        "Author":"Alastair Jennings",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/tfsqiBDYafUjagTRt8zTU9"
+    },
+    {
         "Product":"Samsung Galaxy Tab S10 FE (Wi-Fi)",
         "Rating":"4.0",
         "Dateline":"2026-07-24",
@@ -77578,32 +77632,5 @@
         "Categories":"Software & Services,Pro",
         "Author":"Krishi Chowdhary",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/HPxtcGTc6Fe7xMyv5VfCdX"
-    },
-    {
-        "Product":"Razer Hammerhead V3 HyperSpeed",
-        "Rating":"2.5",
-        "Dateline":"2026-07-19",
-        "URL":"https:\/\/www.techradar.com\/gaming\/razer-hammerhead-v3-hyperspeed-gaming-earbuds-review",
-        "Categories":"Gaming Accessories,Gaming",
-        "Author":"Dashiell Wood",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/zmvRzAFX8skFJpJutgkMkL"
-    },
-    {
-        "Product":"Eufy Omni S2",
-        "Rating":"4.5",
-        "Dateline":"2026-07-19",
-        "URL":"https:\/\/www.techradar.com\/home\/robot-vacuums\/eufy-omni-s2-review",
-        "Categories":"Robot Vacuums,Home,Smart Home",
-        "Author":"Alistair Charlton",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/WQdeTgNvcatdCTZWLZQ7aB"
-    },
-    {
-        "Product":"TCL NXTPAPER 70 Pro",
-        "Rating":"3.5",
-        "Dateline":"2026-07-19",
-        "URL":"https:\/\/www.techradar.com\/phones\/tcl-nxtpaper-70-pro",
-        "Categories":"Phones,TCL",
-        "Author":"Matt Hanson",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Qi3NSmrUj4crSADrp3Nzd9"
     }
 ]
