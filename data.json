@@ -77427,6 +77427,24 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Cx8y5e8TZ7D7ygMyTfqZmg"
     },
     {
+        "Product":"Sony PS-LX3BT",
+        "Rating":"3.0",
+        "Dateline":"2026-07-20",
+        "URL":"https:\/\/www.techradar.com\/audio\/turntables\/sony-ps-lx3bt-review",
+        "Categories":"Turntables,Hi Fi,Audio,Hi res audio",
+        "Author":"James Grimshaw",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Kozr9gRNwE2VerZoawEET7"
+    },
+    {
+        "Product":"Honor Magic V6",
+        "Rating":"4.0",
+        "Dateline":"2026-07-27",
+        "URL":"https:\/\/www.techradar.com\/phones\/honor-magic-v6-review",
+        "Categories":"Honor Phones,Android,Phones",
+        "Author":"Dashiell Wood",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/NKt6EARPajXQP5UESHYzUH"
+    },
+    {
         "Product":"TP-Link Tapo C660",
         "Rating":"4.5",
         "Dateline":"2026-07-27",
@@ -77677,14 +77695,5 @@
         "Categories":"Keyboards,Gaming Accessories,Computing,Peripherals & Accessories,Gaming",
         "Author":"Harry Padoan",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/zBvEyfzxh7xCjGJyxccBNX"
-    },
-    {
-        "Product":"Sony PS-LX3BT",
-        "Rating":"3.0",
-        "Dateline":"2026-07-20",
-        "URL":"https:\/\/www.techradar.com\/audio\/turntables\/sony-ps-lx3bt-review",
-        "Categories":"Turntables,Hi Fi,Audio,Hi res audio",
-        "Author":"James Grimshaw",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Kozr9gRNwE2VerZoawEET7"
     }
 ]
