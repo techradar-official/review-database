@@ -77436,6 +77436,60 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Kozr9gRNwE2VerZoawEET7"
     },
     {
+        "Product":"Lenovo Yoga Slim 7x (Gen 11)",
+        "Rating":"4.0",
+        "Dateline":"2026-07-21",
+        "URL":"https:\/\/www.techradar.com\/computing\/laptops\/lenovo-yoga-slim-7x-gen-11-review",
+        "Categories":"Laptops,Windows Laptops,Computing",
+        "Author":"Lewis Maddison",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/fzHZoBkoFfc4mbuURYMjeG"
+    },
+    {
+        "Product":"Adobe Firefly",
+        "Rating":"3.5",
+        "Dateline":"2026-07-21",
+        "URL":"https:\/\/www.techradar.com\/computing\/creative-software\/adobe-firefly-ai-video-editor-review",
+        "Categories":"Creative Software,Computing,Software,Adobe",
+        "Author":"Krishi Chowdhary",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/2aMjUErXRP7j5CVJipamnH"
+    },
+    {
+        "Product":"Turtle Beach Command Series KB7 TKL",
+        "Rating":"4.0",
+        "Dateline":"2026-07-21",
+        "URL":"https:\/\/www.techradar.com\/computing\/keyboards\/turtle-beach-command-series-kb7-review",
+        "Categories":"Keyboards,Gaming Accessories,Computing,Peripherals & Accessories,Gaming",
+        "Author":"Harry Padoan",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/zBvEyfzxh7xCjGJyxccBNX"
+    },
+    {
+        "Product":"HP HP Omen 16 Slim",
+        "Rating":"4.0",
+        "Dateline":"2026-07-29",
+        "URL":"https:\/\/www.techradar.com\/computing\/gaming-laptops\/hp-omen-16-slim",
+        "Categories":"Gaming Laptops,Laptops,Computing,Gaming Computers,HP",
+        "Author":"Jeremy Laird",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/jL4yNSKCyu7esGwvV5Gdm7"
+    },
+    {
+        "Product":"DataImpulse Proxy",
+        "Rating":"4.0",
+        "Dateline":"2026-07-29",
+        "URL":"https:\/\/www.techradar.com\/pro\/security\/dataimpulse-proxy-service-review",
+        "Categories":"Security,Pro",
+        "Author":"Sead Fadilpasic",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/8WbTvNyrNK3FWd5cfYpAbM"
+    },
+    {
+        "Product":"[FLAG] Square Enix The Adventures of Elliot: The Millennium Tales",
+        "Rating":"3.5",
+        "Dateline":"2026-07-28",
+        "URL":"https:\/\/www.techradar.com\/gaming\/the-adventures-of-elliot-the-millennium-tales-review",
+        "Categories":"Gaming",
+        "Author":"Harry Padoan",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/m8zUG57LKw8RuEnxMjEmtP"
+    },
+    {
         "Product":"Honor Magic V6",
         "Rating":"4.0",
         "Dateline":"2026-07-27",
@@ -77668,32 +77722,5 @@
         "Categories":"Nintendo Switch,Gaming,Consoles & PC,Nintendo",
         "Author":"Dashiell Wood",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/4B2HR2XuPEUWpzLeyN2nuh"
-    },
-    {
-        "Product":"Lenovo Yoga Slim 7x (Gen 11)",
-        "Rating":"4.0",
-        "Dateline":"2026-07-21",
-        "URL":"https:\/\/www.techradar.com\/computing\/laptops\/lenovo-yoga-slim-7x-gen-11-review",
-        "Categories":"Laptops,Windows Laptops,Computing",
-        "Author":"Lewis Maddison",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/fzHZoBkoFfc4mbuURYMjeG"
-    },
-    {
-        "Product":"Adobe Firefly",
-        "Rating":"3.5",
-        "Dateline":"2026-07-21",
-        "URL":"https:\/\/www.techradar.com\/computing\/creative-software\/adobe-firefly-ai-video-editor-review",
-        "Categories":"Creative Software,Computing,Software,Adobe",
-        "Author":"Krishi Chowdhary",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/2aMjUErXRP7j5CVJipamnH"
-    },
-    {
-        "Product":"Turtle Beach Command Series KB7 TKL",
-        "Rating":"4.0",
-        "Dateline":"2026-07-21",
-        "URL":"https:\/\/www.techradar.com\/computing\/keyboards\/turtle-beach-command-series-kb7-review",
-        "Categories":"Keyboards,Gaming Accessories,Computing,Peripherals & Accessories,Gaming",
-        "Author":"Harry Padoan",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/zBvEyfzxh7xCjGJyxccBNX"
     }
 ]
