@@ -77463,6 +77463,42 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/zBvEyfzxh7xCjGJyxccBNX"
     },
     {
+        "Product":"Samsung Galaxy Tab S11",
+        "Rating":"3.5",
+        "Dateline":"2026-07-21",
+        "URL":"https:\/\/www.techradar.com\/tablets\/samsung-galaxy-tab-s11-review",
+        "Categories":"Tablets",
+        "Author":"Lewis Maddison",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/6ViLrfU9umeqshS6SgbKYA"
+    },
+    {
+        "Product":"Nintendo Splatoon Raiders",
+        "Rating":"5.0",
+        "Dateline":"2026-07-21",
+        "URL":"https:\/\/www.techradar.com\/gaming\/splatoon-raiders-review",
+        "Categories":"Nintendo Switch,Gaming,Consoles & PC,Nintendo",
+        "Author":"Dashiell Wood",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/4B2HR2XuPEUWpzLeyN2nuh"
+    },
+    {
+        "Product":"KitchenAid KF3 Fully Automatic Espresso Machine",
+        "Rating":"4.0",
+        "Dateline":"2026-07-29",
+        "URL":"https:\/\/www.techradar.com\/home\/coffee-machines\/kitchenaid-kf3-review",
+        "Categories":"Coffee Machines,Home,Small Appliances",
+        "Author":"Max Langridge",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/xY2abETksa3gjdtdZPBSbJ"
+    },
+    {
+        "Product":"LEGO Disney",
+        "Rating":"3.5",
+        "Dateline":"2026-07-29",
+        "URL":"https:\/\/www.techradar.com\/streaming\/entertainment\/spider-man-brand-new-day-review",
+        "Categories":"Entertainment,Streaming,MCU",
+        "Author":"Tom Power",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/4k3CDxVU4vqqJtiWzJpdnY"
+    },
+    {
         "Product":"HP HP Omen 16 Slim",
         "Rating":"4.0",
         "Dateline":"2026-07-29",
@@ -77704,23 +77740,5 @@
         "Categories":"Pro",
         "Author":"Timothy Coleman",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/XkBHACqWo3NN26TaHQroh9"
-    },
-    {
-        "Product":"Samsung Galaxy Tab S11",
-        "Rating":"3.5",
-        "Dateline":"2026-07-21",
-        "URL":"https:\/\/www.techradar.com\/tablets\/samsung-galaxy-tab-s11-review",
-        "Categories":"Tablets",
-        "Author":"Lewis Maddison",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/6ViLrfU9umeqshS6SgbKYA"
-    },
-    {
-        "Product":"Nintendo Splatoon Raiders",
-        "Rating":"5.0",
-        "Dateline":"2026-07-21",
-        "URL":"https:\/\/www.techradar.com\/gaming\/splatoon-raiders-review",
-        "Categories":"Nintendo Switch,Gaming,Consoles & PC,Nintendo",
-        "Author":"Dashiell Wood",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/4B2HR2XuPEUWpzLeyN2nuh"
     }
 ]
