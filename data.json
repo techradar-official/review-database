@@ -77508,6 +77508,33 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/XkBHACqWo3NN26TaHQroh9"
     },
     {
+        "Product":"Coolpad Max",
+        "Rating":"4.0",
+        "Dateline":"2026-07-22",
+        "URL":"https:\/\/www.techradar.com\/streaming\/hbo-max\/stuart-fails-to-save-the-universe-review",
+        "Categories":"HBO Max,Streaming",
+        "Author":"Jasmine Valentine",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/TgaAZfKhB8U9SMAo87XohN"
+    },
+    {
+        "Product":"Samsung Galaxy Watch Ultra 2",
+        "Rating":"4.5",
+        "Dateline":"2026-07-22",
+        "URL":"https:\/\/www.techradar.com\/health-fitness\/smartwatches\/samsung-galaxy-watch-ultra-2-review",
+        "Categories":"Smartwatches,Fitness Trackers,Health & Fitness,Samsung,Samsung Galaxy Watch",
+        "Author":"Matt Evans",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/v3YKcstNXQQrdmZgmPMuCe"
+    },
+    {
+        "Product":"LG OLED TV",
+        "Rating":"5.0",
+        "Dateline":"2026-08-01",
+        "URL":"https:\/\/www.techradar.com\/streaming\/entertainment\/teenage-sex-and-death-at-camp-miasma-mubi-review",
+        "Categories":"Entertainment,Streaming",
+        "Author":"Jasmine Valentine",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/GsLCt9V4a5phHDjE5waETZ"
+    },
+    {
         "Product":"Desky CoilFlex Ergonomic Office Chair",
         "Rating":"4.0",
         "Dateline":"2026-07-31",
@@ -77749,23 +77776,5 @@
         "Categories":"Pro",
         "Author":"Krishi Chowdhary",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/uxtmFPJT8Xqr9Hie5Wtdqd"
-    },
-    {
-        "Product":"Coolpad Max",
-        "Rating":"4.0",
-        "Dateline":"2026-07-22",
-        "URL":"https:\/\/www.techradar.com\/streaming\/hbo-max\/stuart-fails-to-save-the-universe-review",
-        "Categories":"HBO Max,Streaming",
-        "Author":"Jasmine Valentine",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/TgaAZfKhB8U9SMAo87XohN"
-    },
-    {
-        "Product":"Samsung Galaxy Watch Ultra 2",
-        "Rating":"4.5",
-        "Dateline":"2026-07-22",
-        "URL":"https:\/\/www.techradar.com\/health-fitness\/smartwatches\/samsung-galaxy-watch-ultra-2-review",
-        "Categories":"Smartwatches,Fitness Trackers,Health & Fitness,Samsung,Samsung Galaxy Watch",
-        "Author":"Matt Evans",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/v3YKcstNXQQrdmZgmPMuCe"
     }
 ]
