@@ -77634,6 +77634,132 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/z6tnBYNzj5vu9xqyZcQ3oP"
     },
     {
+        "Product":"[FLAG] Square Enix The Adventures of Elliot: The Millennium Tales",
+        "Rating":"3.5",
+        "Dateline":"2026-07-28",
+        "URL":"https:\/\/www.techradar.com\/gaming\/the-adventures-of-elliot-the-millennium-tales-review",
+        "Categories":"Gaming",
+        "Author":"Harry Padoan",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/m8zUG57LKw8RuEnxMjEmtP"
+    },
+    {
+        "Product":"Honor Magic V6",
+        "Rating":"4.0",
+        "Dateline":"2026-07-27",
+        "URL":"https:\/\/www.techradar.com\/phones\/honor-magic-v6-review",
+        "Categories":"Honor Phones,Android,Phones",
+        "Author":"Dashiell Wood",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/NKt6EARPajXQP5UESHYzUH"
+    },
+    {
+        "Product":"TP-Link Tapo C660",
+        "Rating":"4.5",
+        "Dateline":"2026-07-27",
+        "URL":"https:\/\/www.techradar.com\/home\/home-security\/tp-link-tapo-c660-kit-review",
+        "Categories":"Home Security,Home,Smart Home",
+        "Author":"Nico Arboleda",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/PKGMnrEVRzZfRa9fXEoTqA"
+    },
+    {
+        "Product":"GameSir G8+ Bluetooth",
+        "Rating":"4.0",
+        "Dateline":"2026-07-26",
+        "URL":"https:\/\/www.techradar.com\/gaming\/gamesir-g8-plus-bluetooth-review",
+        "Categories":"Mobile Gaming,Gaming",
+        "Author":"Alex Berry",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Xh88rp2gLXstbCviJY6fq4"
+    },
+    {
+        "Product":"Cherry XTRFY K63W Pro Compact Ultra-Wideband",
+        "Rating":"3.5",
+        "Dateline":"2026-07-26",
+        "URL":"https:\/\/www.techradar.com\/computing\/keyboards\/cherry-xtrfy-k63w-pro-compact-ultra-wideband-review",
+        "Categories":"Keyboards,Computing,Peripherals & Accessories",
+        "Author":"Lewis Maddison",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/eo3ERHzqas7EPAY3ZJKxkb"
+    },
+    {
+        "Product":"Wireless HORIPAD Turbo",
+        "Rating":"3.5",
+        "Dateline":"2026-07-25",
+        "URL":"https:\/\/www.techradar.com\/gaming\/wireless-horipad-turbo-for-nintendo-switch-2-review",
+        "Categories":"Gaming",
+        "Author":"Rhys Wood",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/o4Zpg4QRy7JrrLcsghGURe"
+    },
+    {
+        "Product":"Valve Steam Machine",
+        "Rating":"3.5",
+        "Dateline":"2026-07-25",
+        "URL":"https:\/\/www.techradar.com\/computing\/gaming-laptops\/steam-machine-review",
+        "Categories":"Gaming PCs,Gaming,Computing,Gaming Computers",
+        "Author":"Christian Guyton",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/XdBEbGvJKvi5TD7q28LEd9"
+    },
+    {
+        "Product":"Samsung Galaxy Z Fold 8 Ultra",
+        "Rating":"4.5",
+        "Dateline":"2026-08-05",
+        "URL":"https:\/\/www.techradar.com\/phones\/samsung-galaxy-phones\/samsung-galaxy-z-fold-8-ultra-review",
+        "Categories":"Samsung Galaxy Phones,Android,Phones,Samsung",
+        "Author":"Lance Ulanoff",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/kJnQwJDcP2mWZ3r5zwMiym"
+    },
+    {
+        "Product":"Apple TV (Subscription)",
+        "Rating":"4.0",
+        "Dateline":"2026-08-05",
+        "URL":"https:\/\/www.techradar.com\/streaming\/apple-tv-plus\/ted-lasso-season-4-review",
+        "Categories":"Apple TV,Streaming",
+        "Author":"Tom Power",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/ASqYSQgevyU7MU3W66S23d"
+    },
+    {
+        "Product":"Beelink EQi Wildcat Lake",
+        "Rating":"4.5",
+        "Dateline":"2026-08-04",
+        "URL":"https:\/\/www.techradar.com\/pro\/beelink-eqi-wildcat-lake-mini-pc-review",
+        "Categories":"Pro",
+        "Author":"Alastair Jennings",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/VCgmPV3A93w3A52mckDbcV"
+    },
+    {
+        "Product":"Fanxiang PS2000W",
+        "Rating":"3.5",
+        "Dateline":"2026-08-04",
+        "URL":"https:\/\/www.techradar.com\/pro\/fanxiang-ps2000w-portable-ssd-review",
+        "Categories":"Pro",
+        "Author":"Mark Pickavance",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/7JDGRZqGRqs3WLNSBHTCti"
+    },
+    {
+        "Product":"BenQ PD2770U",
+        "Rating":"4.5",
+        "Dateline":"2026-08-04",
+        "URL":"https:\/\/www.techradar.com\/pro\/benq-pd2770u-4k-monitor-review",
+        "Categories":"Pro",
+        "Author":"Collin Probst",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Ftk44xovvs8sV6uW5dEfT8"
+    },
+    {
+        "Product":"Lenovo ThinkPad P14s Gen 6",
+        "Rating":"4.0",
+        "Dateline":"2026-08-04",
+        "URL":"https:\/\/www.techradar.com\/pro\/lenovo-thinkpad-p14s-gen-6-mobile-workstation-review",
+        "Categories":"Pro,Lenovo",
+        "Author":"Collin Probst",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/xE66x2HoxfEsCymGhb7Bpe"
+    },
+    {
+        "Product":"Samsung Galaxy S26",
+        "Rating":"4.0",
+        "Dateline":"2026-08-04",
+        "URL":"https:\/\/www.techradar.com\/phones\/samsung-galaxy-phones\/samsung-galaxy-s26-review",
+        "Categories":"Samsung Galaxy Phones,Android,Phones,Samsung",
+        "Author":"Jason Cipriani",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/pzz7ALcDxeeiF8h9tqphDC"
+    },
+    {
         "Product":"Game Freak Beast of Reincarnation",
         "Rating":"4.0",
         "Dateline":"2026-08-04",
@@ -77830,68 +77956,5 @@
         "Categories":"Security,Pro",
         "Author":"Sead Fadilpasic",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/8WbTvNyrNK3FWd5cfYpAbM"
-    },
-    {
-        "Product":"[FLAG] Square Enix The Adventures of Elliot: The Millennium Tales",
-        "Rating":"3.5",
-        "Dateline":"2026-07-28",
-        "URL":"https:\/\/www.techradar.com\/gaming\/the-adventures-of-elliot-the-millennium-tales-review",
-        "Categories":"Gaming",
-        "Author":"Harry Padoan",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/m8zUG57LKw8RuEnxMjEmtP"
-    },
-    {
-        "Product":"Honor Magic V6",
-        "Rating":"4.0",
-        "Dateline":"2026-07-27",
-        "URL":"https:\/\/www.techradar.com\/phones\/honor-magic-v6-review",
-        "Categories":"Honor Phones,Android,Phones",
-        "Author":"Dashiell Wood",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/NKt6EARPajXQP5UESHYzUH"
-    },
-    {
-        "Product":"TP-Link Tapo C660",
-        "Rating":"4.5",
-        "Dateline":"2026-07-27",
-        "URL":"https:\/\/www.techradar.com\/home\/home-security\/tp-link-tapo-c660-kit-review",
-        "Categories":"Home Security,Home,Smart Home",
-        "Author":"Nico Arboleda",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/PKGMnrEVRzZfRa9fXEoTqA"
-    },
-    {
-        "Product":"GameSir G8+ Bluetooth",
-        "Rating":"4.0",
-        "Dateline":"2026-07-26",
-        "URL":"https:\/\/www.techradar.com\/gaming\/gamesir-g8-plus-bluetooth-review",
-        "Categories":"Mobile Gaming,Gaming",
-        "Author":"Alex Berry",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Xh88rp2gLXstbCviJY6fq4"
-    },
-    {
-        "Product":"Cherry XTRFY K63W Pro Compact Ultra-Wideband",
-        "Rating":"3.5",
-        "Dateline":"2026-07-26",
-        "URL":"https:\/\/www.techradar.com\/computing\/keyboards\/cherry-xtrfy-k63w-pro-compact-ultra-wideband-review",
-        "Categories":"Keyboards,Computing,Peripherals & Accessories",
-        "Author":"Lewis Maddison",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/eo3ERHzqas7EPAY3ZJKxkb"
-    },
-    {
-        "Product":"Wireless HORIPAD Turbo",
-        "Rating":"3.5",
-        "Dateline":"2026-07-25",
-        "URL":"https:\/\/www.techradar.com\/gaming\/wireless-horipad-turbo-for-nintendo-switch-2-review",
-        "Categories":"Gaming",
-        "Author":"Rhys Wood",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/o4Zpg4QRy7JrrLcsghGURe"
-    },
-    {
-        "Product":"Valve Steam Machine",
-        "Rating":"3.5",
-        "Dateline":"2026-07-25",
-        "URL":"https:\/\/www.techradar.com\/computing\/gaming-laptops\/steam-machine-review",
-        "Categories":"Gaming PCs,Gaming,Computing,Gaming Computers",
-        "Author":"Christian Guyton",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/XdBEbGvJKvi5TD7q28LEd9"
     }
 ]
