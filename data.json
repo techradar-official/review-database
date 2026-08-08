@@ -30798,15 +30798,6 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Ym2JHSBzFxG5wMY9r44Sdf"
     },
     {
-        "Product":"Norton VPN",
-        "Rating":4.0,
-        "Dateline":"2026-03-04",
-        "URL":"https:\/\/www.techradar.com\/reviews\/norton-secure-vpn",
-        "Categories":"Vpn services,Vpn",
-        "Author":"Rob Dunne",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/kDQYjZuiAhmXAQircr4omN"
-    },
-    {
         "Product":" Imou Cell 3C All-In-One Security Camera",
         "Rating":4.0,
         "Dateline":"2026-03-03",
@@ -77760,6 +77751,114 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/xY2abETksa3gjdtdZPBSbJ"
     },
     {
+        "Product":"Dreo TurboCool Misting Fan 765S",
+        "Rating":"4.5",
+        "Dateline":"2026-08-03",
+        "URL":"https:\/\/www.techradar.com\/home\/air-quality\/dreos-misting-fan-can-cool-far-better-than-a-standard-fan-i-was-blown-away-by-its-superior-chilling-and-how-long-it-runs-without-needing-refilling",
+        "Categories":"Air Quality,Home,Small Appliances",
+        "Author":"John McCann",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/B5MEo6VgAbH2Lr9yNEumLY"
+    },
+    {
+        "Product":"Xiaomi Robot Vacuum X20 Max",
+        "Rating":"3.0",
+        "Dateline":"2026-08-03",
+        "URL":"https:\/\/www.techradar.com\/home\/robot-vacuums\/xiaomi-robot-vacuum-x20-max-review",
+        "Categories":"Robot Vacuums,Home,Smart Home",
+        "Author":"Dashiell Wood",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/t5Q8GSMRfTAJT6awXkGaQZ"
+    },
+    {
+        "Product":"Ubigi eSIM Data Plan",
+        "Rating":"4.5",
+        "Dateline":"2024-09-03",
+        "URL":"https:\/\/www.techradar.com\/pro\/ubigi-review",
+        "Categories":"Pro",
+        "Author":"Pawan Singh",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Unckk7cxUYkinWviwAT6nL"
+    },
+    {
+        "Product":"SteelSeries Stratus+",
+        "Rating":"2.5",
+        "Dateline":"2026-08-02",
+        "URL":"https:\/\/www.techradar.com\/gaming\/steelseries-stratus-plus-review",
+        "Categories":"Gaming",
+        "Author":"Alex Berry",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/8zrXHBkz6kY2YyUTTGJ3KA"
+    },
+    {
+        "Product":"Ninja Luxe Cafe Mini",
+        "Rating":"4.0",
+        "Dateline":"2026-08-02",
+        "URL":"https:\/\/www.techradar.com\/home\/coffee-machines\/ninja-luxe-cafe-mini-review",
+        "Categories":"Coffee Machines,Home,Small Appliances",
+        "Author":"Karen Freeman",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/PBZnpYd6c59QDq7MVvVZD4"
+    },
+    {
+        "Product":"Apple Arcade",
+        "Rating":"4.0",
+        "Dateline":"2019-12-16",
+        "URL":"https:\/\/www.techradar.com\/reviews\/apple-arcade",
+        "Categories":"Mobile Gaming,IPhone,Gaming,Phones,Apple",
+        "Author":"Dashiell Wood",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/AuVnjse9mYfoh7YmbAx2Ae"
+    },
+    {
+        "Product":"Turtle Beach Pacific Skyline Wireless Controller",
+        "Rating":"4.5",
+        "Dateline":"2026-08-07",
+        "URL":"https:\/\/www.techradar.com\/gaming\/turtle-beach-pacific-skyline-wireless-controller-review",
+        "Categories":"Xbox Series X,S,Gaming,Consoles & PC,Xbox",
+        "Author":"Dashiell Wood",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/zVdXx2Ydkskdvtna7GZUv3"
+    },
+    {
+        "Product":"RunStar 4E Body Scale",
+        "Rating":"3.5",
+        "Dateline":"2026-08-07",
+        "URL":"https:\/\/www.techradar.com\/home\/smart-scales\/runstar-4e-body-scale-review",
+        "Categories":"Smart Scales,Home,Smart Home",
+        "Author":"Paul Hatton",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/gVWFVTfwhEVeR7HFdYgYHe"
+    },
+    {
+        "Product":"Norton VPN",
+        "Rating":"4.0",
+        "Dateline":"2022-10-24",
+        "URL":"https:\/\/www.techradar.com\/reviews\/norton-secure-vpn",
+        "Categories":"VPN Services,VPN,Norton",
+        "Author":"Rob Dunne",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/kDQYjZuiAhmXAQircr4omN"
+    },
+    {
+        "Product":"ON1 Photo Raw",
+        "Rating":"4.5",
+        "Dateline":"2026-08-07",
+        "URL":"https:\/\/www.techradar.com\/pro\/software-services\/on1-photo-raw-review",
+        "Categories":"Software & Services,Pro",
+        "Author":"Steve Paris",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Fo2RadCjxtSjst2pR57YUi"
+    },
+    {
+        "Product":"Glorious GHS Wireless InfinitePlay headset",
+        "Rating":"4.5",
+        "Dateline":"2026-08-07",
+        "URL":"https:\/\/www.techradar.com\/gaming\/glorious-ghs-wireless-infiniteplay-review",
+        "Categories":"Gaming",
+        "Author":"Phil Iwaniuk",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/pBAPv3N5iKSWsaz3mG94nP"
+    },
+    {
+        "Product":"ACDSee Photo Studio Ultimate 2023",
+        "Rating":"4.5",
+        "Dateline":"2022-10-31",
+        "URL":"https:\/\/www.techradar.com\/reviews\/acdsee-photo-studio-ultimate-review",
+        "Categories":"Software & Services,Pro",
+        "Author":"Steve Paris",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/ur7ug4uhTmut8Rq8KAjkbU"
+    },
+    {
         "Product":"Hulu",
         "Rating":"4.0",
         "Dateline":"2026-08-07",
@@ -77841,7 +77940,7 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/mZBbpgjRetzM2sVLxRoteG"
     },
     {
-        "Product":"Samsung Galaxy Z Fold 8 Ultra",
+        "Product":"[FLAG] The_Samsung_Galaxy_Z_Fold_8_Ultra_is_flatter_thinner_and_almost_creaseless_and_yes_I_love_it_more_than_the_Z_Fold_8",
         "Rating":"4.5",
         "Dateline":"2026-08-05",
         "URL":"https:\/\/www.techradar.com\/phones\/samsung-galaxy-phones\/samsung-galaxy-z-fold-8-ultra-review",
@@ -77974,59 +78073,5 @@
         "Categories":"Nintendo Switch,Gaming,Consoles & PC,Nintendo",
         "Author":"Rhys Wood",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/KqSxmscRbW9zAjJPZELJzd"
-    },
-    {
-        "Product":"Dreo TurboCool Misting Fan 765S",
-        "Rating":"4.5",
-        "Dateline":"2026-08-03",
-        "URL":"https:\/\/www.techradar.com\/home\/air-quality\/dreos-misting-fan-can-cool-far-better-than-a-standard-fan-i-was-blown-away-by-its-superior-chilling-and-how-long-it-runs-without-needing-refilling",
-        "Categories":"Air Quality,Home,Small Appliances",
-        "Author":"John McCann",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/B5MEo6VgAbH2Lr9yNEumLY"
-    },
-    {
-        "Product":"Xiaomi Robot Vacuum X20 Max",
-        "Rating":"3.0",
-        "Dateline":"2026-08-03",
-        "URL":"https:\/\/www.techradar.com\/home\/robot-vacuums\/xiaomi-robot-vacuum-x20-max-review",
-        "Categories":"Robot Vacuums,Home,Smart Home",
-        "Author":"Dashiell Wood",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/t5Q8GSMRfTAJT6awXkGaQZ"
-    },
-    {
-        "Product":"Ubigi eSIM Data Plan",
-        "Rating":"4.5",
-        "Dateline":"2024-09-03",
-        "URL":"https:\/\/www.techradar.com\/pro\/ubigi-review",
-        "Categories":"Pro",
-        "Author":"Pawan Singh",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Unckk7cxUYkinWviwAT6nL"
-    },
-    {
-        "Product":"SteelSeries Stratus+",
-        "Rating":"2.5",
-        "Dateline":"2026-08-02",
-        "URL":"https:\/\/www.techradar.com\/gaming\/steelseries-stratus-plus-review",
-        "Categories":"Gaming",
-        "Author":"Alex Berry",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/8zrXHBkz6kY2YyUTTGJ3KA"
-    },
-    {
-        "Product":"Ninja Luxe Cafe Mini",
-        "Rating":"4.0",
-        "Dateline":"2026-08-02",
-        "URL":"https:\/\/www.techradar.com\/home\/coffee-machines\/ninja-luxe-cafe-mini-review",
-        "Categories":"Coffee Machines,Home,Small Appliances",
-        "Author":"Karen Freeman",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/PBZnpYd6c59QDq7MVvVZD4"
-    },
-    {
-        "Product":"Apple Arcade",
-        "Rating":"4.0",
-        "Dateline":"2019-12-16",
-        "URL":"https:\/\/www.techradar.com\/reviews\/apple-arcade",
-        "Categories":"Mobile Gaming,IPhone,Gaming,Phones,Apple",
-        "Author":"Dashiell Wood",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/AuVnjse9mYfoh7YmbAx2Ae"
     }
 ]
