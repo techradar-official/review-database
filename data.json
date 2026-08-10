@@ -77841,6 +77841,60 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/KqSxmscRbW9zAjJPZELJzd"
     },
     {
+        "Product":"Liene PixCut S1",
+        "Rating":"4.5",
+        "Dateline":"2026-08-03",
+        "URL":"https:\/\/www.techradar.com\/pro\/liene-pixcut-s1-photo-sticker-printer-and-cutter-review",
+        "Categories":"Pro",
+        "Author":"Alastair Jennings",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/GT7yUpJsaLnApJi258X7TW"
+    },
+    {
+        "Product":"Satechi Thunderbolt 5 CubeDock",
+        "Rating":"4.0",
+        "Dateline":"2026-08-03",
+        "URL":"https:\/\/www.techradar.com\/pro\/satechi-thunderbolt-5-cubedock-review",
+        "Categories":"Pro",
+        "Author":"Alastair Jennings",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/5nZ9hAZhQsdwkFGkN9W729"
+    },
+    {
+        "Product":"Samsung Galaxy Z Fold 8",
+        "Rating":"4.5",
+        "Dateline":"2026-08-03",
+        "URL":"https:\/\/www.techradar.com\/phones\/samsung-galaxy-phones\/samsung-galaxy-z-fold-8-review",
+        "Categories":"Samsung Galaxy Phones,Android,Phones,Samsung",
+        "Author":"Richard Priday",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/5CEqZuU76Avb5Xsk5vj4NK"
+    },
+    {
+        "Product":"[FLAG] Turtle Beach PlayTrek 2-in-1 Case Officially Licensed for Nintendo Switch 2",
+        "Rating":"4.5",
+        "Dateline":"2026-08-09",
+        "URL":"https:\/\/www.techradar.com\/gaming\/turtle-beach-playtrek-2-in-1-case-for-nintendo-switch-2-review",
+        "Categories":"Gaming,Gaming Accessories",
+        "Author":"Lewis Maddison",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/oCKxmgwBhwvKrWKr6U3nrH"
+    },
+    {
+        "Product":"TP-Link TL-WR3602BE Wi-Fi 7 Travel Router",
+        "Rating":"4.5",
+        "Dateline":"2026-08-09",
+        "URL":"https:\/\/www.techradar.com\/pro\/tp-link-roam-7-travel-router-review",
+        "Categories":"Pro",
+        "Author":"Alastair Jennings",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/RNrA3uhch76Ymhfso25Pq9"
+    },
+    {
+        "Product":"RingConn Gen 3",
+        "Rating":"4.0",
+        "Dateline":"2026-08-09",
+        "URL":"https:\/\/www.techradar.com\/health-fitness\/ringconn-gen-3-review",
+        "Categories":"Health & Fitness,Fitness Trackers",
+        "Author":"Becca Caddy",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/tFux7GdHwrNPvGtaZYXEun"
+    },
+    {
         "Product":"Disney+ Disney Worldbuilders",
         "Rating":"3.0",
         "Dateline":"2026-08-09",
@@ -78082,32 +78136,5 @@
         "Categories":"Gaming",
         "Author":"Isaiah Williams",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/iovJa896Ks6yZheVN6Tjid"
-    },
-    {
-        "Product":"Liene PixCut S1",
-        "Rating":"4.5",
-        "Dateline":"2026-08-03",
-        "URL":"https:\/\/www.techradar.com\/pro\/liene-pixcut-s1-photo-sticker-printer-and-cutter-review",
-        "Categories":"Pro",
-        "Author":"Alastair Jennings",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/GT7yUpJsaLnApJi258X7TW"
-    },
-    {
-        "Product":"Satechi Thunderbolt 5 CubeDock",
-        "Rating":"4.0",
-        "Dateline":"2026-08-03",
-        "URL":"https:\/\/www.techradar.com\/pro\/satechi-thunderbolt-5-cubedock-review",
-        "Categories":"Pro",
-        "Author":"Alastair Jennings",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/5nZ9hAZhQsdwkFGkN9W729"
-    },
-    {
-        "Product":"Samsung Galaxy Z Fold 8",
-        "Rating":"4.5",
-        "Dateline":"2026-08-03",
-        "URL":"https:\/\/www.techradar.com\/phones\/samsung-galaxy-phones\/samsung-galaxy-z-fold-8-review",
-        "Categories":"Samsung Galaxy Phones,Android,Phones,Samsung",
-        "Author":"Richard Priday",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/5CEqZuU76Avb5Xsk5vj4NK"
     }
 ]
