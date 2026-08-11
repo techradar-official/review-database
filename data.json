@@ -9477,15 +9477,6 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/n2TXaTQiXYqxAGmAwMqeF8"
     },
     {
-        "Product":"IPRoyal",
-        "Rating":4.5,
-        "Dateline":"2025-09-01",
-        "URL":"https:\/\/www.techradar.com\/reviews\/iproyal-review-2022",
-        "Categories":"Security,Pro",
-        "Author":"Stefan Ionescu",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/mpWDLCQaNsyZLcNusVG7Bb"
-    },
-    {
         "Product":"Fortect",
         "Rating":4.5,
         "Dateline":"2025-09-01",
@@ -77868,6 +77859,96 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/5CEqZuU76Avb5Xsk5vj4NK"
     },
     {
+        "Product":"Fanxiang PS2000W",
+        "Rating":"3.5",
+        "Dateline":"2026-08-04",
+        "URL":"https:\/\/www.techradar.com\/pro\/fanxiang-ps2000w-portable-ssd-review",
+        "Categories":"Pro",
+        "Author":"Mark Pickavance",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/7JDGRZqGRqs3WLNSBHTCti"
+    },
+    {
+        "Product":"BenQ PD2770U",
+        "Rating":"4.5",
+        "Dateline":"2026-08-04",
+        "URL":"https:\/\/www.techradar.com\/pro\/benq-pd2770u-4k-monitor-review",
+        "Categories":"Pro",
+        "Author":"Collin Probst",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Ftk44xovvs8sV6uW5dEfT8"
+    },
+    {
+        "Product":"Lenovo ThinkPad P14s Gen 6",
+        "Rating":"4.0",
+        "Dateline":"2026-08-04",
+        "URL":"https:\/\/www.techradar.com\/pro\/lenovo-thinkpad-p14s-gen-6-mobile-workstation-review",
+        "Categories":"Pro,Lenovo",
+        "Author":"Collin Probst",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/xE66x2HoxfEsCymGhb7Bpe"
+    },
+    {
+        "Product":"Samsung Galaxy S26",
+        "Rating":"4.0",
+        "Dateline":"2026-08-04",
+        "URL":"https:\/\/www.techradar.com\/phones\/samsung-galaxy-phones\/samsung-galaxy-s26-review",
+        "Categories":"Samsung Galaxy Phones,Android,Phones,Samsung",
+        "Author":"Jason Cipriani",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/pzz7ALcDxeeiF8h9tqphDC"
+    },
+    {
+        "Product":"Game Freak Beast of Reincarnation",
+        "Rating":"4.0",
+        "Dateline":"2026-08-04",
+        "URL":"https:\/\/www.techradar.com\/gaming\/beast-of-reincarnation-review",
+        "Categories":"Gaming",
+        "Author":"Isaiah Williams",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/iovJa896Ks6yZheVN6Tjid"
+    },
+    {
+        "Product":"KitchenAid KF2 Fully Automatic Espresso Machine",
+        "Rating":"4.5",
+        "Dateline":"2026-08-11",
+        "URL":"https:\/\/www.techradar.com\/home\/coffee-machines\/kitchenaid-kf2-review",
+        "Categories":"Coffee Machines,Home,Small Appliances",
+        "Author":"Max Langridge",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/PZ3bf39Bg2UUr4ekzMWnDT"
+    },
+    {
+        "Product":"Hisense UR8 RGB mini-LED TV (2026)",
+        "Rating":"4.0",
+        "Dateline":"2026-08-10",
+        "URL":"https:\/\/www.techradar.com\/televisions\/its-not-an-oled-killer-yet-i-tested-hisenses-affordable-rgb-tv-and-while-i-like-its-picture-quality-and-performance-it-surprisingly-falls-short-in-the-area-i-had-the-highest-hopes-for",
+        "Categories":"Televisions,Hisense",
+        "Author":"James Davidson",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/GkypYmrr5mjcuUbcS2CsKF"
+    },
+    {
+        "Product":"IPRoyal",
+        "Rating":"4.5",
+        "Dateline":"2022-10-18",
+        "URL":"https:\/\/www.techradar.com\/reviews\/iproyal-review-2022",
+        "Categories":"Security,Pro",
+        "Author":"Stefan Ionescu",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/mpWDLCQaNsyZLcNusVG7Bb"
+    },
+    {
+        "Product":"Alienware 15 Gaming Laptop (useda15265wcto03)",
+        "Rating":"3.5",
+        "Dateline":"2026-08-10",
+        "URL":"https:\/\/www.techradar.com\/computing\/gaming-laptops\/alienware-15-da15265",
+        "Categories":"Gaming Laptops,Computing,Gaming Computers",
+        "Author":"Zak Storey",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/tMLKJywcLucfqU5hZ2NXu7"
+    },
+    {
+        "Product":"[FLAG] Dyson V10 Konical Cordless Vacuum and Auto-Empty Dok",
+        "Rating":"3.5",
+        "Dateline":"2026-08-10",
+        "URL":"https:\/\/www.techradar.com\/home\/vacuums\/dyson-konica-plus-auto-empty-dok",
+        "Categories":"Vacuums,Home,Small Appliances,Dyson",
+        "Author":"Derek Adams",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/f8Zyq3bMP8L2KGCLgkpHfM"
+    },
+    {
         "Product":"[FLAG] Turtle Beach PlayTrek 2-in-1 Case Officially Licensed for Nintendo Switch 2",
         "Rating":"4.5",
         "Dateline":"2026-08-09",
@@ -78091,50 +78172,5 @@
         "Categories":"Pro",
         "Author":"Alastair Jennings",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/VCgmPV3A93w3A52mckDbcV"
-    },
-    {
-        "Product":"Fanxiang PS2000W",
-        "Rating":"3.5",
-        "Dateline":"2026-08-04",
-        "URL":"https:\/\/www.techradar.com\/pro\/fanxiang-ps2000w-portable-ssd-review",
-        "Categories":"Pro",
-        "Author":"Mark Pickavance",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/7JDGRZqGRqs3WLNSBHTCti"
-    },
-    {
-        "Product":"BenQ PD2770U",
-        "Rating":"4.5",
-        "Dateline":"2026-08-04",
-        "URL":"https:\/\/www.techradar.com\/pro\/benq-pd2770u-4k-monitor-review",
-        "Categories":"Pro",
-        "Author":"Collin Probst",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Ftk44xovvs8sV6uW5dEfT8"
-    },
-    {
-        "Product":"Lenovo ThinkPad P14s Gen 6",
-        "Rating":"4.0",
-        "Dateline":"2026-08-04",
-        "URL":"https:\/\/www.techradar.com\/pro\/lenovo-thinkpad-p14s-gen-6-mobile-workstation-review",
-        "Categories":"Pro,Lenovo",
-        "Author":"Collin Probst",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/xE66x2HoxfEsCymGhb7Bpe"
-    },
-    {
-        "Product":"Samsung Galaxy S26",
-        "Rating":"4.0",
-        "Dateline":"2026-08-04",
-        "URL":"https:\/\/www.techradar.com\/phones\/samsung-galaxy-phones\/samsung-galaxy-s26-review",
-        "Categories":"Samsung Galaxy Phones,Android,Phones,Samsung",
-        "Author":"Jason Cipriani",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/pzz7ALcDxeeiF8h9tqphDC"
-    },
-    {
-        "Product":"Game Freak Beast of Reincarnation",
-        "Rating":"4.0",
-        "Dateline":"2026-08-04",
-        "URL":"https:\/\/www.techradar.com\/gaming\/beast-of-reincarnation-review",
-        "Categories":"Gaming",
-        "Author":"Isaiah Williams",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/iovJa896Ks6yZheVN6Tjid"
     }
 ]
