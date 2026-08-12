@@ -77904,6 +77904,51 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/iovJa896Ks6yZheVN6Tjid"
     },
     {
+        "Product":"[FLAG] The_Samsung_Galaxy_Z_Fold_8_Ultra_is_flatter_thinner_and_almost_creaseless_and_yes_I_love_it_more_than_the_Z_Fold_8",
+        "Rating":"4.5",
+        "Dateline":"2026-08-05",
+        "URL":"https:\/\/www.techradar.com\/phones\/samsung-galaxy-phones\/samsung-galaxy-z-fold-8-ultra-review",
+        "Categories":"Samsung Galaxy Phones,Android,Phones,Samsung",
+        "Author":"Lance Ulanoff",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/kJnQwJDcP2mWZ3r5zwMiym"
+    },
+    {
+        "Product":"Apple TV (Subscription)",
+        "Rating":"4.0",
+        "Dateline":"2026-08-05",
+        "URL":"https:\/\/www.techradar.com\/streaming\/apple-tv-plus\/ted-lasso-season-4-review",
+        "Categories":"Apple TV,Streaming",
+        "Author":"Tom Power",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/ASqYSQgevyU7MU3W66S23d"
+    },
+    {
+        "Product":"Beelink EQi Wildcat Lake",
+        "Rating":"4.5",
+        "Dateline":"2026-08-04",
+        "URL":"https:\/\/www.techradar.com\/pro\/beelink-eqi-wildcat-lake-mini-pc-review",
+        "Categories":"Pro",
+        "Author":"Alastair Jennings",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/VCgmPV3A93w3A52mckDbcV"
+    },
+    {
+        "Product":"Corsair Nightsword V2 Wireless",
+        "Rating":"3.5",
+        "Dateline":"2026-08-11",
+        "URL":"https:\/\/www.techradar.com\/computing\/mice\/corsair-nightsword-v2-wireless-review",
+        "Categories":"Mice,Computing,Peripherals & Accessories",
+        "Author":"Christian Guyton",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/7CNLdbuWpbx6HaakeVY23R"
+    },
+    {
+        "Product":"Garmin Fenix 8 Pro MicroLED",
+        "Rating":"5.0",
+        "Dateline":"2026-08-11",
+        "URL":"https:\/\/www.techradar.com\/health-fitness\/smartwatches\/garmin-fenix-8-pro-microled-review",
+        "Categories":"Smartwatches,Health & Fitness,Garmin",
+        "Author":"Matt Ray",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/mb9zA6EmbTdc3xn6xgbPuJ"
+    },
+    {
         "Product":"KitchenAid KF2 Fully Automatic Espresso Machine",
         "Rating":"4.5",
         "Dateline":"2026-08-11",
@@ -78145,32 +78190,5 @@
         "Categories":"Coffee Machines,Home,Small Appliances",
         "Author":"Cat Ellis",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/mZBbpgjRetzM2sVLxRoteG"
-    },
-    {
-        "Product":"[FLAG] The_Samsung_Galaxy_Z_Fold_8_Ultra_is_flatter_thinner_and_almost_creaseless_and_yes_I_love_it_more_than_the_Z_Fold_8",
-        "Rating":"4.5",
-        "Dateline":"2026-08-05",
-        "URL":"https:\/\/www.techradar.com\/phones\/samsung-galaxy-phones\/samsung-galaxy-z-fold-8-ultra-review",
-        "Categories":"Samsung Galaxy Phones,Android,Phones,Samsung",
-        "Author":"Lance Ulanoff",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/kJnQwJDcP2mWZ3r5zwMiym"
-    },
-    {
-        "Product":"Apple TV (Subscription)",
-        "Rating":"4.0",
-        "Dateline":"2026-08-05",
-        "URL":"https:\/\/www.techradar.com\/streaming\/apple-tv-plus\/ted-lasso-season-4-review",
-        "Categories":"Apple TV,Streaming",
-        "Author":"Tom Power",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/ASqYSQgevyU7MU3W66S23d"
-    },
-    {
-        "Product":"Beelink EQi Wildcat Lake",
-        "Rating":"4.5",
-        "Dateline":"2026-08-04",
-        "URL":"https:\/\/www.techradar.com\/pro\/beelink-eqi-wildcat-lake-mini-pc-review",
-        "Categories":"Pro",
-        "Author":"Alastair Jennings",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/VCgmPV3A93w3A52mckDbcV"
     }
 ]
