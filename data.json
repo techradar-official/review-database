@@ -9153,15 +9153,6 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/QvbFJhNmmPSy2WdiGVRzXN"
     },
     {
-        "Product":"Bright Data",
-        "Rating":4.5,
-        "Dateline":"2025-09-23",
-        "URL":"https:\/\/www.techradar.com\/reviews\/bright-data",
-        "Categories":"Security,Pro",
-        "Author":"Stefan Ionescu",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/PY2nFMRCSciaoSD9Yh7Lqd"
-    },
-    {
         "Product":"GoPro Max 2",
         "Rating":4.5,
         "Dateline":"2025-09-23",
@@ -33991,15 +33982,6 @@
         "Categories":"Coffee machines,Home,Small appliances",
         "Author":"Cat Ellis",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/W96HzpxcoQSc4tWzkb6K2K"
-    },
-    {
-        "Product":"Vtoman FlashSpeed Pro 3600 portable power station",
-        "Rating":4.0,
-        "Dateline":"2025-08-24",
-        "URL":"https:\/\/www.techradar.com\/pro\/vtoman-flashspeed-pro-3600-portable-power-station-review",
-        "Categories":"Pro",
-        "Author":"Collin Probst",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/AGDV7AvUG3ek2PCCx2GDMB"
     },
     {
         "Product":"Nacon Hard Carrying Case for Nintendo Switch 2",
@@ -77940,6 +77922,51 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/mZBbpgjRetzM2sVLxRoteG"
     },
     {
+        "Product":"Garmin Cirqa",
+        "Rating":"4.5",
+        "Dateline":"2026-08-06",
+        "URL":"https:\/\/www.techradar.com\/health-fitness\/fitness-trackers\/garmin-cirqa-review",
+        "Categories":"Fitness Trackers,Health & Fitness,Garmin",
+        "Author":"Matt Evans",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/mGH3avdAXQbcQYEEAg89aZ"
+    },
+    {
+        "Product":"SteelSeries Arctis Nova Pro Omni",
+        "Rating":"4.5",
+        "Dateline":"2026-08-06",
+        "URL":"https:\/\/www.techradar.com\/gaming\/steelseries-arctis-nova-pro-omni-review",
+        "Categories":"Gaming",
+        "Author":"Rob Dwiar",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/3gVp6enPi7cgLVTdvQeFvY"
+    },
+    {
+        "Product":"Turtle Beach Command Series KB5",
+        "Rating":"3.5",
+        "Dateline":"2026-08-06",
+        "URL":"https:\/\/www.techradar.com\/computing\/keyboards\/turtle-beach-command-series-kb5-review",
+        "Categories":"Keyboards,Computing,Peripherals & Accessories",
+        "Author":"Lewis Maddison",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/85ffKVwZJcuKbKo5X3BSDe"
+    },
+    {
+        "Product":"Bright Data Bright Data",
+        "Rating":"4.5",
+        "Dateline":"2022-02-14",
+        "URL":"https:\/\/www.techradar.com\/reviews\/bright-data",
+        "Categories":"Security,Pro",
+        "Author":"Stefan Ionescu",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/PY2nFMRCSciaoSD9Yh7Lqd"
+    },
+    {
+        "Product":"Vtoman FlashSpeed Pro 3600",
+        "Rating":"4.0",
+        "Dateline":"2025-08-24",
+        "URL":"https:\/\/www.techradar.com\/pro\/vtoman-flashspeed-pro-3600-portable-power-station-review",
+        "Categories":"Pro",
+        "Author":"Mark Pickavance",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/AGDV7AvUG3ek2PCCx2GDMB"
+    },
+    {
         "Product":"Norton VPN",
         "Rating":"4.0",
         "Dateline":"2022-10-24",
@@ -78172,32 +78199,5 @@
         "Categories":"Software & Services,Pro",
         "Author":"Steve Paris",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/GdoJVpQWLA8BsLwAAtwF8B"
-    },
-    {
-        "Product":"Garmin Cirqa",
-        "Rating":"4.5",
-        "Dateline":"2026-08-06",
-        "URL":"https:\/\/www.techradar.com\/health-fitness\/fitness-trackers\/garmin-cirqa-review",
-        "Categories":"Fitness Trackers,Health & Fitness,Garmin",
-        "Author":"Matt Evans",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/mGH3avdAXQbcQYEEAg89aZ"
-    },
-    {
-        "Product":"SteelSeries Arctis Nova Pro Omni",
-        "Rating":"4.5",
-        "Dateline":"2026-08-06",
-        "URL":"https:\/\/www.techradar.com\/gaming\/steelseries-arctis-nova-pro-omni-review",
-        "Categories":"Gaming",
-        "Author":"Rob Dwiar",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/3gVp6enPi7cgLVTdvQeFvY"
-    },
-    {
-        "Product":"Turtle Beach Command Series KB5",
-        "Rating":"3.5",
-        "Dateline":"2026-08-06",
-        "URL":"https:\/\/www.techradar.com\/computing\/keyboards\/turtle-beach-command-series-kb5-review",
-        "Categories":"Keyboards,Computing,Peripherals & Accessories",
-        "Author":"Lewis Maddison",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/85ffKVwZJcuKbKo5X3BSDe"
     }
 ]
