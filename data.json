@@ -77949,6 +77949,60 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/85ffKVwZJcuKbKo5X3BSDe"
     },
     {
+        "Product":"Chuwi UniBook",
+        "Rating":"4.0",
+        "Dateline":"2026-08-06",
+        "URL":"https:\/\/www.techradar.com\/pro\/chuwi-unibook-laptop-review",
+        "Categories":"Pro",
+        "Author":"Mark Pickavance",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/BkoMAfTw8E6viFxcWWHuy7"
+    },
+    {
+        "Product":"BenQ PD2732U",
+        "Rating":"4.0",
+        "Dateline":"2026-08-06",
+        "URL":"https:\/\/www.techradar.com\/pro\/benq-creative-pro-pd2732u-4k-monitor-review",
+        "Categories":"Pro",
+        "Author":"Jeremy Laird",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/uZU7c7hTChWyJHY3n87EDe"
+    },
+    {
+        "Product":"Zoner Photo Studio X",
+        "Rating":"4.5",
+        "Dateline":"2025-07-21",
+        "URL":"https:\/\/www.techradar.com\/pro\/software-services\/zoner-studio-photo-editor-review",
+        "Categories":"Software & Services,Pro",
+        "Author":"Steve Paris",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/GdoJVpQWLA8BsLwAAtwF8B"
+    },
+    {
+        "Product":"Coolpad Max",
+        "Rating":"4.5",
+        "Dateline":"2026-08-14",
+        "URL":"https:\/\/www.techradar.com\/streaming\/hbo-max\/lanterns-review",
+        "Categories":"HBO Max,Streaming",
+        "Author":"Tom Power",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/PCQWyeCFnqdYhUQ6KgyH6h"
+    },
+    {
+        "Product":"Corsair HS35 V3",
+        "Rating":"4.0",
+        "Dateline":"2026-08-14",
+        "URL":"https:\/\/www.techradar.com\/gaming\/gaming-accessories\/corsair-hs35-v3-review",
+        "Categories":"Gaming Accessories,Gaming",
+        "Author":"Kara Phillips",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/hapdLiS7VEPnaUq7xxLBVa"
+    },
+    {
+        "Product":"VPN Super Unlimited",
+        "Rating":"2.5",
+        "Dateline":"2026-08-14",
+        "URL":"https:\/\/www.techradar.com\/vpn\/vpn-services\/vpn-super-unlimited-review-fast-and-cheap-but-too-barebones-to-compete",
+        "Categories":"VPN Services,VPN",
+        "Author":"Mark Gill",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/A3Cn3armZwqoy9YQZrmEQh"
+    },
+    {
         "Product":"Bright Data Bright Data",
         "Rating":"4.5",
         "Dateline":"2022-02-14",
@@ -78172,32 +78226,5 @@
         "Categories":"Gaming,Sony",
         "Author":"Dashiell Wood",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/3jrmnDeWWeak3jos3cvZhT"
-    },
-    {
-        "Product":"Chuwi UniBook",
-        "Rating":"4.0",
-        "Dateline":"2026-08-06",
-        "URL":"https:\/\/www.techradar.com\/pro\/chuwi-unibook-laptop-review",
-        "Categories":"Pro",
-        "Author":"Mark Pickavance",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/BkoMAfTw8E6viFxcWWHuy7"
-    },
-    {
-        "Product":"BenQ PD2732U",
-        "Rating":"4.0",
-        "Dateline":"2026-08-06",
-        "URL":"https:\/\/www.techradar.com\/pro\/benq-creative-pro-pd2732u-4k-monitor-review",
-        "Categories":"Pro",
-        "Author":"Jeremy Laird",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/uZU7c7hTChWyJHY3n87EDe"
-    },
-    {
-        "Product":"Zoner Photo Studio X",
-        "Rating":"4.5",
-        "Dateline":"2025-07-21",
-        "URL":"https:\/\/www.techradar.com\/pro\/software-services\/zoner-studio-photo-editor-review",
-        "Categories":"Software & Services,Pro",
-        "Author":"Steve Paris",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/GdoJVpQWLA8BsLwAAtwF8B"
     }
 ]
