@@ -16650,15 +16650,6 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/KKRw7fnYpCR5koKpo96Bxb"
     },
     {
-        "Product":"Airhub",
-        "Rating":4.5,
-        "Dateline":"2024-05-09",
-        "URL":"https:\/\/www.techradar.com\/pro\/airhub-review",
-        "Categories":"Pro",
-        "Author":"Ritoban Mukherjee",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/rK7E8Jn72Kyi4npfirKR9Y"
-    },
-    {
         "Product":"Dell Precision 7875 Tower",
         "Rating":4.5,
         "Dateline":"2024-05-09",
@@ -78120,6 +78111,51 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/mb9zA6EmbTdc3xn6xgbPuJ"
     },
     {
+        "Product":"Vtoman FlashSpeed Pro 3600",
+        "Rating":"4.0",
+        "Dateline":"2025-08-24",
+        "URL":"https:\/\/www.techradar.com\/pro\/vtoman-flashspeed-pro-3600-portable-power-station-review",
+        "Categories":"Pro",
+        "Author":"Mark Pickavance",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/AGDV7AvUG3ek2PCCx2GDMB"
+    },
+    {
+        "Product":"Norton VPN",
+        "Rating":"4.0",
+        "Dateline":"2022-10-24",
+        "URL":"https:\/\/www.techradar.com\/reviews\/norton-secure-vpn",
+        "Categories":"VPN Services,VPN,Norton",
+        "Author":"Rob Dunne",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/kDQYjZuiAhmXAQircr4omN"
+    },
+    {
+        "Product":"RedMagic Astra 2",
+        "Rating":"4.0",
+        "Dateline":"2026-08-19",
+        "URL":"https:\/\/www.techradar.com\/tablets\/redmagic-astra-2-review",
+        "Categories":"Tablets",
+        "Author":"Jon Mundy",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/9tWZHnYFFp5Bxne6JTXGP5"
+    },
+    {
+        "Product":"Airhub App",
+        "Rating":"4.5",
+        "Dateline":"2024-05-09",
+        "URL":"https:\/\/www.techradar.com\/pro\/airhub-review",
+        "Categories":"Pro",
+        "Author":"Pawan Singh",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/rK7E8Jn72Kyi4npfirKR9Y"
+    },
+    {
+        "Product":"Thermal Master DV2",
+        "Rating":"3.5",
+        "Dateline":"2026-08-19",
+        "URL":"https:\/\/www.techradar.com\/cameras\/thermal-master-dv2-thermal-camera-review",
+        "Categories":"Cameras",
+        "Author":"Mark Pickavance",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/z8yYMUaDJrZDFxiNKiu6GL"
+    },
+    {
         "Product":"Nioh 3",
         "Rating":"4.5",
         "Dateline":"2026-08-18",
@@ -78361,23 +78397,5 @@
         "Categories":"Security,Pro",
         "Author":"Stefan Ionescu",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/PY2nFMRCSciaoSD9Yh7Lqd"
-    },
-    {
-        "Product":"Vtoman FlashSpeed Pro 3600",
-        "Rating":"4.0",
-        "Dateline":"2025-08-24",
-        "URL":"https:\/\/www.techradar.com\/pro\/vtoman-flashspeed-pro-3600-portable-power-station-review",
-        "Categories":"Pro",
-        "Author":"Mark Pickavance",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/AGDV7AvUG3ek2PCCx2GDMB"
-    },
-    {
-        "Product":"Norton VPN",
-        "Rating":"4.0",
-        "Dateline":"2022-10-24",
-        "URL":"https:\/\/www.techradar.com\/reviews\/norton-secure-vpn",
-        "Categories":"VPN Services,VPN,Norton",
-        "Author":"Rob Dunne",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/kDQYjZuiAhmXAQircr4omN"
     }
 ]
