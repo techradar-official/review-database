@@ -78246,6 +78246,24 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/JYLQhMf2KFrGLSYEmotMBD"
     },
     {
+        "Product":"SIMOptions SIMOptions",
+        "Rating":"4.0",
+        "Dateline":"2024-05-16",
+        "URL":"https:\/\/www.techradar.com\/pro\/simoptions-review",
+        "Categories":"Pro",
+        "Author":"Ritoban Mukherjee",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/zmGVERPC4BtrMNbKZrHQYc"
+    },
+    {
+        "Product":"Oppo Reno 16 5G",
+        "Rating":"4.0",
+        "Dateline":"2026-08-24",
+        "URL":"https:\/\/www.techradar.com\/phones\/oppo-phones\/oppo-reno-16-5g-review",
+        "Categories":"Oppo Phones,Phones",
+        "Author":"Harry Padoan",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/cLguj9mNVzQwadzPC3toaE"
+    },
+    {
         "Product":"Razer Soma Chroma",
         "Rating":"3.0",
         "Dateline":"2026-08-23",
@@ -78255,7 +78273,7 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/fxoU6XjvgZNfduNdzDsTxc"
     },
     {
-        "Product":"Xiaomi Poco F8 Pro",
+        "Product":"You want great bang for your buck",
         "Rating":"4.5",
         "Dateline":"2026-08-23",
         "URL":"https:\/\/www.techradar.com\/phones\/poco-phones\/poco-f8-pro-review",
@@ -78274,7 +78292,7 @@
     },
     {
         "Product":"L'Atitude 52N Berlin",
-        "Rating":"4.5",
+        "Rating":"3.5",
         "Dateline":"2026-08-22",
         "URL":"https:\/\/www.techradar.com\/computing\/virtual-reality-augmented-reality\/i-wore-these-obnoxious-travel-focused-smart-glasses-for-a-week-on-vacation-and-learned-more-than-id-bargained-for-about-the-stony-steps-of-santorini",
         "Categories":"Virtual Reality & Augmented Reality,Computing,Software",
@@ -78318,7 +78336,7 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/scYS2PFCKgftEfyDt5mJmJ"
     },
     {
-        "Product":"Xiaomi Poco F8 Ultra",
+        "Product":"You want all-day battery life and more",
         "Rating":"4.5",
         "Dateline":"2026-08-21",
         "URL":"https:\/\/www.techradar.com\/phones\/poco-phones\/poco-f8-ultra-review",
@@ -78505,14 +78523,5 @@
         "Categories":"Wi Fi & Broadband,Servers & Network Devices,Computing,Internet,Computing Components",
         "Author":"Cliff Joseph",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/KUoQV9cnwfUH2rVWFsoTqX"
-    },
-    {
-        "Product":"SIMOptions SIMOptions",
-        "Rating":"4.0",
-        "Dateline":"2024-05-16",
-        "URL":"https:\/\/www.techradar.com\/pro\/simoptions-review",
-        "Categories":"Pro",
-        "Author":"Ritoban Mukherjee",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/zmGVERPC4BtrMNbKZrHQYc"
     }
 ]
