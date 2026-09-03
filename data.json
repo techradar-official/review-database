@@ -78498,6 +78498,42 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/GNGdJsfTdZc23NVaF84yoT"
     },
     {
+        "Product":"Marvel Tokon: Fighting Souls",
+        "Rating":"4.0",
+        "Dateline":"2026-08-25",
+        "URL":"https:\/\/www.techradar.com\/gaming\/marvel-tokon-fighting-souls-review",
+        "Categories":"Gaming",
+        "Author":"Rhys Wood",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/TdsYK3q5RdRKi89aRYHriG"
+    },
+    {
+        "Product":"Oppo Reno 16 5G",
+        "Rating":"4.0",
+        "Dateline":"2026-08-24",
+        "URL":"https:\/\/www.techradar.com\/phones\/oppo-phones\/oppo-reno-16-5g-review",
+        "Categories":"Oppo Phones,Phones",
+        "Author":"Harry Padoan",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/cLguj9mNVzQwadzPC3toaE"
+    },
+    {
+        "Product":"Razer Soma Chroma",
+        "Rating":"3.0",
+        "Dateline":"2026-08-23",
+        "URL":"https:\/\/www.techradar.com\/gaming\/razer-soma-chroma-review",
+        "Categories":"Gaming,Razer",
+        "Author":"Zak Storey",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/fxoU6XjvgZNfduNdzDsTxc"
+    },
+    {
+        "Product":"The Whisper Man",
+        "Rating":"2.0",
+        "Dateline":"2026-09-02",
+        "URL":"https:\/\/www.techradar.com\/streaming\/netflix\/the-whisper-man-review-robert-deniro-and-adam-scott-cant-redeem-this-predictable-and-disappointing-netflix-movie",
+        "Categories":"Netflix,Streaming",
+        "Author":"Lucy Buglass",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/NsdVgdUJtEUwL4BTwKCWrQ"
+    },
+    {
         "Product":"Bandai Namco The Blood of Dawnwalker",
         "Rating":"3.5",
         "Dateline":"2026-09-01",
@@ -78624,15 +78660,6 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/tNprZDrZWiaQCZcKwpjBRB"
     },
     {
-        "Product":"MechLands Vibe99",
-        "Rating":"3.5",
-        "Dateline":"2026-08-31",
-        "URL":"https:\/\/www.techradar.com\/computing\/keyboards\/mechlands-vibe99-review",
-        "Categories":"Keyboards,Computing,Peripherals & Accessories",
-        "Author":"Lewis Maddison",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/3bMS5PA9LyHehtw7QmPM6H"
-    },
-    {
         "Product":"Epson LifeStudio Grand Projector",
         "Rating":"3.0",
         "Dateline":"2026-08-31",
@@ -78640,6 +78667,15 @@
         "Categories":"Projectors,Televisions,Home Theater,Epson",
         "Author":"Mark Knapp",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/FYLi6cXjCGFuNt2TciTBTX"
+    },
+    {
+        "Product":"MechLands Vibe99",
+        "Rating":"3.5",
+        "Dateline":"2026-08-31",
+        "URL":"https:\/\/www.techradar.com\/computing\/keyboards\/mechlands-vibe99-review",
+        "Categories":"Keyboards,Computing,Peripherals & Accessories",
+        "Author":"Lewis Maddison",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/3bMS5PA9LyHehtw7QmPM6H"
     },
     {
         "Product":"KEF LS Luxe",
@@ -78723,15 +78759,6 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/BYbEN46LR4VjUMHi6RxDEL"
     },
     {
-        "Product":"Bit Reactor Star Wars Zero Company",
-        "Rating":"4.0",
-        "Dateline":"2026-08-26",
-        "URL":"https:\/\/www.techradar.com\/gaming\/star-wars-zero-company-review",
-        "Categories":"Gaming",
-        "Author":"Demi Williams",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/kdwsMzLHNqfZu9wBjEtdGM"
-    },
-    {
         "Product":"GoPro Mission 1 Pro ILS",
         "Rating":"4.5",
         "Dateline":"2026-08-26",
@@ -78741,30 +78768,12 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/TtRdD2mQey8fzhmKgyCbjX"
     },
     {
-        "Product":"Marvel Tokon: Fighting Souls",
+        "Product":"Bit Reactor Star Wars Zero Company",
         "Rating":"4.0",
-        "Dateline":"2026-08-25",
-        "URL":"https:\/\/www.techradar.com\/gaming\/marvel-tokon-fighting-souls-review",
+        "Dateline":"2026-08-26",
+        "URL":"https:\/\/www.techradar.com\/gaming\/star-wars-zero-company-review",
         "Categories":"Gaming",
-        "Author":"Rhys Wood",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/TdsYK3q5RdRKi89aRYHriG"
-    },
-    {
-        "Product":"Oppo Reno 16 5G",
-        "Rating":"4.0",
-        "Dateline":"2026-08-24",
-        "URL":"https:\/\/www.techradar.com\/phones\/oppo-phones\/oppo-reno-16-5g-review",
-        "Categories":"Oppo Phones,Phones",
-        "Author":"Harry Padoan",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/cLguj9mNVzQwadzPC3toaE"
-    },
-    {
-        "Product":"Razer Soma Chroma",
-        "Rating":"3.0",
-        "Dateline":"2026-08-23",
-        "URL":"https:\/\/www.techradar.com\/gaming\/razer-soma-chroma-review",
-        "Categories":"Gaming,Razer",
-        "Author":"Zak Storey",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/fxoU6XjvgZNfduNdzDsTxc"
+        "Author":"Demi Williams",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/kdwsMzLHNqfZu9wBjEtdGM"
     }
 ]
