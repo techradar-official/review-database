@@ -78525,6 +78525,69 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/fxoU6XjvgZNfduNdzDsTxc"
     },
     {
+        "Product":"Resonance: A Plague Tale Legacy",
+        "Rating":"4.0",
+        "Dateline":"2026-08-26",
+        "URL":"https:\/\/www.techradar.com\/gaming\/resonance-a-plague-tale-review",
+        "Categories":"Gaming",
+        "Author":"Matt Cabral",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/5zENzCKuTapPseWSmVHhxM"
+    },
+    {
+        "Product":"Elden Ring Tarnished Edition",
+        "Rating":"5.0",
+        "Dateline":"2026-08-26",
+        "URL":"https:\/\/www.techradar.com\/gaming\/elden-ring-tarnished-edition-switch-2-review",
+        "Categories":"Nintendo Switch,Gaming,Consoles & PC,Nintendo",
+        "Author":"Abbie Stone",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/BYbEN46LR4VjUMHi6RxDEL"
+    },
+    {
+        "Product":"GoPro Mission 1 Pro ILS",
+        "Rating":"4.5",
+        "Dateline":"2026-08-26",
+        "URL":"https:\/\/www.techradar.com\/cameras\/gopros\/gopro-mission-1-pro-ils-review",
+        "Categories":"GoPros,Cameras,Action Cameras",
+        "Author":"Sam Kieldsen",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/TtRdD2mQey8fzhmKgyCbjX"
+    },
+    {
+        "Product":"Bit Reactor Star Wars Zero Company",
+        "Rating":"4.0",
+        "Dateline":"2026-08-26",
+        "URL":"https:\/\/www.techradar.com\/gaming\/star-wars-zero-company-review",
+        "Categories":"Gaming",
+        "Author":"Demi Williams",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/kdwsMzLHNqfZu9wBjEtdGM"
+    },
+    {
+        "Product":"Logitech G305 X Superlight",
+        "Rating":"4.5",
+        "Dateline":"2026-09-04",
+        "URL":"https:\/\/www.techradar.com\/computing\/mice\/logitech-g305-x-superlight-review",
+        "Categories":"Mice,Computing,Peripherals & Accessories,Logitech",
+        "Author":"Lewis Maddison",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/BvAA5Y36BvZ7FMt2EyRVmh"
+    },
+    {
+        "Product":"Google Pixel 11 Pro",
+        "Rating":"4.0",
+        "Dateline":"2026-09-03",
+        "URL":"https:\/\/www.techradar.com\/phones\/google-pixel-phones\/google-pixel-11-pro-review",
+        "Categories":"Google Pixel Phones,Android,Phones,Google",
+        "Author":"Jason Cipriani",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/e4dJUYycfRQ5UDJ7CwYMiC"
+    },
+    {
+        "Product":"DJI Osmo 360 II",
+        "Rating":"5.0",
+        "Dateline":"2026-09-03",
+        "URL":"https:\/\/www.techradar.com\/cameras\/360-cameras\/dji-osmo-360-ii-review",
+        "Categories":"360 Cameras,Cameras",
+        "Author":"Sam Kieldsen",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/CQdwiCvTD39uHyJ2dwMeb9"
+    },
+    {
         "Product":"The Whisper Man",
         "Rating":"2.0",
         "Dateline":"2026-09-02",
@@ -78660,15 +78723,6 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/tNprZDrZWiaQCZcKwpjBRB"
     },
     {
-        "Product":"Epson LifeStudio Grand Projector",
-        "Rating":"3.0",
-        "Dateline":"2026-08-31",
-        "URL":"https:\/\/www.techradar.com\/televisions\/projectors\/makes-up-for-its-predecessors-fumbles-rather-than-actually-keeping-pace-with-competitors-i-like-this-epson-projectors-google-tv-os-and-boosted-hdmi-ports-but-these-quality-of-life-upgrades-are-too-little-too-late",
-        "Categories":"Projectors,Televisions,Home Theater,Epson",
-        "Author":"Mark Knapp",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/FYLi6cXjCGFuNt2TciTBTX"
-    },
-    {
         "Product":"MechLands Vibe99",
         "Rating":"3.5",
         "Dateline":"2026-08-31",
@@ -78676,6 +78730,15 @@
         "Categories":"Keyboards,Computing,Peripherals & Accessories",
         "Author":"Lewis Maddison",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/3bMS5PA9LyHehtw7QmPM6H"
+    },
+    {
+        "Product":"Epson LifeStudio Grand Projector",
+        "Rating":"3.0",
+        "Dateline":"2026-08-31",
+        "URL":"https:\/\/www.techradar.com\/televisions\/projectors\/makes-up-for-its-predecessors-fumbles-rather-than-actually-keeping-pace-with-competitors-i-like-this-epson-projectors-google-tv-os-and-boosted-hdmi-ports-but-these-quality-of-life-upgrades-are-too-little-too-late",
+        "Categories":"Projectors,Televisions,Home Theater,Epson",
+        "Author":"Mark Knapp",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/FYLi6cXjCGFuNt2TciTBTX"
     },
     {
         "Product":"KEF LS Luxe",
@@ -78739,41 +78802,5 @@
         "Categories":"Projectors,Televisions,Home Theater",
         "Author":"Mark Knapp",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/paUz8fmF6q9ukWUTMz3iEQ"
-    },
-    {
-        "Product":"Resonance: A Plague Tale Legacy",
-        "Rating":"4.0",
-        "Dateline":"2026-08-26",
-        "URL":"https:\/\/www.techradar.com\/gaming\/resonance-a-plague-tale-review",
-        "Categories":"Gaming",
-        "Author":"Matt Cabral",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/5zENzCKuTapPseWSmVHhxM"
-    },
-    {
-        "Product":"Elden Ring Tarnished Edition",
-        "Rating":"5.0",
-        "Dateline":"2026-08-26",
-        "URL":"https:\/\/www.techradar.com\/gaming\/elden-ring-tarnished-edition-switch-2-review",
-        "Categories":"Nintendo Switch,Gaming,Consoles & PC,Nintendo",
-        "Author":"Abbie Stone",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/BYbEN46LR4VjUMHi6RxDEL"
-    },
-    {
-        "Product":"GoPro Mission 1 Pro ILS",
-        "Rating":"4.5",
-        "Dateline":"2026-08-26",
-        "URL":"https:\/\/www.techradar.com\/cameras\/gopros\/gopro-mission-1-pro-ils-review",
-        "Categories":"GoPros,Cameras,Action Cameras",
-        "Author":"Sam Kieldsen",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/TtRdD2mQey8fzhmKgyCbjX"
-    },
-    {
-        "Product":"Bit Reactor Star Wars Zero Company",
-        "Rating":"4.0",
-        "Dateline":"2026-08-26",
-        "URL":"https:\/\/www.techradar.com\/gaming\/star-wars-zero-company-review",
-        "Categories":"Gaming",
-        "Author":"Demi Williams",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/kdwsMzLHNqfZu9wBjEtdGM"
     }
 ]
