@@ -55449,15 +55449,6 @@
         "CMS_URL":"N\/A"
     },
     {
-        "Product":"LinkedIn Jobs",
-        "Rating":4.0,
-        "Dateline":"2022-02-21",
-        "URL":"https:\/\/www.techradar.com\/reviews\/linkedin-jobs",
-        "Categories":"N\/A",
-        "Author":"N\/A",
-        "CMS_URL":"N\/A"
-    },
-    {
         "Product":"Indeed job hiring site",
         "Rating":4.0,
         "Dateline":"2022-02-21",
@@ -67464,15 +67455,6 @@
         "CMS_URL":"N\/A"
     },
     {
-        "Product":"ZipRecruiter job recruiter site",
-        "Rating":3.5,
-        "Dateline":"2022-05-31",
-        "URL":"https:\/\/www.techradar.com\/reviews\/ziprecruiter",
-        "Categories":"N\/A",
-        "Author":"N\/A",
-        "CMS_URL":"N\/A"
-    },
-    {
         "Product":"Trust Gaming GXT 922 Ybar Mouse",
         "Rating":3.5,
         "Dateline":"2022-05-30",
@@ -78561,6 +78543,96 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/kdwsMzLHNqfZu9wBjEtdGM"
     },
     {
+        "Product":"Terra Kaffe Aero",
+        "Rating":"4.5",
+        "Dateline":"2026-08-30",
+        "URL":"https:\/\/www.techradar.com\/home\/small-appliances\/terra-kaffe-aero-review",
+        "Categories":"Coffee Machines,Home,Small Appliances",
+        "Author":"Karen Freeman",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/VpVoV49AJJsD2q5ZhqSF4k"
+    },
+    {
+        "Product":"Noble Audio Vanguard",
+        "Rating":"4.5",
+        "Dateline":"2026-08-29",
+        "URL":"https:\/\/www.techradar.com\/audio\/earbuds-airpods\/noble-audio-vanguard-review",
+        "Categories":"Earbuds & Airpods,Audio,Headphones",
+        "Author":"Harry Padoan",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/sAd3jHNMdKj3nbQeuD4Ftc"
+    },
+    {
+        "Product":"Razer Naga V3 Pro",
+        "Rating":"4.0",
+        "Dateline":"2026-08-29",
+        "URL":"https:\/\/www.techradar.com\/computing\/mice\/razer-naga-v3-pro",
+        "Categories":"Mice,Computing,Peripherals & Accessories,Razer",
+        "Author":"Alex Blake",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/F6it7GiKpF5MTSJ7U8crse"
+    },
+    {
+        "Product":"Ninja CrushBOSS",
+        "Rating":"4.5",
+        "Dateline":"2026-08-29",
+        "URL":"https:\/\/www.techradar.com\/home\/juicers-blenders\/ninja-crushboss-review",
+        "Categories":"Juicers & Blenders,Home,Small Appliances,Ninja",
+        "Author":"Karen Freeman",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Jdg7ALfzTf6krfYH4SyMKi"
+    },
+    {
+        "Product":"Anker Soundcore Nebula P1",
+        "Rating":"4.0",
+        "Dateline":"2026-08-29",
+        "URL":"https:\/\/www.techradar.com\/televisions\/projectors\/soundcore-nebula-p1-review-a-travel-friendly-projector-that-stands-out-from-the-crowd",
+        "Categories":"Projectors,Televisions,Home Theater",
+        "Author":"Mark Knapp",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/paUz8fmF6q9ukWUTMz3iEQ"
+    },
+    {
+        "Product":"Garmin Fenix 9 Pro",
+        "Rating":"5.0",
+        "Dateline":"2026-09-05",
+        "URL":"https:\/\/www.techradar.com\/health-fitness\/smartwatches\/garmin-fenix-9-pro-review",
+        "Categories":"Smartwatches,Health & Fitness,Garmin",
+        "Author":"Julia Clarke",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/f2iraTfkzFEDxjt5ZgGk6U"
+    },
+    {
+        "Product":"Razer Huntsman V3 HE Magnetic TKL",
+        "Rating":"4.0",
+        "Dateline":"2026-09-05",
+        "URL":"https:\/\/www.techradar.com\/computing\/keyboards\/razer-huntsman-v3-he-magnetic-tenkeyless-8khz-review",
+        "Categories":"Keyboards,Computing,Peripherals & Accessories,Razer",
+        "Author":"Lewis Maddison",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/MsRCosaZ3LJQyHSgD5f5R3"
+    },
+    {
+        "Product":"Linkedin Linkedin",
+        "Rating":"4.0",
+        "Dateline":"2022-02-21",
+        "URL":"https:\/\/www.techradar.com\/reviews\/linkedin-jobs",
+        "Categories":"Software & Services,Pro",
+        "Author":"Stefan Ionescu",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Be2qPbKf3dDLxyBZfV2KRP"
+    },
+    {
+        "Product":"ZipRecruiter ZipRecruiter",
+        "Rating":"4.0",
+        "Dateline":"2022-02-21",
+        "URL":"https:\/\/www.techradar.com\/reviews\/ziprecruiter",
+        "Categories":"Pro",
+        "Author":"Stefan Ionescu",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/atgVTuiWuAo5oz9QgvjHBB"
+    },
+    {
+        "Product":"Google Pixel 11 Pro XL",
+        "Rating":"4.0",
+        "Dateline":"2026-09-04",
+        "URL":"https:\/\/www.techradar.com\/phones\/google-pixel-phones\/google-pixel-11-pro-xl-review",
+        "Categories":"Google Pixel Phones,Android,Phones,Google",
+        "Author":"Jason Cipriani",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/zitC5n2S8VV43gX6WxaZ9S"
+    },
+    {
         "Product":"Logitech G305 X Superlight",
         "Rating":"4.5",
         "Dateline":"2026-09-04",
@@ -78757,50 +78829,5 @@
         "Categories":"Televisions,Sony",
         "Author":"James Davidson",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/4iE4dEVSoaDVkMHW8KbuJm"
-    },
-    {
-        "Product":"Terra Kaffe Aero",
-        "Rating":"4.5",
-        "Dateline":"2026-08-30",
-        "URL":"https:\/\/www.techradar.com\/home\/small-appliances\/terra-kaffe-aero-review",
-        "Categories":"Coffee Machines,Home,Small Appliances",
-        "Author":"Karen Freeman",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/VpVoV49AJJsD2q5ZhqSF4k"
-    },
-    {
-        "Product":"Noble Audio Vanguard",
-        "Rating":"4.5",
-        "Dateline":"2026-08-29",
-        "URL":"https:\/\/www.techradar.com\/audio\/earbuds-airpods\/noble-audio-vanguard-review",
-        "Categories":"Earbuds & Airpods,Audio,Headphones",
-        "Author":"Harry Padoan",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/sAd3jHNMdKj3nbQeuD4Ftc"
-    },
-    {
-        "Product":"Razer Naga V3 Pro",
-        "Rating":"4.0",
-        "Dateline":"2026-08-29",
-        "URL":"https:\/\/www.techradar.com\/computing\/mice\/razer-naga-v3-pro",
-        "Categories":"Mice,Computing,Peripherals & Accessories,Razer",
-        "Author":"Alex Blake",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/F6it7GiKpF5MTSJ7U8crse"
-    },
-    {
-        "Product":"Ninja CrushBOSS",
-        "Rating":"4.5",
-        "Dateline":"2026-08-29",
-        "URL":"https:\/\/www.techradar.com\/home\/juicers-blenders\/ninja-crushboss-review",
-        "Categories":"Juicers & Blenders,Home,Small Appliances,Ninja",
-        "Author":"Karen Freeman",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Jdg7ALfzTf6krfYH4SyMKi"
-    },
-    {
-        "Product":"Anker Soundcore Nebula P1",
-        "Rating":"4.0",
-        "Dateline":"2026-08-29",
-        "URL":"https:\/\/www.techradar.com\/televisions\/projectors\/soundcore-nebula-p1-review-a-travel-friendly-projector-that-stands-out-from-the-crowd",
-        "Categories":"Projectors,Televisions,Home Theater",
-        "Author":"Mark Knapp",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/paUz8fmF6q9ukWUTMz3iEQ"
     }
 ]
