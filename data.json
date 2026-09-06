@@ -78588,6 +78588,42 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/paUz8fmF6q9ukWUTMz3iEQ"
     },
     {
+        "Product":"KEF LS Luxe",
+        "Rating":"4.5",
+        "Dateline":"2026-08-30",
+        "URL":"https:\/\/www.techradar.com\/audio\/speakers\/kefs-ls-luxe-review",
+        "Categories":"Speakers,Hi Fi,Audio",
+        "Author":"Simon Lucas",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/XbdKP6a9kTRvcXb2ezBLd7"
+    },
+    {
+        "Product":"Sony Bravia 7 II",
+        "Rating":"4.5",
+        "Dateline":"2026-08-30",
+        "URL":"https:\/\/www.techradar.com\/televisions\/sony-bravia-7-ii-review",
+        "Categories":"Televisions,Sony",
+        "Author":"James Davidson",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/4iE4dEVSoaDVkMHW8KbuJm"
+    },
+    {
+        "Product":"Sony Bravia 5 Mini LED TV",
+        "Rating":"4.5",
+        "Dateline":"2026-09-06",
+        "URL":"https:\/\/www.techradar.com\/televisions\/i-tested-sonys-affordable-bravia-5-tv-and-it-offers-a-lot-of-punch-for-its-price-tag-throwing-serious-shade-on-sonys-previous-mid-range-screens",
+        "Categories":"Televisions,Sony",
+        "Author":"John Archer",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/u4whN47pNo27TfPqz8vHnV"
+    },
+    {
+        "Product":"JBL Live Buds 4",
+        "Rating":"4.5",
+        "Dateline":"2026-09-05",
+        "URL":"https:\/\/www.techradar.com\/audio\/earbuds-airpods\/jbl-live-buds-4-review",
+        "Categories":"Earbuds & Airpods,Audio,Headphones",
+        "Author":"Harry Padoan",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/kZizAG4oAyehhcmmsHTP5L"
+    },
+    {
         "Product":"Garmin Fenix 9 Pro",
         "Rating":"5.0",
         "Dateline":"2026-09-05",
@@ -78795,15 +78831,6 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/tNprZDrZWiaQCZcKwpjBRB"
     },
     {
-        "Product":"MechLands Vibe99",
-        "Rating":"3.5",
-        "Dateline":"2026-08-31",
-        "URL":"https:\/\/www.techradar.com\/computing\/keyboards\/mechlands-vibe99-review",
-        "Categories":"Keyboards,Computing,Peripherals & Accessories",
-        "Author":"Lewis Maddison",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/3bMS5PA9LyHehtw7QmPM6H"
-    },
-    {
         "Product":"Epson LifeStudio Grand Projector",
         "Rating":"3.0",
         "Dateline":"2026-08-31",
@@ -78813,21 +78840,12 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/FYLi6cXjCGFuNt2TciTBTX"
     },
     {
-        "Product":"KEF LS Luxe",
-        "Rating":"4.5",
-        "Dateline":"2026-08-30",
-        "URL":"https:\/\/www.techradar.com\/audio\/speakers\/kefs-ls-luxe-review",
-        "Categories":"Speakers,Hi Fi,Audio",
-        "Author":"Simon Lucas",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/XbdKP6a9kTRvcXb2ezBLd7"
-    },
-    {
-        "Product":"Sony Bravia 7 II",
-        "Rating":"4.5",
-        "Dateline":"2026-08-30",
-        "URL":"https:\/\/www.techradar.com\/televisions\/sony-bravia-7-ii-review",
-        "Categories":"Televisions,Sony",
-        "Author":"James Davidson",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/4iE4dEVSoaDVkMHW8KbuJm"
+        "Product":"MechLands Vibe99",
+        "Rating":"3.5",
+        "Dateline":"2026-08-31",
+        "URL":"https:\/\/www.techradar.com\/computing\/keyboards\/mechlands-vibe99-review",
+        "Categories":"Keyboards,Computing,Peripherals & Accessories",
+        "Author":"Lewis Maddison",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/3bMS5PA9LyHehtw7QmPM6H"
     }
 ]
