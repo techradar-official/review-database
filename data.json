@@ -69831,15 +69831,6 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/mrCEYEHF3es82SPt8VSBzd"
     },
     {
-        "Product":"Storm Proxies",
-        "Rating":3.0,
-        "Dateline":"2025-09-23",
-        "URL":"https:\/\/www.techradar.com\/reviews\/storm-proxies",
-        "Categories":"Security,Pro",
-        "Author":"Stefan Ionescu",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/N8koPkQMzzfn4BFSz2gqX7"
-    },
-    {
         "Product":"Silent Hill f",
         "Rating":3.0,
         "Dateline":"2025-09-22",
@@ -78633,6 +78624,78 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/3bMS5PA9LyHehtw7QmPM6H"
     },
     {
+        "Product":"Onimusha: Way of the Sword",
+        "Rating":"4.5",
+        "Dateline":"2026-08-31",
+        "URL":"https:\/\/www.techradar.com\/gaming\/onimusha-way-of-the-sword-review",
+        "Categories":"Gaming",
+        "Author":"Isaiah Williams",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/jVo7xAc2XYRyJxjfgGK8FD"
+    },
+    {
+        "Product":"Lenovo ThinkPad P16s Gen 4",
+        "Rating":"4.5",
+        "Dateline":"2026-08-31",
+        "URL":"https:\/\/www.techradar.com\/pro\/lenovo-thinkpad-p16s-gen-4-mobile-workstation-review",
+        "Categories":"Pro,Lenovo",
+        "Author":"Collin Probst",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/vFsmcd7CcioWAYbiu4FhMG"
+    },
+    {
+        "Product":"MSI Claw 8 EX AI+",
+        "Rating":"4.0",
+        "Dateline":"2026-08-31",
+        "URL":"https:\/\/www.techradar.com\/computing\/gaming-computers\/msi-claw-8-ex-ai",
+        "Categories":"Gaming Computers,Gaming PCs,PC Gaming,Computing,Gaming,Consoles & PC,MSI",
+        "Author":"Josh Russell",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/JWs5TmY32R8pKVLufojrrH"
+    },
+    {
+        "Product":"Suri Core 1.0",
+        "Rating":"4.0",
+        "Dateline":"2026-08-31",
+        "URL":"https:\/\/www.techradar.com\/health-fitness\/oral-health\/suri-core-10-review",
+        "Categories":"Oral Health,Health & Fitness",
+        "Author":"Matt Evans",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/bcgUtzRsScvieVRnGmuDSg"
+    },
+    {
+        "Product":"Beyerdynamic DT 30 IE",
+        "Rating":"4.0",
+        "Dateline":"2026-09-07",
+        "URL":"https:\/\/www.techradar.com\/audio\/earbuds-airpods\/beyerdynamic-dt-30-ie-review",
+        "Categories":"Earbuds & Airpods,Audio,Headphones",
+        "Author":"Harry Padoan",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/i7eUpdE35x2J8gnCPnL3hR"
+    },
+    {
+        "Product":"Storm Proxies Storm Proxies",
+        "Rating":"3.5",
+        "Dateline":"2022-02-07",
+        "URL":"https:\/\/www.techradar.com\/reviews\/storm-proxies",
+        "Categories":"Security,Pro",
+        "Author":"Stefan Ionescu",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/N8koPkQMzzfn4BFSz2gqX7"
+    },
+    {
+        "Product":"Bigme B6 Color",
+        "Rating":"3.0",
+        "Dateline":"2026-09-07",
+        "URL":"https:\/\/www.techradar.com\/tablets\/ereaders\/bigme-b6-color-review",
+        "Categories":"EReaders,Tablets",
+        "Author":"Dashiell Wood",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/x82UfC7s99F4vz6PwV77vj"
+    },
+    {
+        "Product":"Kodak AZ653",
+        "Rating":"3.5",
+        "Dateline":"2026-09-07",
+        "URL":"https:\/\/www.techradar.com\/cameras\/bridge-cameras\/kodak-pixpro-az653-review",
+        "Categories":"Bridge Cameras,Cameras",
+        "Author":"Peter Fenech",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/CNTtRKaE26EVfwPaJiDcTA"
+    },
+    {
         "Product":"Scuf Valor Wired with TMR",
         "Rating":"4.0",
         "Dateline":"2026-09-06",
@@ -78838,41 +78901,5 @@
         "Categories":"Pro,Anker",
         "Author":"Collin Probst",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/EW3wUTqcJeNf4k7pkdj4mV"
-    },
-    {
-        "Product":"Onimusha: Way of the Sword",
-        "Rating":"4.5",
-        "Dateline":"2026-08-31",
-        "URL":"https:\/\/www.techradar.com\/gaming\/onimusha-way-of-the-sword-review",
-        "Categories":"Gaming",
-        "Author":"Isaiah Williams",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/jVo7xAc2XYRyJxjfgGK8FD"
-    },
-    {
-        "Product":"Lenovo ThinkPad P16s Gen 4",
-        "Rating":"4.5",
-        "Dateline":"2026-08-31",
-        "URL":"https:\/\/www.techradar.com\/pro\/lenovo-thinkpad-p16s-gen-4-mobile-workstation-review",
-        "Categories":"Pro,Lenovo",
-        "Author":"Collin Probst",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/vFsmcd7CcioWAYbiu4FhMG"
-    },
-    {
-        "Product":"MSI Claw 8 EX AI+",
-        "Rating":"4.0",
-        "Dateline":"2026-08-31",
-        "URL":"https:\/\/www.techradar.com\/computing\/gaming-computers\/msi-claw-8-ex-ai",
-        "Categories":"Gaming Computers,Gaming PCs,PC Gaming,Computing,Gaming,Consoles & PC,MSI",
-        "Author":"Josh Russell",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/JWs5TmY32R8pKVLufojrrH"
-    },
-    {
-        "Product":"Suri Core 1.0",
-        "Rating":"4.0",
-        "Dateline":"2026-08-31",
-        "URL":"https:\/\/www.techradar.com\/health-fitness\/oral-health\/suri-core-10-review",
-        "Categories":"Oral Health,Health & Fitness",
-        "Author":"Matt Evans",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/bcgUtzRsScvieVRnGmuDSg"
     }
 ]
