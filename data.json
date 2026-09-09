@@ -55449,15 +55449,6 @@
         "CMS_URL":"N\/A"
     },
     {
-        "Product":"Indeed job hiring site",
-        "Rating":4.0,
-        "Dateline":"2022-02-21",
-        "URL":"https:\/\/www.techradar.com\/reviews\/indeed",
-        "Categories":"N\/A",
-        "Author":"N\/A",
-        "CMS_URL":"N\/A"
-    },
-    {
         "Product":"Mojawa Mojo1",
         "Rating":4.0,
         "Dateline":"2022-02-18",
@@ -78660,6 +78651,132 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/bcgUtzRsScvieVRnGmuDSg"
     },
     {
+        "Product":"Dyson CameraJet",
+        "Rating":"4.0",
+        "Dateline":"2026-09-01",
+        "URL":"https:\/\/www.techradar.com\/health-fitness\/oral-health\/dyson-camerajet-review",
+        "Categories":"Oral Health,Health & Fitness,Dyson",
+        "Author":"Emily Peck",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/qfNSWuwpKbbMH6aL8m9Sf6"
+    },
+    {
+        "Product":"MSI Pro MP243W E14",
+        "Rating":"4.0",
+        "Dateline":"2026-08-31",
+        "URL":"https:\/\/www.techradar.com\/pro\/msi-pro-mp243w-e14-business-monitor-review",
+        "Categories":"Pro,MSI",
+        "Author":"Collin Probst",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/jVFRP6MyLy6bD9gNSLd2tQ"
+    },
+    {
+        "Product":"iFi iDSD GR 2",
+        "Rating":"5.0",
+        "Dateline":"2026-08-31",
+        "URL":"https:\/\/www.techradar.com\/audio\/dacs\/ifi-idsd-gr-2-review",
+        "Categories":"DACs,Audio,Hi Fi",
+        "Author":"Harry Padoan",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/gkkM8FawgNnhVarmC6jSf8"
+    },
+    {
+        "Product":"[FLAG] Philips 5000 Series Megabasket with Steam Air Fryer",
+        "Rating":"4.5",
+        "Dateline":"2026-08-31",
+        "URL":"https:\/\/www.techradar.com\/home\/air-fryers\/philips-500-series-megabasket-steam-air-fryer-review",
+        "Categories":"Air Fryers,Home,Small Appliances",
+        "Author":"John McCann",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/QfSEccUKmsJ4Xs8S4R3MjJ"
+    },
+    {
+        "Product":"SOAX SOAX",
+        "Rating":"4.0",
+        "Dateline":"2020-12-21",
+        "URL":"https:\/\/www.techradar.com\/reviews\/soax-proxy-service",
+        "Categories":"Security,Pro",
+        "Author":"Mayank Sharma",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/EshjndhadLKMRbVjPXmyEb"
+    },
+    {
+        "Product":"FiiO FG3",
+        "Rating":"3.5",
+        "Dateline":"2026-08-31",
+        "URL":"https:\/\/www.techradar.com\/gaming\/fiio-fg3-review",
+        "Categories":"Gaming",
+        "Author":"Tom Bedford",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/GUAaQZuHAr9MfDtDTTwEhY"
+    },
+    {
+        "Product":"Anker Solix E10",
+        "Rating":"4.5",
+        "Dateline":"2026-08-31",
+        "URL":"https:\/\/www.techradar.com\/pro\/anker-solix-e10-home-backup-review",
+        "Categories":"Pro,Anker",
+        "Author":"Collin Probst",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/EW3wUTqcJeNf4k7pkdj4mV"
+    },
+    {
+        "Product":"GL.iNet Beryl 7",
+        "Rating":"4.5",
+        "Dateline":"2026-09-08",
+        "URL":"https:\/\/www.techradar.com\/pro\/gl-inet-beryl-7-wi-fi-7-travel-router-review",
+        "Categories":"Pro",
+        "Author":"Collin Probst",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/mJ4j9ZSE46uERfUh5DoyJb"
+    },
+    {
+        "Product":"Lenovo ThinkPad T1g Gen 8",
+        "Rating":"4.5",
+        "Dateline":"2026-09-08",
+        "URL":"https:\/\/www.techradar.com\/pro\/lenovo-thinkpad-t1g-gen-8-business-laptop-review",
+        "Categories":"Pro,Laptops,Computing,Anker",
+        "Author":"Collin Probst",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/evGs2fnELg6PjXS2Dz9hNC"
+    },
+    {
+        "Product":"Vernal Core3",
+        "Rating":"4.5",
+        "Dateline":"2026-09-08",
+        "URL":"https:\/\/www.techradar.com\/pro\/vernal-core3-standing-desk-review",
+        "Categories":"Pro",
+        "Author":"Collin Probst",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/SP8Tdwkb3EmHwCM9UPSyXN"
+    },
+    {
+        "Product":"LG OLED TV",
+        "Rating":"2.0",
+        "Dateline":"2026-09-08",
+        "URL":"https:\/\/www.techradar.com\/streaming\/entertainment\/practical-magic-2-review",
+        "Categories":"Entertainment,Streaming",
+        "Author":"Jasmine Valentine",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/U5s4FWL6uSmyURAtcz7qMV"
+    },
+    {
+        "Product":"Alienware AW3926QW",
+        "Rating":"4.5",
+        "Dateline":"2026-09-08",
+        "URL":"https:\/\/www.techradar.com\/computing\/monitors\/alienware-aw3926qw",
+        "Categories":"Monitors,Computing,Peripherals & Accessories,OLED",
+        "Author":"Jeremy Laird",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/hxEtad6aHzE36cGBAhoJ6"
+    },
+    {
+        "Product":"Turbo VPN",
+        "Rating":"2.5",
+        "Dateline":"2021-05-21",
+        "URL":"https:\/\/www.techradar.com\/reviews\/turbo-vpn",
+        "Categories":"VPN Services,VPN",
+        "Author":"Mark Gill",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/obLH6oGPMcyGJFGxdj5LQE"
+    },
+    {
+        "Product":"Indeed job recruitment site (2026)",
+        "Rating":"4.0",
+        "Dateline":"2022-02-21",
+        "URL":"https:\/\/www.techradar.com\/reviews\/indeed",
+        "Categories":"Pro",
+        "Author":"Stefan Ionescu",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/oXTPmH3si5bGE5UyUHGAmT"
+    },
+    {
         "Product":"Beyerdynamic DT 30 IE",
         "Rating":"4.0",
         "Dateline":"2026-09-07",
@@ -78838,68 +78955,5 @@
         "Categories":"Air Fryers,Home,Small Appliances",
         "Author":"John McCann",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/UULTTFQq56Xefjf9CqXTvE"
-    },
-    {
-        "Product":"Dyson CameraJet",
-        "Rating":"4.0",
-        "Dateline":"2026-09-01",
-        "URL":"https:\/\/www.techradar.com\/health-fitness\/oral-health\/dyson-camerajet-review",
-        "Categories":"Oral Health,Health & Fitness,Dyson",
-        "Author":"Emily Peck",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/qfNSWuwpKbbMH6aL8m9Sf6"
-    },
-    {
-        "Product":"MSI Pro MP243W E14",
-        "Rating":"4.0",
-        "Dateline":"2026-08-31",
-        "URL":"https:\/\/www.techradar.com\/pro\/msi-pro-mp243w-e14-business-monitor-review",
-        "Categories":"Pro,MSI",
-        "Author":"Collin Probst",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/jVFRP6MyLy6bD9gNSLd2tQ"
-    },
-    {
-        "Product":"iFi iDSD GR 2",
-        "Rating":"5.0",
-        "Dateline":"2026-08-31",
-        "URL":"https:\/\/www.techradar.com\/audio\/dacs\/ifi-idsd-gr-2-review",
-        "Categories":"DACs,Audio,Hi Fi",
-        "Author":"Harry Padoan",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/gkkM8FawgNnhVarmC6jSf8"
-    },
-    {
-        "Product":"[FLAG] Philips 5000 Series Megabasket with Steam Air Fryer",
-        "Rating":"4.5",
-        "Dateline":"2026-08-31",
-        "URL":"https:\/\/www.techradar.com\/home\/air-fryers\/philips-500-series-megabasket-steam-air-fryer-review",
-        "Categories":"Air Fryers,Home,Small Appliances",
-        "Author":"John McCann",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/QfSEccUKmsJ4Xs8S4R3MjJ"
-    },
-    {
-        "Product":"SOAX SOAX",
-        "Rating":"4.0",
-        "Dateline":"2020-12-21",
-        "URL":"https:\/\/www.techradar.com\/reviews\/soax-proxy-service",
-        "Categories":"Security,Pro",
-        "Author":"Mayank Sharma",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/EshjndhadLKMRbVjPXmyEb"
-    },
-    {
-        "Product":"FiiO FG3",
-        "Rating":"3.5",
-        "Dateline":"2026-08-31",
-        "URL":"https:\/\/www.techradar.com\/gaming\/fiio-fg3-review",
-        "Categories":"Gaming",
-        "Author":"Tom Bedford",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/GUAaQZuHAr9MfDtDTTwEhY"
-    },
-    {
-        "Product":"Anker Solix E10",
-        "Rating":"4.5",
-        "Dateline":"2026-08-31",
-        "URL":"https:\/\/www.techradar.com\/pro\/anker-solix-e10-home-backup-review",
-        "Categories":"Pro,Anker",
-        "Author":"Collin Probst",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/EW3wUTqcJeNf4k7pkdj4mV"
     }
 ]
