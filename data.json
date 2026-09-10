@@ -35982,15 +35982,6 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/44v9GxKTuQpt7owgSqEing"
     },
     {
-        "Product":"Jackery Solar Generator 2000 v2 portable station",
-        "Rating":4.0,
-        "Dateline":"2025-05-12",
-        "URL":"https:\/\/www.techradar.com\/pro\/jackery-solar-generator-2000-v2-review",
-        "Categories":"Pro",
-        "Author":"Jack Laurent",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/iH4rAJVEXFBPzPXokUXyoD"
-    },
-    {
         "Product":"Ecovacs X5 Pro Omni",
         "Rating":4.0,
         "Dateline":"2025-05-12",
@@ -78714,6 +78705,42 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/EW3wUTqcJeNf4k7pkdj4mV"
     },
     {
+        "Product":"Bandai Namco The Blood of Dawnwalker",
+        "Rating":"3.5",
+        "Dateline":"2026-09-01",
+        "URL":"https:\/\/www.techradar.com\/gaming\/the-blood-of-dawnwalker-review",
+        "Categories":"Gaming",
+        "Author":"James Pickard",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/8kMCr2NCtuJmBYJFRZ44iV"
+    },
+    {
+        "Product":"Cosori Dual Blaze Twinfry Compact",
+        "Rating":"4.5",
+        "Dateline":"2026-09-01",
+        "URL":"https:\/\/www.techradar.com\/home\/air-fryers\/cosori-dual-blaze-twinfry-compact-review",
+        "Categories":"Air Fryers,Home,Small Appliances",
+        "Author":"John McCann",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/UULTTFQq56Xefjf9CqXTvE"
+    },
+    {
+        "Product":"Jackery Explorer 2000 v2",
+        "Rating":"4.5",
+        "Dateline":"2025-05-12",
+        "URL":"https:\/\/www.techradar.com\/pro\/jackery-solar-generator-2000-v2-review",
+        "Categories":"Pro",
+        "Author":"Owain Williams",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/iH4rAJVEXFBPzPXokUXyoD"
+    },
+    {
+        "Product":"BenQ MA270S",
+        "Rating":"5.0",
+        "Dateline":"2026-09-09",
+        "URL":"https:\/\/www.techradar.com\/pro\/benq-ma270s-5k-monitor-review",
+        "Categories":"Pro",
+        "Author":"Collin Probst",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/jJuVYE6GGaphmd37uXgtsH"
+    },
+    {
         "Product":"GL.iNet Beryl 7",
         "Rating":"4.5",
         "Dateline":"2026-09-08",
@@ -78937,23 +78964,5 @@
         "Categories":"Netflix,Streaming",
         "Author":"Lucy Buglass",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/NsdVgdUJtEUwL4BTwKCWrQ"
-    },
-    {
-        "Product":"Bandai Namco The Blood of Dawnwalker",
-        "Rating":"3.5",
-        "Dateline":"2026-09-01",
-        "URL":"https:\/\/www.techradar.com\/gaming\/the-blood-of-dawnwalker-review",
-        "Categories":"Gaming",
-        "Author":"James Pickard",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/8kMCr2NCtuJmBYJFRZ44iV"
-    },
-    {
-        "Product":"Cosori Dual Blaze Twinfry Compact",
-        "Rating":"4.5",
-        "Dateline":"2026-09-01",
-        "URL":"https:\/\/www.techradar.com\/home\/air-fryers\/cosori-dual-blaze-twinfry-compact-review",
-        "Categories":"Air Fryers,Home,Small Appliances",
-        "Author":"John McCann",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/UULTTFQq56Xefjf9CqXTvE"
     }
 ]
