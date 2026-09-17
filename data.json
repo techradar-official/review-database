@@ -78966,6 +78966,42 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/VpzKezCqUkxPFsyqNupAyi"
     },
     {
+        "Product":"Bark Parental Controls",
+        "Rating":"3.5",
+        "Dateline":"2021-06-15",
+        "URL":"https:\/\/www.techradar.com\/reviews\/bark",
+        "Categories":"Software & Services,Pro",
+        "Author":"Mike Jennings",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/ymQsPTJBk82FBHQAcadBjP"
+    },
+    {
+        "Product":"HeyPolo Parental Control App",
+        "Rating":"4.0",
+        "Dateline":"2026-09-10",
+        "URL":"https:\/\/www.techradar.com\/pro\/software-services\/heypolo-parental-control-software-review",
+        "Categories":"Software & Services,Pro",
+        "Author":"Krishi Chowdhary",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/MftMX8iRVaU9HjJREFQwRW"
+    },
+    {
+        "Product":"Fire Emblem: Fortune's Weave",
+        "Rating":"5.0",
+        "Dateline":"2026-09-16",
+        "URL":"https:\/\/www.techradar.com\/gaming\/fire-emblem-fortunes-weave-review",
+        "Categories":"Gaming,Nintendo,Consoles & PC",
+        "Author":"Harry Padoan",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/9U45QdrsGwiHi5qiLwmovQ"
+    },
+    {
+        "Product":"You want the best cameras",
+        "Rating":"5.0",
+        "Dateline":"2026-09-16",
+        "URL":"https:\/\/www.techradar.com\/phones\/iphone\/iphone-18-pro-and-iphone-18-pro-max-review",
+        "Categories":"IPhone,Phones,Apple",
+        "Author":"Jacob Krol",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/bfS6LLASmYKEZJ7rUKuhF6"
+    },
+    {
         "Product":"Canon EOS R8 Mark II",
         "Rating":"N\/A",
         "Dateline":"2026-09-16",
@@ -79198,23 +79234,5 @@
         "Categories":"Pro",
         "Author":"David Nield,Jonas P. DeMuro,Craig Hale",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/mNqfGX4zmcbNYhJPUmWbkj"
-    },
-    {
-        "Product":"Bark Parental Controls",
-        "Rating":"3.5",
-        "Dateline":"2021-06-15",
-        "URL":"https:\/\/www.techradar.com\/reviews\/bark",
-        "Categories":"Software & Services,Pro",
-        "Author":"Mike Jennings",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/ymQsPTJBk82FBHQAcadBjP"
-    },
-    {
-        "Product":"HeyPolo Parental Control App",
-        "Rating":"4.0",
-        "Dateline":"2026-09-10",
-        "URL":"https:\/\/www.techradar.com\/pro\/software-services\/heypolo-parental-control-software-review",
-        "Categories":"Software & Services,Pro",
-        "Author":"Krishi Chowdhary",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/MftMX8iRVaU9HjJREFQwRW"
     }
 ]
