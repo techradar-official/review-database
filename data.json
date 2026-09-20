@@ -78984,15 +78984,6 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/MftMX8iRVaU9HjJREFQwRW"
     },
     {
-        "Product":"Vari Electric Standing Desk with TechTrack",
-        "Rating":"5.0",
-        "Dateline":"2026-09-13",
-        "URL":"https:\/\/www.techradar.com\/pro\/vari-electric-standing-desk-with-techtrack-review",
-        "Categories":"Pro",
-        "Author":"Collin Probst",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/VhJPnkZGhie25MgMTUHB5B"
-    },
-    {
         "Product":"Oxylabs",
         "Rating":"4.5",
         "Dateline":"2022-02-06",
@@ -79009,6 +79000,51 @@
         "Categories":"Pro",
         "Author":"David Nield,Jonas P. DeMuro,Craig Hale",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/mNqfGX4zmcbNYhJPUmWbkj"
+    },
+    {
+        "Product":"Glassdoor Glassdoor",
+        "Rating":"4.0",
+        "Dateline":"2022-02-21",
+        "URL":"https:\/\/www.techradar.com\/reviews\/glassdoor",
+        "Categories":"Pro",
+        "Author":"Stefan Ionescu",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Tym8RJ6SyXRhALCCrHeeN7"
+    },
+    {
+        "Product":"Monster job recruitment site (2026)",
+        "Rating":"3.5",
+        "Dateline":"2022-02-21",
+        "URL":"https:\/\/www.techradar.com\/reviews\/monster",
+        "Categories":"Pro",
+        "Author":"Stefan Ionescu",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/ok57xMr8AUG9eoamH9B2pG"
+    },
+    {
+        "Product":"Potensic Atom 3",
+        "Rating":"4.0",
+        "Dateline":"2026-09-10",
+        "URL":"https:\/\/www.techradar.com\/cameras\/drones\/potensic-atom-3-review",
+        "Categories":"Drones,Cameras",
+        "Author":"Timothy Coleman",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/ajid2aAVLXXaBps6hysGB5"
+    },
+    {
+        "Product":"LaserPecker LX2",
+        "Rating":"4.5",
+        "Dateline":"2026-09-20",
+        "URL":"https:\/\/www.techradar.com\/pro\/laserpecker-lx2-laser-cutter-and-engraver-review",
+        "Categories":"Pro",
+        "Author":"Alastair Jennings",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/CBHdzdJi3oAiumm2RuhNDi"
+    },
+    {
+        "Product":"Bose QuietComfort Headphones (2nd Gen)",
+        "Rating":"4.0",
+        "Dateline":"2026-09-19",
+        "URL":"https:\/\/www.techradar.com\/audio\/wireless-headphones\/after-a-month-testing-boses-new-premium-headphones-i-would-recommend-them-but-id-recommend-waiting-more",
+        "Categories":"Wireless Headphones,Audio,Headphones",
+        "Author":"Tom Bedford",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/rbpiHsNiFi3zEX4ygU5TfR"
     },
     {
         "Product":"Withings BodyScan 2",
@@ -79081,6 +79117,15 @@
         "Categories":"Poco Phones,Android,Phones,Xiaomi Phones",
         "Author":"Henry Burrell",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/qEtq2Wwg5D7PSmc4m5rE95"
+    },
+    {
+        "Product":"Vari Electric Standing Desk with TechTrack",
+        "Rating":"5.0",
+        "Dateline":"2026-09-13",
+        "URL":"https:\/\/www.techradar.com\/pro\/vari-electric-standing-desk-with-techtrack-review",
+        "Categories":"Pro",
+        "Author":"Collin Probst",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/VhJPnkZGhie25MgMTUHB5B"
     },
     {
         "Product":"SoundPEATS UU2",
@@ -79234,32 +79279,5 @@
         "Categories":"Pro",
         "Author":"Jeremy Laird",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/TDHHgzBGr6AxgtKHSb4Zhc"
-    },
-    {
-        "Product":"Glassdoor Glassdoor",
-        "Rating":"4.0",
-        "Dateline":"2022-02-21",
-        "URL":"https:\/\/www.techradar.com\/reviews\/glassdoor",
-        "Categories":"Pro",
-        "Author":"Stefan Ionescu",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Tym8RJ6SyXRhALCCrHeeN7"
-    },
-    {
-        "Product":"Monster job recruitment site (2026)",
-        "Rating":"3.5",
-        "Dateline":"2022-02-21",
-        "URL":"https:\/\/www.techradar.com\/reviews\/monster",
-        "Categories":"Pro",
-        "Author":"Stefan Ionescu",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/ok57xMr8AUG9eoamH9B2pG"
-    },
-    {
-        "Product":"Potensic Atom 3",
-        "Rating":"4.0",
-        "Dateline":"2026-09-10",
-        "URL":"https:\/\/www.techradar.com\/cameras\/drones\/potensic-atom-3-review",
-        "Categories":"Drones,Cameras",
-        "Author":"Timothy Coleman",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/ajid2aAVLXXaBps6hysGB5"
     }
 ]
