@@ -79029,6 +79029,78 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/ajid2aAVLXXaBps6hysGB5"
     },
     {
+        "Product":"Google Pixel Watch 5",
+        "Rating":"4.0",
+        "Dateline":"2026-09-11",
+        "URL":"https:\/\/www.techradar.com\/health-fitness\/smartwatches\/google-pixel-watch-5-review",
+        "Categories":"Smartwatches,Health & Fitness,Google",
+        "Author":"Matt Evans",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/KHDj7K22bviAaEDuFtkc4W"
+    },
+    {
+        "Product":"FastestVPN",
+        "Rating":"3.5",
+        "Dateline":"2022-04-11",
+        "URL":"https:\/\/www.techradar.com\/reviews\/fastestvpn",
+        "Categories":"VPN Services,VPN",
+        "Author":"Sam Dawson,Mark Gill",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Z7yqbsgStT3HPSZx74RPLo"
+    },
+    {
+        "Product":"PlayStation Marvel's Wolverine",
+        "Rating":"4.0",
+        "Dateline":"2026-09-10",
+        "URL":"https:\/\/www.techradar.com\/gaming\/marvels-wolverine-review",
+        "Categories":"Playstation,Gaming,Consoles & PC",
+        "Author":"Matt Cabral",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/73Fw54SXJG3Mz5wTXLe7zY"
+    },
+    {
+        "Product":"Philips 34B2U5900C",
+        "Rating":"4.5",
+        "Dateline":"2026-09-10",
+        "URL":"https:\/\/www.techradar.com\/pro\/philips-34b2u5900c-5k2k-monitor-review",
+        "Categories":"Pro",
+        "Author":"Jeremy Laird",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/TDHHgzBGr6AxgtKHSb4Zhc"
+    },
+    {
+        "Product":"Dreame X60 Pro Ultra Complete",
+        "Rating":"4.5",
+        "Dateline":"2026-09-21",
+        "URL":"https:\/\/www.techradar.com\/home\/robot-vacuums\/dreame-x60-pro-ultra-review",
+        "Categories":"Robot Vacuums,Small Appliances,Home,Smart Home,Dreame",
+        "Author":"Derek Adams",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/JAbHvZPGkDwaRyQkcQ62Sm"
+    },
+    {
+        "Product":"Konami Silent Hill: Townfall (PS5)",
+        "Rating":"4.0",
+        "Dateline":"2026-09-21",
+        "URL":"https:\/\/www.techradar.com\/gaming\/silent-hill-townfall-review",
+        "Categories":"Gaming",
+        "Author":"Lewis Maddison",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/rL87dHiHEnWfs89Sf22EFf"
+    },
+    {
+        "Product":"dbrand Killswitch 2",
+        "Rating":"4.5",
+        "Dateline":"2026-09-20",
+        "URL":"https:\/\/www.techradar.com\/gaming\/gaming-accessories\/dbrand-killswitch-nintendo-switch-2-review",
+        "Categories":"Gaming Accessories,Nintendo Switch,Gaming,Consoles & PC,Nintendo",
+        "Author":"Harry Padoan",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/6YMoEnG4AefAkF6KKtR2eU"
+    },
+    {
+        "Product":"Samsung R95H Micro RGB 4K TV",
+        "Rating":"4.5",
+        "Dateline":"2026-09-20",
+        "URL":"https:\/\/www.techradar.com\/televisions\/samsung-r95h-review",
+        "Categories":"Televisions,Samsung",
+        "Author":"James Davidson",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/g5qXVvuguo75vFg6s8P8Ff"
+    },
+    {
         "Product":"LaserPecker LX2",
         "Rating":"4.5",
         "Dateline":"2026-09-20",
@@ -79243,41 +79315,5 @@
         "Categories":"Wireless Headphones,Audio,Headphones",
         "Author":"James Holland",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/cQygDWut9JPufj3Hs8EAGh"
-    },
-    {
-        "Product":"Google Pixel Watch 5",
-        "Rating":"4.0",
-        "Dateline":"2026-09-11",
-        "URL":"https:\/\/www.techradar.com\/health-fitness\/smartwatches\/google-pixel-watch-5-review",
-        "Categories":"Smartwatches,Health & Fitness,Google",
-        "Author":"Matt Evans",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/KHDj7K22bviAaEDuFtkc4W"
-    },
-    {
-        "Product":"FastestVPN",
-        "Rating":"3.5",
-        "Dateline":"2022-04-11",
-        "URL":"https:\/\/www.techradar.com\/reviews\/fastestvpn",
-        "Categories":"VPN Services,VPN",
-        "Author":"Sam Dawson,Mark Gill",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Z7yqbsgStT3HPSZx74RPLo"
-    },
-    {
-        "Product":"PlayStation Marvel's Wolverine",
-        "Rating":"4.0",
-        "Dateline":"2026-09-10",
-        "URL":"https:\/\/www.techradar.com\/gaming\/marvels-wolverine-review",
-        "Categories":"Playstation,Gaming,Consoles & PC",
-        "Author":"Matt Cabral",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/73Fw54SXJG3Mz5wTXLe7zY"
-    },
-    {
-        "Product":"Philips 34B2U5900C",
-        "Rating":"4.5",
-        "Dateline":"2026-09-10",
-        "URL":"https:\/\/www.techradar.com\/pro\/philips-34b2u5900c-5k2k-monitor-review",
-        "Categories":"Pro",
-        "Author":"Jeremy Laird",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/TDHHgzBGr6AxgtKHSb4Zhc"
     }
 ]
