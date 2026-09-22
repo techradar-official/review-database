@@ -73512,15 +73512,6 @@
         "CMS_URL":"N\/A"
     },
     {
-        "Product":"CareerBuilder",
-        "Rating":3.0,
-        "Dateline":"2022-02-21",
-        "URL":"https:\/\/www.techradar.com\/reviews\/careerbuilder",
-        "Categories":"Pro",
-        "Author":"N\/A",
-        "CMS_URL":"N\/A"
-    },
-    {
         "Product":"AIAIAI TMA-2 Studio Wireless+",
         "Rating":3.0,
         "Dateline":"2022-02-17",
@@ -79065,6 +79056,69 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/TDHHgzBGr6AxgtKHSb4Zhc"
     },
     {
+        "Product":"Valerion VisionMaster Max",
+        "Rating":"4.0",
+        "Dateline":"2026-09-12",
+        "URL":"https:\/\/www.techradar.com\/televisions\/projectors\/absolutely-brilliant-providing-4k-projection-with-solid-edge-to-edge-clarity-i-was-wowed-by-this-valerion-4k-projectors-bold-contrasty-picture-but-less-premium-priced-projectors-are-nipping-at-its-heels",
+        "Categories":"Projectors,Televisions,Home Theater",
+        "Author":"Mark Knapp",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/4vG8SC25UvdDxRUJGKaXta"
+    },
+    {
+        "Product":"Heavys True Wireless EarBuds (H1E)",
+        "Rating":"3.5",
+        "Dateline":"2026-09-11",
+        "URL":"https:\/\/www.techradar.com\/audio\/earbuds-airpods\/heavys-h1e-review-born-for-one-thing",
+        "Categories":"Earbuds & Airpods,Audio,Headphones",
+        "Author":"Aleksha McLoughlin",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/9hnssGNNVwkaApWkhzJmf3"
+    },
+    {
+        "Product":"Snagajob Snagajob",
+        "Rating":"4.0",
+        "Dateline":"2026-09-11",
+        "URL":"https:\/\/www.techradar.com\/pro\/snagajob-review",
+        "Categories":"Pro",
+        "Author":"Stefan Ionescu",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/eyJ7oyxzRTxs5UDYHC7pJH"
+    },
+    {
+        "Product":"JBL Live 680 NC",
+        "Rating":"4.0",
+        "Dateline":"2026-09-11",
+        "URL":"https:\/\/www.techradar.com\/audio\/wireless-headphones\/the-jbl-live-680nc-may-sound-good-but-the-battery-life-and-plethora-of-top-features-are-the-star-of-the-show",
+        "Categories":"Wireless Headphones,Audio,Headphones",
+        "Author":"James Holland",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/cQygDWut9JPufj3Hs8EAGh"
+    },
+    {
+        "Product":"Insta360 Link 2 Pro",
+        "Rating":"4.5",
+        "Dateline":"2026-09-21",
+        "URL":"https:\/\/www.techradar.com\/computing\/webcams\/insta360-link-2-pro-review",
+        "Categories":"Webcams,Computing,Peripherals & Accessories,Insta360",
+        "Author":"Christian Guyton",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/RuC2yrFSYA2uoRrR28yt5E"
+    },
+    {
+        "Product":"Dell XPS 13",
+        "Rating":"3.5",
+        "Dateline":"2026-09-21",
+        "URL":"https:\/\/www.techradar.com\/computing\/windows-laptops\/dell-xps-13-review",
+        "Categories":"Windows Laptops,Computing,Laptops,Dell",
+        "Author":"Christian Guyton",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/77xVaunCpUzJHZcsxWyeQH"
+    },
+    {
+        "Product":"CareerBuilder CareerBuilder",
+        "Rating":"3.5",
+        "Dateline":"2022-02-21",
+        "URL":"https:\/\/www.techradar.com\/reviews\/careerbuilder",
+        "Categories":"Pro",
+        "Author":"Stefan Ionescu",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/VV2KH7dotLiKqaen69NvVg"
+    },
+    {
         "Product":"Dreame X60 Pro Ultra Complete",
         "Rating":"4.5",
         "Dateline":"2026-09-21",
@@ -79279,41 +79333,5 @@
         "Categories":"Pro",
         "Author":"Alastair Jennings",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/tMZJrtHn4DNdyhJ3hdryFc"
-    },
-    {
-        "Product":"Valerion VisionMaster Max",
-        "Rating":"4.0",
-        "Dateline":"2026-09-12",
-        "URL":"https:\/\/www.techradar.com\/televisions\/projectors\/absolutely-brilliant-providing-4k-projection-with-solid-edge-to-edge-clarity-i-was-wowed-by-this-valerion-4k-projectors-bold-contrasty-picture-but-less-premium-priced-projectors-are-nipping-at-its-heels",
-        "Categories":"Projectors,Televisions,Home Theater",
-        "Author":"Mark Knapp",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/4vG8SC25UvdDxRUJGKaXta"
-    },
-    {
-        "Product":"Heavys True Wireless EarBuds (H1E)",
-        "Rating":"3.5",
-        "Dateline":"2026-09-11",
-        "URL":"https:\/\/www.techradar.com\/audio\/earbuds-airpods\/heavys-h1e-review-born-for-one-thing",
-        "Categories":"Earbuds & Airpods,Audio,Headphones",
-        "Author":"Aleksha McLoughlin",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/9hnssGNNVwkaApWkhzJmf3"
-    },
-    {
-        "Product":"Snagajob Snagajob",
-        "Rating":"4.0",
-        "Dateline":"2026-09-11",
-        "URL":"https:\/\/www.techradar.com\/pro\/snagajob-review",
-        "Categories":"Pro",
-        "Author":"Stefan Ionescu",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/eyJ7oyxzRTxs5UDYHC7pJH"
-    },
-    {
-        "Product":"JBL Live 680 NC",
-        "Rating":"4.0",
-        "Dateline":"2026-09-11",
-        "URL":"https:\/\/www.techradar.com\/audio\/wireless-headphones\/the-jbl-live-680nc-may-sound-good-but-the-battery-life-and-plethora-of-top-features-are-the-star-of-the-show",
-        "Categories":"Wireless Headphones,Audio,Headphones",
-        "Author":"James Holland",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/cQygDWut9JPufj3Hs8EAGh"
     }
 ]
