@@ -79092,15 +79092,6 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/cQygDWut9JPufj3Hs8EAGh"
     },
     {
-        "Product":"dbrand Killswitch 2",
-        "Rating":"4.5",
-        "Dateline":"2026-09-20",
-        "URL":"https:\/\/www.techradar.com\/gaming\/gaming-accessories\/dbrand-killswitch-nintendo-switch-2-review",
-        "Categories":"Gaming Accessories,Nintendo Switch,Gaming,Consoles & PC,Nintendo",
-        "Author":"Harry Padoan",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/6YMoEnG4AefAkF6KKtR2eU"
-    },
-    {
         "Product":"Dell UltraSharp U3226Q",
         "Rating":"5.0",
         "Dateline":"2026-09-12",
@@ -79135,6 +79126,24 @@
         "Categories":"Pro",
         "Author":"Alastair Jennings",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/tMZJrtHn4DNdyhJ3hdryFc"
+    },
+    {
+        "Product":"Godox C100",
+        "Rating":"3.0",
+        "Dateline":"2026-09-13",
+        "URL":"https:\/\/www.techradar.com\/cameras\/compact-cameras\/godox-c100-review",
+        "Categories":"Compact Cameras,Cameras",
+        "Author":"Jon Stapley",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/YzVqmqkujnxn39gxJVYvXC"
+    },
+    {
+        "Product":"Huawei Watch D3",
+        "Rating":"4.0",
+        "Dateline":"2026-09-23",
+        "URL":"https:\/\/www.techradar.com\/health-fitness\/smartwatches\/huawei-watch-d3-review",
+        "Categories":"Smartwatches,Health & Fitness",
+        "Author":"Paul Hatton",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/28dWjfdMQCugmdKMs5HF2H"
     },
     {
         "Product":"Anker Eufy E35 Omni",
@@ -79225,6 +79234,15 @@
         "Categories":"Gaming",
         "Author":"Lewis Maddison",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/rL87dHiHEnWfs89Sf22EFf"
+    },
+    {
+        "Product":"dbrand Killswitch 2",
+        "Rating":"4.5",
+        "Dateline":"2026-09-20",
+        "URL":"https:\/\/www.techradar.com\/gaming\/gaming-accessories\/dbrand-killswitch-nintendo-switch-2-review",
+        "Categories":"Gaming Accessories,Nintendo Switch,Gaming,Consoles & PC,Nintendo",
+        "Author":"Harry Padoan",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/6YMoEnG4AefAkF6KKtR2eU"
     },
     {
         "Product":"Samsung R95H Micro RGB 4K TV",
@@ -79369,14 +79387,5 @@
         "Categories":"Pro",
         "Author":"Alastair Jennings",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/e8B2iNP4x4ibWovVskoFg4"
-    },
-    {
-        "Product":"Godox C100",
-        "Rating":"3.0",
-        "Dateline":"2026-09-13",
-        "URL":"https:\/\/www.techradar.com\/cameras\/compact-cameras\/godox-c100-review",
-        "Categories":"Compact Cameras,Cameras",
-        "Author":"Jon Stapley",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/YzVqmqkujnxn39gxJVYvXC"
     }
 ]
