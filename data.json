@@ -79173,6 +79173,87 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/bk8mXWsVMSfoVuZSKT3CNK"
     },
     {
+        "Product":"Canon EOS R8 Mark II",
+        "Rating":"N\/A",
+        "Dateline":"2026-09-16",
+        "URL":"https:\/\/www.techradar.com\/cameras\/mirrorless-cameras\/canon-eos-r8-mark-ii-review",
+        "Categories":"Mirrorless Cameras,Cameras,Canon",
+        "Author":"Timothy Coleman",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/gcVkBtazR9S2gGY4Jq8xU7"
+    },
+    {
+        "Product":"Sony FE 600mm f\/6.3 GM OSS",
+        "Rating":"4.5",
+        "Dateline":"2026-09-15",
+        "URL":"https:\/\/www.techradar.com\/cameras\/camera-lenses\/sony-fe-600mm-f6-3-gm-oss-review",
+        "Categories":"Camera Lenses,Cameras",
+        "Author":"Timothy Coleman",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/ZQwpf2P2uCwLziRu5kwzZZ"
+    },
+    {
+        "Product":"POCO F9 Ultra",
+        "Rating":"4.5",
+        "Dateline":"2026-09-15",
+        "URL":"https:\/\/www.techradar.com\/phones\/poco-phones\/poco-f9-ultra-review",
+        "Categories":"Poco Phones,Android,Phones,Xiaomi Phones",
+        "Author":"Henry Burrell",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/qEtq2Wwg5D7PSmc4m5rE95"
+    },
+    {
+        "Product":"Vari Electric Standing Desk with TechTrack",
+        "Rating":"5.0",
+        "Dateline":"2026-09-13",
+        "URL":"https:\/\/www.techradar.com\/pro\/vari-electric-standing-desk-with-techtrack-review",
+        "Categories":"Pro",
+        "Author":"Collin Probst",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/VhJPnkZGhie25MgMTUHB5B"
+    },
+    {
+        "Product":"Reolink OMVI 3i",
+        "Rating":"4.0",
+        "Dateline":"2026-09-27",
+        "URL":"https:\/\/www.techradar.com\/home\/home-security\/reolink-omvi-3i-review",
+        "Categories":"Home Security,Home,Smart Home",
+        "Author":"Chris Price",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/uPm9y4QNsKbdeqQBQx46y5"
+    },
+    {
+        "Product":"Innocn E49M1R Ultrawide Monitor",
+        "Rating":"4.5",
+        "Dateline":"2026-09-27",
+        "URL":"https:\/\/www.techradar.com\/pro\/innocn-e49m1r-ultrawide-monitor-review",
+        "Categories":"Pro",
+        "Author":"Mark Pickavance",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/6j5YDD6z8Atkmb6Hx7w8ij"
+    },
+    {
+        "Product":"Sennheiser Momentum True Wireless 5",
+        "Rating":"5.0",
+        "Dateline":"2026-09-27",
+        "URL":"https:\/\/www.techradar.com\/audio\/earbuds-airpods\/sennheisers-eco-conscious-addition-to-the-momentum-true-wireless-5-earbuds-is-commendable-but-their-sound-alone-makes-them-the-buds-to-beat",
+        "Categories":"Earbuds & Airpods,Audio,Headphones",
+        "Author":"Simon Cocks",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/jcKHNNw37kNjZq8CHi2UnD"
+    },
+    {
+        "Product":"PixelMob PixelMob Portable AI Workstation",
+        "Rating":"4.5",
+        "Dateline":"2026-09-26",
+        "URL":"https:\/\/www.techradar.com\/pro\/pixelmob-portable-ai-workstation-review",
+        "Categories":"Pro,AI",
+        "Author":"Alastair Jennings",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/fZ5bekXbT9xCErJzM8YCuU"
+    },
+    {
+        "Product":"JBL Live Flex 4",
+        "Rating":"4.5",
+        "Dateline":"2026-09-26",
+        "URL":"https:\/\/www.techradar.com\/audio\/earbuds-airpods\/jbl-live-flex-4-review",
+        "Categories":"Earbuds & Airpods,Audio,Headphones",
+        "Author":"Harry Padoan",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/9pTCaRYf3JcbNfCRzD4fvF"
+    },
+    {
         "Product":"Aosu Video Doorbell R1 Ultra",
         "Rating":"3.5",
         "Dateline":"2026-09-26",
@@ -79387,41 +79468,5 @@
         "Categories":"IPhone,Phones,Apple",
         "Author":"Jacob Krol",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/bfS6LLASmYKEZJ7rUKuhF6"
-    },
-    {
-        "Product":"Canon EOS R8 Mark II",
-        "Rating":"N\/A",
-        "Dateline":"2026-09-16",
-        "URL":"https:\/\/www.techradar.com\/cameras\/mirrorless-cameras\/canon-eos-r8-mark-ii-review",
-        "Categories":"Mirrorless Cameras,Cameras,Canon",
-        "Author":"Timothy Coleman",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/gcVkBtazR9S2gGY4Jq8xU7"
-    },
-    {
-        "Product":"Sony FE 600mm f\/6.3 GM OSS",
-        "Rating":"4.5",
-        "Dateline":"2026-09-15",
-        "URL":"https:\/\/www.techradar.com\/cameras\/camera-lenses\/sony-fe-600mm-f6-3-gm-oss-review",
-        "Categories":"Camera Lenses,Cameras",
-        "Author":"Timothy Coleman",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/ZQwpf2P2uCwLziRu5kwzZZ"
-    },
-    {
-        "Product":"POCO F9 Ultra",
-        "Rating":"4.5",
-        "Dateline":"2026-09-15",
-        "URL":"https:\/\/www.techradar.com\/phones\/poco-phones\/poco-f9-ultra-review",
-        "Categories":"Poco Phones,Android,Phones,Xiaomi Phones",
-        "Author":"Henry Burrell",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/qEtq2Wwg5D7PSmc4m5rE95"
-    },
-    {
-        "Product":"Vari Electric Standing Desk with TechTrack",
-        "Rating":"5.0",
-        "Dateline":"2026-09-13",
-        "URL":"https:\/\/www.techradar.com\/pro\/vari-electric-standing-desk-with-techtrack-review",
-        "Categories":"Pro",
-        "Author":"Collin Probst",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/VhJPnkZGhie25MgMTUHB5B"
     }
 ]
