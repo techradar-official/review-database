@@ -79245,6 +79245,60 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/bfS6LLASmYKEZJ7rUKuhF6"
     },
     {
+        "Product":"LaserPecker LX2",
+        "Rating":"4.5",
+        "Dateline":"2026-09-20",
+        "URL":"https:\/\/www.techradar.com\/pro\/laserpecker-lx2-laser-cutter-and-engraver-review",
+        "Categories":"Pro",
+        "Author":"Alastair Jennings",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/CBHdzdJi3oAiumm2RuhNDi"
+    },
+    {
+        "Product":"Bose QuietComfort Headphones (2nd Gen)",
+        "Rating":"4.0",
+        "Dateline":"2026-09-19",
+        "URL":"https:\/\/www.techradar.com\/audio\/wireless-headphones\/after-a-month-testing-boses-new-premium-headphones-i-would-recommend-them-but-id-recommend-waiting-more",
+        "Categories":"Wireless Headphones,Audio,Headphones",
+        "Author":"Tom Bedford",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/rbpiHsNiFi3zEX4ygU5TfR"
+    },
+    {
+        "Product":"Withings BodyScan 2",
+        "Rating":"4.5",
+        "Dateline":"2026-09-19",
+        "URL":"https:\/\/www.techradar.com\/home\/smart-scales\/withings-bodyscan-2-review",
+        "Categories":"Smart Scales,Home,Smart Home",
+        "Author":"Paul Hatton",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/yzRiQruACBEH8wyWNUco7J"
+    },
+    {
+        "Product":"Nothing Headphone (1) Pro",
+        "Rating":"4.0",
+        "Dateline":"2026-09-29",
+        "URL":"https:\/\/www.techradar.com\/audio\/wireless-headphones\/nothing-headphone-1-pro-review",
+        "Categories":"Wireless Headphones,Audio,Headphones",
+        "Author":"Becky Scarrott",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/2bQPGz4Hkp82x6o7KX9MdL"
+    },
+    {
+        "Product":"LG UltraGear Evo GX9 39GX950B",
+        "Rating":"4.5",
+        "Dateline":"2026-09-28",
+        "URL":"https:\/\/www.techradar.com\/computing\/monitors\/lg-ultragear-evo-39gx950b-b-review",
+        "Categories":"Monitors,Computing,Peripherals & Accessories,LG,OLED",
+        "Author":"Isaiah Williams",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/AWLxRNLR6dY2qjiHEutBCJ"
+    },
+    {
+        "Product":"Roborock Qrevo 2 Pro",
+        "Rating":"4.5",
+        "Dateline":"2026-09-28",
+        "URL":"https:\/\/www.techradar.com\/home\/robot-vacuums\/roborock-qrevo-2-pro-review",
+        "Categories":"Robot Vacuums,Home,Smart Home,Roborock",
+        "Author":"Tim Gee",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/H64QBYHg3hTv2DAEcLnUnn"
+    },
+    {
         "Product":"QIDI Tech Q1 Pro",
         "Rating":"4.5",
         "Dateline":"2026-09-28",
@@ -79326,7 +79380,7 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/fZ5bekXbT9xCErJzM8YCuU"
     },
     {
-        "Product":"JBL Live Flex 4",
+        "Product":"You prefer a more open-style earbud",
         "Rating":"4.5",
         "Dateline":"2026-09-26",
         "URL":"https:\/\/www.techradar.com\/audio\/earbuds-airpods\/jbl-live-flex-4-review",
@@ -79344,15 +79398,6 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/m6p2Qyj8NZDMWoSoh2BsmR"
     },
     {
-        "Product":"Coolpad Max",
-        "Rating":"4.0",
-        "Dateline":"2026-09-25",
-        "URL":"https:\/\/www.techradar.com\/streaming\/hbo-max\/war-review-sky-tv",
-        "Categories":"HBO Max,Sky TV,Streaming",
-        "Author":"Jasmine Valentine",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/pVc9fsQNTmR33sEJCpjbY4"
-    },
-    {
         "Product":"PlayStation 5 Ace Combat 8: Wings of Theve",
         "Rating":"4.0",
         "Dateline":"2026-09-25",
@@ -79360,6 +79405,15 @@
         "Categories":"Gaming",
         "Author":"Joe Chivers",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/SjyMvTAoAxvLE3egy5gufW"
+    },
+    {
+        "Product":"Coolpad Max",
+        "Rating":"4.0",
+        "Dateline":"2026-09-25",
+        "URL":"https:\/\/www.techradar.com\/streaming\/hbo-max\/war-review-sky-tv",
+        "Categories":"HBO Max,Sky TV,Streaming",
+        "Author":"Jasmine Valentine",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/pVc9fsQNTmR33sEJCpjbY4"
     },
     {
         "Product":"Samsung Galaxy S26 FE",
@@ -79486,32 +79540,5 @@
         "Categories":"Televisions,Samsung",
         "Author":"James Davidson",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/g5qXVvuguo75vFg6s8P8Ff"
-    },
-    {
-        "Product":"LaserPecker LX2",
-        "Rating":"4.5",
-        "Dateline":"2026-09-20",
-        "URL":"https:\/\/www.techradar.com\/pro\/laserpecker-lx2-laser-cutter-and-engraver-review",
-        "Categories":"Pro",
-        "Author":"Alastair Jennings",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/CBHdzdJi3oAiumm2RuhNDi"
-    },
-    {
-        "Product":"Bose QuietComfort Headphones (2nd Gen)",
-        "Rating":"4.0",
-        "Dateline":"2026-09-19",
-        "URL":"https:\/\/www.techradar.com\/audio\/wireless-headphones\/after-a-month-testing-boses-new-premium-headphones-i-would-recommend-them-but-id-recommend-waiting-more",
-        "Categories":"Wireless Headphones,Audio,Headphones",
-        "Author":"Tom Bedford",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/rbpiHsNiFi3zEX4ygU5TfR"
-    },
-    {
-        "Product":"Withings BodyScan 2",
-        "Rating":"4.5",
-        "Dateline":"2026-09-19",
-        "URL":"https:\/\/www.techradar.com\/home\/smart-scales\/withings-bodyscan-2-review",
-        "Categories":"Smart Scales,Home,Smart Home",
-        "Author":"Paul Hatton",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/yzRiQruACBEH8wyWNUco7J"
     }
 ]
