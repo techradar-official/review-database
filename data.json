@@ -69786,15 +69786,6 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/KNkzQqFS2V44qgJMjD4zGk"
     },
     {
-        "Product":"PacketStream",
-        "Rating":3.0,
-        "Dateline":"2025-09-16",
-        "URL":"https:\/\/www.techradar.com\/reviews\/packetstream",
-        "Categories":"Security,Pro",
-        "Author":"Jonas P. DeMuro",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/9jhZmmQ887yBtKDiTUSWc5"
-    },
-    {
         "Product":"PowerA Advantage Switch 2 Wired Controller",
         "Rating":3.0,
         "Dateline":"2025-09-16",
@@ -79317,6 +79308,186 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/g5qXVvuguo75vFg6s8P8Ff"
     },
     {
+        "Product":"Coolpad Max",
+        "Rating":"4.0",
+        "Dateline":"2026-09-25",
+        "URL":"https:\/\/www.techradar.com\/streaming\/hbo-max\/war-review-sky-tv",
+        "Categories":"HBO Max,Sky TV,Streaming",
+        "Author":"Jasmine Valentine",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/pVc9fsQNTmR33sEJCpjbY4"
+    },
+    {
+        "Product":"PlayStation 5 Ace Combat 8: Wings of Theve",
+        "Rating":"4.0",
+        "Dateline":"2026-09-25",
+        "URL":"https:\/\/www.techradar.com\/gaming\/ace-combat-8-wings-of-theve-review",
+        "Categories":"Gaming",
+        "Author":"Joe Chivers",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/SjyMvTAoAxvLE3egy5gufW"
+    },
+    {
+        "Product":"Samsung Galaxy S26 FE",
+        "Rating":"3.5",
+        "Dateline":"2026-09-24",
+        "URL":"https:\/\/www.techradar.com\/phones\/samsung-galaxy-phones\/samsung-galaxy-s26-fe-review",
+        "Categories":"Samsung Galaxy Phones,Android,Phones,Samsung",
+        "Author":"Richard Priday",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/GMTeYvqWWaGKWk88UafSRJ"
+    },
+    {
+        "Product":"Huawei Watch D3",
+        "Rating":"4.0",
+        "Dateline":"2026-09-23",
+        "URL":"https:\/\/www.techradar.com\/health-fitness\/smartwatches\/huawei-watch-d3-review",
+        "Categories":"Smartwatches,Health & Fitness",
+        "Author":"Paul Hatton",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/28dWjfdMQCugmdKMs5HF2H"
+    },
+    {
+        "Product":"Anker Eufy E35 Omni",
+        "Rating":"4.5",
+        "Dateline":"2026-09-23",
+        "URL":"https:\/\/www.techradar.com\/home\/robot-vacuums\/eufy-omni-e35-review",
+        "Categories":"Robot Vacuums,Home,Smart Home,Anker",
+        "Author":"Alistair Charlton",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/pouA5fgnUVQ5S9Lgms3BYH"
+    },
+    {
+        "Product":"Bambu Lab R1",
+        "Rating":"4.5",
+        "Dateline":"2026-09-22",
+        "URL":"https:\/\/www.techradar.com\/pro\/bambu-lab-r1-laser-cutter-and-engraver-review",
+        "Categories":"Pro",
+        "Author":"Alastair Jennings",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/a8MoBCYzsh264WXUKYrar9"
+    },
+    {
+        "Product":"Sonos Beam Ultra",
+        "Rating":"5.0",
+        "Dateline":"2026-09-22",
+        "URL":"https:\/\/www.techradar.com\/televisions\/soundbars\/sonos-beam-ultra-review",
+        "Categories":"Soundbars,Televisions,Dolby Atmos,Sonos",
+        "Author":"Harry Padoan",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/zMzqyccdztzx3BASrYkqBn"
+    },
+    {
+        "Product":"Sonos Ace Ultra",
+        "Rating":"4.5",
+        "Dateline":"2026-09-22",
+        "URL":"https:\/\/www.techradar.com\/audio\/wireless-headphones\/sonos-ace-ultra-review",
+        "Categories":"Wireless Headphones,Audio,Headphones,Sonos,Dolby Atmos",
+        "Author":"Harry Padoan",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/wQt8dw3XGXwCGuog5hvx9B"
+    },
+    {
+        "Product":"The Love Hypothesis on Prime Video",
+        "Rating":"3.5",
+        "Dateline":"2026-09-22",
+        "URL":"https:\/\/www.techradar.com\/streaming\/amazon-prime-video\/the-love-hypothesis-review",
+        "Categories":"Amazon Prime Video,Streaming",
+        "Author":"Jasmine Valentine",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/mhF7UYtFPEkFQddDmZdkLe"
+    },
+    {
+        "Product":"Insta360 Link 2 Pro",
+        "Rating":"4.5",
+        "Dateline":"2026-09-21",
+        "URL":"https:\/\/www.techradar.com\/computing\/webcams\/insta360-link-2-pro-review",
+        "Categories":"Webcams,Computing,Peripherals & Accessories,Insta360",
+        "Author":"Christian Guyton",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/RuC2yrFSYA2uoRrR28yt5E"
+    },
+    {
+        "Product":"Cambridge A100 SE",
+        "Rating":"4.5",
+        "Dateline":"2026-10-01",
+        "URL":"https:\/\/www.techradar.com\/audio\/earbuds-airpods\/cambridge-a100-se-review",
+        "Categories":"Earbuds & Airpods,Audio,Headphones",
+        "Author":"Simon Lucas",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/zUi2bRwURFwrzUakrbGYJY"
+    },
+    {
+        "Product":"Chefman Coffee Station Pro",
+        "Rating":"3.5",
+        "Dateline":"2026-10-01",
+        "URL":"https:\/\/www.techradar.com\/home\/coffee-machines\/chefman-coffee-station-pro-review",
+        "Categories":"Coffee Machines,Home,Small Appliances",
+        "Author":"Karen Freeman",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/wEGSNhopxUTyYpqUUQw4WQ"
+    },
+    {
+        "Product":"PacketStream PacketStream",
+        "Rating":"3.0",
+        "Dateline":"2023-04-12",
+        "URL":"https:\/\/www.techradar.com\/reviews\/packetstream",
+        "Categories":"Security,Pro",
+        "Author":"Jonas P. DeMuro",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/9jhZmmQ887yBtKDiTUSWc5"
+    },
+    {
+        "Product":"Trails in the Sky 2nd Chapter",
+        "Rating":"4.5",
+        "Dateline":"2026-09-30",
+        "URL":"https:\/\/www.techradar.com\/gaming\/trails-in-the-sky-2nd-chapter-review",
+        "Categories":"Gaming",
+        "Author":"Harry Padoan",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/E79w3PSwsZJyB8PkvwX48j"
+    },
+    {
+        "Product":"Samsung Galaxy Watch 9",
+        "Rating":"4.0",
+        "Dateline":"2026-09-30",
+        "URL":"https:\/\/www.techradar.com\/health-fitness\/smartwatches\/samsung-galaxy-watch-9-review",
+        "Categories":"Smartwatches,Health & Fitness,Samsung",
+        "Author":"Tom Bedford",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/tqp4wXBWMbQXwhZSzzEXCF"
+    },
+    {
+        "Product":"ASUS ROG Zephyrus Duo (2026)",
+        "Rating":"4.0",
+        "Dateline":"2026-09-30",
+        "URL":"https:\/\/www.techradar.com\/computing\/gaming-laptops\/asus-rog-zephyrus-duo-2026-review",
+        "Categories":"Gaming Laptops,Computing,Gaming Computers",
+        "Author":"Lewis Maddison",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/oBfX5G7zTWpStrGrkfFKz6"
+    },
+    {
+        "Product":"LG Gram Pro 16 2-in-1 (16T90SP)",
+        "Rating":"4.5",
+        "Dateline":"2026-09-30",
+        "URL":"https:\/\/www.techradar.com\/computing\/gaming-laptops\/lg-gram-pro-16-2026",
+        "Categories":"Laptops,Windows Laptops,Computing",
+        "Author":"James Holland",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/MRdkShwHkvRQbuV8UH2vtB"
+    },
+    {
+        "Product":"Logitech G316 X",
+        "Rating":"4.0",
+        "Dateline":"2026-09-30",
+        "URL":"https:\/\/www.techradar.com\/computing\/keyboards\/logitech-g316-x-98-review",
+        "Categories":"Keyboards,Computing,Peripherals & Accessories",
+        "Author":"Lewis Maddison",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/5tJPSxg2DqXRVjYEw2fYAh"
+    },
+    {
+        "Product":"Razer Blade 16 (2026)",
+        "Rating":"4.5",
+        "Dateline":"2026-09-30",
+        "URL":"https:\/\/www.techradar.com\/computing\/gaming-laptops\/razer-blade-16-2026",
+        "Categories":"Gaming Laptops,Computing,Gaming Computers",
+        "Author":"Zak Storey",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/jrEijULKv4ThVYDrVQhEkC"
+    },
+    {
+        "Product":"Corsair Harpoon V2 Wireless",
+        "Rating":"4.5",
+        "Dateline":"2026-09-30",
+        "URL":"https:\/\/www.techradar.com\/computing\/mice\/corsair-harpoon-v2-wireless-review",
+        "Categories":"Mice,Gaming Accessories,Computing,Peripherals & Accessories,Gaming",
+        "Author":"Christian Guyton",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/WWWFw9n6GisX7KYGZDcY2L"
+    },
+    {
         "Product":"Webshare Webshare",
         "Rating":"4.0",
         "Dateline":"2023-04-10",
@@ -79495,95 +79666,5 @@
         "Categories":"Home Security,Home,Smart Home",
         "Author":"James Day",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/m6p2Qyj8NZDMWoSoh2BsmR"
-    },
-    {
-        "Product":"Coolpad Max",
-        "Rating":"4.0",
-        "Dateline":"2026-09-25",
-        "URL":"https:\/\/www.techradar.com\/streaming\/hbo-max\/war-review-sky-tv",
-        "Categories":"HBO Max,Sky TV,Streaming",
-        "Author":"Jasmine Valentine",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/pVc9fsQNTmR33sEJCpjbY4"
-    },
-    {
-        "Product":"PlayStation 5 Ace Combat 8: Wings of Theve",
-        "Rating":"4.0",
-        "Dateline":"2026-09-25",
-        "URL":"https:\/\/www.techradar.com\/gaming\/ace-combat-8-wings-of-theve-review",
-        "Categories":"Gaming",
-        "Author":"Joe Chivers",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/SjyMvTAoAxvLE3egy5gufW"
-    },
-    {
-        "Product":"Samsung Galaxy S26 FE",
-        "Rating":"3.5",
-        "Dateline":"2026-09-24",
-        "URL":"https:\/\/www.techradar.com\/phones\/samsung-galaxy-phones\/samsung-galaxy-s26-fe-review",
-        "Categories":"Samsung Galaxy Phones,Android,Phones,Samsung",
-        "Author":"Richard Priday",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/GMTeYvqWWaGKWk88UafSRJ"
-    },
-    {
-        "Product":"Huawei Watch D3",
-        "Rating":"4.0",
-        "Dateline":"2026-09-23",
-        "URL":"https:\/\/www.techradar.com\/health-fitness\/smartwatches\/huawei-watch-d3-review",
-        "Categories":"Smartwatches,Health & Fitness",
-        "Author":"Paul Hatton",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/28dWjfdMQCugmdKMs5HF2H"
-    },
-    {
-        "Product":"Anker Eufy E35 Omni",
-        "Rating":"4.5",
-        "Dateline":"2026-09-23",
-        "URL":"https:\/\/www.techradar.com\/home\/robot-vacuums\/eufy-omni-e35-review",
-        "Categories":"Robot Vacuums,Home,Smart Home,Anker",
-        "Author":"Alistair Charlton",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/pouA5fgnUVQ5S9Lgms3BYH"
-    },
-    {
-        "Product":"Bambu Lab R1",
-        "Rating":"4.5",
-        "Dateline":"2026-09-22",
-        "URL":"https:\/\/www.techradar.com\/pro\/bambu-lab-r1-laser-cutter-and-engraver-review",
-        "Categories":"Pro",
-        "Author":"Alastair Jennings",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/a8MoBCYzsh264WXUKYrar9"
-    },
-    {
-        "Product":"Sonos Beam Ultra",
-        "Rating":"5.0",
-        "Dateline":"2026-09-22",
-        "URL":"https:\/\/www.techradar.com\/televisions\/soundbars\/sonos-beam-ultra-review",
-        "Categories":"Soundbars,Televisions,Dolby Atmos,Sonos",
-        "Author":"Harry Padoan",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/zMzqyccdztzx3BASrYkqBn"
-    },
-    {
-        "Product":"Sonos Ace Ultra",
-        "Rating":"4.5",
-        "Dateline":"2026-09-22",
-        "URL":"https:\/\/www.techradar.com\/audio\/wireless-headphones\/sonos-ace-ultra-review",
-        "Categories":"Wireless Headphones,Audio,Headphones,Sonos,Dolby Atmos",
-        "Author":"Harry Padoan",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/wQt8dw3XGXwCGuog5hvx9B"
-    },
-    {
-        "Product":"The Love Hypothesis on Prime Video",
-        "Rating":"3.5",
-        "Dateline":"2026-09-22",
-        "URL":"https:\/\/www.techradar.com\/streaming\/amazon-prime-video\/the-love-hypothesis-review",
-        "Categories":"Amazon Prime Video,Streaming",
-        "Author":"Jasmine Valentine",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/mhF7UYtFPEkFQddDmZdkLe"
-    },
-    {
-        "Product":"Insta360 Link 2 Pro",
-        "Rating":"4.5",
-        "Dateline":"2026-09-21",
-        "URL":"https:\/\/www.techradar.com\/computing\/webcams\/insta360-link-2-pro-review",
-        "Categories":"Webcams,Computing,Peripherals & Accessories,Insta360",
-        "Author":"Christian Guyton",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/RuC2yrFSYA2uoRrR28yt5E"
     }
 ]
