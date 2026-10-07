@@ -6903,15 +6903,6 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Tb4DXXUHJcZzZuQw7xrQgQ"
     },
     {
-        "Product":"NordVPN",
-        "Rating":4.5,
-        "Dateline":"2026-04-10",
-        "URL":"https:\/\/www.techradar.com\/reviews\/nordvpn",
-        "Categories":"Vpn services,Vpn",
-        "Author":"Rob Dunne,Mike Williams",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/CiUAgVWMqnW3QP2VLGUypj"
-    },
-    {
         "Product":"Grasshopper",
         "Rating":4.5,
         "Dateline":"2026-04-10",
@@ -27610,15 +27601,6 @@
         "Categories":"Hair care,Home,Small appliances",
         "Author":"Victoria Woollaston",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/KswPpLSc96MzTAEwNFhyri"
-    },
-    {
-        "Product":"Surfshark VPN",
-        "Rating":4.3,
-        "Dateline":"2026-04-23",
-        "URL":"https:\/\/www.techradar.com\/reviews\/surfshark",
-        "Categories":"Vpn services,Vpn",
-        "Author":"Dan Sung",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/D3hLPWMEfn43D8QCiwnG5g"
     },
     {
         "Product":"Disk Drill",
@@ -79497,6 +79479,78 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/kQYth574HtKLJZswWoxrRQ"
     },
     {
+        "Product":"RugOne Xsnap 7 Pro",
+        "Rating":"4.0",
+        "Dateline":"2026-09-29",
+        "URL":"https:\/\/www.techradar.com\/pro\/phone-communications\/rugone-xsnap-7-pro-rugged-phone-and-action-cam-review",
+        "Categories":"Phone & Communications,Pro",
+        "Author":"Mark Pickavance",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/ja8Ha9zDBfXmCa4mayrrdm"
+    },
+    {
+        "Product":"Nothing Headphone (1) Pro",
+        "Rating":"4.0",
+        "Dateline":"2026-09-29",
+        "URL":"https:\/\/www.techradar.com\/audio\/wireless-headphones\/nothing-headphone-1-pro-review",
+        "Categories":"Wireless Headphones,Audio,Headphones",
+        "Author":"Becky Scarrott",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/2bQPGz4Hkp82x6o7KX9MdL"
+    },
+    {
+        "Product":"LG UltraGear Evo GX9 39GX950B",
+        "Rating":"4.5",
+        "Dateline":"2026-09-28",
+        "URL":"https:\/\/www.techradar.com\/computing\/monitors\/lg-ultragear-evo-39gx950b-b-review",
+        "Categories":"Monitors,Computing,Peripherals & Accessories,LG,OLED",
+        "Author":"Isaiah Williams",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/AWLxRNLR6dY2qjiHEutBCJ"
+    },
+    {
+        "Product":"Roborock Qrevo 2 Pro",
+        "Rating":"4.5",
+        "Dateline":"2026-09-28",
+        "URL":"https:\/\/www.techradar.com\/home\/robot-vacuums\/roborock-qrevo-2-pro-review",
+        "Categories":"Robot Vacuums,Home,Smart Home,Roborock",
+        "Author":"Tim Gee",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/H64QBYHg3hTv2DAEcLnUnn"
+    },
+    {
+        "Product":"NordVPN",
+        "Rating":"4.5",
+        "Dateline":"2022-10-24",
+        "URL":"https:\/\/www.techradar.com\/reviews\/nordvpn",
+        "Categories":"VPN Services,VPN,NordVPN",
+        "Author":"Rob Dunne,Mike Williams",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/CiUAgVWMqnW3QP2VLGUypj"
+    },
+    {
+        "Product":"Surfshark",
+        "Rating":"4.5",
+        "Dateline":"2022-10-24",
+        "URL":"https:\/\/www.techradar.com\/reviews\/surfshark",
+        "Categories":"VPN Services,VPN,Microsoft",
+        "Author":"Dan Sung",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/D3hLPWMEfn43D8QCiwnG5g"
+    },
+    {
+        "Product":"OM System PEN",
+        "Rating":"4.5",
+        "Dateline":"2026-10-06",
+        "URL":"https:\/\/www.techradar.com\/cameras\/mirrorless-cameras\/om-system-pen-review",
+        "Categories":"Mirrorless Cameras,Cameras",
+        "Author":"Timothy Coleman",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/2qCE6uFYZ66A9dYyS5Jufd"
+    },
+    {
+        "Product":"Roku Pro Series OLED (2026)",
+        "Rating":"4.0",
+        "Dateline":"2026-10-06",
+        "URL":"https:\/\/www.techradar.com\/televisions\/rokus-pro-series-oled-tv-review",
+        "Categories":"Televisions,4K,OLED,Roku",
+        "Author":"James Holland",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/SqYdYYsZAfFqxMvRtSb9qK"
+    },
+    {
         "Product":"EarFun Wave Pro X",
         "Rating":"4.0",
         "Dateline":"2026-10-04",
@@ -79729,41 +79783,5 @@
         "Categories":"Laptops,Computing",
         "Author":"Lewis Maddison",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/gwk3VNCFgjBgqjqQ6RdoiX"
-    },
-    {
-        "Product":"RugOne Xsnap 7 Pro",
-        "Rating":"4.0",
-        "Dateline":"2026-09-29",
-        "URL":"https:\/\/www.techradar.com\/pro\/phone-communications\/rugone-xsnap-7-pro-rugged-phone-and-action-cam-review",
-        "Categories":"Phone & Communications,Pro",
-        "Author":"Mark Pickavance",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/ja8Ha9zDBfXmCa4mayrrdm"
-    },
-    {
-        "Product":"Nothing Headphone (1) Pro",
-        "Rating":"4.0",
-        "Dateline":"2026-09-29",
-        "URL":"https:\/\/www.techradar.com\/audio\/wireless-headphones\/nothing-headphone-1-pro-review",
-        "Categories":"Wireless Headphones,Audio,Headphones",
-        "Author":"Becky Scarrott",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/2bQPGz4Hkp82x6o7KX9MdL"
-    },
-    {
-        "Product":"LG UltraGear Evo GX9 39GX950B",
-        "Rating":"4.5",
-        "Dateline":"2026-09-28",
-        "URL":"https:\/\/www.techradar.com\/computing\/monitors\/lg-ultragear-evo-39gx950b-b-review",
-        "Categories":"Monitors,Computing,Peripherals & Accessories,LG,OLED",
-        "Author":"Isaiah Williams",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/AWLxRNLR6dY2qjiHEutBCJ"
-    },
-    {
-        "Product":"Roborock Qrevo 2 Pro",
-        "Rating":"4.5",
-        "Dateline":"2026-09-28",
-        "URL":"https:\/\/www.techradar.com\/home\/robot-vacuums\/roborock-qrevo-2-pro-review",
-        "Categories":"Robot Vacuums,Home,Smart Home,Roborock",
-        "Author":"Tim Gee",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/H64QBYHg3hTv2DAEcLnUnn"
     }
 ]
