@@ -7470,15 +7470,6 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/grhgbCjctPXagNBShd2WHZ"
     },
     {
-        "Product":"Wix",
-        "Rating":4.5,
-        "Dateline":"2026-02-11",
-        "URL":"https:\/\/www.techradar.com\/reviews\/wix",
-        "Categories":"Website building,Pro",
-        "Author":"Mike Williams",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/nxzUx2Ft4PSwTczUBY6fsY"
-    },
-    {
         "Product":"Haworth Fern office chair",
         "Rating":4.5,
         "Dateline":"2026-02-09",
@@ -79515,6 +79506,24 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/H64QBYHg3hTv2DAEcLnUnn"
     },
     {
+        "Product":"HP OmniBook X 14 AI PC",
+        "Rating":"4.5",
+        "Dateline":"2026-09-29",
+        "URL":"https:\/\/www.techradar.com\/computing\/laptops\/hp-omnibook-x-14-review",
+        "Categories":"Laptops,Computing",
+        "Author":"Lewis Maddison",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/gwk3VNCFgjBgqjqQ6RdoiX"
+    },
+    {
+        "Product":"Wix",
+        "Rating":"4.5",
+        "Dateline":"2022-03-18",
+        "URL":"https:\/\/www.techradar.com\/reviews\/wix",
+        "Categories":"Website Building,Pro,Wix",
+        "Author":"Barclay Ballard",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/nxzUx2Ft4PSwTczUBY6fsY"
+    },
+    {
         "Product":"NordVPN",
         "Rating":"4.5",
         "Dateline":"2022-10-24",
@@ -79774,14 +79783,5 @@
         "Categories":"Instant Cameras,Cameras",
         "Author":"Timothy Coleman",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/cytPpKWZnXDJzXHUEFBqBC"
-    },
-    {
-        "Product":"HP OmniBook X 14 AI PC",
-        "Rating":"4.5",
-        "Dateline":"2026-09-29",
-        "URL":"https:\/\/www.techradar.com\/computing\/laptops\/hp-omnibook-x-14-review",
-        "Categories":"Laptops,Computing",
-        "Author":"Lewis Maddison",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/gwk3VNCFgjBgqjqQ6RdoiX"
     }
 ]
