@@ -69894,15 +69894,6 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/gy8Vavmmypf8kSMSUynfqm"
     },
     {
-        "Product":"Network Solutions website builder",
-        "Rating":3.0,
-        "Dateline":"2025-08-07",
-        "URL":"https:\/\/www.techradar.com\/reviews\/network-solutions-website-builder",
-        "Categories":"Website building,Pro",
-        "Author":"Steve Paris",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/mk8X72T4u4XLSUPVG6WZ7k"
-    },
-    {
         "Product":"MSI Modern 15",
         "Rating":3.0,
         "Dateline":"2025-08-05",
@@ -79533,6 +79524,114 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/cytPpKWZnXDJzXHUEFBqBC"
     },
     {
+        "Product":"You want advice, not numbers",
+        "Rating":"4.0",
+        "Dateline":"2026-09-30",
+        "URL":"https:\/\/www.techradar.com\/health-fitness\/smartwatches\/samsung-galaxy-watch-9-review",
+        "Categories":"Smartwatches,Health & Fitness,Samsung",
+        "Author":"Tom Bedford",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/tqp4wXBWMbQXwhZSzzEXCF"
+    },
+    {
+        "Product":"ASUS ROG Zephyrus Duo (2026)",
+        "Rating":"4.0",
+        "Dateline":"2026-09-30",
+        "URL":"https:\/\/www.techradar.com\/computing\/gaming-laptops\/asus-rog-zephyrus-duo-2026-review",
+        "Categories":"Gaming Laptops,Computing,Gaming Computers",
+        "Author":"Lewis Maddison",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/oBfX5G7zTWpStrGrkfFKz6"
+    },
+    {
+        "Product":"LG Gram Pro 16 2-in-1 (16T90SP)",
+        "Rating":"4.5",
+        "Dateline":"2026-09-30",
+        "URL":"https:\/\/www.techradar.com\/computing\/gaming-laptops\/lg-gram-pro-16-2026",
+        "Categories":"Laptops,Windows Laptops,Computing",
+        "Author":"James Holland",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/MRdkShwHkvRQbuV8UH2vtB"
+    },
+    {
+        "Product":"Logitech G316 X",
+        "Rating":"4.0",
+        "Dateline":"2026-09-30",
+        "URL":"https:\/\/www.techradar.com\/computing\/keyboards\/logitech-g316-x-98-review",
+        "Categories":"Keyboards,Computing,Peripherals & Accessories",
+        "Author":"Lewis Maddison",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/5tJPSxg2DqXRVjYEw2fYAh"
+    },
+    {
+        "Product":"Razer Blade 16 (2026)",
+        "Rating":"4.5",
+        "Dateline":"2026-09-30",
+        "URL":"https:\/\/www.techradar.com\/computing\/gaming-laptops\/razer-blade-16-2026",
+        "Categories":"Gaming Laptops,Computing,Gaming Computers",
+        "Author":"Zak Storey",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/jrEijULKv4ThVYDrVQhEkC"
+    },
+    {
+        "Product":"Corsair Harpoon V2 Wireless",
+        "Rating":"4.5",
+        "Dateline":"2026-09-30",
+        "URL":"https:\/\/www.techradar.com\/computing\/mice\/corsair-harpoon-v2-wireless-review",
+        "Categories":"Mice,Gaming Accessories,Computing,Peripherals & Accessories,Gaming",
+        "Author":"Christian Guyton",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/WWWFw9n6GisX7KYGZDcY2L"
+    },
+    {
+        "Product":"Ugreen NASync DXP8800 Ultra",
+        "Rating":"4.0",
+        "Dateline":"2026-10-10",
+        "URL":"https:\/\/www.techradar.com\/computing\/ugreen-nasync-dxp8800-ultra-review",
+        "Categories":"Computing",
+        "Author":"Mark Pickavance",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/6VPscaGRYSoAhL4Hux6nzU"
+    },
+    {
+        "Product":"The Witcher 3: Wild Hunt Remastered",
+        "Rating":"5.0",
+        "Dateline":"2026-10-10",
+        "URL":"https:\/\/www.techradar.com\/gaming\/the-witcher-3-remastered-review",
+        "Categories":"Gaming",
+        "Author":"Matt Cabral",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/bddQxvgQTghMYDGT8vfvTm"
+    },
+    {
+        "Product":"Network Solutions Domain",
+        "Rating":"3.0",
+        "Dateline":"2021-08-23",
+        "URL":"https:\/\/www.techradar.com\/reviews\/network-solutions-website-builder",
+        "Categories":"Website Building,Pro",
+        "Author":"Steve Paris",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/mk8X72T4u4XLSUPVG6WZ7k"
+    },
+    {
+        "Product":"MSI PRO MAX Edge AI+",
+        "Rating":"4.5",
+        "Dateline":"2026-10-09",
+        "URL":"https:\/\/www.techradar.com\/pro\/msi-pro-max-edge-ai-mini-pc-review",
+        "Categories":"Pro,MSI",
+        "Author":"Alastair Jennings",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/U93ecr9ViAQGEu7r2G9cp6"
+    },
+    {
+        "Product":"Anker Soundcore AeroClip 2",
+        "Rating":"4.0",
+        "Dateline":"2026-10-09",
+        "URL":"https:\/\/www.techradar.com\/audio\/earbuds-airpods\/anker-soundcore-aeroclip-2-review",
+        "Categories":"Earbuds & Airpods,Audio,Headphones,Anker",
+        "Author":"Harry Padoan",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/dAkDiQuAR2XvpviLT97C46"
+    },
+    {
+        "Product":"Xbox Minecraft Dungeons 2",
+        "Rating":"2.5",
+        "Dateline":"2026-10-09",
+        "URL":"https:\/\/www.techradar.com\/gaming\/minecraft-dungeons-2-review",
+        "Categories":"Xbox,Gaming,Consoles & PC,Microsoft",
+        "Author":"Dashiell Wood",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/YnkMUfqwkimyxmFyieBHfT"
+    },
+    {
         "Product":"eRoaming eSIM",
         "Rating":"4.0",
         "Dateline":"2026-10-08",
@@ -79747,59 +79846,5 @@
         "Categories":"Gaming",
         "Author":"Harry Padoan",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/E79w3PSwsZJyB8PkvwX48j"
-    },
-    {
-        "Product":"You want advice, not numbers",
-        "Rating":"4.0",
-        "Dateline":"2026-09-30",
-        "URL":"https:\/\/www.techradar.com\/health-fitness\/smartwatches\/samsung-galaxy-watch-9-review",
-        "Categories":"Smartwatches,Health & Fitness,Samsung",
-        "Author":"Tom Bedford",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/tqp4wXBWMbQXwhZSzzEXCF"
-    },
-    {
-        "Product":"ASUS ROG Zephyrus Duo (2026)",
-        "Rating":"4.0",
-        "Dateline":"2026-09-30",
-        "URL":"https:\/\/www.techradar.com\/computing\/gaming-laptops\/asus-rog-zephyrus-duo-2026-review",
-        "Categories":"Gaming Laptops,Computing,Gaming Computers",
-        "Author":"Lewis Maddison",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/oBfX5G7zTWpStrGrkfFKz6"
-    },
-    {
-        "Product":"LG Gram Pro 16 2-in-1 (16T90SP)",
-        "Rating":"4.5",
-        "Dateline":"2026-09-30",
-        "URL":"https:\/\/www.techradar.com\/computing\/gaming-laptops\/lg-gram-pro-16-2026",
-        "Categories":"Laptops,Windows Laptops,Computing",
-        "Author":"James Holland",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/MRdkShwHkvRQbuV8UH2vtB"
-    },
-    {
-        "Product":"Logitech G316 X",
-        "Rating":"4.0",
-        "Dateline":"2026-09-30",
-        "URL":"https:\/\/www.techradar.com\/computing\/keyboards\/logitech-g316-x-98-review",
-        "Categories":"Keyboards,Computing,Peripherals & Accessories",
-        "Author":"Lewis Maddison",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/5tJPSxg2DqXRVjYEw2fYAh"
-    },
-    {
-        "Product":"Razer Blade 16 (2026)",
-        "Rating":"4.5",
-        "Dateline":"2026-09-30",
-        "URL":"https:\/\/www.techradar.com\/computing\/gaming-laptops\/razer-blade-16-2026",
-        "Categories":"Gaming Laptops,Computing,Gaming Computers",
-        "Author":"Zak Storey",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/jrEijULKv4ThVYDrVQhEkC"
-    },
-    {
-        "Product":"Corsair Harpoon V2 Wireless",
-        "Rating":"4.5",
-        "Dateline":"2026-09-30",
-        "URL":"https:\/\/www.techradar.com\/computing\/mice\/corsair-harpoon-v2-wireless-review",
-        "Categories":"Mice,Gaming Accessories,Computing,Peripherals & Accessories,Gaming",
-        "Author":"Christian Guyton",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/WWWFw9n6GisX7KYGZDcY2L"
     }
 ]
