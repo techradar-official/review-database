@@ -79632,6 +79632,60 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/E79w3PSwsZJyB8PkvwX48j"
     },
     {
+        "Product":"Fairphone Gen 6 Plus",
+        "Rating":"4.0",
+        "Dateline":"2026-10-02",
+        "URL":"https:\/\/www.techradar.com\/phones\/fairphone-6-plus-review",
+        "Categories":"Phones,Android",
+        "Author":"Tom Bedford",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/yBNjehsFmuGHgsUJJYcxfT"
+    },
+    {
+        "Product":"Star Wars Galactic Racer",
+        "Rating":"4.5",
+        "Dateline":"2026-10-02",
+        "URL":"https:\/\/www.techradar.com\/gaming\/star-wars-galactic-racer-review",
+        "Categories":"Gaming",
+        "Author":"Demi Williams",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/BF4LubPgQR7mfEMfX6rMT"
+    },
+    {
+        "Product":"Focal Mu-so Hekla",
+        "Rating":"4.5",
+        "Dateline":"2026-10-01",
+        "URL":"https:\/\/www.techradar.com\/televisions\/soundbars\/one-of-the-most-successful-one-box-spatial-audio-solutions-around-the-immersive-dolby-atmos-sound-the-focal-mu-so-hekla-drenched-me-in-was-astounding-although-its-price-is-similarly-staggering",
+        "Categories":"Soundbars,Televisions",
+        "Author":"Simon Lucas",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/3Kk2bZpStoB5eWbZoxm7ja"
+    },
+    {
+        "Product":"Sony ULT TOWER 5",
+        "Rating":"5.0",
+        "Dateline":"2026-10-11",
+        "URL":"https:\/\/www.techradar.com\/audio\/wireless-bluetooth-speakers\/sony-ult-tower-5-review",
+        "Categories":"Wireless & Bluetooth Speakers,Audio,Hi Fi,Sony",
+        "Author":"Harry Padoan",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/QLYw8ZWUXag5krk7bjpPZh"
+    },
+    {
+        "Product":"Oscal Pilot 8",
+        "Rating":"4.0",
+        "Dateline":"2026-10-11",
+        "URL":"https:\/\/www.techradar.com\/pro\/phone-communications\/oscal-pilot-8-rugged-phone-review",
+        "Categories":"Phone & Communications,Pro",
+        "Author":"Mark Pickavance",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/oQor9hiRTpFkmxQhDfBThQ"
+    },
+    {
+        "Product":"Ninja Crispi Microwave",
+        "Rating":"4.5",
+        "Dateline":"2026-10-11",
+        "URL":"https:\/\/www.techradar.com\/home\/air-fryers\/ninja-crispi-microwave-review",
+        "Categories":"Air Fryers,Home,Small Appliances,Ninja",
+        "Author":"John McCann",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/WfWES7AAgCo2jb8DuYQcBN"
+    },
+    {
         "Product":"Worx Landroid Vision Cloud WR306E",
         "Rating":"4.0",
         "Dateline":"2026-10-11",
@@ -79873,32 +79927,5 @@
         "Categories":"Xbox,Gaming,Consoles & PC,Microsoft",
         "Author":"Dashiell Wood",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/kkztzM7t92WtFzGc6yYSw9"
-    },
-    {
-        "Product":"Fairphone Gen 6 Plus",
-        "Rating":"4.0",
-        "Dateline":"2026-10-02",
-        "URL":"https:\/\/www.techradar.com\/phones\/fairphone-6-plus-review",
-        "Categories":"Phones,Android",
-        "Author":"Tom Bedford",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/yBNjehsFmuGHgsUJJYcxfT"
-    },
-    {
-        "Product":"Star Wars Galactic Racer",
-        "Rating":"4.5",
-        "Dateline":"2026-10-02",
-        "URL":"https:\/\/www.techradar.com\/gaming\/star-wars-galactic-racer-review",
-        "Categories":"Gaming",
-        "Author":"Demi Williams",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/BF4LubPgQR7mfEMfX6rMT"
-    },
-    {
-        "Product":"Focal Mu-so Hekla",
-        "Rating":"4.5",
-        "Dateline":"2026-10-01",
-        "URL":"https:\/\/www.techradar.com\/televisions\/soundbars\/one-of-the-most-successful-one-box-spatial-audio-solutions-around-the-immersive-dolby-atmos-sound-the-focal-mu-so-hekla-drenched-me-in-was-astounding-although-its-price-is-similarly-staggering",
-        "Categories":"Soundbars,Televisions",
-        "Author":"Simon Lucas",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/3Kk2bZpStoB5eWbZoxm7ja"
     }
 ]
