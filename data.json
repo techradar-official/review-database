@@ -79740,15 +79740,6 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/yTmJqRujVKcF76qfraSzbb"
     },
     {
-        "Product":"Braun OptiBrew Pro",
-        "Rating":"4.5",
-        "Dateline":"2026-10-13",
-        "URL":"https:\/\/www.techradar.com\/home\/coffee-machines\/looking-for-maximum-versatility-the-braun-optibrew-pro-brews-delicious-drip-coffee-makes-specialized-cold-brew-and-even-froths-milk-all-in-one-machine",
-        "Categories":"Coffee Machines,Home,Small Appliances",
-        "Author":"Karen Freeman",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/diANE9RnWf57Q3MnRsxBo3"
-    },
-    {
         "Product":"eRoaming eSIM",
         "Rating":"4.0",
         "Dateline":"2026-10-08",
@@ -79801,6 +79792,105 @@
         "Categories":"VPN Services,VPN,NordVPN",
         "Author":"Rob Dunne,Mike Williams",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/CiUAgVWMqnW3QP2VLGUypj"
+    },
+    {
+        "Product":"Ugreen NASync DXP8800 Ultra",
+        "Rating":"4.0",
+        "Dateline":"2026-10-10",
+        "URL":"https:\/\/www.techradar.com\/computing\/ugreen-nasync-dxp8800-ultra-review",
+        "Categories":"Computing",
+        "Author":"Mark Pickavance",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/6VPscaGRYSoAhL4Hux6nzU"
+    },
+    {
+        "Product":"The Witcher 3: Wild Hunt Remastered",
+        "Rating":"5.0",
+        "Dateline":"2026-10-10",
+        "URL":"https:\/\/www.techradar.com\/gaming\/the-witcher-3-remastered-review",
+        "Categories":"Gaming",
+        "Author":"Matt Cabral",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/bddQxvgQTghMYDGT8vfvTm"
+    },
+    {
+        "Product":"Network Solutions Domain",
+        "Rating":"3.0",
+        "Dateline":"2021-08-23",
+        "URL":"https:\/\/www.techradar.com\/reviews\/network-solutions-website-builder",
+        "Categories":"Website Building,Pro",
+        "Author":"Steve Paris",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/mk8X72T4u4XLSUPVG6WZ7k"
+    },
+    {
+        "Product":"MSI PRO MAX Edge AI+",
+        "Rating":"4.5",
+        "Dateline":"2026-10-09",
+        "URL":"https:\/\/www.techradar.com\/pro\/msi-pro-max-edge-ai-mini-pc-review",
+        "Categories":"Pro,MSI",
+        "Author":"Alastair Jennings",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/U93ecr9ViAQGEu7r2G9cp6"
+    },
+    {
+        "Product":"Anker Soundcore AeroClip 2",
+        "Rating":"4.0",
+        "Dateline":"2026-10-09",
+        "URL":"https:\/\/www.techradar.com\/audio\/earbuds-airpods\/anker-soundcore-aeroclip-2-review",
+        "Categories":"Earbuds & Airpods,Audio,Headphones,Anker",
+        "Author":"Harry Padoan",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/dAkDiQuAR2XvpviLT97C46"
+    },
+    {
+        "Product":"Xbox Minecraft Dungeons 2",
+        "Rating":"2.5",
+        "Dateline":"2026-10-09",
+        "URL":"https:\/\/www.techradar.com\/gaming\/minecraft-dungeons-2-review",
+        "Categories":"Xbox,Gaming,Consoles & PC,Microsoft",
+        "Author":"Dashiell Wood",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/YnkMUfqwkimyxmFyieBHfT"
+    },
+    {
+        "Product":"Mova V70 Ultra Complete",
+        "Rating":"3.0",
+        "Dateline":"2026-10-16",
+        "URL":"https:\/\/www.techradar.com\/home\/robot-vacuums\/mova-v70-ultra-complete-robot-vacuum-review",
+        "Categories":"Robot Vacuums,Home,Smart Home",
+        "Author":"Sharmishta Sarkar",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/2WfcMCbRwWqdC7CJHcwQQX"
+    },
+    {
+        "Product":"UGreen NASync iDX6011 Pro",
+        "Rating":"4.5",
+        "Dateline":"2026-10-15",
+        "URL":"https:\/\/www.techradar.com\/pro\/ugreen-nasync-idx6011-pro-nas-device-review",
+        "Categories":"Pro",
+        "Author":"Collin Probst",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/puKfaXR7imFDki5pXuWk68"
+    },
+    {
+        "Product":"Marshall Bromley 150",
+        "Rating":"4.5",
+        "Dateline":"2026-10-15",
+        "URL":"https:\/\/www.techradar.com\/audio\/wireless-bluetooth-speakers\/marshall-bromley-150-review",
+        "Categories":"Wireless & Bluetooth Speakers,Audio,Hi Fi",
+        "Author":"Harry Padoan",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Jmu6ZTw34TEQh3H6qeqaGQ"
+    },
+    {
+        "Product":"Hisense U7SG",
+        "Rating":"4.0",
+        "Dateline":"2026-10-15",
+        "URL":"https:\/\/www.techradar.com\/televisions\/hisense-u7sg-review",
+        "Categories":"Televisions,4K,Hisense",
+        "Author":"James Holland",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/AQ7FDcKgEEGSMpmr4oor2Q"
+    },
+    {
+        "Product":"Acer Acer Swift Spin 14 AI",
+        "Rating":"4.5",
+        "Dateline":"2026-10-15",
+        "URL":"https:\/\/www.techradar.com\/computing\/laptops\/acer-swift-spin-14-ai",
+        "Categories":"Laptops,Windows Laptops,Computing",
+        "Author":"James Holland",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/eurVbYYJseYpM2ArLirNCG"
     },
     {
         "Product":"Hostinger",
@@ -79891,6 +79981,15 @@
         "Categories":"Pro",
         "Author":"Collin Probst",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/mgJXzLfjtBYrbWCU4bvBTW"
+    },
+    {
+        "Product":"Braun OptiBrew Pro",
+        "Rating":"4.5",
+        "Dateline":"2026-10-13",
+        "URL":"https:\/\/www.techradar.com\/home\/coffee-machines\/looking-for-maximum-versatility-the-braun-optibrew-pro-brews-delicious-drip-coffee-makes-specialized-cold-brew-and-even-froths-milk-all-in-one-machine",
+        "Categories":"Coffee Machines,Home,Small Appliances",
+        "Author":"Karen Freeman",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/diANE9RnWf57Q3MnRsxBo3"
     },
     {
         "Product":"Resident Evil 2 Deluxe Edition",
@@ -80017,59 +80116,5 @@
         "Categories":"Amazon Prime Video,Streaming",
         "Author":"Lucy Buglass",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/hXiZWUMEDBkDQ3JyuvtZyi"
-    },
-    {
-        "Product":"Ugreen NASync DXP8800 Ultra",
-        "Rating":"4.0",
-        "Dateline":"2026-10-10",
-        "URL":"https:\/\/www.techradar.com\/computing\/ugreen-nasync-dxp8800-ultra-review",
-        "Categories":"Computing",
-        "Author":"Mark Pickavance",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/6VPscaGRYSoAhL4Hux6nzU"
-    },
-    {
-        "Product":"The Witcher 3: Wild Hunt Remastered",
-        "Rating":"5.0",
-        "Dateline":"2026-10-10",
-        "URL":"https:\/\/www.techradar.com\/gaming\/the-witcher-3-remastered-review",
-        "Categories":"Gaming",
-        "Author":"Matt Cabral",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/bddQxvgQTghMYDGT8vfvTm"
-    },
-    {
-        "Product":"Network Solutions Domain",
-        "Rating":"3.0",
-        "Dateline":"2021-08-23",
-        "URL":"https:\/\/www.techradar.com\/reviews\/network-solutions-website-builder",
-        "Categories":"Website Building,Pro",
-        "Author":"Steve Paris",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/mk8X72T4u4XLSUPVG6WZ7k"
-    },
-    {
-        "Product":"MSI PRO MAX Edge AI+",
-        "Rating":"4.5",
-        "Dateline":"2026-10-09",
-        "URL":"https:\/\/www.techradar.com\/pro\/msi-pro-max-edge-ai-mini-pc-review",
-        "Categories":"Pro,MSI",
-        "Author":"Alastair Jennings",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/U93ecr9ViAQGEu7r2G9cp6"
-    },
-    {
-        "Product":"Anker Soundcore AeroClip 2",
-        "Rating":"4.0",
-        "Dateline":"2026-10-09",
-        "URL":"https:\/\/www.techradar.com\/audio\/earbuds-airpods\/anker-soundcore-aeroclip-2-review",
-        "Categories":"Earbuds & Airpods,Audio,Headphones,Anker",
-        "Author":"Harry Padoan",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/dAkDiQuAR2XvpviLT97C46"
-    },
-    {
-        "Product":"Xbox Minecraft Dungeons 2",
-        "Rating":"2.5",
-        "Dateline":"2026-10-09",
-        "URL":"https:\/\/www.techradar.com\/gaming\/minecraft-dungeons-2-review",
-        "Categories":"Xbox,Gaming,Consoles & PC,Microsoft",
-        "Author":"Dashiell Wood",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/YnkMUfqwkimyxmFyieBHfT"
     }
 ]
