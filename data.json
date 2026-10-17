@@ -11592,15 +11592,6 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/9KNGe2jZZcdWE3LttAvHcK"
     },
     {
-        "Product":"ScalaHosting",
-        "Rating":4.5,
-        "Dateline":"2025-04-28",
-        "URL":"https:\/\/www.techradar.com\/reviews\/scalahosting",
-        "Categories":"Website hosting,Pro",
-        "Author":"James Capell",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/TCcv3Qrne3Y4pBLm2uCgJb"
-    },
-    {
         "Product":"Sony UBP-X800M2",
         "Rating":4.5,
         "Dateline":"2025-04-28",
@@ -79848,6 +79839,96 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/YnkMUfqwkimyxmFyieBHfT"
     },
     {
+        "Product":"Asustor Lockerstor 2 Gen2+ AS6702T v2",
+        "Rating":"3.5",
+        "Dateline":"2026-10-11",
+        "URL":"https:\/\/www.techradar.com\/computing\/asustor-lockerstor-2-gen2-as6702t-v2-nas-review",
+        "Categories":"Computing",
+        "Author":"Mark Pickavance",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/iBMKturWtCTUmNvS9yZG5Z"
+    },
+    {
+        "Product":"Dynasty Warriors 3: Complete Edition Remastered",
+        "Rating":"4.0",
+        "Dateline":"2026-10-11",
+        "URL":"https:\/\/www.techradar.com\/gaming\/dynasty-warriors-3-complete-edition-remastered-review",
+        "Categories":"Gaming",
+        "Author":"Rhys Wood",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/7dwwiZPMQKj7GWaQcKyvoh"
+    },
+    {
+        "Product":"HP EliteBook X G2i",
+        "Rating":"4.5",
+        "Dateline":"2026-10-10",
+        "URL":"https:\/\/www.techradar.com\/pro\/hp-elitebook-x-g2i-14-inch-business-laptop-review",
+        "Categories":"Pro,HP",
+        "Author":"Alastair Jennings",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/8sTFKYvnEruhSEi5685jJN"
+    },
+    {
+        "Product":"Ruark Audio Talisman R",
+        "Rating":"4.5",
+        "Dateline":"2026-10-10",
+        "URL":"https:\/\/www.techradar.com\/audio\/speakers\/ruark-audio-talisman-r-review",
+        "Categories":"Speakers,Hi Fi,Audio",
+        "Author":"Simon Lucas",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/uTyunYgnYqnx9kkp3UahcY"
+    },
+    {
+        "Product":"Carrie",
+        "Rating":"4.0",
+        "Dateline":"2026-10-10",
+        "URL":"https:\/\/www.techradar.com\/streaming\/amazon-prime-video\/carrie-review",
+        "Categories":"Amazon Prime Video,Streaming",
+        "Author":"Lucy Buglass",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/hXiZWUMEDBkDQ3JyuvtZyi"
+    },
+    {
+        "Product":"Uplift V3 L-shaped standing desk",
+        "Rating":"5.0",
+        "Dateline":"2026-10-16",
+        "URL":"https:\/\/www.techradar.com\/pro\/uplift-v3-l-shaped-standing-desk-review",
+        "Categories":"Pro",
+        "Author":"Collin Probst",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/JwFYyKxYeYznnTRa4zaqrN"
+    },
+    {
+        "Product":"ScalaHosting Cloud Hosting",
+        "Rating":"4.5",
+        "Dateline":"2020-09-08",
+        "URL":"https:\/\/www.techradar.com\/reviews\/scalahosting",
+        "Categories":"Website Hosting,Pro",
+        "Author":"Mirza Bahic,James Capell",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/TCcv3Qrne3Y4pBLm2uCgJb"
+    },
+    {
+        "Product":"Lenovo Yoga Pro 9i Gen 11 Aura Edition",
+        "Rating":"4.5",
+        "Dateline":"2026-10-16",
+        "URL":"https:\/\/www.techradar.com\/pro\/lenovo-yoga-pro-9i-gen-11-aura-edition-business-laptop-review",
+        "Categories":"Pro,Lenovo",
+        "Author":"Collin Probst",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Nj3nurE7KiYhSeUSGxEXPS"
+    },
+    {
+        "Product":"Sony ECM-W5",
+        "Rating":"4.5",
+        "Dateline":"2026-10-16",
+        "URL":"https:\/\/www.techradar.com\/cameras\/camera-accessories\/sony-ecm-w5-review",
+        "Categories":"Camera Accessories,Cameras",
+        "Author":"Sam Kieldsen",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/dR2pATiGEx6CT6Ay8tmPRT"
+    },
+    {
+        "Product":"Wyze Bodyscan",
+        "Rating":"4.0",
+        "Dateline":"2026-10-16",
+        "URL":"https:\/\/www.techradar.com\/home\/smart-scales\/wyze-bodyscan-smart-scale-review",
+        "Categories":"Smart Scales,Home,Smart Home",
+        "Author":"Paul Hatton",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/gDwEKVcUYmk3yQbYoyjRhZ"
+    },
+    {
         "Product":"Mova V70 Ultra Complete",
         "Rating":"3.0",
         "Dateline":"2026-10-16",
@@ -79938,15 +80019,6 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/UNxxMi2r4SCDARuo8JFk7j"
     },
     {
-        "Product":"70mai 4K A900 Ultra Dash Cam",
-        "Rating":"4.0",
-        "Dateline":"2026-10-14",
-        "URL":"https:\/\/www.techradar.com\/vehicle-tech\/dash-cams\/70mai-4k-a900-ultra-dash-cam-review",
-        "Categories":"Dash Cams,Vehicle Tech",
-        "Author":"Rob Clymo",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/oam5TH6qiorA85aLGzYZuQ"
-    },
-    {
         "Product":"Formlab Form Studio 1",
         "Rating":"5.0",
         "Dateline":"2026-10-14",
@@ -79954,6 +80026,15 @@
         "Categories":"Pro",
         "Author":"Alastair Jennings",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/JbUBJoUCVMZehney2mhqXj"
+    },
+    {
+        "Product":"70mai 4K A900 Ultra Dash Cam",
+        "Rating":"4.0",
+        "Dateline":"2026-10-14",
+        "URL":"https:\/\/www.techradar.com\/vehicle-tech\/dash-cams\/70mai-4k-a900-ultra-dash-cam-review",
+        "Categories":"Dash Cams,Vehicle Tech",
+        "Author":"Rob Clymo",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/oam5TH6qiorA85aLGzYZuQ"
     },
     {
         "Product":"HP Color LaserJet Enterprise 4701",
@@ -80023,7 +80104,7 @@
         "Rating":"4.0",
         "Dateline":"2026-10-12",
         "URL":"https:\/\/www.techradar.com\/streaming\/disney-plus\/visionquest-review",
-        "Categories":"Disney Plus,Streaming,MCU",
+        "Categories":"Disney Plus,Entertainment,Streaming,MCU",
         "Author":"Tom Power",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/QLdS8zzzs3hYHRDyDzPjPU"
     },
@@ -80071,50 +80152,5 @@
         "Categories":"Smart Home,Home",
         "Author":"Derek Adams",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/ikyhvW5jQSWuH9LF4XYKhj"
-    },
-    {
-        "Product":"Asustor Lockerstor 2 Gen2+ AS6702T v2",
-        "Rating":"3.5",
-        "Dateline":"2026-10-11",
-        "URL":"https:\/\/www.techradar.com\/computing\/asustor-lockerstor-2-gen2-as6702t-v2-nas-review",
-        "Categories":"Computing",
-        "Author":"Mark Pickavance",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/iBMKturWtCTUmNvS9yZG5Z"
-    },
-    {
-        "Product":"Dynasty Warriors 3: Complete Edition Remastered",
-        "Rating":"4.0",
-        "Dateline":"2026-10-11",
-        "URL":"https:\/\/www.techradar.com\/gaming\/dynasty-warriors-3-complete-edition-remastered-review",
-        "Categories":"Gaming",
-        "Author":"Rhys Wood",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/7dwwiZPMQKj7GWaQcKyvoh"
-    },
-    {
-        "Product":"HP EliteBook X G2i",
-        "Rating":"4.5",
-        "Dateline":"2026-10-10",
-        "URL":"https:\/\/www.techradar.com\/pro\/hp-elitebook-x-g2i-14-inch-business-laptop-review",
-        "Categories":"Pro,HP",
-        "Author":"Alastair Jennings",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/8sTFKYvnEruhSEi5685jJN"
-    },
-    {
-        "Product":"Ruark Audio Talisman R",
-        "Rating":"4.5",
-        "Dateline":"2026-10-10",
-        "URL":"https:\/\/www.techradar.com\/audio\/speakers\/ruark-audio-talisman-r-review",
-        "Categories":"Speakers,Hi Fi,Audio",
-        "Author":"Simon Lucas",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/uTyunYgnYqnx9kkp3UahcY"
-    },
-    {
-        "Product":"Carrie",
-        "Rating":"4.0",
-        "Dateline":"2026-10-10",
-        "URL":"https:\/\/www.techradar.com\/streaming\/amazon-prime-video\/carrie-review",
-        "Categories":"Amazon Prime Video,Streaming",
-        "Author":"Lucy Buglass",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/hXiZWUMEDBkDQ3JyuvtZyi"
     }
 ]
