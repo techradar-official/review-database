@@ -33696,15 +33696,6 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/2CCPihTseqkdfzDo6ifPBc"
     },
     {
-        "Product":"Bluehost Web Hosting",
-        "Rating":4.0,
-        "Dateline":"2025-09-02",
-        "URL":"https:\/\/www.techradar.com\/reviews\/bluehost",
-        "Categories":"Website hosting,Pro",
-        "Author":"James Capell",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/VPPCG8aUknxioTzUAk7Fn"
-    },
-    {
         "Product":"Monday.com",
         "Rating":4.0,
         "Dateline":"2025-09-02",
@@ -63486,15 +63477,6 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/BeRyRhRXbsCCqB5VYk2SBD"
     },
     {
-        "Product":"DreamHost email",
-        "Rating":3.5,
-        "Dateline":"2024-07-17",
-        "URL":"https:\/\/www.techradar.com\/pro\/dreamhost-email-review",
-        "Categories":"Pro",
-        "Author":"Barclay Ballard",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/usyvrMbkTsLEGqbo3PDbkP"
-    },
-    {
         "Product":"Malwarebytes Premium Plus",
         "Rating":3.5,
         "Dateline":"2024-07-16",
@@ -79974,6 +79956,114 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/T4Jwzc4DDxH2TXApez2yUS"
     },
     {
+        "Product":"Logitech G Pro X3 SuperStrike",
+        "Rating":"4.5",
+        "Dateline":"2026-10-14",
+        "URL":"https:\/\/www.techradar.com\/computing\/logitech-g-pro-x3-superstrike-review",
+        "Categories":"Mice,Gaming Accessories,Computing,Peripherals & Accessories,Gaming",
+        "Author":"Dashiell Wood",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/UNxxMi2r4SCDARuo8JFk7j"
+    },
+    {
+        "Product":"70mai 4K A900 Ultra Dash Cam",
+        "Rating":"4.0",
+        "Dateline":"2026-10-14",
+        "URL":"https:\/\/www.techradar.com\/vehicle-tech\/dash-cams\/70mai-4k-a900-ultra-dash-cam-review",
+        "Categories":"Dash Cams,Vehicle Tech",
+        "Author":"Rob Clymo",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/oam5TH6qiorA85aLGzYZuQ"
+    },
+    {
+        "Product":"Formlab Form Studio 1",
+        "Rating":"5.0",
+        "Dateline":"2026-10-14",
+        "URL":"https:\/\/www.techradar.com\/pro\/formlab-form-studio-1-review",
+        "Categories":"Pro",
+        "Author":"Alastair Jennings",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/JbUBJoUCVMZehney2mhqXj"
+    },
+    {
+        "Product":"HP Color LaserJet Enterprise 4701",
+        "Rating":"4.0",
+        "Dateline":"2026-10-14",
+        "URL":"https:\/\/www.techradar.com\/pro\/hp-color-laserjet-enterprise-4701-laser-printer-review",
+        "Categories":"Pro,HP",
+        "Author":"Jim Hill",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/N9ekbkrHQhYFC2c5BG83Gj"
+    },
+    {
+        "Product":"Resident Evil 3 (2020)",
+        "Rating":"4.0",
+        "Dateline":"2026-10-13",
+        "URL":"https:\/\/www.techradar.com\/gaming\/resident-evil-3-for-nintendo-switch-2-review",
+        "Categories":"Gaming",
+        "Author":"Harry Padoan",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/buY6zFEsbFG9HZVUrMrU4S"
+    },
+    {
+        "Product":"Uplift 4-leg standing desk",
+        "Rating":"5.0",
+        "Dateline":"2026-10-13",
+        "URL":"https:\/\/www.techradar.com\/pro\/uplift-4-leg-standing-desk-review",
+        "Categories":"Pro",
+        "Author":"Collin Probst",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/mgJXzLfjtBYrbWCU4bvBTW"
+    },
+    {
+        "Product":"Resident Evil 4 Remake",
+        "Rating":"4.0",
+        "Dateline":"2026-10-20",
+        "URL":"https:\/\/www.techradar.com\/gaming\/resident-evil-4-for-nintendo-switch-2-review",
+        "Categories":"Gaming",
+        "Author":"Harry Padoan",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/i2ySswPoXXFTWoaGPuU9AW"
+    },
+    {
+        "Product":"Logitech G Pro X2 Rapid",
+        "Rating":"4.0",
+        "Dateline":"2026-10-19",
+        "URL":"https:\/\/www.techradar.com\/computing\/logitech-g-pro-x2-rapid-review",
+        "Categories":"Keyboards,Gaming Accessories,Computing,Peripherals & Accessories,Gaming",
+        "Author":"Dashiell Wood",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/KmxYFc47YFxDPAZb7FLCnm"
+    },
+    {
+        "Product":"TT Nature Bird Feeder Station",
+        "Rating":"3.5",
+        "Dateline":"2026-10-19",
+        "URL":"https:\/\/www.techradar.com\/cameras\/this-sub-usd100-gbp100-bird-feeder-camera-proved-you-dont-need-a-massive-budget-to-spy-on-your-local-wildlife-even-if-its-app-ruffled-my-feathers",
+        "Categories":"Cameras",
+        "Author":"Lauren Scott",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/QFsKKnArw2XqvB5JJAeVER"
+    },
+    {
+        "Product":"Dreamhost",
+        "Rating":"4.0",
+        "Dateline":"2024-07-17",
+        "URL":"https:\/\/www.techradar.com\/pro\/dreamhost-email-review",
+        "Categories":"Pro",
+        "Author":"Barclay Ballard",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/usyvrMbkTsLEGqbo3PDbkP"
+    },
+    {
+        "Product":"Bluehost",
+        "Rating":"4.0",
+        "Dateline":"2021-12-24",
+        "URL":"https:\/\/www.techradar.com\/reviews\/bluehost",
+        "Categories":"Website Hosting,Pro",
+        "Author":"James Capell",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/VPPCG8aUknxioTzUAk7Fn"
+    },
+    {
+        "Product":"Ahrefs Ahrefs",
+        "Rating":"4.0",
+        "Dateline":"2026-10-19",
+        "URL":"https:\/\/www.techradar.com\/pro\/ahrefs-brand-radar-review",
+        "Categories":"Pro",
+        "Author":"Pawan Singh",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/8otDtEF3dS2AaDLUAf9rLm"
+    },
+    {
         "Product":"Ugreen HomeAgent HA100",
         "Rating":"4.0",
         "Dateline":"2026-10-19",
@@ -80188,59 +80278,5 @@
         "Categories":"Gaming",
         "Author":"Lewis Maddison",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/UZNuecC9VmXxo2uNx4ZtvV"
-    },
-    {
-        "Product":"Logitech G Pro X3 SuperStrike",
-        "Rating":"4.5",
-        "Dateline":"2026-10-14",
-        "URL":"https:\/\/www.techradar.com\/computing\/logitech-g-pro-x3-superstrike-review",
-        "Categories":"Mice,Gaming Accessories,Computing,Peripherals & Accessories,Gaming",
-        "Author":"Dashiell Wood",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/UNxxMi2r4SCDARuo8JFk7j"
-    },
-    {
-        "Product":"70mai 4K A900 Ultra Dash Cam",
-        "Rating":"4.0",
-        "Dateline":"2026-10-14",
-        "URL":"https:\/\/www.techradar.com\/vehicle-tech\/dash-cams\/70mai-4k-a900-ultra-dash-cam-review",
-        "Categories":"Dash Cams,Vehicle Tech",
-        "Author":"Rob Clymo",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/oam5TH6qiorA85aLGzYZuQ"
-    },
-    {
-        "Product":"Formlab Form Studio 1",
-        "Rating":"5.0",
-        "Dateline":"2026-10-14",
-        "URL":"https:\/\/www.techradar.com\/pro\/formlab-form-studio-1-review",
-        "Categories":"Pro",
-        "Author":"Alastair Jennings",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/JbUBJoUCVMZehney2mhqXj"
-    },
-    {
-        "Product":"HP Color LaserJet Enterprise 4701",
-        "Rating":"4.0",
-        "Dateline":"2026-10-14",
-        "URL":"https:\/\/www.techradar.com\/pro\/hp-color-laserjet-enterprise-4701-laser-printer-review",
-        "Categories":"Pro,HP",
-        "Author":"Jim Hill",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/N9ekbkrHQhYFC2c5BG83Gj"
-    },
-    {
-        "Product":"Resident Evil 3 (2020)",
-        "Rating":"4.0",
-        "Dateline":"2026-10-13",
-        "URL":"https:\/\/www.techradar.com\/gaming\/resident-evil-3-for-nintendo-switch-2-review",
-        "Categories":"Gaming",
-        "Author":"Harry Padoan",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/buY6zFEsbFG9HZVUrMrU4S"
-    },
-    {
-        "Product":"Uplift 4-leg standing desk",
-        "Rating":"5.0",
-        "Dateline":"2026-10-13",
-        "URL":"https:\/\/www.techradar.com\/pro\/uplift-4-leg-standing-desk-review",
-        "Categories":"Pro",
-        "Author":"Collin Probst",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/mgJXzLfjtBYrbWCU4bvBTW"
     }
 ]
