@@ -36063,15 +36063,6 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/f2LeeqwSrthZXZuRuefPpZ"
     },
     {
-        "Product":"Cloudways",
-        "Rating":4.0,
-        "Dateline":"2025-05-01",
-        "URL":"https:\/\/www.techradar.com\/reviews\/cloudways",
-        "Categories":"Software services,Pro",
-        "Author":"James Capell",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/4FnQ8uM3Vp2hhUEutGHbXQ"
-    },
-    {
         "Product":"Wachete Wachete",
         "Rating":4.0,
         "Dateline":"2025-05-01",
@@ -80010,6 +80001,78 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/mgJXzLfjtBYrbWCU4bvBTW"
     },
     {
+        "Product":"Hostinger",
+        "Rating":"4.5",
+        "Dateline":"2026-10-15",
+        "URL":"https:\/\/www.techradar.com\/pro\/hostinger-reach-email-hosting-review",
+        "Categories":"Pro",
+        "Author":"Pawan Singh",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/dQkamdzULxq5opYQahwEsZ"
+    },
+    {
+        "Product":"Lenovo ThinkPad T14s (Gen 6)",
+        "Rating":"4.5",
+        "Dateline":"2026-10-14",
+        "URL":"https:\/\/www.techradar.com\/pro\/lenovo-thinkpad-t14s-gen-6-amd-business-laptop-review",
+        "Categories":"Pro,Lenovo",
+        "Author":"Steve Clark",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/WEJe6mwc97xEKBxj6Cq78n"
+    },
+    {
+        "Product":"Sony WH-CH730N",
+        "Rating":"4.0",
+        "Dateline":"2026-10-14",
+        "URL":"https:\/\/www.techradar.com\/audio\/wireless-headphones\/sony-wh-ch730n-review",
+        "Categories":"Wireless Headphones,Audio,Headphones,Sony",
+        "Author":"Harry Padoan",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/EpFVbcWPCx43K6sqBh4SNS"
+    },
+    {
+        "Product":"Funselektor Labs Over the Hill",
+        "Rating":"3.0",
+        "Dateline":"2026-10-14",
+        "URL":"https:\/\/www.techradar.com\/gaming\/over-the-hill-review",
+        "Categories":"Gaming",
+        "Author":"Lewis Maddison",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/UZNuecC9VmXxo2uNx4ZtvV"
+    },
+    {
+        "Product":"Acer Googlebook 14",
+        "Rating":"4.0",
+        "Dateline":"2026-10-20",
+        "URL":"https:\/\/www.techradar.com\/computing\/laptops\/acer-googlebook-14-review",
+        "Categories":"Laptops,Chromebooks,Computing",
+        "Author":"Matt Hanson",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/5ExeodjYHVbNekCRV3dLjK"
+    },
+    {
+        "Product":"Hisense U6SF Pro",
+        "Rating":"4.0",
+        "Dateline":"2026-10-20",
+        "URL":"https:\/\/www.techradar.com\/televisions\/reaches-the-heights-of-mid-range-tvs-at-a-lower-price-point-i-tested-hisenses-vibrant-mini-led-tv-and-was-wowed-by-what-it-offers-for-its-relatively-affordable-price",
+        "Categories":"Televisions,4K,Hisense",
+        "Author":"James Holland",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/hQUWGYFaZHvsGPoP7WTU5Y"
+    },
+    {
+        "Product":"Cloudways Web Hosting",
+        "Rating":"4.0",
+        "Dateline":"2021-12-06",
+        "URL":"https:\/\/www.techradar.com\/reviews\/cloudways",
+        "Categories":"Software & Services,Pro",
+        "Author":"James Capell",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/4FnQ8uM3Vp2hhUEutGHbXQ"
+    },
+    {
+        "Product":"Nintendo Switch Sports Resort",
+        "Rating":"4.0",
+        "Dateline":"2026-10-20",
+        "URL":"https:\/\/www.techradar.com\/gaming\/nintendo-switch-sports-resort-review",
+        "Categories":"Gaming",
+        "Author":"Harry Padoan",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/FGp6DkeB2Rxz48Ju73JHoD"
+    },
+    {
         "Product":"Resident Evil 4 Remake",
         "Rating":"4.0",
         "Dateline":"2026-10-20",
@@ -80242,41 +80305,5 @@
         "Categories":"Laptops,Windows Laptops,Computing",
         "Author":"James Holland",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/eurVbYYJseYpM2ArLirNCG"
-    },
-    {
-        "Product":"Hostinger",
-        "Rating":"4.5",
-        "Dateline":"2026-10-15",
-        "URL":"https:\/\/www.techradar.com\/pro\/hostinger-reach-email-hosting-review",
-        "Categories":"Pro",
-        "Author":"Pawan Singh",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/dQkamdzULxq5opYQahwEsZ"
-    },
-    {
-        "Product":"Lenovo ThinkPad T14s (Gen 6)",
-        "Rating":"4.5",
-        "Dateline":"2026-10-14",
-        "URL":"https:\/\/www.techradar.com\/pro\/lenovo-thinkpad-t14s-gen-6-amd-business-laptop-review",
-        "Categories":"Pro,Lenovo",
-        "Author":"Steve Clark",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/WEJe6mwc97xEKBxj6Cq78n"
-    },
-    {
-        "Product":"Sony WH-CH730N",
-        "Rating":"4.0",
-        "Dateline":"2026-10-14",
-        "URL":"https:\/\/www.techradar.com\/audio\/wireless-headphones\/sony-wh-ch730n-review",
-        "Categories":"Wireless Headphones,Audio,Headphones,Sony",
-        "Author":"Harry Padoan",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/EpFVbcWPCx43K6sqBh4SNS"
-    },
-    {
-        "Product":"Funselektor Labs Over the Hill",
-        "Rating":"3.0",
-        "Dateline":"2026-10-14",
-        "URL":"https:\/\/www.techradar.com\/gaming\/over-the-hill-review",
-        "Categories":"Gaming",
-        "Author":"Lewis Maddison",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/UZNuecC9VmXxo2uNx4ZtvV"
     }
 ]
