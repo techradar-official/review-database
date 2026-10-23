@@ -10566,15 +10566,6 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/hbQaKSsbXWHtgj4AmSHfSF"
     },
     {
-        "Product":"Webflow website builder",
-        "Rating":4.5,
-        "Dateline":"2025-06-29",
-        "URL":"https:\/\/www.techradar.com\/reviews\/webflow-website-builder",
-        "Categories":"Website building,Pro",
-        "Author":"Chyelle Dvorak",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/9rnycPbuHtAFVqWuqvMEmj"
-    },
-    {
         "Product":"Sony Bravia 8 II",
         "Rating":4.5,
         "Dateline":"2025-06-28",
@@ -16324,15 +16315,6 @@
         "Categories":"Monitors,Computing,Peripherals accessories",
         "Author":"Ural Garrett",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/pbJXUbb95BPv8xzm4HeFBk"
-    },
-    {
-        "Product":"B12 AI website builder",
-        "Rating":4.5,
-        "Dateline":"2024-05-29",
-        "URL":"https:\/\/www.techradar.com\/reviews\/B12-website-builder",
-        "Categories":"N\/A",
-        "Author":"Ritoban Mukherjee",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/BUc5YXWcSibSNM8GzMVGBR"
     },
     {
         "Product":"Kobo Clara BW",
@@ -77832,15 +77814,6 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/AGDV7AvUG3ek2PCCx2GDMB"
     },
     {
-        "Product":"Norton VPN",
-        "Rating":"4.0",
-        "Dateline":"2022-10-24",
-        "URL":"https:\/\/www.techradar.com\/reviews\/norton-secure-vpn",
-        "Categories":"VPN Services,VPN,Norton",
-        "Author":"Rob Dunne",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/kDQYjZuiAhmXAQircr4omN"
-    },
-    {
         "Product":"VPN Super Unlimited",
         "Rating":"2.5",
         "Dateline":"2026-08-14",
@@ -80100,6 +80073,60 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/eurVbYYJseYpM2ArLirNCG"
     },
     {
+        "Product":"Uplift V3 L-shaped standing desk",
+        "Rating":"5.0",
+        "Dateline":"2026-10-16",
+        "URL":"https:\/\/www.techradar.com\/pro\/uplift-v3-l-shaped-standing-desk-review",
+        "Categories":"Pro",
+        "Author":"Collin Probst",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/JwFYyKxYeYznnTRa4zaqrN"
+    },
+    {
+        "Product":"ScalaHosting Cloud Hosting",
+        "Rating":"4.5",
+        "Dateline":"2020-09-08",
+        "URL":"https:\/\/www.techradar.com\/reviews\/scalahosting",
+        "Categories":"Website Hosting,Pro",
+        "Author":"Mirza Bahic,James Capell",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/TCcv3Qrne3Y4pBLm2uCgJb"
+    },
+    {
+        "Product":"Lenovo Yoga Pro 9i Gen 11 Aura Edition",
+        "Rating":"4.5",
+        "Dateline":"2026-10-16",
+        "URL":"https:\/\/www.techradar.com\/pro\/lenovo-yoga-pro-9i-gen-11-aura-edition-business-laptop-review",
+        "Categories":"Pro,Lenovo",
+        "Author":"Collin Probst",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Nj3nurE7KiYhSeUSGxEXPS"
+    },
+    {
+        "Product":"B12 AI website builder",
+        "Rating":"4.5",
+        "Dateline":"2024-05-29",
+        "URL":"https:\/\/www.techradar.com\/reviews\/B12-website-builder",
+        "Categories":"Website Building,Pro",
+        "Author":"Ritoban Mukherjee",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/BUc5YXWcSibSNM8GzMVGBR"
+    },
+    {
+        "Product":"Webflow",
+        "Rating":"4.5",
+        "Dateline":"2020-09-27",
+        "URL":"https:\/\/www.techradar.com\/reviews\/webflow-website-builder",
+        "Categories":"Website Building,Pro",
+        "Author":"Chyelle Dvorak",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/9rnycPbuHtAFVqWuqvMEmj"
+    },
+    {
+        "Product":"Norton VPN",
+        "Rating":"4.0",
+        "Dateline":"2022-10-24",
+        "URL":"https:\/\/www.techradar.com\/reviews\/norton-secure-vpn",
+        "Categories":"VPN Services,VPN,Norton",
+        "Author":"Rob Dunne",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/kDQYjZuiAhmXAQircr4omN"
+    },
+    {
         "Product":"WiiM Bar",
         "Rating":"4.0",
         "Dateline":"2026-10-22",
@@ -80118,7 +80145,7 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/hW48xKjYtQExPTDrg32b3d"
     },
     {
-        "Product":"Max",
+        "Product":"Coolpad Max",
         "Rating":"3.5",
         "Dateline":"2026-10-21",
         "URL":"https:\/\/www.techradar.com\/entertainment\/clayface-review",
@@ -80341,32 +80368,5 @@
         "Categories":"Cameras",
         "Author":"Sam Kieldsen",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Syt8tPYTq73HiikVxPMYM4"
-    },
-    {
-        "Product":"Uplift V3 L-shaped standing desk",
-        "Rating":"5.0",
-        "Dateline":"2026-10-16",
-        "URL":"https:\/\/www.techradar.com\/pro\/uplift-v3-l-shaped-standing-desk-review",
-        "Categories":"Pro",
-        "Author":"Collin Probst",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/JwFYyKxYeYznnTRa4zaqrN"
-    },
-    {
-        "Product":"ScalaHosting Cloud Hosting",
-        "Rating":"4.5",
-        "Dateline":"2020-09-08",
-        "URL":"https:\/\/www.techradar.com\/reviews\/scalahosting",
-        "Categories":"Website Hosting,Pro",
-        "Author":"Mirza Bahic,James Capell",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/TCcv3Qrne3Y4pBLm2uCgJb"
-    },
-    {
-        "Product":"Lenovo Yoga Pro 9i Gen 11 Aura Edition",
-        "Rating":"4.5",
-        "Dateline":"2026-10-16",
-        "URL":"https:\/\/www.techradar.com\/pro\/lenovo-yoga-pro-9i-gen-11-aura-edition-business-laptop-review",
-        "Categories":"Pro,Lenovo",
-        "Author":"Collin Probst",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Nj3nurE7KiYhSeUSGxEXPS"
     }
 ]
