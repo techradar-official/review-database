@@ -28629,15 +28629,6 @@
         "CMS_URL":"N\/A"
     },
     {
-        "Product":"Proton VPN",
-        "Rating":4.2,
-        "Dateline":"2026-05-22",
-        "URL":"https:\/\/www.techradar.com\/reviews\/protonvpn",
-        "Categories":"Vpn services,Vpn",
-        "Author":"Rob Dunne",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/dmh6To6eKLZh7hKiacixub"
-    },
-    {
         "Product":"Minisforum UM790 Pro",
         "Rating":4.2,
         "Dateline":"2023-08-31",
@@ -55332,15 +55323,6 @@
         "CMS_URL":"N\/A"
     },
     {
-        "Product":"Luminar Neo",
-        "Rating":4.0,
-        "Dateline":"2022-02-17",
-        "URL":"https:\/\/www.techradar.com\/reviews\/luminar-neo",
-        "Categories":"N\/A",
-        "Author":"N\/A",
-        "CMS_URL":"N\/A"
-    },
-    {
         "Product":"Skechers GoRun Speed Elite Hyper",
         "Rating":4.0,
         "Dateline":"2022-02-15",
@@ -80100,6 +80082,204 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Nj3nurE7KiYhSeUSGxEXPS"
     },
     {
+        "Product":"Ahrefs Ahrefs",
+        "Rating":"4.0",
+        "Dateline":"2026-10-19",
+        "URL":"https:\/\/www.techradar.com\/pro\/ahrefs-brand-radar-review",
+        "Categories":"Pro",
+        "Author":"Pawan Singh",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/8otDtEF3dS2AaDLUAf9rLm"
+    },
+    {
+        "Product":"Ugreen HomeAgent HA100",
+        "Rating":"4.0",
+        "Dateline":"2026-10-19",
+        "URL":"https:\/\/www.techradar.com\/pro\/ugreen-homeagent-ha100-hands-on",
+        "Categories":"Pro,AI",
+        "Author":"Mark Pickavance",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/mGi9bzhaVi4psgVWUhib2G"
+    },
+    {
+        "Product":"Sony ULT Tower 7",
+        "Rating":"4.5",
+        "Dateline":"2026-10-18",
+        "URL":"https:\/\/www.techradar.com\/audio\/wireless-bluetooth-speakers\/sony-ult-tower-7-review",
+        "Categories":"Wireless & Bluetooth Speakers,Audio,Hi Fi,Sony",
+        "Author":"Harry Padoan",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/aWUdeK2E6RYijvUDqXMxAe"
+    },
+    {
+        "Product":"Lavazza Tabli Automatic Tab Coffee Machine",
+        "Rating":"4.5",
+        "Dateline":"2026-10-18",
+        "URL":"https:\/\/www.techradar.com\/home\/coffee-machines\/lavazza-tabli-review",
+        "Categories":"Coffee Machines,Home,Small Appliances",
+        "Author":"Cat Ellis",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/f6u2aCmifTVMCBwhC6KyVR"
+    },
+    {
+        "Product":"LiberNovo Omni Pro",
+        "Rating":"5.0",
+        "Dateline":"2026-10-18",
+        "URL":"https:\/\/www.techradar.com\/pro\/libernovo-omni-pro-dynamic-ergonomic-office-chair-review",
+        "Categories":"Pro",
+        "Author":"Collin Probst",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/nRApjCym63soXUM2zkNX5B"
+    },
+    {
+        "Product":"EA Sports FC 27",
+        "Rating":"4.0",
+        "Dateline":"2026-10-18",
+        "URL":"https:\/\/www.techradar.com\/gaming\/ea-sports-fc-27-review",
+        "Categories":"Gaming",
+        "Author":"Axel Metz",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/aDgofBZMu8CtzPkELiiyuQ"
+    },
+    {
+        "Product":"Crystal Lake",
+        "Rating":"4.5",
+        "Dateline":"2026-10-17",
+        "URL":"https:\/\/www.techradar.com\/streaming\/crystal-lake-review-peacocks-friday-the-13th-prequel-series-is-a-must-watch-this-halloween",
+        "Categories":"Streaming,Entertainment",
+        "Author":"Lucy Buglass",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/T3j4yusz53vAVeWV9hRX5H"
+    },
+    {
+        "Product":"Sony Bravia 9 II RGB LED 4K TV (2026)",
+        "Rating":"4.5",
+        "Dateline":"2026-10-17",
+        "URL":"https:\/\/www.techradar.com\/televisions\/sony-bravia-9-ii-review",
+        "Categories":"Televisions,Sony",
+        "Author":"James Davidson",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/jNJHScgTBXKsU7PWhSqAFe"
+    },
+    {
+        "Product":"TDM Neo",
+        "Rating":"3.0",
+        "Dateline":"2026-10-17",
+        "URL":"https:\/\/www.techradar.com\/audio\/wireless-headphones\/i-spent-two-weeks-with-those-wacky-headphone-loudspeaker-hybrids-but-theyre-the-easiest-pass-recommendation-in-a-long-time",
+        "Categories":"Wireless Headphones,Audio,Headphones",
+        "Author":"Tom Bedford",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/QmcHrpaevqJjf9CLjQ2gB7"
+    },
+    {
+        "Product":"Lenovo Yoga Pro 7i Gen 11 Aura Edition",
+        "Rating":"4.5",
+        "Dateline":"2026-10-17",
+        "URL":"https:\/\/www.techradar.com\/pro\/lenovo-yoga-pro-7i-gen-11-aura-edition-oled-laptop-review",
+        "Categories":"Pro,Lenovo",
+        "Author":"Collin Probst",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Tk9fTCQGRQVq5gjtXD5tBe"
+    },
+    {
+        "Product":"Kiwibit Bird Feeder 2",
+        "Rating":"4.0",
+        "Dateline":"2026-10-17",
+        "URL":"https:\/\/www.techradar.com\/cameras\/kiwibit-bird-feeder-2-pro-review",
+        "Categories":"Cameras",
+        "Author":"Sam Kieldsen",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Syt8tPYTq73HiikVxPMYM4"
+    },
+    {
+        "Product":"JBL Bar 800MK2",
+        "Rating":"4.5",
+        "Dateline":"2026-10-24",
+        "URL":"https:\/\/www.techradar.com\/televisions\/soundbars\/jbl-bar-800mk2-review",
+        "Categories":"Soundbars,Televisions,Dolby Atmos",
+        "Author":"Harry Padoan",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/4ak7Au7PqCLmxWFeSyNuLB"
+    },
+    {
+        "Product":"Apple Watch Series 12",
+        "Rating":"5.0",
+        "Dateline":"2026-10-23",
+        "URL":"https:\/\/www.techradar.com\/health-fitness\/smartwatches\/apple-watch-series-12-review",
+        "Categories":"Smartwatches,Health & Fitness,Apple,Apple Watch",
+        "Author":"Jacob Krol",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/dPJ26EnsQYmqnRzk55h7a7"
+    },
+    {
+        "Product":"Khadas Mind Pro",
+        "Rating":"4.5",
+        "Dateline":"2026-10-23",
+        "URL":"https:\/\/www.techradar.com\/pro\/khadas-mind-pro-mini-pc-review",
+        "Categories":"Pro",
+        "Author":"Alastair Jennings",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Rc3nQEDaNQR3h5hhrB544j"
+    },
+    {
+        "Product":"Apple Watch Ultra 4",
+        "Rating":"4.5",
+        "Dateline":"2026-10-23",
+        "URL":"https:\/\/www.techradar.com\/health-fitness\/smartwatches\/apple-watch-ultra-4-review",
+        "Categories":"Smartwatches,Health & Fitness,Apple,Apple Watch",
+        "Author":"Jacob Krol",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/sVkzi2ufSLN3vtEWsMshdf"
+    },
+    {
+        "Product":"Luminar Neo",
+        "Rating":"4.5",
+        "Dateline":"2022-02-17",
+        "URL":"https:\/\/www.techradar.com\/reviews\/luminar-neo",
+        "Categories":"Cameras",
+        "Author":"Steve Paris",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/wVb4eNXMAp7BUm79xvvyjg"
+    },
+    {
+        "Product":"Beyerdynamic Aventho Y",
+        "Rating":"3.5",
+        "Dateline":"2026-10-23",
+        "URL":"https:\/\/www.techradar.com\/audio\/wireless-headphones\/beyerdynamic-aventho-y-review",
+        "Categories":"Wireless Headphones,Audio,Headphones",
+        "Author":"James Grimshaw",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/y6CVQjU4Q9ebqTbhDad7uS"
+    },
+    {
+        "Product":"Epson EcoTank ET-2980",
+        "Rating":"4.0",
+        "Dateline":"2026-10-23",
+        "URL":"https:\/\/www.techradar.com\/pro\/epson-ecotank-et-2980-et-2950-ink-tank-printer-review",
+        "Categories":"Pro,Epson",
+        "Author":"Jim Hill",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/EMsEytceLL9aCwWZyiNLHi"
+    },
+    {
+        "Product":"Activision Call of Duty: Modern Warfare 4",
+        "Rating":"5.0",
+        "Dateline":"2026-10-23",
+        "URL":"https:\/\/www.techradar.com\/gaming\/call-of-duty-modern-warfare-4-review",
+        "Categories":"Consoles & PC,Gaming,Call of Duty",
+        "Author":"Dashiell Wood",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/pjbKvvUnStR6gar2bkiAkc"
+    },
+    {
+        "Product":"Sigma FP2",
+        "Rating":"N\/A",
+        "Dateline":"2026-10-23",
+        "URL":"https:\/\/www.techradar.com\/cameras\/mirrorless-cameras\/sigma-fp2-review",
+        "Categories":"Mirrorless Cameras,Cameras",
+        "Author":"Timothy Coleman",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/bMbx5Gmy9EQFSWzpduEdHT"
+    },
+    {
+        "Product":"Proton VPN",
+        "Rating":"4.5",
+        "Dateline":"2022-10-24",
+        "URL":"https:\/\/www.techradar.com\/reviews\/protonvpn",
+        "Categories":"VPN Services,VPN,Microsoft",
+        "Author":"Rob Dunne",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/dmh6To6eKLZh7hKiacixub"
+    },
+    {
+        "Product":"Razer Reclusa X Mini 65%",
+        "Rating":"4.5",
+        "Dateline":"2026-10-23",
+        "URL":"https:\/\/www.techradar.com\/computing\/keyboards\/razer-reclusa-x-mini-65-percent",
+        "Categories":"Keyboards,Gaming Accessories,Computing,Peripherals & Accessories,Gaming,Razer",
+        "Author":"Reece Bithrey",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/tWA2CqnkwnZ4UBwsFCBSLX"
+    },
+    {
         "Product":"B12 AI website builder",
         "Rating":"4.5",
         "Dateline":"2024-05-29",
@@ -80269,104 +80449,5 @@
         "Categories":"Website Hosting,Pro",
         "Author":"James Capell",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/VPPCG8aUknxioTzUAk7Fn"
-    },
-    {
-        "Product":"Ahrefs Ahrefs",
-        "Rating":"4.0",
-        "Dateline":"2026-10-19",
-        "URL":"https:\/\/www.techradar.com\/pro\/ahrefs-brand-radar-review",
-        "Categories":"Pro",
-        "Author":"Pawan Singh",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/8otDtEF3dS2AaDLUAf9rLm"
-    },
-    {
-        "Product":"Ugreen HomeAgent HA100",
-        "Rating":"4.0",
-        "Dateline":"2026-10-19",
-        "URL":"https:\/\/www.techradar.com\/pro\/ugreen-homeagent-ha100-hands-on",
-        "Categories":"Pro,AI",
-        "Author":"Mark Pickavance",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/mGi9bzhaVi4psgVWUhib2G"
-    },
-    {
-        "Product":"Sony ULT Tower 7",
-        "Rating":"4.5",
-        "Dateline":"2026-10-18",
-        "URL":"https:\/\/www.techradar.com\/audio\/wireless-bluetooth-speakers\/sony-ult-tower-7-review",
-        "Categories":"Wireless & Bluetooth Speakers,Audio,Hi Fi,Sony",
-        "Author":"Harry Padoan",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/aWUdeK2E6RYijvUDqXMxAe"
-    },
-    {
-        "Product":"Lavazza Tabli Automatic Tab Coffee Machine",
-        "Rating":"4.5",
-        "Dateline":"2026-10-18",
-        "URL":"https:\/\/www.techradar.com\/home\/coffee-machines\/lavazza-tabli-review",
-        "Categories":"Coffee Machines,Home,Small Appliances",
-        "Author":"Cat Ellis",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/f6u2aCmifTVMCBwhC6KyVR"
-    },
-    {
-        "Product":"LiberNovo Omni Pro",
-        "Rating":"5.0",
-        "Dateline":"2026-10-18",
-        "URL":"https:\/\/www.techradar.com\/pro\/libernovo-omni-pro-dynamic-ergonomic-office-chair-review",
-        "Categories":"Pro",
-        "Author":"Collin Probst",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/nRApjCym63soXUM2zkNX5B"
-    },
-    {
-        "Product":"EA Sports FC 27",
-        "Rating":"4.0",
-        "Dateline":"2026-10-18",
-        "URL":"https:\/\/www.techradar.com\/gaming\/ea-sports-fc-27-review",
-        "Categories":"Gaming",
-        "Author":"Axel Metz",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/aDgofBZMu8CtzPkELiiyuQ"
-    },
-    {
-        "Product":"Crystal Lake",
-        "Rating":"4.5",
-        "Dateline":"2026-10-17",
-        "URL":"https:\/\/www.techradar.com\/streaming\/crystal-lake-review-peacocks-friday-the-13th-prequel-series-is-a-must-watch-this-halloween",
-        "Categories":"Streaming,Entertainment",
-        "Author":"Lucy Buglass",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/T3j4yusz53vAVeWV9hRX5H"
-    },
-    {
-        "Product":"Sony Bravia 9 II RGB LED 4K TV (2026)",
-        "Rating":"4.5",
-        "Dateline":"2026-10-17",
-        "URL":"https:\/\/www.techradar.com\/televisions\/sony-bravia-9-ii-review",
-        "Categories":"Televisions,Sony",
-        "Author":"James Davidson",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/jNJHScgTBXKsU7PWhSqAFe"
-    },
-    {
-        "Product":"TDM Neo",
-        "Rating":"3.0",
-        "Dateline":"2026-10-17",
-        "URL":"https:\/\/www.techradar.com\/audio\/wireless-headphones\/i-spent-two-weeks-with-those-wacky-headphone-loudspeaker-hybrids-but-theyre-the-easiest-pass-recommendation-in-a-long-time",
-        "Categories":"Wireless Headphones,Audio,Headphones",
-        "Author":"Tom Bedford",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/QmcHrpaevqJjf9CLjQ2gB7"
-    },
-    {
-        "Product":"Lenovo Yoga Pro 7i Gen 11 Aura Edition",
-        "Rating":"4.5",
-        "Dateline":"2026-10-17",
-        "URL":"https:\/\/www.techradar.com\/pro\/lenovo-yoga-pro-7i-gen-11-aura-edition-oled-laptop-review",
-        "Categories":"Pro,Lenovo",
-        "Author":"Collin Probst",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Tk9fTCQGRQVq5gjtXD5tBe"
-    },
-    {
-        "Product":"Kiwibit Bird Feeder 2",
-        "Rating":"4.0",
-        "Dateline":"2026-10-17",
-        "URL":"https:\/\/www.techradar.com\/cameras\/kiwibit-bird-feeder-2-pro-review",
-        "Categories":"Cameras",
-        "Author":"Sam Kieldsen",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Syt8tPYTq73HiikVxPMYM4"
     }
 ]
