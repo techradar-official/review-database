@@ -80226,6 +80226,114 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/VPPCG8aUknxioTzUAk7Fn"
     },
     {
+        "Product":"Oppo Oppo Find X10 Pro Max",
+        "Rating":"4.5",
+        "Dateline":"2026-10-21",
+        "URL":"https:\/\/www.techradar.com\/phones\/oppo-phones\/oppo-find-x10-pro-max-review",
+        "Categories":"Oppo Phones,Android,Phones",
+        "Author":"Luke Baker",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/TdmDe6R3ANusNhq7ExWcRf"
+    },
+    {
+        "Product":"Apple iPhone Duo",
+        "Rating":"4.5",
+        "Dateline":"2026-10-21",
+        "URL":"https:\/\/www.techradar.com\/phones\/iphone\/apple-iphone-duo-review",
+        "Categories":"IPhone,IOS,Phones,Apple",
+        "Author":"Lance Ulanoff",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/qm6dWcuGXPQbD5ikuUtmMo"
+    },
+    {
+        "Product":"Acer Googlebook 14",
+        "Rating":"4.0",
+        "Dateline":"2026-10-20",
+        "URL":"https:\/\/www.techradar.com\/computing\/laptops\/acer-googlebook-14-review",
+        "Categories":"Laptops,Chromebooks,Computing",
+        "Author":"Matt Hanson",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/5ExeodjYHVbNekCRV3dLjK"
+    },
+    {
+        "Product":"Hisense U6SF Pro",
+        "Rating":"4.0",
+        "Dateline":"2026-10-20",
+        "URL":"https:\/\/www.techradar.com\/televisions\/reaches-the-heights-of-mid-range-tvs-at-a-lower-price-point-i-tested-hisenses-vibrant-mini-led-tv-and-was-wowed-by-what-it-offers-for-its-relatively-affordable-price",
+        "Categories":"Televisions,4K,Hisense",
+        "Author":"James Holland",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/hQUWGYFaZHvsGPoP7WTU5Y"
+    },
+    {
+        "Product":"Cloudways Web Hosting",
+        "Rating":"4.0",
+        "Dateline":"2021-12-06",
+        "URL":"https:\/\/www.techradar.com\/reviews\/cloudways",
+        "Categories":"Software & Services,Pro",
+        "Author":"James Capell",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/4FnQ8uM3Vp2hhUEutGHbXQ"
+    },
+    {
+        "Product":"Nintendo Switch Sports Resort",
+        "Rating":"4.0",
+        "Dateline":"2026-10-20",
+        "URL":"https:\/\/www.techradar.com\/gaming\/nintendo-switch-sports-resort-review",
+        "Categories":"Gaming",
+        "Author":"Harry Padoan",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/FGp6DkeB2Rxz48Ju73JHoD"
+    },
+    {
+        "Product":"Movavi Video Editor 2027",
+        "Rating":"4.0",
+        "Dateline":"2026-10-26",
+        "URL":"https:\/\/www.techradar.com\/pro\/software-services\/movavi-video-editor-27-review",
+        "Categories":"Software & Services,Pro",
+        "Author":"Steve Paris",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/8bwaD9HQq6UF9utay8V2oD"
+    },
+    {
+        "Product":"Beelink ME Pro",
+        "Rating":"4.0",
+        "Dateline":"2026-10-25",
+        "URL":"https:\/\/www.techradar.com\/pro\/beelink-me-pro-creator-edition-nas-review",
+        "Categories":"Pro",
+        "Author":"Mark Pickavance",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/u5rQgqRudRKQW7AfjBnvfG"
+    },
+    {
+        "Product":"Topping DX1 II",
+        "Rating":"4.0",
+        "Dateline":"2026-10-25",
+        "URL":"https:\/\/www.techradar.com\/audio\/dacs\/topping-dx1-ii-review",
+        "Categories":"DACs,Hi Fi,Audio,Hi res audio",
+        "Author":"Simon Lucas",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/6n7i84ARcVs6Zo7kSpwzXk"
+    },
+    {
+        "Product":"Seagate One Touch 4TB HDD",
+        "Rating":"5.0",
+        "Dateline":"2026-10-25",
+        "URL":"https:\/\/www.techradar.com\/pro\/seagate-one-touch-4tb-external-hdd-review",
+        "Categories":"Pro,Seagate",
+        "Author":"Alastair Jennings",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/2KsFbNYyePwZJV5xZNaaUb"
+    },
+    {
+        "Product":"Boulies EP600",
+        "Rating":"4.0",
+        "Dateline":"2026-10-25",
+        "URL":"https:\/\/www.techradar.com\/pro\/boulies-ep600-office-chair-review",
+        "Categories":"Pro",
+        "Author":"Steve Clark",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/ttVwL8tBCSj7ASKyWM5hb6"
+    },
+    {
+        "Product":"Lavazza MilkEasy Plus",
+        "Rating":"4.5",
+        "Dateline":"2026-10-25",
+        "URL":"https:\/\/www.techradar.com\/home\/coffee-machines\/lavazza-milkeasy-plus-review",
+        "Categories":"Coffee Machines,Home,Small Appliances",
+        "Author":"Harry Padoan",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/qTUXfcWg3fiUeGjeE9Kwi6"
+    },
+    {
         "Product":"CRKD Nitro Deck 2",
         "Rating":"4.0",
         "Dateline":"2026-10-25",
@@ -80440,59 +80548,5 @@
         "Categories":"Oppo Phones,Phones",
         "Author":"Jamie Richards",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/NPGMsdGCSpuqoMKosREEiY"
-    },
-    {
-        "Product":"Oppo Oppo Find X10 Pro Max",
-        "Rating":"4.5",
-        "Dateline":"2026-10-21",
-        "URL":"https:\/\/www.techradar.com\/phones\/oppo-phones\/oppo-find-x10-pro-max-review",
-        "Categories":"Oppo Phones,Android,Phones",
-        "Author":"Luke Baker",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/TdmDe6R3ANusNhq7ExWcRf"
-    },
-    {
-        "Product":"Apple iPhone Duo",
-        "Rating":"4.5",
-        "Dateline":"2026-10-21",
-        "URL":"https:\/\/www.techradar.com\/phones\/iphone\/apple-iphone-duo-review",
-        "Categories":"IPhone,IOS,Phones,Apple",
-        "Author":"Lance Ulanoff",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/qm6dWcuGXPQbD5ikuUtmMo"
-    },
-    {
-        "Product":"Acer Googlebook 14",
-        "Rating":"4.0",
-        "Dateline":"2026-10-20",
-        "URL":"https:\/\/www.techradar.com\/computing\/laptops\/acer-googlebook-14-review",
-        "Categories":"Laptops,Chromebooks,Computing",
-        "Author":"Matt Hanson",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/5ExeodjYHVbNekCRV3dLjK"
-    },
-    {
-        "Product":"Hisense U6SF Pro",
-        "Rating":"4.0",
-        "Dateline":"2026-10-20",
-        "URL":"https:\/\/www.techradar.com\/televisions\/reaches-the-heights-of-mid-range-tvs-at-a-lower-price-point-i-tested-hisenses-vibrant-mini-led-tv-and-was-wowed-by-what-it-offers-for-its-relatively-affordable-price",
-        "Categories":"Televisions,4K,Hisense",
-        "Author":"James Holland",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/hQUWGYFaZHvsGPoP7WTU5Y"
-    },
-    {
-        "Product":"Cloudways Web Hosting",
-        "Rating":"4.0",
-        "Dateline":"2021-12-06",
-        "URL":"https:\/\/www.techradar.com\/reviews\/cloudways",
-        "Categories":"Software & Services,Pro",
-        "Author":"James Capell",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/4FnQ8uM3Vp2hhUEutGHbXQ"
-    },
-    {
-        "Product":"Nintendo Switch Sports Resort",
-        "Rating":"4.0",
-        "Dateline":"2026-10-20",
-        "URL":"https:\/\/www.techradar.com\/gaming\/nintendo-switch-sports-resort-review",
-        "Categories":"Gaming",
-        "Author":"Harry Padoan",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/FGp6DkeB2Rxz48Ju73JHoD"
     }
 ]
