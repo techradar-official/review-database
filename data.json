@@ -16479,15 +16479,6 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/bJ97S3ts4rSoZ4bCQ3VNWR"
     },
     {
-        "Product":"Mozilla Monitor Plus data removal service",
-        "Rating":4.5,
-        "Dateline":"2024-05-14",
-        "URL":"https:\/\/www.techradar.com\/computing\/software\/mozilla-monitor-plus-data-removal-service-review",
-        "Categories":"Software,Computing",
-        "Author":"Max Slater-Robins",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Q7bDxDPyH5bt5HyA5FKiPc"
-    },
-    {
         "Product":"Pecron E1500LFP",
         "Rating":4.5,
         "Dateline":"2024-05-14",
@@ -74250,15 +74241,6 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/4qnJqwf6VvnpJ8LLMBL6LD"
     },
     {
-        "Product":"Hello Privacy data removal service",
-        "Rating":2.5,
-        "Dateline":"2024-07-22",
-        "URL":"https:\/\/www.techradar.com\/pro\/hello-privacy-data-removal-service-review",
-        "Categories":"Pro",
-        "Author":"Max Slater-Robins",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/SrrMufrjbVspmZJSdujeEV"
-    },
-    {
         "Product":"ConceptDraw MINDMAP",
         "Rating":2.5,
         "Dateline":"2024-07-22",
@@ -80280,6 +80262,159 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/FGp6DkeB2Rxz48Ju73JHoD"
     },
     {
+        "Product":"Razer Reclusa X Mini 65%",
+        "Rating":"4.5",
+        "Dateline":"2026-10-23",
+        "URL":"https:\/\/www.techradar.com\/computing\/keyboards\/razer-reclusa-x-mini-65-percent",
+        "Categories":"Keyboards,Gaming Accessories,Computing,Peripherals & Accessories,Gaming,Razer",
+        "Author":"Reece Bithrey",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/tWA2CqnkwnZ4UBwsFCBSLX"
+    },
+    {
+        "Product":"B12 AI website builder",
+        "Rating":"4.5",
+        "Dateline":"2024-05-29",
+        "URL":"https:\/\/www.techradar.com\/reviews\/B12-website-builder",
+        "Categories":"Website Building,Pro",
+        "Author":"Ritoban Mukherjee",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/BUc5YXWcSibSNM8GzMVGBR"
+    },
+    {
+        "Product":"Webflow",
+        "Rating":"4.5",
+        "Dateline":"2020-09-27",
+        "URL":"https:\/\/www.techradar.com\/reviews\/webflow-website-builder",
+        "Categories":"Website Building,Pro",
+        "Author":"Chyelle Dvorak",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/9rnycPbuHtAFVqWuqvMEmj"
+    },
+    {
+        "Product":"Norton VPN",
+        "Rating":"4.0",
+        "Dateline":"2022-10-24",
+        "URL":"https:\/\/www.techradar.com\/reviews\/norton-secure-vpn",
+        "Categories":"VPN Services,VPN,Norton",
+        "Author":"Rob Dunne",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/kDQYjZuiAhmXAQircr4omN"
+    },
+    {
+        "Product":"WiiM Bar",
+        "Rating":"4.0",
+        "Dateline":"2026-10-22",
+        "URL":"https:\/\/www.techradar.com\/televisions\/soundbars\/wiim-bar-review",
+        "Categories":"Soundbars,Televisions,Dolby Atmos",
+        "Author":"Harry Padoan",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/3vxvtKpMEKA6psnPyArxZQ"
+    },
+    {
+        "Product":"SteelSeries Sensei Pro",
+        "Rating":"4.0",
+        "Dateline":"2026-10-21",
+        "URL":"https:\/\/www.techradar.com\/computing\/mice\/steelseries-sensei-pro-review",
+        "Categories":"Mice,Gaming Accessories,Computing,Peripherals & Accessories,Gaming",
+        "Author":"Lewis Maddison",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/hW48xKjYtQExPTDrg32b3d"
+    },
+    {
+        "Product":"Coolpad Max",
+        "Rating":"3.5",
+        "Dateline":"2026-10-21",
+        "URL":"https:\/\/www.techradar.com\/entertainment\/clayface-review",
+        "Categories":"Entertainment",
+        "Author":"Tom Power",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/qzm84XJrCaDjWxpDr8n53Y"
+    },
+    {
+        "Product":"Antigravity A1 Follow Me Bundle",
+        "Rating":"4.0",
+        "Dateline":"2026-10-21",
+        "URL":"https:\/\/www.techradar.com\/cameras\/drones\/antigravity-a1-follow-me-bundle-review",
+        "Categories":"Drones,Cameras",
+        "Author":"James Abbott",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/YiPEnRzDJA6KheuytUgTy6"
+    },
+    {
+        "Product":"Oppo Oppo Find X10",
+        "Rating":"4.0",
+        "Dateline":"2026-10-21",
+        "URL":"https:\/\/www.techradar.com\/phones\/oppo-phones\/oppo-find-x10-review",
+        "Categories":"Oppo Phones,Phones",
+        "Author":"Jamie Richards",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/NPGMsdGCSpuqoMKosREEiY"
+    },
+    {
+        "Product":"IDX Complete",
+        "Rating":"3.5",
+        "Dateline":"2026-10-27",
+        "URL":"https:\/\/www.techradar.com\/pro\/idx-complete-identity-theft-protection-review",
+        "Categories":"Pro",
+        "Author":"Stefan Ionescu",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/YqQSMieYy8VUU2nsUCk8Yh"
+    },
+    {
+        "Product":"De'Longhi Magnifica Start ECAM220.61.W",
+        "Rating":"4.0",
+        "Dateline":"2026-10-27",
+        "URL":"https:\/\/www.techradar.com\/home\/coffee-machines\/delonghi-magnifica-start-review",
+        "Categories":"Coffee Machines,Home,Small Appliances",
+        "Author":"Max Langridge",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/CeFu3ZZEAAAN4ZxTKCHUtF"
+    },
+    {
+        "Product":"Amazon Kindle 2026",
+        "Rating":"4.0",
+        "Dateline":"2026-10-27",
+        "URL":"https:\/\/www.techradar.com\/tablets\/ereaders\/amazon-kindle-2026-review",
+        "Categories":"EReaders,Tablets,Kindle",
+        "Author":"Sharmishta Sarkar",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/oN87rw9hYJrnWyhQHD2G86"
+    },
+    {
+        "Product":"Audeze Maxwell 2 ANC",
+        "Rating":"4.5",
+        "Dateline":"2026-10-27",
+        "URL":"https:\/\/www.techradar.com\/gaming\/audeze-maxwell-2-anc-review",
+        "Categories":"Gaming",
+        "Author":"Rob Dwiar",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/CBh6SAbfZTUSacgp5JgGNQ"
+    },
+    {
+        "Product":"Oppo Pad 5 Pro",
+        "Rating":"4.5",
+        "Dateline":"2026-10-26",
+        "URL":"https:\/\/www.techradar.com\/tablets\/oppo-pad-5-pro-review",
+        "Categories":"Tablets",
+        "Author":"John McCann",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/ycpJJLU3or9n9yVeum9EZf"
+    },
+    {
+        "Product":"Mozilla Monitor",
+        "Rating":"4.5",
+        "Dateline":"2024-05-14",
+        "URL":"https:\/\/www.techradar.com\/computing\/software\/mozilla-monitor-plus-data-removal-service-review",
+        "Categories":"Software,Computing",
+        "Author":"Stefan Ionescu",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Q7bDxDPyH5bt5HyA5FKiPc"
+    },
+    {
+        "Product":"Hello Privacy Hello Privacy",
+        "Rating":"2.5",
+        "Dateline":"2024-07-22",
+        "URL":"https:\/\/www.techradar.com\/pro\/hello-privacy-data-removal-service-review",
+        "Categories":"Pro",
+        "Author":"Stefan Ionescu",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/SrrMufrjbVspmZJSdujeEV"
+    },
+    {
+        "Product":"Cloaked Cloaked",
+        "Rating":"4.0",
+        "Dateline":"2026-10-26",
+        "URL":"https:\/\/www.techradar.com\/pro\/cloaked-data-removal-service-review",
+        "Categories":"Pro",
+        "Author":"Stefan Ionescu",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/XXTNe2HenWzDkAfeoAjT5X"
+    },
+    {
         "Product":"Movavi Video Editor 2027",
         "Rating":"4.0",
         "Dateline":"2026-10-26",
@@ -80467,86 +80602,5 @@
         "Categories":"VPN Services,VPN,Microsoft",
         "Author":"Rob Dunne",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/dmh6To6eKLZh7hKiacixub"
-    },
-    {
-        "Product":"Razer Reclusa X Mini 65%",
-        "Rating":"4.5",
-        "Dateline":"2026-10-23",
-        "URL":"https:\/\/www.techradar.com\/computing\/keyboards\/razer-reclusa-x-mini-65-percent",
-        "Categories":"Keyboards,Gaming Accessories,Computing,Peripherals & Accessories,Gaming,Razer",
-        "Author":"Reece Bithrey",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/tWA2CqnkwnZ4UBwsFCBSLX"
-    },
-    {
-        "Product":"B12 AI website builder",
-        "Rating":"4.5",
-        "Dateline":"2024-05-29",
-        "URL":"https:\/\/www.techradar.com\/reviews\/B12-website-builder",
-        "Categories":"Website Building,Pro",
-        "Author":"Ritoban Mukherjee",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/BUc5YXWcSibSNM8GzMVGBR"
-    },
-    {
-        "Product":"Webflow",
-        "Rating":"4.5",
-        "Dateline":"2020-09-27",
-        "URL":"https:\/\/www.techradar.com\/reviews\/webflow-website-builder",
-        "Categories":"Website Building,Pro",
-        "Author":"Chyelle Dvorak",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/9rnycPbuHtAFVqWuqvMEmj"
-    },
-    {
-        "Product":"Norton VPN",
-        "Rating":"4.0",
-        "Dateline":"2022-10-24",
-        "URL":"https:\/\/www.techradar.com\/reviews\/norton-secure-vpn",
-        "Categories":"VPN Services,VPN,Norton",
-        "Author":"Rob Dunne",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/kDQYjZuiAhmXAQircr4omN"
-    },
-    {
-        "Product":"WiiM Bar",
-        "Rating":"4.0",
-        "Dateline":"2026-10-22",
-        "URL":"https:\/\/www.techradar.com\/televisions\/soundbars\/wiim-bar-review",
-        "Categories":"Soundbars,Televisions,Dolby Atmos",
-        "Author":"Harry Padoan",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/3vxvtKpMEKA6psnPyArxZQ"
-    },
-    {
-        "Product":"SteelSeries Sensei Pro",
-        "Rating":"4.0",
-        "Dateline":"2026-10-21",
-        "URL":"https:\/\/www.techradar.com\/computing\/mice\/steelseries-sensei-pro-review",
-        "Categories":"Mice,Gaming Accessories,Computing,Peripherals & Accessories,Gaming",
-        "Author":"Lewis Maddison",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/hW48xKjYtQExPTDrg32b3d"
-    },
-    {
-        "Product":"Coolpad Max",
-        "Rating":"3.5",
-        "Dateline":"2026-10-21",
-        "URL":"https:\/\/www.techradar.com\/entertainment\/clayface-review",
-        "Categories":"Entertainment",
-        "Author":"Tom Power",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/qzm84XJrCaDjWxpDr8n53Y"
-    },
-    {
-        "Product":"Antigravity A1 Follow Me Bundle",
-        "Rating":"4.0",
-        "Dateline":"2026-10-21",
-        "URL":"https:\/\/www.techradar.com\/cameras\/drones\/antigravity-a1-follow-me-bundle-review",
-        "Categories":"Drones,Cameras",
-        "Author":"James Abbott",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/YiPEnRzDJA6KheuytUgTy6"
-    },
-    {
-        "Product":"Oppo Oppo Find X10",
-        "Rating":"4.0",
-        "Dateline":"2026-10-21",
-        "URL":"https:\/\/www.techradar.com\/phones\/oppo-phones\/oppo-find-x10-review",
-        "Categories":"Oppo Phones,Phones",
-        "Author":"Jamie Richards",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/NPGMsdGCSpuqoMKosREEiY"
     }
 ]
