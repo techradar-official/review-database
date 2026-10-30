@@ -80514,6 +80514,24 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/4ak7Au7PqCLmxWFeSyNuLB"
     },
     {
+        "Product":"Hello Privacy Hello Privacy",
+        "Rating":"2.5",
+        "Dateline":"2024-07-22",
+        "URL":"https:\/\/www.techradar.com\/pro\/hello-privacy-data-removal-service-review",
+        "Categories":"Pro",
+        "Author":"Stefan Ionescu",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/SrrMufrjbVspmZJSdujeEV"
+    },
+    {
+        "Product":"Astell & Kern PD5",
+        "Rating":"4.5",
+        "Dateline":"2026-10-29",
+        "URL":"https:\/\/www.techradar.com\/audio\/portable-media-players\/astell-and-kern-pd5-review",
+        "Categories":"Portable Media Players,Audio",
+        "Author":"Simon Lucas",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Q9qqFJHz5CbojfviQRaRon"
+    },
+    {
         "Product":"EasyOptOuts EasyOptOuts",
         "Rating":"4.0",
         "Dateline":"2026-10-29",
@@ -80773,14 +80791,5 @@
         "Categories":"Software,Computing",
         "Author":"Stefan Ionescu",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Q7bDxDPyH5bt5HyA5FKiPc"
-    },
-    {
-        "Product":"Hello Privacy Hello Privacy",
-        "Rating":"2.5",
-        "Dateline":"2024-07-22",
-        "URL":"https:\/\/www.techradar.com\/pro\/hello-privacy-data-removal-service-review",
-        "Categories":"Pro",
-        "Author":"Stefan Ionescu",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/SrrMufrjbVspmZJSdujeEV"
     }
 ]
