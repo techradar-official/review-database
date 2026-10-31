@@ -21375,15 +21375,6 @@
         "CMS_URL":"N\/A"
     },
     {
-        "Product":"Miro",
-        "Rating":4.5,
-        "Dateline":"2023-02-24",
-        "URL":"https:\/\/www.techradar.com\/reviews\/miro-review",
-        "Categories":"Software services,Pro",
-        "Author":"N\/A",
-        "CMS_URL":"N\/A"
-    },
-    {
         "Product":"OdinLake Ergo Plus 743",
         "Rating":4.5,
         "Dateline":"2023-02-24",
@@ -80523,6 +80514,96 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/SrrMufrjbVspmZJSdujeEV"
     },
     {
+        "Product":"Amazon Kindle 2026",
+        "Rating":"4.0",
+        "Dateline":"2026-10-27",
+        "URL":"https:\/\/www.techradar.com\/tablets\/ereaders\/amazon-kindle-2026-review",
+        "Categories":"EReaders,Tablets,Kindle",
+        "Author":"Sharmishta Sarkar",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/oN87rw9hYJrnWyhQHD2G86"
+    },
+    {
+        "Product":"Audeze Maxwell 2 ANC",
+        "Rating":"4.5",
+        "Dateline":"2026-10-27",
+        "URL":"https:\/\/www.techradar.com\/gaming\/audeze-maxwell-2-anc-review",
+        "Categories":"Gaming",
+        "Author":"Rob Dwiar",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/CBh6SAbfZTUSacgp5JgGNQ"
+    },
+    {
+        "Product":"ClearNym ClearNym",
+        "Rating":"4.0",
+        "Dateline":"2026-10-26",
+        "URL":"https:\/\/www.techradar.com\/pro\/clearnym-data-removal-service-review",
+        "Categories":"Pro",
+        "Author":"Stefan Ionescu",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/vqpm5eqKtnooV8KjQpbHxU"
+    },
+    {
+        "Product":"Oppo Pad 5 Pro",
+        "Rating":"4.5",
+        "Dateline":"2026-10-26",
+        "URL":"https:\/\/www.techradar.com\/tablets\/oppo-pad-5-pro-review",
+        "Categories":"Tablets",
+        "Author":"John McCann",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/ycpJJLU3or9n9yVeum9EZf"
+    },
+    {
+        "Product":"Mozilla Monitor",
+        "Rating":"4.5",
+        "Dateline":"2024-05-14",
+        "URL":"https:\/\/www.techradar.com\/computing\/software\/mozilla-monitor-plus-data-removal-service-review",
+        "Categories":"Software,Computing",
+        "Author":"Stefan Ionescu",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Q7bDxDPyH5bt5HyA5FKiPc"
+    },
+    {
+        "Product":"Fairphone Fairbuds 2",
+        "Rating":"4.0",
+        "Dateline":"2026-10-30",
+        "URL":"https:\/\/www.techradar.com\/audio\/earbuds-airpods\/fairphone-fairbuds-2-review",
+        "Categories":"Earbuds & Airpods,Audio,Headphones",
+        "Author":"Tom Bedford",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/UNAXuYaxHe7Aw8q5jK4Vwj"
+    },
+    {
+        "Product":"Miro Collaboration Tool",
+        "Rating":"4.5",
+        "Dateline":"2023-02-24",
+        "URL":"https:\/\/www.techradar.com\/reviews\/miro-review",
+        "Categories":"Software & Services,Pro",
+        "Author":"Stefan Ionescu",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/2FnE8v8jNS3X8vUWqaxe9P"
+    },
+    {
+        "Product":"Anker Solix S2000",
+        "Rating":"4.0",
+        "Dateline":"2026-10-30",
+        "URL":"https:\/\/www.techradar.com\/pro\/anker-solix-s2000-portable-power-station-review",
+        "Categories":"Pro,Anker",
+        "Author":"Desire Athow",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/zBo6g8DQhZAGiRbnu9trkL"
+    },
+    {
+        "Product":"Square Enix Final Fantasy Resonance",
+        "Rating":"4.5",
+        "Dateline":"2026-10-30",
+        "URL":"https:\/\/www.techradar.com\/gaming\/final-fantasy-resonance-review",
+        "Categories":"Nintendo Switch,PS5,Xbox Series X,S,PC Gaming,Gaming,Consoles & PC,Nintendo,Playstation,Xbox,Final Fantasy",
+        "Author":"Hamish Hector",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/e5vwXk3p9DvEVmED5SNAx4"
+    },
+    {
+        "Product":"HubSpot HubSpot AEO",
+        "Rating":"4.0",
+        "Dateline":"2026-10-30",
+        "URL":"https:\/\/www.techradar.com\/pro\/hubspot-aeo-review",
+        "Categories":"Pro",
+        "Author":"Pawan Singh",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/t8XqB26x2n2ycAE8EXQFPQ"
+    },
+    {
         "Product":"Astell & Kern PD5",
         "Rating":"4.5",
         "Dateline":"2026-10-29",
@@ -80746,50 +80827,5 @@
         "Categories":"Coffee Machines,Home,Small Appliances",
         "Author":"Max Langridge",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/CeFu3ZZEAAAN4ZxTKCHUtF"
-    },
-    {
-        "Product":"Amazon Kindle 2026",
-        "Rating":"4.0",
-        "Dateline":"2026-10-27",
-        "URL":"https:\/\/www.techradar.com\/tablets\/ereaders\/amazon-kindle-2026-review",
-        "Categories":"EReaders,Tablets,Kindle",
-        "Author":"Sharmishta Sarkar",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/oN87rw9hYJrnWyhQHD2G86"
-    },
-    {
-        "Product":"Audeze Maxwell 2 ANC",
-        "Rating":"4.5",
-        "Dateline":"2026-10-27",
-        "URL":"https:\/\/www.techradar.com\/gaming\/audeze-maxwell-2-anc-review",
-        "Categories":"Gaming",
-        "Author":"Rob Dwiar",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/CBh6SAbfZTUSacgp5JgGNQ"
-    },
-    {
-        "Product":"ClearNym ClearNym",
-        "Rating":"4.0",
-        "Dateline":"2026-10-26",
-        "URL":"https:\/\/www.techradar.com\/pro\/clearnym-data-removal-service-review",
-        "Categories":"Pro",
-        "Author":"Stefan Ionescu",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/vqpm5eqKtnooV8KjQpbHxU"
-    },
-    {
-        "Product":"Oppo Pad 5 Pro",
-        "Rating":"4.5",
-        "Dateline":"2026-10-26",
-        "URL":"https:\/\/www.techradar.com\/tablets\/oppo-pad-5-pro-review",
-        "Categories":"Tablets",
-        "Author":"John McCann",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/ycpJJLU3or9n9yVeum9EZf"
-    },
-    {
-        "Product":"Mozilla Monitor",
-        "Rating":"4.5",
-        "Dateline":"2024-05-14",
-        "URL":"https:\/\/www.techradar.com\/computing\/software\/mozilla-monitor-plus-data-removal-service-review",
-        "Categories":"Software,Computing",
-        "Author":"Stefan Ionescu",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Q7bDxDPyH5bt5HyA5FKiPc"
     }
 ]
