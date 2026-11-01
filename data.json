@@ -80559,6 +80559,78 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Q7bDxDPyH5bt5HyA5FKiPc"
     },
     {
+        "Product":"Bissell CrossWave Reach Plus",
+        "Rating":"4.5",
+        "Dateline":"2026-10-27",
+        "URL":"https:\/\/www.techradar.com\/home\/vacuums\/bissell-crosswave-reach-plus-review",
+        "Categories":"Vacuums,Home,Small Appliances",
+        "Author":"James Holland",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/373dyTbaYKeLSucD4s3HVK"
+    },
+    {
+        "Product":"Logitech Yeti 2",
+        "Rating":"5.0",
+        "Dateline":"2026-10-27",
+        "URL":"https:\/\/www.techradar.com\/computing\/mics-speakers\/logitech-yeti-2",
+        "Categories":"Mics & Speakers,Gaming Accessories,Computing,Peripherals & Accessories,Gaming,Logitech",
+        "Author":"Alex Blake",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/sdia2VoBVprwTCFENevZiY"
+    },
+    {
+        "Product":"IDX Complete",
+        "Rating":"3.5",
+        "Dateline":"2026-10-27",
+        "URL":"https:\/\/www.techradar.com\/pro\/idx-complete-identity-theft-protection-review",
+        "Categories":"Pro",
+        "Author":"Stefan Ionescu",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/YqQSMieYy8VUU2nsUCk8Yh"
+    },
+    {
+        "Product":"De'Longhi Magnifica Start ECAM220.61.W",
+        "Rating":"4.0",
+        "Dateline":"2026-10-27",
+        "URL":"https:\/\/www.techradar.com\/home\/coffee-machines\/delonghi-magnifica-start-review",
+        "Categories":"Coffee Machines,Home,Small Appliances",
+        "Author":"Max Langridge",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/CeFu3ZZEAAAN4ZxTKCHUtF"
+    },
+    {
+        "Product":"Dreame Ecceluxe Go",
+        "Rating":"4.5",
+        "Dateline":"2026-11-01",
+        "URL":"https:\/\/www.techradar.com\/home\/coffee-machines\/dreame-ecceluxe-go-review",
+        "Categories":"Coffee Machines,Home,Small Appliances,Dreame",
+        "Author":"Cat Ellis",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/UFBvfQBtXAWrVke3cWHScg"
+    },
+    {
+        "Product":"Jabra Evolve3 65 Flex",
+        "Rating":"4.0",
+        "Dateline":"2026-11-01",
+        "URL":"https:\/\/www.techradar.com\/pro\/jabra-evolve3-65-flex-business-headset-review",
+        "Categories":"Pro",
+        "Author":"Mark Pickavance",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/MdERu2TJmodzyVSSqscVFX"
+    },
+    {
+        "Product":"ELEGOO M1 Ultra",
+        "Rating":"4.5",
+        "Dateline":"2026-10-31",
+        "URL":"https:\/\/www.techradar.com\/pro\/elegoo-m1-ultra-3d-scanner-review",
+        "Categories":"Pro",
+        "Author":"Alastair Jennings",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/pnf9zy2ZRNGrXhQ7foxrbi"
+    },
+    {
+        "Product":"Apple AirPods Gen 5 with Wireless Charging",
+        "Rating":"4.5",
+        "Dateline":"2026-10-31",
+        "URL":"https:\/\/www.techradar.com\/audio\/earbuds-airpods\/apple-airpods-5-with-wireless-charging-review",
+        "Categories":"Earbuds & Airpods,Audio,Headphones,Apple",
+        "Author":"Becky Scarrott",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/LMPX2VHJcAo6f972bdExpB"
+    },
+    {
         "Product":"Fairphone Fairbuds 2",
         "Rating":"4.0",
         "Dateline":"2026-10-30",
@@ -80791,41 +80863,5 @@
         "Categories":"Gaming",
         "Author":"James Pickard",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/PxNAStexLLTHyMfEGidkpb"
-    },
-    {
-        "Product":"Bissell CrossWave Reach Plus",
-        "Rating":"4.5",
-        "Dateline":"2026-10-27",
-        "URL":"https:\/\/www.techradar.com\/home\/vacuums\/bissell-crosswave-reach-plus-review",
-        "Categories":"Vacuums,Home,Small Appliances",
-        "Author":"James Holland",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/373dyTbaYKeLSucD4s3HVK"
-    },
-    {
-        "Product":"Logitech Yeti 2",
-        "Rating":"5.0",
-        "Dateline":"2026-10-27",
-        "URL":"https:\/\/www.techradar.com\/computing\/mics-speakers\/logitech-yeti-2",
-        "Categories":"Mics & Speakers,Gaming Accessories,Computing,Peripherals & Accessories,Gaming,Logitech",
-        "Author":"Alex Blake",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/sdia2VoBVprwTCFENevZiY"
-    },
-    {
-        "Product":"IDX Complete",
-        "Rating":"3.5",
-        "Dateline":"2026-10-27",
-        "URL":"https:\/\/www.techradar.com\/pro\/idx-complete-identity-theft-protection-review",
-        "Categories":"Pro",
-        "Author":"Stefan Ionescu",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/YqQSMieYy8VUU2nsUCk8Yh"
-    },
-    {
-        "Product":"De'Longhi Magnifica Start ECAM220.61.W",
-        "Rating":"4.0",
-        "Dateline":"2026-10-27",
-        "URL":"https:\/\/www.techradar.com\/home\/coffee-machines\/delonghi-magnifica-start-review",
-        "Categories":"Coffee Machines,Home,Small Appliances",
-        "Author":"Max Langridge",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/CeFu3ZZEAAAN4ZxTKCHUtF"
     }
 ]
