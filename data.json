@@ -35928,15 +35928,6 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/2eL3ipPze9Df4ybfQa9Zg8"
     },
     {
-        "Product":"Liquid Web",
-        "Rating":4.0,
-        "Dateline":"2025-05-05",
-        "URL":"https:\/\/www.techradar.com\/reviews\/liquid-web",
-        "Categories":"Website hosting,Pro",
-        "Author":"James Capell",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/CrbxSETicW59Sqh9gYrYV3"
-    },
-    {
         "Product":"De\u2019Longhi Magnifica Evo Next espresso machine",
         "Rating":4.0,
         "Dateline":"2025-05-05",
@@ -80595,6 +80586,60 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/CeFu3ZZEAAAN4ZxTKCHUtF"
     },
     {
+        "Product":"PrivacyHawk PrivacyHawk",
+        "Rating":"3.5",
+        "Dateline":"2026-10-27",
+        "URL":"https:\/\/www.techradar.com\/pro\/privacyhawk-data-removal-service-review",
+        "Categories":"Pro",
+        "Author":"Stefan Ionescu",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/BwQuLTzNggpuoBcMXPvBse"
+    },
+    {
+        "Product":"Sennheiser Accentum Clip",
+        "Rating":"4.0",
+        "Dateline":"2026-10-27",
+        "URL":"https:\/\/www.techradar.com\/audio\/earbuds-airpods\/sennheiser-accentum-clip-review",
+        "Categories":"Earbuds & Airpods,Audio,Headphones",
+        "Author":"Simon Cocks",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/EQvkD9pBviyFyZ2mi9xDhK"
+    },
+    {
+        "Product":"S-Game Phantom Blade Zero",
+        "Rating":"4.0",
+        "Dateline":"2026-10-27",
+        "URL":"https:\/\/www.techradar.com\/gaming\/phantom-blade-zero-review",
+        "Categories":"Gaming",
+        "Author":"James Pickard",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/PxNAStexLLTHyMfEGidkpb"
+    },
+    {
+        "Product":"Liquid Web Cloud VPS Hosting",
+        "Rating":"4.0",
+        "Dateline":"2021-08-29",
+        "URL":"https:\/\/www.techradar.com\/reviews\/liquid-web",
+        "Categories":"Website Hosting,Pro",
+        "Author":"James Capell",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/CrbxSETicW59Sqh9gYrYV3"
+    },
+    {
+        "Product":"Bandai Namco Tales of Eternia Remastered",
+        "Rating":"4.0",
+        "Dateline":"2026-11-01",
+        "URL":"https:\/\/www.techradar.com\/gaming\/tales-of-eternia-remastered-review",
+        "Categories":"Gaming",
+        "Author":"Harry Padoan",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/hmBtRuVcUktD3Ao3BAnWfa"
+    },
+    {
+        "Product":"Meaco Sefte Tower Fan",
+        "Rating":"4.0",
+        "Dateline":"2026-11-01",
+        "URL":"https:\/\/www.techradar.com\/home\/small-appliances\/meaco-sefte-tower-fan-19-inch-review",
+        "Categories":"Small Appliances,Home",
+        "Author":"Harry Padoan",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/AzZG65uBCwNMBX6eTaMMqd"
+    },
+    {
         "Product":"Dreame Ecceluxe Go",
         "Rating":"4.5",
         "Dateline":"2026-11-01",
@@ -80836,32 +80881,5 @@
         "Categories":"Pro",
         "Author":"Stefan Ionescu",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/uVnNQC6wdtvudJD87jkR6L"
-    },
-    {
-        "Product":"PrivacyHawk PrivacyHawk",
-        "Rating":"3.5",
-        "Dateline":"2026-10-27",
-        "URL":"https:\/\/www.techradar.com\/pro\/privacyhawk-data-removal-service-review",
-        "Categories":"Pro",
-        "Author":"Stefan Ionescu",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/BwQuLTzNggpuoBcMXPvBse"
-    },
-    {
-        "Product":"Sennheiser Accentum Clip",
-        "Rating":"4.0",
-        "Dateline":"2026-10-27",
-        "URL":"https:\/\/www.techradar.com\/audio\/earbuds-airpods\/sennheiser-accentum-clip-review",
-        "Categories":"Earbuds & Airpods,Audio,Headphones",
-        "Author":"Simon Cocks",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/EQvkD9pBviyFyZ2mi9xDhK"
-    },
-    {
-        "Product":"S-Game Phantom Blade Zero",
-        "Rating":"4.0",
-        "Dateline":"2026-10-27",
-        "URL":"https:\/\/www.techradar.com\/gaming\/phantom-blade-zero-review",
-        "Categories":"Gaming",
-        "Author":"James Pickard",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/PxNAStexLLTHyMfEGidkpb"
     }
 ]
