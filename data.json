@@ -59733,15 +59733,6 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/TK8wgSWKYVn6aTwWPEMcgH"
     },
     {
-        "Product":"GreenGeeks",
-        "Rating":3.5,
-        "Dateline":"2025-11-26",
-        "URL":"https:\/\/www.techradar.com\/reviews\/greengeeks",
-        "Categories":"Website hosting,Pro",
-        "Author":"Timothy Shim",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Xuns7ACCL5pq7cps9zPDcM"
-    },
-    {
         "Product":"Call of Duty: Black Ops 7",
         "Rating":3.5,
         "Dateline":"2025-11-19",
@@ -80613,6 +80604,159 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/PxNAStexLLTHyMfEGidkpb"
     },
     {
+        "Product":"Acer Swift Air 14",
+        "Rating":"4.5",
+        "Dateline":"2026-10-28",
+        "URL":"https:\/\/www.techradar.com\/computing\/laptops\/acer-swift-air-14",
+        "Categories":"Laptops,Windows Laptops,Computing,Acer",
+        "Author":"James Holland",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/qnkuTRCmKuifVqaX2gXqM7"
+    },
+    {
+        "Product":"AGM Pad P3",
+        "Rating":"3.5",
+        "Dateline":"2026-10-28",
+        "URL":"https:\/\/www.techradar.com\/pro\/phone-communications\/agm-pad-p3-rugged-tablet-review",
+        "Categories":"Phone & Communications,Pro",
+        "Author":"Mark Pickavance",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/hmVmJruJof8aEDWh3Y8GwJ"
+    },
+    {
+        "Product":"Asus Asus ProArt P16 RTX Spark",
+        "Rating":"4.0",
+        "Dateline":"2026-10-28",
+        "URL":"https:\/\/www.techradar.com\/computing\/windows-laptops\/asus-proart-p16-rtx-spark",
+        "Categories":"Windows Laptops,Computing,Laptops,Nvidia",
+        "Author":"Josh Russell",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/T5ayaBTuq2w9WrKEZfHNme"
+    },
+    {
+        "Product":"Nitro PDF Pro",
+        "Rating":"4.0",
+        "Dateline":"2026-10-28",
+        "URL":"https:\/\/www.techradar.com\/pro\/software-services\/nitro-pdf-review",
+        "Categories":"Software & Services,Pro",
+        "Author":"Steve Paris",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/AHs4F9XaGnSmhBodQF8Sjj"
+    },
+    {
+        "Product":"Cyberlink PowerDirector 365",
+        "Rating":"4.0",
+        "Dateline":"2020-08-13",
+        "URL":"https:\/\/www.techradar.com\/reviews\/cyberlink-powerdirector-365",
+        "Categories":"Software & Services,Pro",
+        "Author":"Steve Paris",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/9bo6v5csomWqVicYMBhqsY"
+    },
+    {
+        "Product":"Hostinger Business Email",
+        "Rating":"4.0",
+        "Dateline":"2024-07-22",
+        "URL":"https:\/\/www.techradar.com\/pro\/hostinger-email-review",
+        "Categories":"Pro",
+        "Author":"Pawan Singh",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/uvbUbzEfo9BreboCDf2cDi"
+    },
+    {
+        "Product":"Shockbyte",
+        "Rating":"4.5",
+        "Dateline":"2024-01-26",
+        "URL":"https:\/\/www.techradar.com\/reviews\/shockbyte",
+        "Categories":"Website Hosting,Pro,Minecraft",
+        "Author":"Mirza Bahic",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/MjNgWMbf9jK2D7ZHT9L8Fo"
+    },
+    {
+        "Product":"Planet Zoo 2 Planet Zoo 2",
+        "Rating":"4.5",
+        "Dateline":"2026-10-28",
+        "URL":"https:\/\/www.techradar.com\/gaming\/planet-zoo-2-review",
+        "Categories":"Consoles & PC,Gaming",
+        "Author":"Josh Russell",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/ghxaNsAwFRBcjSLXYJGrhU"
+    },
+    {
+        "Product":"Malwarebytes Plus",
+        "Rating":"4.0",
+        "Dateline":"2026-10-28",
+        "URL":"https:\/\/www.techradar.com\/pro\/malwarebytes-personal-data-remover-review",
+        "Categories":"Pro",
+        "Author":"Stefan Ionescu",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/uVnNQC6wdtvudJD87jkR6L"
+    },
+    {
+        "Product":"GMKtec EVO-X5 Pro",
+        "Rating":"4.5",
+        "Dateline":"2026-11-04",
+        "URL":"https:\/\/www.techradar.com\/pro\/gmktec-evo-x5-pro-mini-pc-review",
+        "Categories":"Pro",
+        "Author":"Alastair Jennings",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/UHbrqnXWJuHWJ9TTsvUGHG"
+    },
+    {
+        "Product":"GreenGeeks Web hosting",
+        "Rating":"3.5",
+        "Dateline":"2020-09-03",
+        "URL":"https:\/\/www.techradar.com\/reviews\/greengeeks",
+        "Categories":"Website Hosting,Pro",
+        "Author":"Mirza Bahic",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Xuns7ACCL5pq7cps9zPDcM"
+    },
+    {
+        "Product":"SteelSeries Rival Pro",
+        "Rating":"4.5",
+        "Dateline":"2026-11-04",
+        "URL":"https:\/\/www.techradar.com\/computing\/mice\/steelseries-rival-pro-review",
+        "Categories":"Mice,Gaming Accessories,Computing,Peripherals & Accessories,Gaming",
+        "Author":"Harry Padoan",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/sKZXWUmzKxjx79NwisyBom"
+    },
+    {
+        "Product":"Hisense UR9 RGB Mini-LED TV",
+        "Rating":"4.5",
+        "Dateline":"2026-11-04",
+        "URL":"https:\/\/www.techradar.com\/televisions\/hisense-ur9-review",
+        "Categories":"Televisions,Hisense",
+        "Author":"James Holland",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/xBcJggNSwpA4oA7ovGvdnS"
+    },
+    {
+        "Product":"Wharfedale Denton 1S",
+        "Rating":"4.5",
+        "Dateline":"2026-11-03",
+        "URL":"https:\/\/www.techradar.com\/audio\/speakers\/wharfedale-denton-1s-review",
+        "Categories":"Speakers,Audio,Hi Fi",
+        "Author":"Simon Lucas",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/4UVT3oHGS4xCUGQgfzDU5b"
+    },
+    {
+        "Product":"Bambu Lab H3C",
+        "Rating":"5.0",
+        "Dateline":"2026-11-03",
+        "URL":"https:\/\/www.techradar.com\/pro\/bambu-lab-h3c-3d-printer-review",
+        "Categories":"Pro",
+        "Author":"Alastair Jennings",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/hHQCvLeAniKNRqYHiJna27"
+    },
+    {
+        "Product":"Apple iPad Mini (2026)",
+        "Rating":"4.5",
+        "Dateline":"2026-11-03",
+        "URL":"https:\/\/www.techradar.com\/tablets\/ipad-mini\/ipad-mini-a20-pro-review",
+        "Categories":"IPad Mini,IPad,Tablets,Apple",
+        "Author":"Jacob Krol",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/ADFkZt5JMGNxLgsFELqTFn"
+    },
+    {
+        "Product":"RedMagic 12 Pro",
+        "Rating":"3.5",
+        "Dateline":"2026-11-03",
+        "URL":"https:\/\/www.techradar.com\/phones\/redmagic-12-pro-review",
+        "Categories":"Phones",
+        "Author":"Jon Mundy",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/EP7XMnsy3ao5HDXxcaPVcg"
+    },
+    {
         "Product":"Liquid Web Cloud VPS Hosting",
         "Rating":"4.0",
         "Dateline":"2021-08-29",
@@ -80800,86 +80944,5 @@
         "Categories":"Pro",
         "Author":"Steve Clark",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/957oRXihsNNsBWtZdnuNiJ"
-    },
-    {
-        "Product":"Acer Swift Air 14",
-        "Rating":"4.5",
-        "Dateline":"2026-10-28",
-        "URL":"https:\/\/www.techradar.com\/computing\/laptops\/acer-swift-air-14",
-        "Categories":"Laptops,Windows Laptops,Computing,Acer",
-        "Author":"James Holland",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/qnkuTRCmKuifVqaX2gXqM7"
-    },
-    {
-        "Product":"AGM Pad P3",
-        "Rating":"3.5",
-        "Dateline":"2026-10-28",
-        "URL":"https:\/\/www.techradar.com\/pro\/phone-communications\/agm-pad-p3-rugged-tablet-review",
-        "Categories":"Phone & Communications,Pro",
-        "Author":"Mark Pickavance",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/hmVmJruJof8aEDWh3Y8GwJ"
-    },
-    {
-        "Product":"Asus Asus ProArt P16 RTX Spark",
-        "Rating":"4.0",
-        "Dateline":"2026-10-28",
-        "URL":"https:\/\/www.techradar.com\/computing\/windows-laptops\/asus-proart-p16-rtx-spark",
-        "Categories":"Windows Laptops,Computing,Laptops,Nvidia",
-        "Author":"Josh Russell",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/T5ayaBTuq2w9WrKEZfHNme"
-    },
-    {
-        "Product":"Nitro PDF Pro",
-        "Rating":"4.0",
-        "Dateline":"2026-10-28",
-        "URL":"https:\/\/www.techradar.com\/pro\/software-services\/nitro-pdf-review",
-        "Categories":"Software & Services,Pro",
-        "Author":"Steve Paris",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/AHs4F9XaGnSmhBodQF8Sjj"
-    },
-    {
-        "Product":"Cyberlink PowerDirector 365",
-        "Rating":"4.0",
-        "Dateline":"2020-08-13",
-        "URL":"https:\/\/www.techradar.com\/reviews\/cyberlink-powerdirector-365",
-        "Categories":"Software & Services,Pro",
-        "Author":"Steve Paris",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/9bo6v5csomWqVicYMBhqsY"
-    },
-    {
-        "Product":"Hostinger Business Email",
-        "Rating":"4.0",
-        "Dateline":"2024-07-22",
-        "URL":"https:\/\/www.techradar.com\/pro\/hostinger-email-review",
-        "Categories":"Pro",
-        "Author":"Pawan Singh",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/uvbUbzEfo9BreboCDf2cDi"
-    },
-    {
-        "Product":"Shockbyte",
-        "Rating":"4.5",
-        "Dateline":"2024-01-26",
-        "URL":"https:\/\/www.techradar.com\/reviews\/shockbyte",
-        "Categories":"Website Hosting,Pro,Minecraft",
-        "Author":"Mirza Bahic",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/MjNgWMbf9jK2D7ZHT9L8Fo"
-    },
-    {
-        "Product":"Planet Zoo 2 Planet Zoo 2",
-        "Rating":"4.5",
-        "Dateline":"2026-10-28",
-        "URL":"https:\/\/www.techradar.com\/gaming\/planet-zoo-2-review",
-        "Categories":"Consoles & PC,Gaming",
-        "Author":"Josh Russell",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/ghxaNsAwFRBcjSLXYJGrhU"
-    },
-    {
-        "Product":"Malwarebytes Plus",
-        "Rating":"4.0",
-        "Dateline":"2026-10-28",
-        "URL":"https:\/\/www.techradar.com\/pro\/malwarebytes-personal-data-remover-review",
-        "Categories":"Pro",
-        "Author":"Stefan Ionescu",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/uVnNQC6wdtvudJD87jkR6L"
     }
 ]
