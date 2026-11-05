@@ -79632,15 +79632,6 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/nxzUx2Ft4PSwTczUBY6fsY"
     },
     {
-        "Product":"NordVPN",
-        "Rating":"4.5",
-        "Dateline":"2022-10-24",
-        "URL":"https:\/\/www.techradar.com\/reviews\/nordvpn",
-        "Categories":"VPN Services,VPN,NordVPN",
-        "Author":"Rob Dunne,Mike Williams",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/CiUAgVWMqnW3QP2VLGUypj"
-    },
-    {
         "Product":"Ugreen NASync DXP8800 Ultra",
         "Rating":"4.0",
         "Dateline":"2026-10-10",
@@ -80685,6 +80676,105 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/uVnNQC6wdtvudJD87jkR6L"
     },
     {
+        "Product":"Wharfedale Denton 1S",
+        "Rating":"4.5",
+        "Dateline":"2026-11-03",
+        "URL":"https:\/\/www.techradar.com\/audio\/speakers\/wharfedale-denton-1s-review",
+        "Categories":"Speakers,Audio,Hi Fi",
+        "Author":"Simon Lucas",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/4UVT3oHGS4xCUGQgfzDU5b"
+    },
+    {
+        "Product":"Sony Bravia Theatre Trio",
+        "Rating":"5.0",
+        "Dateline":"2026-10-28",
+        "URL":"https:\/\/www.techradar.com\/televisions\/soundbars\/sony-bravia-theater-trio-review",
+        "Categories":"Soundbars,Televisions,Sony",
+        "Author":"John Archer",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/a7Qa7gJgEu4wBkyoHTaDVK"
+    },
+    {
+        "Product":"Huawei Freebuds Neo",
+        "Rating":"4.0",
+        "Dateline":"2026-10-28",
+        "URL":"https:\/\/www.techradar.com\/audio\/earbuds-airpods\/huawei-freebuds-neo-review",
+        "Categories":"Earbuds & Airpods,Audio,Headphones",
+        "Author":"Tom Bedford",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/dv5kxwqEqsC9JJFHJ55VXC"
+    },
+    {
+        "Product":"DuckDuckGo Duck.ai",
+        "Rating":"4.0",
+        "Dateline":"2026-10-28",
+        "URL":"https:\/\/www.techradar.com\/pro\/duckduckgo-privacy-pro-data-removal-service-review",
+        "Categories":"Pro",
+        "Author":"Stefan Ionescu",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/aiyXPRmM86ccwtrU8g4qBF"
+    },
+    {
+        "Product":"LiberNovo Maxis",
+        "Rating":"4.5",
+        "Dateline":"2026-10-28",
+        "URL":"https:\/\/www.techradar.com\/pro\/libernovo-maxis-office-chair-review",
+        "Categories":"Pro",
+        "Author":"Steve Clark",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/957oRXihsNNsBWtZdnuNiJ"
+    },
+    {
+        "Product":"Redmi Note 15 Pro Plus",
+        "Rating":"4.0",
+        "Dateline":"2026-11-05",
+        "URL":"https:\/\/www.techradar.com\/phones\/redmi-phones\/redmi-note-15-pro-plus-5g-review",
+        "Categories":"Redmi Phones,Android,Xiaomi Phones,Phones",
+        "Author":"Nirave Gondhia",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/FtYoigVccCpK6nB2H5QZTG"
+    },
+    {
+        "Product":"Steelseries Rival Pro Mini",
+        "Rating":"4.5",
+        "Dateline":"2026-11-04",
+        "URL":"https:\/\/www.techradar.com\/computing\/mice\/steelseries-rival-pro-mini-review",
+        "Categories":"Mice,Computing,Peripherals & Accessories",
+        "Author":"Harry Padoan",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/kUPCeXXtnzwvZKaoJNV3fe"
+    },
+    {
+        "Product":"Leak Trustream",
+        "Rating":"3.5",
+        "Dateline":"2026-11-04",
+        "URL":"https:\/\/www.techradar.com\/audio\/audio-streaming\/leak-trustream-may-look-like-a-1960s-radio-but-its-thoroughly-modern-and-gifted-network-music-player-albeit-one-that-sounds-a-tad-toothy-at-the-top",
+        "Categories":"Audio Streaming,Audio",
+        "Author":"Simon Lucas",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/NCvQpmd86xwzEUVs2qvwDW"
+    },
+    {
+        "Product":"NordVPN",
+        "Rating":"4.5",
+        "Dateline":"2022-10-24",
+        "URL":"https:\/\/www.techradar.com\/reviews\/nordvpn",
+        "Categories":"VPN Services,VPN,NordVPN",
+        "Author":"Rob Dunne,Mike Williams",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/CiUAgVWMqnW3QP2VLGUypj"
+    },
+    {
+        "Product":"Dyson W1 PencilWash",
+        "Rating":"4.5",
+        "Dateline":"2026-11-04",
+        "URL":"https:\/\/www.techradar.com\/home\/vacuums\/dyson-w1-pencilwash-review",
+        "Categories":"Vacuums,Home,Small Appliances,Dyson",
+        "Author":"Cat Ellis",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/AmDoLsFAuKpra2wqrjyomk"
+    },
+    {
+        "Product":"Nintendo Switch 2 Zelda Ocarina of Time",
+        "Rating":"5.0",
+        "Dateline":"2026-11-04",
+        "URL":"https:\/\/www.techradar.com\/gaming\/the-legend-of-zelda-ocarina-of-time-review",
+        "Categories":"Gaming,Legend of Zelda",
+        "Author":"Josephine Watson",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/QKikrEjR2LTWyHoAiJtw2A"
+    },
+    {
         "Product":"GMKtec EVO-X5 Pro",
         "Rating":"4.5",
         "Dateline":"2026-11-04",
@@ -80719,15 +80809,6 @@
         "Categories":"Televisions,Hisense",
         "Author":"James Holland",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/xBcJggNSwpA4oA7ovGvdnS"
-    },
-    {
-        "Product":"Wharfedale Denton 1S",
-        "Rating":"4.5",
-        "Dateline":"2026-11-03",
-        "URL":"https:\/\/www.techradar.com\/audio\/speakers\/wharfedale-denton-1s-review",
-        "Categories":"Speakers,Audio,Hi Fi",
-        "Author":"Simon Lucas",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/4UVT3oHGS4xCUGQgfzDU5b"
     },
     {
         "Product":"Bambu Lab H3C",
@@ -80908,41 +80989,5 @@
         "Categories":"Mice,Computing,Peripherals & Accessories",
         "Author":"Lewis Maddison",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/8eSdrFQmBBFep7BAKEkmP9"
-    },
-    {
-        "Product":"Sony Bravia Theatre Trio",
-        "Rating":"5.0",
-        "Dateline":"2026-10-28",
-        "URL":"https:\/\/www.techradar.com\/televisions\/soundbars\/sony-bravia-theater-trio-review",
-        "Categories":"Soundbars,Televisions,Sony",
-        "Author":"John Archer",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/a7Qa7gJgEu4wBkyoHTaDVK"
-    },
-    {
-        "Product":"Huawei Freebuds Neo",
-        "Rating":"4.0",
-        "Dateline":"2026-10-28",
-        "URL":"https:\/\/www.techradar.com\/audio\/earbuds-airpods\/huawei-freebuds-neo-review",
-        "Categories":"Earbuds & Airpods,Audio,Headphones",
-        "Author":"Tom Bedford",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/dv5kxwqEqsC9JJFHJ55VXC"
-    },
-    {
-        "Product":"DuckDuckGo Duck.ai",
-        "Rating":"4.0",
-        "Dateline":"2026-10-28",
-        "URL":"https:\/\/www.techradar.com\/pro\/duckduckgo-privacy-pro-data-removal-service-review",
-        "Categories":"Pro",
-        "Author":"Stefan Ionescu",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/aiyXPRmM86ccwtrU8g4qBF"
-    },
-    {
-        "Product":"LiberNovo Maxis",
-        "Rating":"4.5",
-        "Dateline":"2026-10-28",
-        "URL":"https:\/\/www.techradar.com\/pro\/libernovo-maxis-office-chair-review",
-        "Categories":"Pro",
-        "Author":"Steve Clark",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/957oRXihsNNsBWtZdnuNiJ"
     }
 ]
