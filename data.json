@@ -80676,15 +80676,6 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/uVnNQC6wdtvudJD87jkR6L"
     },
     {
-        "Product":"Wharfedale Denton 1S",
-        "Rating":"4.5",
-        "Dateline":"2026-11-03",
-        "URL":"https:\/\/www.techradar.com\/audio\/speakers\/wharfedale-denton-1s-review",
-        "Categories":"Speakers,Audio,Hi Fi",
-        "Author":"Simon Lucas",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/4UVT3oHGS4xCUGQgfzDU5b"
-    },
-    {
         "Product":"Sony Bravia Theatre Trio",
         "Rating":"5.0",
         "Dateline":"2026-10-28",
@@ -80719,6 +80710,123 @@
         "Categories":"Pro",
         "Author":"Steve Clark",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/957oRXihsNNsBWtZdnuNiJ"
+    },
+    {
+        "Product":"Square Enix Final Fantasy Resonance",
+        "Rating":"4.5",
+        "Dateline":"2026-10-30",
+        "URL":"https:\/\/www.techradar.com\/gaming\/final-fantasy-resonance-review",
+        "Categories":"Nintendo Switch,PS5,Xbox Series X,S,PC Gaming,Gaming,Consoles & PC,Nintendo,Playstation,Xbox,Final Fantasy",
+        "Author":"Hamish Hector",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/e5vwXk3p9DvEVmED5SNAx4"
+    },
+    {
+        "Product":"HubSpot HubSpot AEO",
+        "Rating":"4.0",
+        "Dateline":"2026-10-30",
+        "URL":"https:\/\/www.techradar.com\/pro\/hubspot-aeo-review",
+        "Categories":"Pro",
+        "Author":"Pawan Singh",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/t8XqB26x2n2ycAE8EXQFPQ"
+    },
+    {
+        "Product":"Astell & Kern PD5",
+        "Rating":"4.5",
+        "Dateline":"2026-10-29",
+        "URL":"https:\/\/www.techradar.com\/audio\/portable-media-players\/astell-and-kern-pd5-review",
+        "Categories":"Portable Media Players,Audio",
+        "Author":"Simon Lucas",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Q9qqFJHz5CbojfviQRaRon"
+    },
+    {
+        "Product":"EasyOptOuts EasyOptOuts",
+        "Rating":"4.0",
+        "Dateline":"2026-10-29",
+        "URL":"https:\/\/www.techradar.com\/pro\/easyoptouts-data-removal-service-review",
+        "Categories":"Pro",
+        "Author":"Stefan Ionescu",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/twroXCN5f7nWDmswniv7VY"
+    },
+    {
+        "Product":"xTool X1",
+        "Rating":"4.5",
+        "Dateline":"2026-10-29",
+        "URL":"https:\/\/www.techradar.com\/pro\/xtool-x1-laser-cutter-engraver-review",
+        "Categories":"Pro",
+        "Author":"Alastair Jennings",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/TY59YNoBwpX2FTEqJWhCvZ"
+    },
+    {
+        "Product":"Hisense XR10",
+        "Rating":"4.5",
+        "Dateline":"2026-10-29",
+        "URL":"https:\/\/www.techradar.com\/televisions\/projectors\/i-reviewed-the-hisense-xr10-4k-projector-and-it-wowed-me-with-beautifully-colorful-boldly-dynamic-footage-in-both-bright-and-dark-rooms",
+        "Categories":"Projectors,Televisions,Home Theater,Hisense",
+        "Author":"Mark Knapp",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/8VcNnG6tXWYy3ZtntF55DS"
+    },
+    {
+        "Product":"SteelSeries Sensei Pro Mini",
+        "Rating":"4.0",
+        "Dateline":"2026-10-29",
+        "URL":"https:\/\/www.techradar.com\/computing\/mice\/steelseries-sensei-pro-mini-review",
+        "Categories":"Mice,Computing,Peripherals & Accessories",
+        "Author":"Lewis Maddison",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/8eSdrFQmBBFep7BAKEkmP9"
+    },
+    {
+        "Product":"JMGO N3 Ultimate",
+        "Rating":"4.0",
+        "Dateline":"2026-11-06",
+        "URL":"https:\/\/www.techradar.com\/televisions\/projectors\/jmgo-n3-ultimate-review",
+        "Categories":"Projectors,Televisions,Home Theater",
+        "Author":"Mark Knapp",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/tA8QaEoEdmkfyzJjoCK7Qm"
+    },
+    {
+        "Product":"Nintendo Switch 2 Stellar Blade",
+        "Rating":"3.5",
+        "Dateline":"2026-11-05",
+        "URL":"https:\/\/www.techradar.com\/gaming\/stellar-blade-for-nintendo-switch-2-review",
+        "Categories":"Gaming",
+        "Author":"Harry Padoan",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/vgSrahXMowietAVCTrUdwS"
+    },
+    {
+        "Product":"Razer Basilisk V4 Pro",
+        "Rating":"4.0",
+        "Dateline":"2026-11-05",
+        "URL":"https:\/\/www.techradar.com\/computing\/mice\/razer-basilisk-v4-pro",
+        "Categories":"Mice,Gaming Accessories,Computing,Peripherals & Accessories,Gaming,Razer",
+        "Author":"Alex Blake",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/qXZQnoTrPXhZMPMfgv3M99"
+    },
+    {
+        "Product":"Apple iMac M6",
+        "Rating":"4.5",
+        "Dateline":"2026-11-05",
+        "URL":"https:\/\/www.techradar.com\/computing\/macs\/ive-tested-apples-new-m6-imac-and-its-still-the-best-all-in-one-desktop-you-can-buy",
+        "Categories":"Macs,Computing,Desktop PCs,Apple",
+        "Author":"Jacob Krol",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/QsMJywdh2wPF4PhehxgNpb"
+    },
+    {
+        "Product":"Apple MacBook Pro 16in with PROLED XDR Display",
+        "Rating":"4.5",
+        "Dateline":"2026-11-05",
+        "URL":"https:\/\/www.techradar.com\/computing\/macbooks\/apple-macbook-pro-with-proled-xdr-display-16-inch-2026-m5-max",
+        "Categories":"Macbooks,Laptops,Computing",
+        "Author":"Matt Hanson",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/3KMSCZ9Ac8Lap2R73e2Hyh"
+    },
+    {
+        "Product":"Apple MacBook Pro 14-inch M6",
+        "Rating":"4.0",
+        "Dateline":"2026-11-05",
+        "URL":"https:\/\/www.techradar.com\/computing\/macbooks\/the-new-m6-macbook-pro-is-a-speed-boost-not-a-reinvention-and-im-fine-with-that",
+        "Categories":"Macbooks,Computing,Laptops,Apple",
+        "Author":"Jacob Krol",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/ET6ZpD7KCtP8e8PbF3wNCW"
     },
     {
         "Product":"Redmi Note 15 Pro Plus",
@@ -80809,6 +80917,15 @@
         "Categories":"Televisions,Hisense",
         "Author":"James Holland",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/xBcJggNSwpA4oA7ovGvdnS"
+    },
+    {
+        "Product":"Wharfedale Denton 1S",
+        "Rating":"4.5",
+        "Dateline":"2026-11-03",
+        "URL":"https:\/\/www.techradar.com\/audio\/speakers\/wharfedale-denton-1s-review",
+        "Categories":"Speakers,Audio,Hi Fi",
+        "Author":"Simon Lucas",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/4UVT3oHGS4xCUGQgfzDU5b"
     },
     {
         "Product":"Bambu Lab H3C",
@@ -80926,68 +81043,5 @@
         "Categories":"Pro,Anker",
         "Author":"Desire Athow",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/zBo6g8DQhZAGiRbnu9trkL"
-    },
-    {
-        "Product":"Square Enix Final Fantasy Resonance",
-        "Rating":"4.5",
-        "Dateline":"2026-10-30",
-        "URL":"https:\/\/www.techradar.com\/gaming\/final-fantasy-resonance-review",
-        "Categories":"Nintendo Switch,PS5,Xbox Series X,S,PC Gaming,Gaming,Consoles & PC,Nintendo,Playstation,Xbox,Final Fantasy",
-        "Author":"Hamish Hector",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/e5vwXk3p9DvEVmED5SNAx4"
-    },
-    {
-        "Product":"HubSpot HubSpot AEO",
-        "Rating":"4.0",
-        "Dateline":"2026-10-30",
-        "URL":"https:\/\/www.techradar.com\/pro\/hubspot-aeo-review",
-        "Categories":"Pro",
-        "Author":"Pawan Singh",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/t8XqB26x2n2ycAE8EXQFPQ"
-    },
-    {
-        "Product":"Astell & Kern PD5",
-        "Rating":"4.5",
-        "Dateline":"2026-10-29",
-        "URL":"https:\/\/www.techradar.com\/audio\/portable-media-players\/astell-and-kern-pd5-review",
-        "Categories":"Portable Media Players,Audio",
-        "Author":"Simon Lucas",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Q9qqFJHz5CbojfviQRaRon"
-    },
-    {
-        "Product":"EasyOptOuts EasyOptOuts",
-        "Rating":"4.0",
-        "Dateline":"2026-10-29",
-        "URL":"https:\/\/www.techradar.com\/pro\/easyoptouts-data-removal-service-review",
-        "Categories":"Pro",
-        "Author":"Stefan Ionescu",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/twroXCN5f7nWDmswniv7VY"
-    },
-    {
-        "Product":"xTool X1",
-        "Rating":"4.5",
-        "Dateline":"2026-10-29",
-        "URL":"https:\/\/www.techradar.com\/pro\/xtool-x1-laser-cutter-engraver-review",
-        "Categories":"Pro",
-        "Author":"Alastair Jennings",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/TY59YNoBwpX2FTEqJWhCvZ"
-    },
-    {
-        "Product":"Hisense XR10",
-        "Rating":"4.5",
-        "Dateline":"2026-10-29",
-        "URL":"https:\/\/www.techradar.com\/televisions\/projectors\/i-reviewed-the-hisense-xr10-4k-projector-and-it-wowed-me-with-beautifully-colorful-boldly-dynamic-footage-in-both-bright-and-dark-rooms",
-        "Categories":"Projectors,Televisions,Home Theater,Hisense",
-        "Author":"Mark Knapp",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/8VcNnG6tXWYy3ZtntF55DS"
-    },
-    {
-        "Product":"SteelSeries Sensei Pro Mini",
-        "Rating":"4.0",
-        "Dateline":"2026-10-29",
-        "URL":"https:\/\/www.techradar.com\/computing\/mice\/steelseries-sensei-pro-mini-review",
-        "Categories":"Mice,Computing,Peripherals & Accessories",
-        "Author":"Lewis Maddison",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/8eSdrFQmBBFep7BAKEkmP9"
     }
 ]
