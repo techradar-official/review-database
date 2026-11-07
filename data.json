@@ -80775,6 +80775,42 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/8eSdrFQmBBFep7BAKEkmP9"
     },
     {
+        "Product":"Miro Collaboration Tool",
+        "Rating":"4.5",
+        "Dateline":"2023-02-24",
+        "URL":"https:\/\/www.techradar.com\/reviews\/miro-review",
+        "Categories":"Software & Services,Pro",
+        "Author":"Stefan Ionescu",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/2FnE8v8jNS3X8vUWqaxe9P"
+    },
+    {
+        "Product":"Anker Solix S2000",
+        "Rating":"4.0",
+        "Dateline":"2026-10-30",
+        "URL":"https:\/\/www.techradar.com\/pro\/anker-solix-s2000-portable-power-station-review",
+        "Categories":"Pro,Anker",
+        "Author":"Desire Athow",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/zBo6g8DQhZAGiRbnu9trkL"
+    },
+    {
+        "Product":"Oukitel WP63",
+        "Rating":"3.5",
+        "Dateline":"2026-11-07",
+        "URL":"https:\/\/www.techradar.com\/pro\/phone-communications\/oukitel-wp63-rugged-phone-review",
+        "Categories":"Phone & Communications,Pro",
+        "Author":"Mark Pickavance",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/MxQZkDbWLNeMvVhXLXkvw"
+    },
+    {
+        "Product":"Ninja Crispi DualZone Glass Countertop Air Fryer",
+        "Rating":"4.5",
+        "Dateline":"2026-11-07",
+        "URL":"https:\/\/www.techradar.com\/home\/air-fryers\/ninja-crispi-dualzone-review",
+        "Categories":"Air Fryers,Home,Small Appliances,Ninja",
+        "Author":"John McCann",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/yRBB8PMsYYg3Mb4iNmTRrM"
+    },
+    {
         "Product":"JMGO N3 Ultimate",
         "Rating":"4.0",
         "Dateline":"2026-11-06",
@@ -81025,23 +81061,5 @@
         "Categories":"Earbuds & Airpods,Audio,Headphones",
         "Author":"Tom Bedford",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/UNAXuYaxHe7Aw8q5jK4Vwj"
-    },
-    {
-        "Product":"Miro Collaboration Tool",
-        "Rating":"4.5",
-        "Dateline":"2023-02-24",
-        "URL":"https:\/\/www.techradar.com\/reviews\/miro-review",
-        "Categories":"Software & Services,Pro",
-        "Author":"Stefan Ionescu",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/2FnE8v8jNS3X8vUWqaxe9P"
-    },
-    {
-        "Product":"Anker Solix S2000",
-        "Rating":"4.0",
-        "Dateline":"2026-10-30",
-        "URL":"https:\/\/www.techradar.com\/pro\/anker-solix-s2000-portable-power-station-review",
-        "Categories":"Pro,Anker",
-        "Author":"Desire Athow",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/zBo6g8DQhZAGiRbnu9trkL"
     }
 ]
