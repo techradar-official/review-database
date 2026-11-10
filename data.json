@@ -80226,15 +80226,6 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/9rnycPbuHtAFVqWuqvMEmj"
     },
     {
-        "Product":"Norton VPN",
-        "Rating":"4.0",
-        "Dateline":"2022-10-24",
-        "URL":"https:\/\/www.techradar.com\/reviews\/norton-secure-vpn",
-        "Categories":"VPN Services,VPN,Norton",
-        "Author":"Rob Dunne",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/kDQYjZuiAhmXAQircr4omN"
-    },
-    {
         "Product":"WiiM Bar",
         "Rating":"4.0",
         "Dateline":"2026-10-22",
@@ -80865,6 +80856,78 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/UFBvfQBtXAWrVke3cWHScg"
     },
     {
+        "Product":"Wharfedale Denton 1S",
+        "Rating":"4.5",
+        "Dateline":"2026-11-03",
+        "URL":"https:\/\/www.techradar.com\/audio\/speakers\/wharfedale-denton-1s-review",
+        "Categories":"Speakers,Audio,Hi Fi",
+        "Author":"Simon Lucas",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/4UVT3oHGS4xCUGQgfzDU5b"
+    },
+    {
+        "Product":"Bambu Lab H3C",
+        "Rating":"5.0",
+        "Dateline":"2026-11-03",
+        "URL":"https:\/\/www.techradar.com\/pro\/bambu-lab-h3c-3d-printer-review",
+        "Categories":"Pro",
+        "Author":"Alastair Jennings",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/hHQCvLeAniKNRqYHiJna27"
+    },
+    {
+        "Product":"Apple iPad Mini (2026)",
+        "Rating":"4.5",
+        "Dateline":"2026-11-03",
+        "URL":"https:\/\/www.techradar.com\/tablets\/ipad-mini\/ipad-mini-a20-pro-review",
+        "Categories":"IPad Mini,IPad,Tablets,Apple",
+        "Author":"Jacob Krol",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/ADFkZt5JMGNxLgsFELqTFn"
+    },
+    {
+        "Product":"RedMagic 12 Pro",
+        "Rating":"3.5",
+        "Dateline":"2026-11-03",
+        "URL":"https:\/\/www.techradar.com\/phones\/redmagic-12-pro-review",
+        "Categories":"Phones",
+        "Author":"Jon Mundy",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/EP7XMnsy3ao5HDXxcaPVcg"
+    },
+    {
+        "Product":"CUBOT KingKong Dura",
+        "Rating":"3.0",
+        "Dateline":"2026-11-09",
+        "URL":"https:\/\/www.techradar.com\/pro\/phone-communications\/cubot-kingkong-dura-review-a-cheap-rugged-phone-with-a-trick-up-its-sleeve",
+        "Categories":"Phone & Communications,Pro",
+        "Author":"Mark Pickavance",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/JTRUG9trz6YtNESABuR493"
+    },
+    {
+        "Product":"8849 TANK 5 Pro",
+        "Rating":"4.5",
+        "Dateline":"2026-11-09",
+        "URL":"https:\/\/www.techradar.com\/pro\/phone-communications\/8849-tank-5-pro-review-the-rugged-projector-phone-that-can-project-light-and-see-heat",
+        "Categories":"Phone & Communications,Pro",
+        "Author":"Mark Pickavance",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/aehqttwJnVbfiM4sxAFtQ7"
+    },
+    {
+        "Product":"Norton VPN",
+        "Rating":"4.0",
+        "Dateline":"2022-10-24",
+        "URL":"https:\/\/www.techradar.com\/reviews\/norton-secure-vpn",
+        "Categories":"VPN Services,VPN,Norton",
+        "Author":"Rob Dunne",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/kDQYjZuiAhmXAQircr4omN"
+    },
+    {
+        "Product":"Timekettle LiveTalk AI Translation Earbuds",
+        "Rating":"4.0",
+        "Dateline":"2026-11-09",
+        "URL":"https:\/\/www.techradar.com\/pro\/timekettle-livetalk-ai-translation-earbuds-review",
+        "Categories":"Pro,AI",
+        "Author":"Alastair Jennings",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/shmaLorEKsHGw4nrVVYCpi"
+    },
+    {
         "Product":"Ninja PREPi",
         "Rating":"4.0",
         "Dateline":"2026-11-09",
@@ -81097,41 +81160,5 @@
         "Categories":"Televisions,Hisense",
         "Author":"James Holland",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/xBcJggNSwpA4oA7ovGvdnS"
-    },
-    {
-        "Product":"Wharfedale Denton 1S",
-        "Rating":"4.5",
-        "Dateline":"2026-11-03",
-        "URL":"https:\/\/www.techradar.com\/audio\/speakers\/wharfedale-denton-1s-review",
-        "Categories":"Speakers,Audio,Hi Fi",
-        "Author":"Simon Lucas",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/4UVT3oHGS4xCUGQgfzDU5b"
-    },
-    {
-        "Product":"Bambu Lab H3C",
-        "Rating":"5.0",
-        "Dateline":"2026-11-03",
-        "URL":"https:\/\/www.techradar.com\/pro\/bambu-lab-h3c-3d-printer-review",
-        "Categories":"Pro",
-        "Author":"Alastair Jennings",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/hHQCvLeAniKNRqYHiJna27"
-    },
-    {
-        "Product":"Apple iPad Mini (2026)",
-        "Rating":"4.5",
-        "Dateline":"2026-11-03",
-        "URL":"https:\/\/www.techradar.com\/tablets\/ipad-mini\/ipad-mini-a20-pro-review",
-        "Categories":"IPad Mini,IPad,Tablets,Apple",
-        "Author":"Jacob Krol",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/ADFkZt5JMGNxLgsFELqTFn"
-    },
-    {
-        "Product":"RedMagic 12 Pro",
-        "Rating":"3.5",
-        "Dateline":"2026-11-03",
-        "URL":"https:\/\/www.techradar.com\/phones\/redmagic-12-pro-review",
-        "Categories":"Phones",
-        "Author":"Jon Mundy",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/EP7XMnsy3ao5HDXxcaPVcg"
     }
 ]
