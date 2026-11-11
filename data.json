@@ -80892,6 +80892,42 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/EP7XMnsy3ao5HDXxcaPVcg"
     },
     {
+        "Product":"Corsair Voxara",
+        "Rating":"3.5",
+        "Dateline":"2026-11-08",
+        "URL":"https:\/\/www.techradar.com\/gaming\/gaming-accessories\/corsair-voxara-review",
+        "Categories":"Gaming Accessories,Gaming",
+        "Author":"Phil Iwanuik",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/acEE6ZBt5Q37gMKveoPVdP"
+    },
+    {
+        "Product":"Hisense UR9 RGB Mini-LED TV",
+        "Rating":"4.5",
+        "Dateline":"2026-11-04",
+        "URL":"https:\/\/www.techradar.com\/televisions\/hisense-ur9-review",
+        "Categories":"Televisions,Hisense",
+        "Author":"James Holland",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/xBcJggNSwpA4oA7ovGvdnS"
+    },
+    {
+        "Product":"AI Mini PC",
+        "Rating":"4.5",
+        "Dateline":"2026-11-11",
+        "URL":"https:\/\/www.techradar.com\/pro\/lattepanda-mu-ultra-review",
+        "Categories":"Pro",
+        "Author":"Jack Laurent",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/gbrGn6x5WrCMtUKQREjHrj"
+    },
+    {
+        "Product":"Seagate HDD40",
+        "Rating":"4.5",
+        "Dateline":"2026-11-10",
+        "URL":"https:\/\/www.techradar.com\/pro\/seagate-firecuda-forge-review",
+        "Categories":"Pro,Seagate",
+        "Author":"Alastair Jennings",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/CaNrEUPuwt9RJzq4FWYMLY"
+    },
+    {
         "Product":"CUBOT KingKong Dura",
         "Rating":"3.0",
         "Dateline":"2026-11-09",
@@ -80962,15 +80998,6 @@
         "Categories":"Turntables,Audio,Hi Fi",
         "Author":"Simon Lucas",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/gV48X7bnoXkrAMabu5JxUg"
-    },
-    {
-        "Product":"Corsair Voxara",
-        "Rating":"3.5",
-        "Dateline":"2026-11-08",
-        "URL":"https:\/\/www.techradar.com\/gaming\/gaming-accessories\/corsair-voxara-review",
-        "Categories":"Gaming Accessories,Gaming",
-        "Author":"Phil Iwanuik",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/acEE6ZBt5Q37gMKveoPVdP"
     },
     {
         "Product":"[FLAG] Shark PowerDetect Transformer LX5001UKT Corded Upright Vacuum Cleaner",
@@ -81151,14 +81178,5 @@
         "Categories":"Mice,Gaming Accessories,Computing,Peripherals & Accessories,Gaming",
         "Author":"Harry Padoan",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/sKZXWUmzKxjx79NwisyBom"
-    },
-    {
-        "Product":"Hisense UR9 RGB Mini-LED TV",
-        "Rating":"4.5",
-        "Dateline":"2026-11-04",
-        "URL":"https:\/\/www.techradar.com\/televisions\/hisense-ur9-review",
-        "Categories":"Televisions,Hisense",
-        "Author":"James Holland",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/xBcJggNSwpA4oA7ovGvdnS"
     }
 ]
