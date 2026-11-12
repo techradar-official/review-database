@@ -80892,15 +80892,6 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/EP7XMnsy3ao5HDXxcaPVcg"
     },
     {
-        "Product":"Corsair Voxara",
-        "Rating":"3.5",
-        "Dateline":"2026-11-08",
-        "URL":"https:\/\/www.techradar.com\/gaming\/gaming-accessories\/corsair-voxara-review",
-        "Categories":"Gaming Accessories,Gaming",
-        "Author":"Phil Iwanuik",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/acEE6ZBt5Q37gMKveoPVdP"
-    },
-    {
         "Product":"Hisense UR9 RGB Mini-LED TV",
         "Rating":"4.5",
         "Dateline":"2026-11-04",
@@ -80908,6 +80899,105 @@
         "Categories":"Televisions,Hisense",
         "Author":"James Holland",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/xBcJggNSwpA4oA7ovGvdnS"
+    },
+    {
+        "Product":"NordVPN",
+        "Rating":"4.5",
+        "Dateline":"2022-10-24",
+        "URL":"https:\/\/www.techradar.com\/reviews\/nordvpn",
+        "Categories":"VPN Services,VPN,NordVPN",
+        "Author":"Rob Dunne,Mike Williams",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/CiUAgVWMqnW3QP2VLGUypj"
+    },
+    {
+        "Product":"Dyson W1 PencilWash",
+        "Rating":"4.5",
+        "Dateline":"2026-11-04",
+        "URL":"https:\/\/www.techradar.com\/home\/vacuums\/dyson-w1-pencilwash-review",
+        "Categories":"Vacuums,Home,Small Appliances,Dyson",
+        "Author":"Cat Ellis",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/AmDoLsFAuKpra2wqrjyomk"
+    },
+    {
+        "Product":"Nintendo Switch 2 Zelda Ocarina of Time",
+        "Rating":"5.0",
+        "Dateline":"2026-11-04",
+        "URL":"https:\/\/www.techradar.com\/gaming\/the-legend-of-zelda-ocarina-of-time-review",
+        "Categories":"Gaming,Legend of Zelda",
+        "Author":"Josephine Watson",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/QKikrEjR2LTWyHoAiJtw2A"
+    },
+    {
+        "Product":"GMKtec EVO-X5 Pro",
+        "Rating":"4.5",
+        "Dateline":"2026-11-04",
+        "URL":"https:\/\/www.techradar.com\/pro\/gmktec-evo-x5-pro-mini-pc-review",
+        "Categories":"Pro",
+        "Author":"Alastair Jennings",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/UHbrqnXWJuHWJ9TTsvUGHG"
+    },
+    {
+        "Product":"GreenGeeks Web hosting",
+        "Rating":"3.5",
+        "Dateline":"2020-09-03",
+        "URL":"https:\/\/www.techradar.com\/reviews\/greengeeks",
+        "Categories":"Website Hosting,Pro",
+        "Author":"Mirza Bahic",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Xuns7ACCL5pq7cps9zPDcM"
+    },
+    {
+        "Product":"SteelSeries Rival Pro",
+        "Rating":"4.5",
+        "Dateline":"2026-11-04",
+        "URL":"https:\/\/www.techradar.com\/computing\/mice\/steelseries-rival-pro-review",
+        "Categories":"Mice,Gaming Accessories,Computing,Peripherals & Accessories,Gaming",
+        "Author":"Harry Padoan",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/sKZXWUmzKxjx79NwisyBom"
+    },
+    {
+        "Product":"Suunto Race 3S",
+        "Rating":"3.5",
+        "Dateline":"2026-11-12",
+        "URL":"https:\/\/www.techradar.com\/health-fitness\/smartwatches\/suunto-race-3s-review-competent-and-stylish-but-overpriced",
+        "Categories":"Smartwatches,Health & Fitness",
+        "Author":"Lloyd Coombes",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/zDXkja5MZ7AgsLuZiBaBC7"
+    },
+    {
+        "Product":"Xgimi Elfin Flip 4K",
+        "Rating":"4.0",
+        "Dateline":"2026-11-12",
+        "URL":"https:\/\/www.techradar.com\/televisions\/projectors\/xgimi-elfin-flip-4k-review",
+        "Categories":"Projectors,Televisions,Home Theater",
+        "Author":"Mark Knapp",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/5xBt9b9WZe2KbLRxQeTDhL"
+    },
+    {
+        "Product":"Google Fitbit Edge",
+        "Rating":"4.0",
+        "Dateline":"2026-11-11",
+        "URL":"https:\/\/www.techradar.com\/health-fitness\/fitness-trackers\/google-fitbit-edge-review-the-fitbit-we-loved-now-in-its-google-era",
+        "Categories":"Fitness Trackers,Health & Fitness,Fitbit,Google",
+        "Author":"Matt Evans",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/VyUC7oFo6SmZcFhhi8VxJf"
+    },
+    {
+        "Product":"Corsair Skiff 100",
+        "Rating":"4.0",
+        "Dateline":"2026-11-11",
+        "URL":"https:\/\/www.techradar.com\/computing\/keyboards\/corsair-skiff-100-review",
+        "Categories":"Keyboards,Computing,Peripherals & Accessories",
+        "Author":"Lewis Maddison",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/XwFJyisBREmt3o57TfYopE"
+    },
+    {
+        "Product":"Sony WH-CH530",
+        "Rating":"4.5",
+        "Dateline":"2026-11-11",
+        "URL":"https:\/\/www.techradar.com\/audio\/wireless-headphones\/sony-wh-ch530-review",
+        "Categories":"Wireless Headphones,Audio,Headphones,Sony",
+        "Author":"Harry Padoan",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/vLAG4MjyAXLhHJ6Zr6ZFiJ"
     },
     {
         "Product":"AI Mini PC",
@@ -80998,6 +81088,15 @@
         "Categories":"Turntables,Audio,Hi Fi",
         "Author":"Simon Lucas",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/gV48X7bnoXkrAMabu5JxUg"
+    },
+    {
+        "Product":"Corsair Voxara",
+        "Rating":"3.5",
+        "Dateline":"2026-11-08",
+        "URL":"https:\/\/www.techradar.com\/gaming\/gaming-accessories\/corsair-voxara-review",
+        "Categories":"Gaming Accessories,Gaming",
+        "Author":"Phil Iwanuik",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/acEE6ZBt5Q37gMKveoPVdP"
     },
     {
         "Product":"[FLAG] Shark PowerDetect Transformer LX5001UKT Corded Upright Vacuum Cleaner",
@@ -81124,59 +81223,5 @@
         "Categories":"Audio Streaming,Audio",
         "Author":"Simon Lucas",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/NCvQpmd86xwzEUVs2qvwDW"
-    },
-    {
-        "Product":"NordVPN",
-        "Rating":"4.5",
-        "Dateline":"2022-10-24",
-        "URL":"https:\/\/www.techradar.com\/reviews\/nordvpn",
-        "Categories":"VPN Services,VPN,NordVPN",
-        "Author":"Rob Dunne,Mike Williams",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/CiUAgVWMqnW3QP2VLGUypj"
-    },
-    {
-        "Product":"Dyson W1 PencilWash",
-        "Rating":"4.5",
-        "Dateline":"2026-11-04",
-        "URL":"https:\/\/www.techradar.com\/home\/vacuums\/dyson-w1-pencilwash-review",
-        "Categories":"Vacuums,Home,Small Appliances,Dyson",
-        "Author":"Cat Ellis",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/AmDoLsFAuKpra2wqrjyomk"
-    },
-    {
-        "Product":"Nintendo Switch 2 Zelda Ocarina of Time",
-        "Rating":"5.0",
-        "Dateline":"2026-11-04",
-        "URL":"https:\/\/www.techradar.com\/gaming\/the-legend-of-zelda-ocarina-of-time-review",
-        "Categories":"Gaming,Legend of Zelda",
-        "Author":"Josephine Watson",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/QKikrEjR2LTWyHoAiJtw2A"
-    },
-    {
-        "Product":"GMKtec EVO-X5 Pro",
-        "Rating":"4.5",
-        "Dateline":"2026-11-04",
-        "URL":"https:\/\/www.techradar.com\/pro\/gmktec-evo-x5-pro-mini-pc-review",
-        "Categories":"Pro",
-        "Author":"Alastair Jennings",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/UHbrqnXWJuHWJ9TTsvUGHG"
-    },
-    {
-        "Product":"GreenGeeks Web hosting",
-        "Rating":"3.5",
-        "Dateline":"2020-09-03",
-        "URL":"https:\/\/www.techradar.com\/reviews\/greengeeks",
-        "Categories":"Website Hosting,Pro",
-        "Author":"Mirza Bahic",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/Xuns7ACCL5pq7cps9zPDcM"
-    },
-    {
-        "Product":"SteelSeries Rival Pro",
-        "Rating":"4.5",
-        "Dateline":"2026-11-04",
-        "URL":"https:\/\/www.techradar.com\/computing\/mice\/steelseries-rival-pro-review",
-        "Categories":"Mice,Gaming Accessories,Computing,Peripherals & Accessories,Gaming",
-        "Author":"Harry Padoan",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/sKZXWUmzKxjx79NwisyBom"
     }
 ]
