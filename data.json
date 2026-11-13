@@ -49500,15 +49500,6 @@
         "CMS_URL":"N\/A"
     },
     {
-        "Product":"StrongVPN",
-        "Rating":4.0,
-        "Dateline":"2023-03-15",
-        "URL":"https:\/\/www.techradar.com\/reviews\/strongvpn",
-        "Categories":"N\/A",
-        "Author":"N\/A",
-        "CMS_URL":"N\/A"
-    },
-    {
         "Product":"Samsung Galaxy S23 Plus",
         "Rating":4.0,
         "Dateline":"2023-03-15",
@@ -66393,15 +66384,6 @@
         "CMS_URL":"N\/A"
     },
     {
-        "Product":"Avast SecureLine VPN",
-        "Rating":3.5,
-        "Dateline":"2022-10-24",
-        "URL":"https:\/\/www.techradar.com\/reviews\/avast-secureline",
-        "Categories":"N\/A",
-        "Author":"N\/A",
-        "CMS_URL":"N\/A"
-    },
-    {
         "Product":"Samsung 55-inch Odyssey Ark",
         "Rating":3.5,
         "Dateline":"2022-10-24",
@@ -80955,6 +80937,87 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/sKZXWUmzKxjx79NwisyBom"
     },
     {
+        "Product":"Apple MacBook Pro 16in with PROLED XDR Display",
+        "Rating":"4.5",
+        "Dateline":"2026-11-05",
+        "URL":"https:\/\/www.techradar.com\/computing\/macbooks\/apple-macbook-pro-with-proled-xdr-display-16-inch-2026-m5-max",
+        "Categories":"Macbooks,Laptops,Computing",
+        "Author":"Matt Hanson",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/3KMSCZ9Ac8Lap2R73e2Hyh"
+    },
+    {
+        "Product":"Apple MacBook Pro 14-inch M6",
+        "Rating":"4.0",
+        "Dateline":"2026-11-05",
+        "URL":"https:\/\/www.techradar.com\/computing\/macbooks\/the-new-m6-macbook-pro-is-a-speed-boost-not-a-reinvention-and-im-fine-with-that",
+        "Categories":"Macbooks,Computing,Laptops,Apple",
+        "Author":"Jacob Krol",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/ET6ZpD7KCtP8e8PbF3wNCW"
+    },
+    {
+        "Product":"Redmi Note 15 Pro Plus",
+        "Rating":"4.0",
+        "Dateline":"2026-11-05",
+        "URL":"https:\/\/www.techradar.com\/phones\/redmi-phones\/redmi-note-15-pro-plus-5g-review",
+        "Categories":"Redmi Phones,Android,Xiaomi Phones,Phones",
+        "Author":"Nirave Gondhia",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/FtYoigVccCpK6nB2H5QZTG"
+    },
+    {
+        "Product":"Steelseries Rival Pro Mini",
+        "Rating":"4.5",
+        "Dateline":"2026-11-04",
+        "URL":"https:\/\/www.techradar.com\/computing\/mice\/steelseries-rival-pro-mini-review",
+        "Categories":"Mice,Computing,Peripherals & Accessories",
+        "Author":"Harry Padoan",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/kUPCeXXtnzwvZKaoJNV3fe"
+    },
+    {
+        "Product":"Leak Trustream",
+        "Rating":"3.5",
+        "Dateline":"2026-11-04",
+        "URL":"https:\/\/www.techradar.com\/audio\/audio-streaming\/leak-trustream-may-look-like-a-1960s-radio-but-its-thoroughly-modern-and-gifted-network-music-player-albeit-one-that-sounds-a-tad-toothy-at-the-top",
+        "Categories":"Audio Streaming,Audio",
+        "Author":"Simon Lucas",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/NCvQpmd86xwzEUVs2qvwDW"
+    },
+    {
+        "Product":"StrongVPN",
+        "Rating":"2.5",
+        "Dateline":"2021-11-09",
+        "URL":"https:\/\/www.techradar.com\/reviews\/strongvpn",
+        "Categories":"VPN Services,VPN",
+        "Author":"Shaun Rockwood",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/3wKzNuHWvvi9NuJR9ttpq5"
+    },
+    {
+        "Product":"Avast SecureLine VPN",
+        "Rating":"3.5",
+        "Dateline":"2022-10-24",
+        "URL":"https:\/\/www.techradar.com\/reviews\/avast-secureline",
+        "Categories":"VPN Services,VPN,Avast",
+        "Author":"Mike Williams,Shaun Rockwood",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/s7832qaDoXgH3ezjAUjBRk"
+    },
+    {
+        "Product":"Apple HomeView",
+        "Rating":"4.0",
+        "Dateline":"2026-11-12",
+        "URL":"https:\/\/www.techradar.com\/home\/smart-home-hubs\/apple-homeview-review",
+        "Categories":"Smart Home Hubs,Apple Intelligence,Home,Smart Home,AI Platforms & Assistants,Apple",
+        "Author":"Jacob Krol",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/NcBy3QyHghQsgYez4trVfk"
+    },
+    {
+        "Product":"Apple TV 4K (4th gen)",
+        "Rating":"3.5",
+        "Dateline":"2026-11-12",
+        "URL":"https:\/\/www.techradar.com\/televisions\/streaming-devices\/apple-tv-4k-4th-gen-review",
+        "Categories":"Streaming Devices,Televisions,Apple,4K",
+        "Author":"Matt Bolton",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/FoJVnaCj4xZ3P6c3Cqb25G"
+    },
+    {
         "Product":"Suunto Race 3S",
         "Rating":"3.5",
         "Dateline":"2026-11-12",
@@ -81178,50 +81241,5 @@
         "Categories":"Macs,Computing,Desktop PCs,Apple",
         "Author":"Jacob Krol",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/QsMJywdh2wPF4PhehxgNpb"
-    },
-    {
-        "Product":"Apple MacBook Pro 16in with PROLED XDR Display",
-        "Rating":"4.5",
-        "Dateline":"2026-11-05",
-        "URL":"https:\/\/www.techradar.com\/computing\/macbooks\/apple-macbook-pro-with-proled-xdr-display-16-inch-2026-m5-max",
-        "Categories":"Macbooks,Laptops,Computing",
-        "Author":"Matt Hanson",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/3KMSCZ9Ac8Lap2R73e2Hyh"
-    },
-    {
-        "Product":"Apple MacBook Pro 14-inch M6",
-        "Rating":"4.0",
-        "Dateline":"2026-11-05",
-        "URL":"https:\/\/www.techradar.com\/computing\/macbooks\/the-new-m6-macbook-pro-is-a-speed-boost-not-a-reinvention-and-im-fine-with-that",
-        "Categories":"Macbooks,Computing,Laptops,Apple",
-        "Author":"Jacob Krol",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/ET6ZpD7KCtP8e8PbF3wNCW"
-    },
-    {
-        "Product":"Redmi Note 15 Pro Plus",
-        "Rating":"4.0",
-        "Dateline":"2026-11-05",
-        "URL":"https:\/\/www.techradar.com\/phones\/redmi-phones\/redmi-note-15-pro-plus-5g-review",
-        "Categories":"Redmi Phones,Android,Xiaomi Phones,Phones",
-        "Author":"Nirave Gondhia",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/FtYoigVccCpK6nB2H5QZTG"
-    },
-    {
-        "Product":"Steelseries Rival Pro Mini",
-        "Rating":"4.5",
-        "Dateline":"2026-11-04",
-        "URL":"https:\/\/www.techradar.com\/computing\/mice\/steelseries-rival-pro-mini-review",
-        "Categories":"Mice,Computing,Peripherals & Accessories",
-        "Author":"Harry Padoan",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/kUPCeXXtnzwvZKaoJNV3fe"
-    },
-    {
-        "Product":"Leak Trustream",
-        "Rating":"3.5",
-        "Dateline":"2026-11-04",
-        "URL":"https:\/\/www.techradar.com\/audio\/audio-streaming\/leak-trustream-may-look-like-a-1960s-radio-but-its-thoroughly-modern-and-gifted-network-music-player-albeit-one-that-sounds-a-tad-toothy-at-the-top",
-        "Categories":"Audio Streaming,Audio",
-        "Author":"Simon Lucas",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/NCvQpmd86xwzEUVs2qvwDW"
     }
 ]
