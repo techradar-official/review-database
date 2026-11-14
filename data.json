@@ -73044,15 +73044,6 @@
         "CMS_URL":"N\/A"
     },
     {
-        "Product":"AirVPN",
-        "Rating":3.0,
-        "Dateline":"2022-06-21",
-        "URL":"https:\/\/www.techradar.com\/reviews\/airvpn",
-        "Categories":"N\/A",
-        "Author":"N\/A",
-        "CMS_URL":"N\/A"
-    },
-    {
         "Product":"Vegas Pro 19",
         "Rating":3.0,
         "Dateline":"2022-06-17",
@@ -80982,6 +80973,15 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/NCvQpmd86xwzEUVs2qvwDW"
     },
     {
+        "Product":"AirVPN AirVPN",
+        "Rating":"3.0",
+        "Dateline":"2022-04-13",
+        "URL":"https:\/\/www.techradar.com\/reviews\/airvpn",
+        "Categories":"VPN Services,VPN",
+        "Author":"Mike Williams,Shaun Rockwood",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/qrHEDjamSEoRgRKSEGJaiS"
+    },
+    {
         "Product":"StrongVPN",
         "Rating":"2.5",
         "Dateline":"2021-11-09",
@@ -81000,15 +81000,6 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/s7832qaDoXgH3ezjAUjBRk"
     },
     {
-        "Product":"Apple HomeView",
-        "Rating":"4.0",
-        "Dateline":"2026-11-12",
-        "URL":"https:\/\/www.techradar.com\/home\/smart-home-hubs\/apple-homeview-review",
-        "Categories":"Smart Home Hubs,Apple Intelligence,Home,Smart Home,AI Platforms & Assistants,Apple",
-        "Author":"Jacob Krol",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/NcBy3QyHghQsgYez4trVfk"
-    },
-    {
         "Product":"Apple TV 4K (4th gen)",
         "Rating":"3.5",
         "Dateline":"2026-11-12",
@@ -81016,6 +81007,15 @@
         "Categories":"Streaming Devices,Televisions,Apple,4K",
         "Author":"Matt Bolton",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/FoJVnaCj4xZ3P6c3Cqb25G"
+    },
+    {
+        "Product":"Apple HomeView",
+        "Rating":"4.0",
+        "Dateline":"2026-11-12",
+        "URL":"https:\/\/www.techradar.com\/home\/smart-home-hubs\/apple-homeview-review",
+        "Categories":"Smart Home Hubs,Apple Intelligence,Home,Smart Home,AI Platforms & Assistants,Apple",
+        "Author":"Jacob Krol",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/NcBy3QyHghQsgYez4trVfk"
     },
     {
         "Product":"Suunto Race 3S",
