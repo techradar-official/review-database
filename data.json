@@ -80973,6 +80973,24 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/NCvQpmd86xwzEUVs2qvwDW"
     },
     {
+        "Product":"Apple iMac M6",
+        "Rating":"4.5",
+        "Dateline":"2026-11-05",
+        "URL":"https:\/\/www.techradar.com\/computing\/macs\/ive-tested-apples-new-m6-imac-and-its-still-the-best-all-in-one-desktop-you-can-buy",
+        "Categories":"Macs,Computing,Desktop PCs,Apple",
+        "Author":"Jacob Krol",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/QsMJywdh2wPF4PhehxgNpb"
+    },
+    {
+        "Product":"PowerA Charging Station for PlayStation Portal",
+        "Rating":"4.5",
+        "Dateline":"2026-11-14",
+        "URL":"https:\/\/www.techradar.com\/gaming\/gaming-accessories\/powera-charging-station-for-ps-portal-review",
+        "Categories":"Gaming Accessories,PS5,Gaming,Consoles & PC,Playstation",
+        "Author":"Harry Padoan",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/EFDk8jQVuTEC2wHLBQ9SNc"
+    },
+    {
         "Product":"AirVPN AirVPN",
         "Rating":"3.0",
         "Dateline":"2022-04-13",
@@ -81000,15 +81018,6 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/s7832qaDoXgH3ezjAUjBRk"
     },
     {
-        "Product":"Apple TV 4K (4th gen)",
-        "Rating":"3.5",
-        "Dateline":"2026-11-12",
-        "URL":"https:\/\/www.techradar.com\/televisions\/streaming-devices\/apple-tv-4k-4th-gen-review",
-        "Categories":"Streaming Devices,Televisions,Apple,4K",
-        "Author":"Matt Bolton",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/FoJVnaCj4xZ3P6c3Cqb25G"
-    },
-    {
         "Product":"Apple HomeView",
         "Rating":"4.0",
         "Dateline":"2026-11-12",
@@ -81016,6 +81025,15 @@
         "Categories":"Smart Home Hubs,Apple Intelligence,Home,Smart Home,AI Platforms & Assistants,Apple",
         "Author":"Jacob Krol",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/NcBy3QyHghQsgYez4trVfk"
+    },
+    {
+        "Product":"Apple TV 4K (4th gen)",
+        "Rating":"3.5",
+        "Dateline":"2026-11-12",
+        "URL":"https:\/\/www.techradar.com\/televisions\/streaming-devices\/apple-tv-4k-4th-gen-review",
+        "Categories":"Streaming Devices,Televisions,Apple,4K",
+        "Author":"Matt Bolton",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/FoJVnaCj4xZ3P6c3Cqb25G"
     },
     {
         "Product":"Suunto Race 3S",
@@ -81232,14 +81250,5 @@
         "Categories":"Mice,Gaming Accessories,Computing,Peripherals & Accessories,Gaming,Razer",
         "Author":"Alex Blake",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/qXZQnoTrPXhZMPMfgv3M99"
-    },
-    {
-        "Product":"Apple iMac M6",
-        "Rating":"4.5",
-        "Dateline":"2026-11-05",
-        "URL":"https:\/\/www.techradar.com\/computing\/macs\/ive-tested-apples-new-m6-imac-and-its-still-the-best-all-in-one-desktop-you-can-buy",
-        "Categories":"Macs,Computing,Desktop PCs,Apple",
-        "Author":"Jacob Krol",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/QsMJywdh2wPF4PhehxgNpb"
     }
 ]
