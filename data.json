@@ -81009,6 +81009,60 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/qXZQnoTrPXhZMPMfgv3M99"
     },
     {
+        "Product":"TP-Link Archer 8 Ultra",
+        "Rating":"4.5",
+        "Dateline":"2026-11-07",
+        "URL":"https:\/\/www.techradar.com\/computing\/wi-fi-broadband\/tp-link-archer-8-ultra",
+        "Categories":"Wi Fi & Broadband,Servers & Network Devices,Computing,Internet,Computing Components",
+        "Author":"Cliff Joseph",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/c8t4Lb8bAkavgMLgxu652g"
+    },
+    {
+        "Product":"Oukitel WP63",
+        "Rating":"3.5",
+        "Dateline":"2026-11-07",
+        "URL":"https:\/\/www.techradar.com\/pro\/phone-communications\/oukitel-wp63-rugged-phone-review",
+        "Categories":"Phone & Communications,Pro",
+        "Author":"Mark Pickavance",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/MxQZkDbWLNeMvVhXLXkvw"
+    },
+    {
+        "Product":"Ninja Crispi DualZone Glass Countertop Air Fryer",
+        "Rating":"4.5",
+        "Dateline":"2026-11-07",
+        "URL":"https:\/\/www.techradar.com\/home\/air-fryers\/ninja-crispi-dualzone-review",
+        "Categories":"Air Fryers,Home,Small Appliances,Ninja",
+        "Author":"John McCann",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/yRBB8PMsYYg3Mb4iNmTRrM"
+    },
+    {
+        "Product":"SteelSeries Aeon Pro",
+        "Rating":"4.5",
+        "Dateline":"2026-11-17",
+        "URL":"https:\/\/www.techradar.com\/gaming\/gaming-accessories\/steelseries-aeon-pro-review",
+        "Categories":"Gaming Accessories,Xbox Series X,S,PC Gaming,Gaming,Consoles & PC,Xbox",
+        "Author":"Josh Russell",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/5e3XTw7kv7USV5PuxGeBSo"
+    },
+    {
+        "Product":"Roborock RockMow Z120 LiDAR",
+        "Rating":"4.0",
+        "Dateline":"2026-11-17",
+        "URL":"https:\/\/www.techradar.com\/home\/smart-home\/roborock-rockmow-z120-lidar-review",
+        "Categories":"Smart Home,Home",
+        "Author":"Derek Adams",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/NZDwQBT9jkWWUTuD7UGUuG"
+    },
+    {
+        "Product":"Turtle Beach Command Series MC7",
+        "Rating":"3.0",
+        "Dateline":"2026-11-17",
+        "URL":"https:\/\/www.techradar.com\/computing\/mice\/turtle-beach-command-series-mc7-review",
+        "Categories":"Mice,Computing,Peripherals & Accessories",
+        "Author":"Harry Padoan",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/8KKb4cAns7UHAmR3XsbiVS"
+    },
+    {
         "Product":"[FLAG] De'Longhi All-In-One Combination Coffee and Espresso Machine",
         "Rating":"4.5",
         "Dateline":"2026-11-16",
@@ -81250,32 +81304,5 @@
         "Categories":"Speakers,Wireless & Bluetooth Speakers,Audio,Hi Fi",
         "Author":"Simon Lucas",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/ZjRZ4Pfj4chgmCyH5kLuH5"
-    },
-    {
-        "Product":"TP-Link Archer 8 Ultra",
-        "Rating":"4.5",
-        "Dateline":"2026-11-07",
-        "URL":"https:\/\/www.techradar.com\/computing\/wi-fi-broadband\/tp-link-archer-8-ultra",
-        "Categories":"Wi Fi & Broadband,Servers & Network Devices,Computing,Internet,Computing Components",
-        "Author":"Cliff Joseph",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/c8t4Lb8bAkavgMLgxu652g"
-    },
-    {
-        "Product":"Oukitel WP63",
-        "Rating":"3.5",
-        "Dateline":"2026-11-07",
-        "URL":"https:\/\/www.techradar.com\/pro\/phone-communications\/oukitel-wp63-rugged-phone-review",
-        "Categories":"Phone & Communications,Pro",
-        "Author":"Mark Pickavance",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/MxQZkDbWLNeMvVhXLXkvw"
-    },
-    {
-        "Product":"Ninja Crispi DualZone Glass Countertop Air Fryer",
-        "Rating":"4.5",
-        "Dateline":"2026-11-07",
-        "URL":"https:\/\/www.techradar.com\/home\/air-fryers\/ninja-crispi-dualzone-review",
-        "Categories":"Air Fryers,Home,Small Appliances,Ninja",
-        "Author":"John McCann",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/yRBB8PMsYYg3Mb4iNmTRrM"
     }
 ]
