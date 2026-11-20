@@ -81099,6 +81099,42 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/ZjRZ4Pfj4chgmCyH5kLuH5"
     },
     {
+        "Product":"8849 TANK 5 Pro",
+        "Rating":"4.5",
+        "Dateline":"2026-11-09",
+        "URL":"https:\/\/www.techradar.com\/pro\/phone-communications\/8849-tank-5-pro-review-the-rugged-projector-phone-that-can-project-light-and-see-heat",
+        "Categories":"Phone & Communications,Pro",
+        "Author":"Mark Pickavance",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/aehqttwJnVbfiM4sxAFtQ7"
+    },
+    {
+        "Product":"Norton VPN",
+        "Rating":"4.0",
+        "Dateline":"2022-10-24",
+        "URL":"https:\/\/www.techradar.com\/reviews\/norton-secure-vpn",
+        "Categories":"VPN Services,VPN,Norton",
+        "Author":"Rob Dunne",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/kDQYjZuiAhmXAQircr4omN"
+    },
+    {
+        "Product":"Logitech Pebble Mouse 2 M350S",
+        "Rating":"4.0",
+        "Dateline":"2026-11-20",
+        "URL":"https:\/\/www.techradar.com\/computing\/peripherals-accessories\/logitech-pebble-mouse-2-review",
+        "Categories":"Mice,Computing,Peripherals & Accessories,Logitech",
+        "Author":"Jasmine Mannan",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/yeDT4bmsE3QpsFZGfjB9ac"
+    },
+    {
+        "Product":"GEEKOM Mini IT13",
+        "Rating":"4.5",
+        "Dateline":"2026-11-19",
+        "URL":"https:\/\/www.techradar.com\/pro\/geekom-it13-mini-pc-review",
+        "Categories":"Pro",
+        "Author":"Alastair Jennings",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/i5k7ngdBucXPAPN6GSZcZa"
+    },
+    {
         "Product":"Rockstar Games Grand Theft Auto VI (PlayStation 5)",
         "Rating":"5.0",
         "Dateline":"2026-11-18",
@@ -81349,23 +81385,5 @@
         "Categories":"Phone & Communications,Pro",
         "Author":"Mark Pickavance",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/JTRUG9trz6YtNESABuR493"
-    },
-    {
-        "Product":"8849 TANK 5 Pro",
-        "Rating":"4.5",
-        "Dateline":"2026-11-09",
-        "URL":"https:\/\/www.techradar.com\/pro\/phone-communications\/8849-tank-5-pro-review-the-rugged-projector-phone-that-can-project-light-and-see-heat",
-        "Categories":"Phone & Communications,Pro",
-        "Author":"Mark Pickavance",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/aehqttwJnVbfiM4sxAFtQ7"
-    },
-    {
-        "Product":"Norton VPN",
-        "Rating":"4.0",
-        "Dateline":"2022-10-24",
-        "URL":"https:\/\/www.techradar.com\/reviews\/norton-secure-vpn",
-        "Categories":"VPN Services,VPN,Norton",
-        "Author":"Rob Dunne",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/kDQYjZuiAhmXAQircr4omN"
     }
 ]
