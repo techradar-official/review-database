@@ -81180,6 +81180,33 @@
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/XwFJyisBREmt3o57TfYopE"
     },
     {
+        "Product":"Apple TV 4K (4th gen)",
+        "Rating":"3.5",
+        "Dateline":"2026-11-12",
+        "URL":"https:\/\/www.techradar.com\/televisions\/streaming-devices\/apple-tv-4k-4th-gen-review",
+        "Categories":"Streaming Devices,Televisions,Apple,4K",
+        "Author":"Matt Bolton",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/FoJVnaCj4xZ3P6c3Cqb25G"
+    },
+    {
+        "Product":"BMAX MaxMini B12 Power",
+        "Rating":"4.0",
+        "Dateline":"2026-11-23",
+        "URL":"https:\/\/www.techradar.com\/pro\/bmax-maxmini-b12-power-mini-pc-review",
+        "Categories":"Pro",
+        "Author":"Alastair Jennings",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/YqmiaTwc7jCuctEapy8PRP"
+    },
+    {
+        "Product":"Xiaomi Clip",
+        "Rating":"4.5",
+        "Dateline":"2026-11-22",
+        "URL":"https:\/\/www.techradar.com\/audio\/earbuds-airpods\/xiaomi-clip-review",
+        "Categories":"Earbuds & Airpods,Audio,Headphones",
+        "Author":"Tom Bedford",
+        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/8jfeGRhA7MrbBRd64nrSiE"
+    },
+    {
         "Product":"Motorola Signature 27",
         "Rating":"4.5",
         "Dateline":"2026-11-21",
@@ -81430,14 +81457,5 @@
         "Categories":"Smart Home Hubs,Apple Intelligence,Home,Smart Home,AI Platforms & Assistants,Apple",
         "Author":"Jacob Krol",
         "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/NcBy3QyHghQsgYez4trVfk"
-    },
-    {
-        "Product":"Apple TV 4K (4th gen)",
-        "Rating":"3.5",
-        "Dateline":"2026-11-12",
-        "URL":"https:\/\/www.techradar.com\/televisions\/streaming-devices\/apple-tv-4k-4th-gen-review",
-        "Categories":"Streaming Devices,Televisions,Apple,4K",
-        "Author":"Matt Bolton",
-        "CMS_URL":"https:\/\/proof.vanilla.tools\/techradar\/articles\/edit\/FoJVnaCj4xZ3P6c3Cqb25G"
     }
 ]
